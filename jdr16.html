@@ -1948,21 +1948,21 @@ const bank = [
 ]
 var colorlist = ["(255,233,127)","(255,199,65)","(255,170,204)","(229,152,217)","(226,191,138)","(191,158,244)","(163,196,244)","(162,242,231)","(198,154,133)","(224,157,76)","(234,106,200)","(240,255,147)"]
 var ctry_deck = [];
-var cptl_deck = [];
+var cptl_deck = [];  // While the country deck and the capital deck are exactly the same, they are to be shuffled separately and then combined to become the complete deck.
 var deck = [];
-var used = [];
+var used = [];  // This array stores the numbers that have been generated during the random pick process.
 var clicked = 0;
 var l_clicked = false;
 var r_clicked = false;
 var eng = true;
-var bpr_on = true;
+var bpr_on = true;  // The beep and ring sounds are turned on by default.
 var audio1 = new Audio("https://davidiclin.files.wordpress.com/2021/07/bingo.mp3");
 var audio2 = new Audio("https://davidiclin.files.wordpress.com/2021/07/beep.mp3");
 var current_show = "";
 
 while (cptl_deck.length < 10) {var card = {};
     var n = Math.floor(Math.random()*(bank.length));
-    if (used.includes(n)) {continue;}
+    if (used.includes(n)) {continue;}  // Avoid having duplicate items.
     used.push(n);
     card.known_as = bank[n].known_as;
     card.name_c = bank[n].name_C;
@@ -1972,11 +1972,11 @@ while (cptl_deck.length < 10) {var card = {};
     card.name_e = bank[n].name_E;
     card.region = bank[n].region;
     card.done = false;
-    ctry_deck.push(card);
+    ctry_deck.push(card);  // Add exactly the same cards to each.
     cptl_deck.push(card);
   }
 
-for (var count = 0; count < 20; count++) {
+for (var count = 0; count < 20; count++) {  // Shuffling
   var n1 = Math.floor(Math.random() * 10);
   var n2 = Math.floor(Math.random() * 10);
   tmp = ctry_deck[n1];
@@ -1984,7 +1984,7 @@ for (var count = 0; count < 20; count++) {
   ctry_deck[n2] = tmp;
 }
 
-for (var count = 0; count < 20; count++) {
+for (var count = 0; count < 20; count++) {  // Shuffling
   var n1 = Math.floor(Math.random() * 10);
   var n2 = Math.floor(Math.random() * 10);
   tmp = cptl_deck[n1];
@@ -1992,26 +1992,26 @@ for (var count = 0; count < 20; count++) {
   cptl_deck[n2] = tmp;
 }
 
-for (var count = 0; count < 10; count++) {
+for (var count = 0; count < 10; count++) {  // Two decks combined to one
   deck.push(ctry_deck[count]);
   deck.push(cptl_deck[count])
 }
 
 function get_txt() {
   for (var count = 0; count < 20; count++) {
-    if (count%2 === 0) {document.getElementById(count+1).innerHTML = deck[count].known_as;
+    if (count%2 === 0) {document.getElementById(count+1).innerHTML = deck[count].known_as;  // Cards with even ID numbers are assigned "Countries".
     document.getElementById(-(count+1)).innerHTML = deck[count].known_as;}
-    else {document.getElementById(count+1).innerHTML = deck[count].capital_e;
+    else {document.getElementById(count+1).innerHTML = deck[count].capital_e;  // Cards with odd ID numbers are assigned "Capitals".
     document.getElementById(-(count+1)).innerHTML = deck[count].capital_e;}
 }
 }
 
 function l_click(x) {
-  if (deck[Math.abs(x)-1].done === true) {
+  if (deck[Math.abs(x)-1].done === true) {  // Check if the card has already been matched
     show(x);
     return;
   }
-  if (l_clicked === true) {return;}
+  if (l_clicked === true) {return;}  // Check if another Country card has been clicked
   l_clicked = true;
   click(x)
 }
@@ -2021,22 +2021,22 @@ function r_click(x) {
     show(x);
     return;
   }
-  if (r_clicked === true) {return;}
+  if (r_clicked === true) {return;}  // Check if another Capital card has been clicked
   r_clicked = true;
   click(x)
 }
 
 function click(x) {
-  if (clicked === 2) {return;}
+  if (clicked === 2) {return;}  // Avoid a third card being clicked before the current match is resolved!
   document.getElementById(x).style = "background-color:rgb(155,155,155);";
   document.getElementById(-x).style = "background-color:rgb(155,155,155);";
-  if (clicked === 0) {
-      y = x;
+  if (clicked === 0) {  // If this is the first click,
+      y = x;            // the value will be stored as y.
       clicked += 1;
       return;
   };
   clicked += 1
-  if (deck[Math.abs(y)-1].known_as === deck[Math.abs(x)-1].known_as) {
+  if (deck[Math.abs(y)-1].known_as === deck[Math.abs(x)-1].known_as) {  // BINGO!
       deck[Math.abs(x)-1].done = true;
       deck[Math.abs(y)-1].done = true;
     soundtrigger(audio1);
@@ -2052,7 +2052,7 @@ function click(x) {
     r_clicked = false;
   }, 1000);
     }
-  else {soundtrigger(audio2);
+  else {soundtrigger(audio2);  // NO MATCH!
     setTimeout(function(){
     document.getElementById(x).style = "background-color:rgb(255,255,255)";
     document.getElementById(-x).style = "background-color:rgb(255,255,255)";
@@ -2073,18 +2073,18 @@ function show(x) {
   document.getElementById("note3").innerHTML = "所在： "+deck[Math.abs(x)-1].region;
   document.getElementById("note13").innerHTML = "所在： "+deck[Math.abs(x)-1].region;
 current = x;
-document.getElementById("gmap1").disabled = false;
+document.getElementById("gmap1").disabled = false;  // The map button and the wiki button are disabled until the first match is made.
 document.getElementById("gmap11").disabled = false;
 document.getElementById("wik1").disabled = false;
 document.getElementById("wik11").disabled = false;
 }
 }
 
-function getcolor() {
+function getcolor() {  // Each matched pair gets a color.
   return colorlist.pop();
 }
 
-function ch_eng() {
+function ch_eng() {  // Switch between Chinese and English
   if (eng === true) {
   for (var count = 0; count < 20; count++) {
     if (count%2 === 0) {document.getElementById(count+1).innerHTML=deck[count].known_as_c;
@@ -2105,12 +2105,12 @@ function ch_eng() {
   }
 }
 
-function lets_go() {
+function lets_go() {  // Open the map!
     url_text="https://www.google.com/maps/place/"+deck[Math.abs(current)-1].known_as_c;
     window.open(url_text);
 }
 
-function learn_more() {
+function learn_more() {  // Open the book!
     url_text="https://zh.wikipedia.org/wiki/"+deck[Math.abs(current)-1].known_as_c;
     window.open(url_text);
 }
@@ -2125,7 +2125,7 @@ function intro() {
 (6) 按下「維基百科」可打開新視窗，前往目前顯示國家的百科頁面。")
 }
 
-function bpr() {
+function bpr() {  // Switch the sounds on or off
   if (bpr_on === true) {bpr_on = false;
   document.getElementById("bpr1").innerHTML="開啟聲音";
   document.getElementById("bpr1").style="width:32%; height:70px; font-size:18px; background-color:rgb(200,200,200)";
@@ -2140,7 +2140,7 @@ function bpr() {
   }
 }
 
-function soundtrigger(x) {
+function soundtrigger(x) {  // Plays the sounds accordingly
   if (bpr_on === true) {
     x.play();
   }
@@ -2179,7 +2179,7 @@ h2 {
     font-size: 42px;
     border-radius: 8px;
   }
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1441px) {  // Two synchronized divisions, only one gets to show
     .vrtc {
       display:none;
     }
