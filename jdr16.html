@@ -1946,7 +1946,9 @@ const bank = [
         "region": "美洲地區"
     }
 ]
-var colorlist = ["(255,233,127)","(255,199,65)","(255,170,204)","(229,152,217)","(226,191,138)","(191,158,244)","(163,196,244)","(162,242,231)","(198,154,133)","(224,157,76)","(234,106,200)","(240,255,147)"]
+
+
+var colorlist = ["(255,170,204)","(229,152,217)","(226,191,138)","(191,158,244)","(163,196,244)","(162,242,231)","(198,154,133)","(224,157,76)","(234,106,200)","(240,255,147)"]
 var ctry_deck = [];
 var cptl_deck = [];  // While the country deck and the capital deck are exactly the same, they are to be shuffled separately and then combined to become the complete deck.
 var deck = [];
@@ -1960,6 +1962,7 @@ var audio1 = new Audio("https://davidiclin.files.wordpress.com/2021/07/bingo.mp3
 var audio2 = new Audio("https://davidiclin.files.wordpress.com/2021/07/beep.mp3");
 var current_show = "";
 
+function get_ready() {
 while (cptl_deck.length < 10) {var card = {};
     var n = Math.floor(Math.random()*(bank.length));
     if (used.includes(n)) {continue;}  // Avoid having duplicate items.
@@ -1997,7 +2000,6 @@ for (var count = 0; count < 10; count++) {  // Two decks combined to one
   deck.push(cptl_deck[count])
 }
 
-function get_txt() {
   for (var count = 0; count < 20; count++) {
     if (count%2 === 0) {document.getElementById(count+1).innerHTML = deck[count].known_as;  // Cards with even ID numbers are assigned "Countries".
     document.getElementById(-(count+1)).innerHTML = deck[count].known_as;}
@@ -2145,6 +2147,31 @@ function soundtrigger(x) {  // Plays the sounds accordingly
     x.play();
   }
 }
+function again() {
+  colorlist = ["(255,170,204)","(229,152,217)","(226,191,138)","(191,158,244)","(163,196,244)","(162,242,231)","(198,154,133)","(224,157,76)","(234,106,200)","(240,255,147)"]
+  ctry_deck = [];
+  cptl_deck = [];  // While the country deck and the capital deck are exactly the same, they are to be shuffled separately and then combined to become the complete deck.
+  deck = [];
+  clicked = 0;
+  l_clicked = false;
+  r_clicked = false;
+  current_show = "";
+  for (count = 0; count < 20; count++) {
+    document.getElementById(count+1).style = "background-color:rgb(255,255,255)";
+    document.getElementById(-(count+1)).style = "background-color:rgb(255,255,255)";
+  }
+  document.getElementById("note1").innerHTML = "";
+  document.getElementById("note11").innerHTML = "";
+  document.getElementById("note2").innerHTML = "";
+  document.getElementById("note12").innerHTML = "";
+  document.getElementById("note3").innerHTML = "";
+  document.getElementById("note13").innerHTML = "";
+  document.getElementById("gmap1").disabled = true;  // The map button and the wiki button are disabled until the first match is made.
+  document.getElementById("gmap11").disabled = true;
+  document.getElementById("wik1").disabled = true;
+  document.getElementById("wik11").disabled = true;
+  get_ready()
+}
 </script>
 <style>
 h2 {
@@ -2193,7 +2220,7 @@ h2 {
   }
 </style>
 </head>
-<body onload="get_txt()">
+<body onload="get_ready()">
 <div class="hrzt">
   <table>
   <tr>
@@ -2298,7 +2325,7 @@ h2 {
     <td style="text-align:center">
       <button id="gmap1" onclick="lets_go()" disabled="true" style="width:32%; height:70px; font-size:18px">Google地圖</button>
       <button id="wik1" onclick="learn_more()" disabled="true" style="width:32%; height:70px; font-size:18px">維基百科</button>
-      <button onclick="location.reload()" style="width:32%; height:70px; font-size:18px">重新開始</button>
+      <button onclick="again()" style="width:32%; height:70px; font-size:18px">重新開始</button>
     </td>
   </tr>
 </table>
@@ -2413,7 +2440,7 @@ h2 {
   <td style="width:100%; margin:auto; text-align:center">
     <button onclick="ch_eng()" style="width:33%; height:84px; font-size:30px">中/ENG</button>
     <button id="bpr2" onclick="bpr()" style="width:33%; height:84px; font-size:30px">關閉聲音</button>
-    <button onclick="location.reload()" style="width:33%; height:84px; font-size:30px">重新開始</button>
+    <button onclick="again()" style="width:33%; height:84px; font-size:30px">重新開始</button>
   </td>
 </tr>
 </table>
