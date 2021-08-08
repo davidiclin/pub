@@ -102,12 +102,20 @@ function show_meter() {
     document.getElementById("meter_l").innerHTML=bar;
     document.getElementById("meter_r").innerHTML="";
     }
-  if (score > 9) {document.getElementById("meter_g").style = "width:46%; text-align:left; font-size:20px; color:yellow";}
-  else {document.getElementById("meter_g").style = "width:46%; text-align:left; font-size:20px; color:white";}
+  if (score > 9) {document.getElementById("meter_g").style = "font-size:20px; color:yellow";}
+  else {document.getElementById("meter_g").style = "font-size:20px; color:gray";}
   if (score < 0) {
     document.getElementById("meter_r").innerHTML=bar;
     document.getElementById("meter_l").innerHTML="";
     }
-  if (score < -9) {document.getElementById("meter_p").style = "width:46%; text-align:right; font-size:20px; color:yellow";}
-  else {document.getElementById("meter_p").style = "width:46%; text-align:right; font-size:20px; color:white";}
+  if (score < -9) {document.getElementById("meter_p").style = "font-size:20px; color:yellow";}
+  else {document.getElementById("meter_p").style = "font-size:20px; color:gray";}
+}
+
+function instructions() {
+  alert("(1) 任意翻開兩張牌進行配對。\n\
+(2) 同顏色且同面值的兩張牌湊成一對，例如：梅花3和黑桃3、紅心Q和方塊Q。\n\
+(3) 猜錯的兩張牌會翻回背面，再繼續進行。\n\
+(4) 連續猜對時額外加分；連續猜錯時額外扣分。")
+
 }
