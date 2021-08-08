@@ -102,12 +102,12 @@ function show_meter() {
     document.getElementById("meter_l").innerHTML=bar;
     document.getElementById("meter_r").innerHTML="";
     }
-  if (score > 9) {document.getElementById("meter_s").style = "width:16%; text-align:right; font-size:20px; color:yellow";}
-  else {document.getElementById("meter_s").style = "width:16%; text-align:right; font-size:20px; color:white";}
+  if (score > 9) {document.getElementById("meter_s").style = "width:12%; text-align:right; font-size:20px; color:yellow";}
+  else {document.getElementById("meter_s").style = "width:12%; text-align:right; font-size:20px; color:white";}
   if (score < 0) {
     document.getElementById("meter_r").innerHTML=bar;
     document.getElementById("meter_l").innerHTML="";
     }
-  if (score < -9) {document.getElementById("meter_w").style = "width:16%; text-align:left; font-size:20px; color:yellow";}
-  else {document.getElementById("meter_w").style = "width:16%; text-align:left; font-size:20px; color:white";}
+  if (score < -9) {document.getElementById("meter_w").style = "width:12%; text-align:left; font-size:20px; color:yellow";}
+  else {document.getElementById("meter_w").style = "width:12%; text-align:left; font-size:20px; color:white";}
 }
