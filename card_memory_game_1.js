@@ -94,20 +94,20 @@ function show_meter() {
     }
   var bar = "";
   var blocks = Math.abs(score);
-  if (blocks > 10) {blocks = 10}
+  if (blocks > 12) {blocks = 12}
   for (var count = 0; count < blocks; count++) {
-    bar += "&#9724;"
+    bar += "&#9609;"
     }
   if (score > 0) {
     document.getElementById("meter_l").innerHTML=bar;
     document.getElementById("meter_r").innerHTML="";
     }
-  if (score > 9) {document.getElementById("meter_s").style = "width:12%; text-align:right; font-size:20px; color:yellow";}
-  else {document.getElementById("meter_s").style = "width:12%; text-align:right; font-size:20px; color:white";}
+  if (score > 9) {document.getElementById("meter_g").style = "width:46%; text-align:left; font-size:20px; color:yellow";}
+  else {document.getElementById("meter_g").style = "width:46%; text-align:left; font-size:20px; color:white";}
   if (score < 0) {
     document.getElementById("meter_r").innerHTML=bar;
     document.getElementById("meter_l").innerHTML="";
     }
-  if (score < -9) {document.getElementById("meter_w").style = "width:12%; text-align:left; font-size:20px; color:yellow";}
-  else {document.getElementById("meter_w").style = "width:12%; text-align:left; font-size:20px; color:white";}
+  if (score < -9) {document.getElementById("meter_p").style = "width:46%; text-align:right; font-size:20px; color:yellow";}
+  else {document.getElementById("meter_p").style = "width:46%; text-align:right; font-size:20px; color:white";}
 }
