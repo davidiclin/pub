@@ -87,12 +87,12 @@ function lose_point() {
 }
 
 function show_meter() {
+  document.getElementById("meter_av").style = "font-size:20px; color:yellow";
   if (score === 0) {
     document.getElementById("meter_l").innerHTML = "";
     document.getElementById("meter_r").innerHTML = "";
     return;
     }
-  document.getElementById("meter_av").style = "font-size:20px; color:yellow";
   var bar = "";
   var blocks = Math.abs(score);
   if (blocks > 12) {blocks = 12}
