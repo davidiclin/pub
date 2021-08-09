@@ -10,28 +10,30 @@ h2 {
   text-align: center;
 }
   body {
-    width: 96%;
     margin: auto;
     background-color:Black;
+    align:center;
+    margin-left:auto;
+    margin-right:auto;
   }
   table {
     width: 100%;
     margin: auto;
     padding: 3px;
   }
-  td {
-    width: 32%;
+  tr {
+    width: 100%;
   }
   .card1 {
     height: 54px;
     width: 100%;
-    font-size: 32px;
+    font-size: 28px;
     border-radius: 8px;
   }
   .card2 {
     height: 108px;
     width: 100%;
-    font-size: 42px;
+    font-size: 36px;
     border-radius: 8px;
   }
 
@@ -40,16 +42,22 @@ h2 {
     .vrtc {
       display:none;
     }
+    .hrzt {
+      width:96%;
+    }
   }
 @media screen and (max-width: 1023px) {
     .hrzt {
       display:none;
     }
+    .vrtc {
+      width:96%;
+    }
   }
 </style>
 </head>
 <body onload="get_ready()">
-<div class="hrzt">
+<div class="hrzt" style="align:center; margin-left:auto; margin-right:auto;">
   <table>
   <tr>
     <td><h2 style = "color:white;">COUNTRY 國家</h2>
@@ -58,107 +66,103 @@ h2 {
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="1" class="card1" type="button" onclick="l_click(1)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="2" class="card1" type="button" onclick="r_click(2)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="3" class="card1" type="button" onclick="l_click(3)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="4" class="card1" type="button" onclick="r_click(4)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="5" class="card1" type="button" onclick="l_click(5)" style="background-color:rgb(255,255,255);"></button>
-    </td>
+    </td style="width:50%;">
     <td>
       <button id="6" class="card1" type="button" onclick="r_click(6)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="7" class="card1" type="button" onclick="l_click(7)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="8" class="card1" type="button" onclick="r_click(8)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="9" class="card1" type="button" onclick="l_click(9)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="10" class="card1" type="button" onclick="r_click(10)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="11" class="card1" type="button" onclick="l_click(11)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="12" class="card1" type="button" onclick="r_click(12)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="13" class="card1" type="button" onclick="l_click(13)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="14" class="card1" type="button" onclick="r_click(14)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="15" class="card1" type="button" onclick="l_click(15)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="16" class="card1" type="button" onclick="r_click(16)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="17" class="card1" type="button" onclick="l_click(17)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="18" class="card1" type="button" onclick="r_click(18)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="19" class="card1" type="button" onclick="l_click(19)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="20" class="card1" type="button" onclick="r_click(20)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
 </table>
 <table>
   <tr style = "height:72px">
-    <td style="width:25%; text-align:center">
-      <button onclick="intro()" style="width:32%; height:70px; font-size:18px">說明</button>
-      <button onclick="ch_eng()" style="width:32%; height:70px; font-size:18px">中/ENG</button>
-      <button id="bpr1" onclick="bpr()" style="width:32%; height:70px; font-size:18px">關閉聲音</button>
-    </td>
-      <td style="width:50%; text-align:center; border:1px #ffffff dotted; font-size:22px">
+    <td style="width:8%"><button onclick="intro()" style="width:100%; height:70px; font-size:14px">說明</button></td>
+    <td style="width:8%"><button onclick="ch_eng()" style="width:100%; height:70px; font-size:14px">中/ENG</button></td>
+    <td style="width:8%"><button id="bpr1" onclick="bpr()" style="width:100%; height:70px; font-size:14px">關閉聲音</button></td>
+      <td style="width:52%; text-align:center; border:1px #ffffff dotted; font-size:22px">
     <a id = "note1" style = "color:white;"></a><br>
     <a id = "note2" style = "color:white;"></a>
     <a id = "note3" style = "color:white;"></a>
     </td>
-    <td style="text-align:center">
-      <button id="gmap1" onclick="lets_go()" disabled="true" style="width:32%; height:70px; font-size:18px">Google地圖</button>
-      <button id="wik1" onclick="learn_more()" disabled="true" style="width:32%; height:70px; font-size:18px">維基百科</button>
-      <button onclick="again()" style="width:32%; height:70px; font-size:18px">重新開始</button>
-    </td>
+    <td style="width:8%"><button id="gmap1" onclick="lets_go()" disabled="true" style="width:100%; height:70px; font-size:14px">Google地圖</button></td>
+    <td style="width:8%"><button id="wik1" onclick="learn_more()" disabled="true" style="width:100%; height:70px; font-size:14px">維基百科</button></td>
+    <td style="width:8%"><button onclick="again()" style="width:100%; height:70px; font-size:14px">重新開始</button></td>
   </tr>
 </table>
 </div>
-<div class="vrtc">
+<div class="vrtc" style="align:center; margin-left:auto; margin-right:auto;">
 <table>
   <tr>
     <td><h1 style = "color:white; text-align:center;">COUNTRY 國家</h1>
@@ -167,82 +171,82 @@ h2 {
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-1" class="card2" type="button" onclick="l_click(-1)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-2" class="card2" type="button" onclick="r_click(-2)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-3" class="card2" type="button" onclick="l_click(-3)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-4" class="card2" type="button" onclick="r_click(-4)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-5" class="card2" type="button" onclick="l_click(-5)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-6" class="card2" type="button" onclick="r_click(-6)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-7" class="card2" type="button" onclick="l_click(-7)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-8" class="card2" type="button" onclick="r_click(-8)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-9" class="card2" type="button" onclick="l_click(-9)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-10" class="card2" type="button" onclick="r_click(-10)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-11" class="card2" type="button" onclick="l_click(-11)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-12" class="card2" type="button" onclick="r_click(-12)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-13" class="card2" type="button" onclick="l_click(-13)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-14" class="card2" type="button" onclick="r_click(-14)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-15" class="card2" type="button" onclick="l_click(-15)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-16" class="card2" type="button" onclick="r_click(-16)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-17" class="card2" type="button" onclick="l_click(-17)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-18" class="card2" type="button" onclick="r_click(-18)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="width:50%;">
       <button id="-19" class="card2" type="button" onclick="l_click(-19)" style="background-color:rgb(255,255,255);"></button>
     </td>
-    <td>
+    <td style="width:50%;">
       <button id="-20" class="card2" type="button" onclick="r_click(-20)" style="background-color:rgb(255,255,255);"></button>
     </td>
   </tr>
@@ -258,18 +262,14 @@ h2 {
 </table>
 <table>
 <tr>
-  <td style="width:100%; margin:auto; text-align:center">
-    <button onclick="intro()" style="width:33%; height:84px; font-size:30px">說明</button>
-    <button id="gmap11" onclick="lets_go()" disabled="true" style="width:33%; height:84px; font-size:30px">Google地圖</button>
-    <button id="wik11" onclick="learn_more()" disabled="true" style="width:33%; height:84px; font-size:30px">維基百科</button>
-  </td>
+  <td style="width:33%;"><button onclick="intro()" style="width:100%; height:84px; font-size:30px">說明</button></td>
+  <td style="width:33%;"><button id="gmap11" onclick="lets_go()" disabled="true" style="width:100%; height:84px; font-size:30px">Google地圖</button></td>
+  <td style="width:33%;"><button id="wik11" onclick="learn_more()" disabled="true" style="width:100%; height:84px; font-size:30px">維基百科</button></td>
 </tr>
 <tr>
-  <td style="width:100%; margin:auto; text-align:center">
-    <button onclick="ch_eng()" style="width:33%; height:84px; font-size:30px">中/ENG</button>
-    <button id="bpr2" onclick="bpr()" style="width:33%; height:84px; font-size:30px">關閉聲音</button>
-    <button onclick="again()" style="width:33%; height:84px; font-size:30px">重新開始</button>
-  </td>
+  <td style="width:33%;"><button onclick="ch_eng()" style="width:100%; height:84px; font-size:30px">中/ENG</button></td>
+  <td style="width:33%;"><button id="bpr2" onclick="bpr()" style="width:100%; height:84px; font-size:30px">關閉聲音</button></td>
+  <td style="width:33%;"><button onclick="again()" style="width:100%; height:84px; font-size:30px">重新開始</button></td>
 </tr>
 </table>
 </div>

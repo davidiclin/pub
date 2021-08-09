@@ -1,7 +1,7 @@
-var Ctrs = new XMLHttpRequest(); // An XMLHttpRequest object
+var Ctrs = new XMLHttpRequest(); // a new request
 Ctrs.open("GET","https://davidiclin.github.io/pub/Countries.json",false);
 Ctrs.send(null);
-const bank = JSON.parse(Ctrs.responseText);  // Get the JSON data
+const bank = JSON.parse(Ctrs.responseText);
 var colorlist = ["(255,170,204)","(102,209,33)","(226,191,138)","(191,158,244)","(163,196,244)","(162,242,231)","(196,182,56)","(224,157,76)","(234,106,200)","(240,255,147)"]
 var ctry_deck = [];
 var cptl_deck = [];  // While the country deck and the capital deck are exactly the same, they are to be shuffled separately and then combined to become the complete deck.
@@ -184,15 +184,15 @@ function intro() {
 function bpr() {  // Switch the sounds on or off
   if (bpr_on === true) {bpr_on = false;
   document.getElementById("bpr1").innerHTML="開啟聲音";
-  document.getElementById("bpr1").style="width:32%; height:70px; font-size:18px; background-color:rgb(200,200,200)";
+  document.getElementById("bpr1").style="width:100%; height:70px; font-size:14px; background-color:rgb(200,200,200)";
   document.getElementById("bpr2").innerHTML="開啟聲音";
-  document.getElementById("bpr2").style="width:33%; height:84px; font-size:30px; background-color:rgb(200,200,200)";
+  document.getElementById("bpr2").style="width:100%; height:84px; font-size:30px; background-color:rgb(200,200,200)";
 }
   else {bpr_on = true;
     document.getElementById("bpr1").innerHTML="關閉聲音";
-    document.getElementById("bpr1").style="width:32%; height:70px; font-size:18px; background-color:white";
+    document.getElementById("bpr1").style="width:100%; height:70px; font-size:14px; background-color:white";
     document.getElementById("bpr2").innerHTML="關閉聲音";
-    document.getElementById("bpr2").style="width:33%; height:84px; font-size:30px; background-color:white";
+    document.getElementById("bpr2").style="width:100%; height:84px; font-size:30px; background-color:white";
   }
 }
 
