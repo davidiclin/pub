@@ -92,6 +92,7 @@ function show_meter() {
     document.getElementById("meter_r").innerHTML = "";
     return;
     }
+  document.getElementById("meter_av").style = "font-size:20px; color:yellow";
   var bar = "";
   var blocks = Math.abs(score);
   if (blocks > 12) {blocks = 12}
@@ -102,13 +103,25 @@ function show_meter() {
     document.getElementById("meter_l").innerHTML=bar;
     document.getElementById("meter_r").innerHTML="";
     }
-  if (score > 9) {document.getElementById("meter_g").style = "font-size:20px; color:yellow";}
+  if (score > 4) {document.getElementById("meter_g").style = "font-size:20px; color:yellow";
+                  document.getElementById("meter_av").style = "font-size:20px; color:gray";
+    }
   else {document.getElementById("meter_g").style = "font-size:20px; color:gray";}
+  if (score > 9) {document.getElementById("meter_aw").style = "font-size:20px; color:yellow";
+                  document.getElementById("meter_g").style = "font-size:20px; color:gray";
+    }
+  else {document.getElementById("meter_aw").style = "font-size:20px; color:gray";}
   if (score < 0) {
     document.getElementById("meter_r").innerHTML=bar;
     document.getElementById("meter_l").innerHTML="";
     }
-  if (score < -9) {document.getElementById("meter_p").style = "font-size:20px; color:yellow";}
+  if (score < -4) {document.getElementById("meter_f").style = "font-size:20px; color:yellow";
+                   document.getElementById("meter_av").style = "font-size:20px; color:gray";
+    }
+  else {document.getElementById("meter_f").style = "font-size:20px; color:gray";}
+if (score < -9) {document.getElementById("meter_p").style = "font-size:20px; color:yellow";
+                 document.getElementById("meter_f").style = "font-size:20px; color:gray";
+    }
   else {document.getElementById("meter_p").style = "font-size:20px; color:gray";}
 }
 
