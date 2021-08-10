@@ -90,10 +90,13 @@ function lose_point() {
 }
 
 function show_meter() {
-  document.getElementById("meter_av").style = "font-size:20px; color:yellow";
+  document.getElementById("meter_av1").style = "font-size:20px; color:yellow";
+  document.getElementById("meter_av2").style = "font-size:20px; color:yellow";
   if (score === 0) {
-    document.getElementById("meter_l").innerHTML = "";
-    document.getElementById("meter_r").innerHTML = "";
+    document.getElementById("meter_l1").innerHTML = "";
+    document.getElementById("meter_r1").innerHTML = "";
+    document.getElementById("meter_l2").innerHTML = "";
+    document.getElementById("meter_r2").innerHTML = "";
     return;
     }
   var bar = "";
@@ -103,29 +106,45 @@ function show_meter() {
     bar += "&#9609;"
     }
   if (score > 0) {
-    document.getElementById("meter_l").innerHTML=bar;
-    document.getElementById("meter_r").innerHTML="";
+    document.getElementById("meter_l1").innerHTML=bar;
+    document.getElementById("meter_r1").innerHTML="";
+    document.getElementById("meter_l2").innerHTML=bar;
+    document.getElementById("meter_r2").innerHTML="";
     }
-  if (score > 4) {document.getElementById("meter_g").style = "font-size:20px; color:yellow";
-                  document.getElementById("meter_av").style = "font-size:20px; color:gray";
+  if (score > 4) {document.getElementById("meter_g1").style = "font-size:20px; color:yellow";
+                  document.getElementById("meter_av1").style = "font-size:20px; color:gray";
+                  document.getElementById("meter_g2").style = "font-size:20px; color:yellow";
+                  document.getElementById("meter_av2").style = "font-size:20px; color:gray";
     }
-  else {document.getElementById("meter_g").style = "font-size:20px; color:gray";}
-  if (score > 9) {document.getElementById("meter_aw").style = "font-size:20px; color:yellow";
-                  document.getElementById("meter_g").style = "font-size:20px; color:gray";
+  else {document.getElementById("meter_g1").style = "font-size:20px; color:gray";
+        document.getElementById("meter_g2").style = "font-size:20px; color:gray";}
+  if (score > 9) {document.getElementById("meter_aw1").style = "font-size:20px; color:yellow";
+                  document.getElementById("meter_g1").style = "font-size:20px; color:gray";
+                  document.getElementById("meter_aw2").style = "font-size:20px; color:yellow";
+                  document.getElementById("meter_g2").style = "font-size:20px; color:gray";
     }
-  else {document.getElementById("meter_aw").style = "font-size:20px; color:gray";}
+  else {document.getElementById("meter_aw1").style = "font-size:20px; color:gray";
+        document.getElementById("meter_aw2").style = "font-size:20px; color:gray";}
   if (score < 0) {
-    document.getElementById("meter_r").innerHTML=bar;
-    document.getElementById("meter_l").innerHTML="";
+    document.getElementById("meter_r1").innerHTML=bar;
+    document.getElementById("meter_l1").innerHTML="";
+    document.getElementById("meter_r2").innerHTML=bar;
+    document.getElementById("meter_l2").innerHTML="";
     }
-  if (score < -4) {document.getElementById("meter_f").style = "font-size:20px; color:yellow";
-                   document.getElementById("meter_av").style = "font-size:20px; color:gray";
+  if (score < -4) {document.getElementById("meter_f1").style = "font-size:20px; color:yellow";
+                   document.getElementById("meter_av1").style = "font-size:20px; color:gray";
+                   document.getElementById("meter_f2").style = "font-size:20px; color:yellow";
+                   document.getElementById("meter_av2").style = "font-size:20px; color:gray";
     }
-  else {document.getElementById("meter_f").style = "font-size:20px; color:gray";}
-if (score < -9) {document.getElementById("meter_p").style = "font-size:20px; color:yellow";
-                 document.getElementById("meter_f").style = "font-size:20px; color:gray";
+  else {document.getElementById("meter_f1").style = "font-size:20px; color:gray";
+        document.getElementById("meter_f2").style = "font-size:20px; color:gray";}
+if (score < -9) {document.getElementById("meter_p1").style = "font-size:20px; color:yellow";
+                 document.getElementById("meter_f1").style = "font-size:20px; color:gray";
+                 document.getElementById("meter_p2").style = "font-size:20px; color:yellow";
+                 document.getElementById("meter_f2").style = "font-size:20px; color:gray";
     }
-  else {document.getElementById("meter_p").style = "font-size:20px; color:gray";}
+  else {document.getElementById("meter_p1").style = "font-size:20px; color:gray";
+        document.getElementById("meter_p2").style = "font-size:20px; color:gray";}
 }
 
 function instructions() {
