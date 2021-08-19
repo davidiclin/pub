@@ -2,7 +2,7 @@ var Ctrs = new XMLHttpRequest(); // a new request
 Ctrs.open("GET","https://davidiclin.github.io/pub/Countries.json",false);
 Ctrs.send(null);
 const bank = JSON.parse(Ctrs.responseText);
-var colorlist = ["(240,128,128)","(255,105,180)","(255,165,0)","(218,165,32)","(240,230,140)","(221,160,221)","(152,251,152)","(154,205,50)","(175,238,238)","(100,149,237)"]
+var colorlist = ["(240,128,128)","(255,105,180)","(255,218,185)","(218,165,32)","(240,230,140)","(221,160,221)","(152,251,152)","(154,205,50)","(175,238,238)","(100,149,237)"]
 var ctry_deck = [];
 var cptl_deck = [];  // While the country deck and the capital deck are exactly the same, they are to be shuffled separately and then combined to become the complete deck.
 var deck = [];
