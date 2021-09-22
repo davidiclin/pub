@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vocabulary Quiz</title>
+    <link rel="stylesheet" href="vq_styles.css">
+  </head>
+<body>
+  <div class="container top">
+    <table class="full">
+      <!-- <tr>
+        <td class="level_col">LEVEL</td>
+        <td class="level_col"><button class="level_btn">I</button></td>
+        <td class="level_col"><button class="level_btn">II</button></td>
+        <td class="level_col"><button class="level_btn">III</button></td>
+      </tr> -->
+      <tr>
+        <td><p class="navs">
+          <button class="nav_btn_top" id="1001" onclick="nav(1001)">1</button>
+          <button class="nav_btn_top" id="1002" onclick="nav(1002)">2</button>
+          <button class="nav_btn_top" id="1003" onclick="nav(1003)">3</button>
+          <button class="nav_btn_top" id="1004" onclick="nav(1004)">4</button>
+          <button class="nav_btn_top" id="1005" onclick="nav(1005)">5</button>
+          <button class="nav_btn_top" id="1006" onclick="nav(1006)">6</button>
+          <button class="nav_btn_top" id="1007" onclick="nav(1007)">7</button>
+          <button class="nav_btn_top" id="1008" onclick="nav(1008)">8</button>
+          <button class="nav_btn_top" id="1009" onclick="nav(1009)">9</button>
+          <button class="nav_btn_top" id="1010" onclick="nav(1010)">10</button>
+       </p></td>
+      </tr>
+    </table>
+  </div>
+  <div class="container q_set" id="1">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="15"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="11" onclick="check(11)">1</button>
+          <button class="option" id="12" onclick="check(12)">2</button>
+          <button class="option" id="13" onclick="check(13)">3</button>
+          <button class="option" id="14" onclick="check(14)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="16"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="2">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="25"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="21" onclick="check(21)">1</button>
+          <button class="option" id="22" onclick="check(22)">2</button>
+          <button class="option" id="23" onclick="check(23)">3</button>
+          <button class="option" id="24" onclick="check(24)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="26"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="3">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="35"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="31" onclick="check(31)">1</button>
+          <button class="option" id="32" onclick="check(32)">2</button>
+          <button class="option" id="33" onclick="check(33)">3</button>
+          <button class="option" id="34" onclick="check(34)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="36"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="4">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="45"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="41" onclick="check(41)">1</button>
+          <button class="option" id="42" onclick="check(42)">2</button>
+          <button class="option" id="43" onclick="check(43)">3</button>
+          <button class="option" id="44" onclick="check(44)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="46"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="5">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="55"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="51" onclick="check(51)">1</button>
+          <button class="option" id="52" onclick="check(52)">2</button>
+          <button class="option" id="53" onclick="check(53)">3</button>
+          <button class="option" id="54" onclick="check(54)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="56"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="6">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="65"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="61" onclick="check(61)">1</button>
+          <button class="option" id="62" onclick="check(62)">2</button>
+          <button class="option" id="63" onclick="check(63)">3</button>
+          <button class="option" id="64" onclick="check(64)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="66"></p></td></tr>
+    </table>
+  </div>
+  <div class="containe q_set" id="7">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="75"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="71" onclick="check(71)">1</button>
+          <button class="option" id="72" onclick="check(72)">2</button>
+          <button class="option" id="73" onclick="check(73)">3</button>
+          <button class="option" id="74" onclick="check(74)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="76"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="8">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="85"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="81" onclick="check(81)">1</button>
+          <button class="option" id="82" onclick="check(82)">2</button>
+          <button class="option" id="83" onclick="check(83)">3</button>
+          <button class="option" id="84" onclick="check(84)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="86"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="9">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="95"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="91" onclick="check(91)">1</button>
+          <button class="option" id="92" onclick="check(92)">2</button>
+          <button class="option" id="93" onclick="check(93)">3</button>
+          <button class="option" id="94" onclick="check(94)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="96"></p></td></tr>
+    </table>
+  </div>
+  <div class="container q_set" id="10">
+    <table class="full">
+      <tr>
+        <td><p class="q_body" id="105"></p></td>
+      </tr>
+      <tr>
+        <td class="options">
+
+          <button class="option" id="101" onclick="check(101)">1</button>
+          <button class="option" id="102" onclick="check(102)">2</button>
+          <button class="option" id="103" onclick="check(103)">3</button>
+          <button class="option" id="104" onclick="check(104)">4</button>
+        </td>
+      </tr>
+      <tr><td><p class="notes" id="106"></p></td></tr>
+    </table>
+  </div>
+  <div class="container">
+    <button class="nav_btn_btm" id="prev" onclick="nav(-1)">&#11104;</button>
+    <button class="nav_btn_btm" id="new" onclick="nav(999)">&#11118;</button>
+    <button class="nav_btn_btm" id="next" onclick="nav(1)">&#11106;</button>
+</div>
+<script src="vq_script.js"></script>
+</body>
+</html>
