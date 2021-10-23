@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <title>Card Memory Game</title>
   <link rel="preload" href="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" as="image">
   <link rel="preload" href="https://davidiclin.files.wordpress.com/2021/08/1-2.jpg" as="image">
@@ -64,7 +64,6 @@
 <style>
   body {
     background-color:Black;
-    align:center;
     margin-left:auto;
     margin-right:auto;
   }
@@ -107,7 +106,7 @@
 </style>
 </head>
 <body>
-<div class="hrzt" style="align:center; margin-left:auto; margin-right:auto; background-color:black">
+<div class="hrzt" style="margin-left:auto; margin-right:auto; background-color:black">
     <table style="width:860px; margin-left:auto; margin-right:auto; border-collapse:collapse;">
       <tr style="width:100%">
         <td style="width:20%; text-align:center;"><span id="meter_aw1" style="font-size:20px; color:gray">AWESOME</span></td>
@@ -120,7 +119,7 @@
     <table style="width:800px; margin-left:auto; margin-right:auto; border-collapse:collapse;">
       <tr style="width:100%; height:48px">
         <td id="meter_l1" style="width:46%; text-align:right; font-size:30px; color:red"></td>
-        <td id="meter1" onclick="instructions()" style="width:8%; text-align:center; font-size:36px; color:black; background-color:yellow; border:2px solid black">?</button></td>
+        <td id="meter1" onclick="instructions()" style="width:8%; text-align:center; font-size:36px; color:black; background-color:yellow; border:2px solid black">?</td>
         <td id="meter_r1" style="width:46%; text-align:left; font-size:30px; color:green"></td>
       </tr>
     </table>
@@ -128,57 +127,57 @@
   <table style="width: 100%; margin-left:auto; margin-right:auto; border-collapse:collapse;">
   <tr>
     <td class="card1"></td>
-    <td id="-1" class="card1" onclick="flip(1)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-1" class="card1" onclick="flip(1)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-2" class="card1" onclick="flip(2)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-2" class="card1" onclick="flip(2)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-3" class="card1" onclick="flip(3)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-3" class="card1" onclick="flip(3)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-4" class="card1" onclick="flip(4)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-4" class="card1" onclick="flip(4)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-5" class="card1" onclick="flip(5)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-5" class="card1" onclick="flip(5)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-6" class="card1" onclick="flip(6)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-6" class="card1" onclick="flip(6)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
     <td class="card1"></td>
   </tr>
   <tr>
-    <td id="-7" class="card1" onclick="flip(7)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-7" class="card1" onclick="flip(7)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-8" class="card1" onclick="flip(8)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-8" class="card1" onclick="flip(8)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-9" class="card1" onclick="flip(9)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-9" class="card1" onclick="flip(9)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-10" class="card1" onclick="flip(10)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-10" class="card1" onclick="flip(10)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-11" class="card1" onclick="flip(11)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-11" class="card1" onclick="flip(11)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-12" class="card1" onclick="flip(12)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-12" class="card1" onclick="flip(12)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-13" class="card1" onclick="flip(13)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-13" class="card1" onclick="flip(13)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-14" class="card1" onclick="flip(14)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-14" class="card1" onclick="flip(14)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
   </tr>
   <tr>
     <td class="card1"></td>
-    <td id="-15" class="card1" onclick="flip(15)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-15" class="card1" onclick="flip(15)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-16" class="card1" onclick="flip(16)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-16" class="card1" onclick="flip(16)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-17" class="card1" onclick="flip(17)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-17" class="card1" onclick="flip(17)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-18" class="card1" onclick="flip(18)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-18" class="card1" onclick="flip(18)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-19" class="card1" onclick="flip(19)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-19" class="card1" onclick="flip(19)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="-20" class="card1" onclick="flip(20)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="-20" class="card1" onclick="flip(20)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
     <td class="card1"></td>
 </tr>
 </table>
 </div>
-<div class="vrtc" style="align:center; margin-left:auto; margin-right:auto; background-color:black">
+<div class="vrtc" style="margin-left:auto; margin-right:auto; background-color:black">
   <table style="width:93%; margin-left:auto; margin-right:auto; border-collapse:collapse;">
     <tr>
       <td style="width:20%; text-align:center;"><span id="meter_aw2" style="font-size:20px; color:gray">AWESOME</span></td>
@@ -191,60 +190,60 @@
   <table style="width:100%; margin-left:auto; margin-right:auto; border-collapse:collapse;">
     <tr style="height:48px">
       <td id="meter_l2" style="width:46%; text-align:right; font-size:30px; color:red"></td>
-      <td id="meter2" onclick="instructions()" style="width:8%; text-align:center; font-size:36px; color:black; background-color:yellow; border:2px solid black">?</button></td>
+      <td id="meter2" onclick="instructions()" style="width:8%; text-align:center; font-size:36px; color:black; background-color:yellow; border:2px solid black">?</td>
       <td id="meter_r2" style="width:46%; text-align:left; font-size:30px; color:green"></td>
     </tr>
   </table>
 <br>
 <table style="width: 100%; margin-left:auto; margin-right:auto; border-collapse:collapse;">
   <tr>
-    <td id="1" class="card2" onclick="flip(1)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="1" class="card2" onclick="flip(1)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="2" class="card2" onclick="flip(2)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="2" class="card2" onclick="flip(2)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="3" class="card2" onclick="flip(3)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="3" class="card2" onclick="flip(3)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="4" class="card2" onclick="flip(4)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-  </tr>
-  <tr>
-    <td id="5" class="card2" onclick="flip(5)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-    <td id="6" class="card2" onclick="flip(6)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-    <td id="7" class="card2" onclick="flip(7)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-    <td id="8" class="card2" onclick="flip(8)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="4" class="card2" onclick="flip(4)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
   </tr>
   <tr>
-    <td id="9" class="card2" onclick="flip(9)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="5" class="card2" onclick="flip(5)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="10" class="card2" onclick="flip(10)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="6" class="card2" onclick="flip(6)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="11" class="card2" onclick="flip(11)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="7" class="card2" onclick="flip(7)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="12" class="card2" onclick="flip(12)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-  </tr>
-  <tr>
-    <td id="13" class="card2" onclick="flip(13)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-    <td id="14" class="card2" onclick="flip(14)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-    <td id="15" class="card2" onclick="flip(15)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
-    </td>
-    <td id="16" class="card2" onclick="flip(16)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="8" class="card2" onclick="flip(8)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
   </tr>
   <tr>
-    <td id="17" class="card2" onclick="flip(17)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="9" class="card2" onclick="flip(9)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="18" class="card2" onclick="flip(18)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="10" class="card2" onclick="flip(10)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="19" class="card2" onclick="flip(19)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="11" class="card2" onclick="flip(11)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
-    <td id="20" class="card2" onclick="flip(20)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" style="width:90%">
+    <td id="12" class="card2" onclick="flip(12)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+  </tr>
+  <tr>
+    <td id="13" class="card2" onclick="flip(13)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+    <td id="14" class="card2" onclick="flip(14)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+    <td id="15" class="card2" onclick="flip(15)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+    <td id="16" class="card2" onclick="flip(16)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+  </tr>
+  <tr>
+    <td id="17" class="card2" onclick="flip(17)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+    <td id="18" class="card2" onclick="flip(18)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+    <td id="19" class="card2" onclick="flip(19)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
+    </td>
+    <td id="20" class="card2" onclick="flip(20)"><img src="https://davidiclin.files.wordpress.com/2021/08/0-2.jpg" alt="unrevealed card" style="width:90%">
     </td>
   </tr>
 </table>
