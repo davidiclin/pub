@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+</head>
+<style>
+#display {
+  border: 3px solid green;
+}
+.word {
+  cursor: move;
+}
+.dropzone {
+  width: 60px;
+  height: 30px;
+}
+</style>
+<script>
+var sentence = "I don't wanna talk about it how you broke my heart.";
+var words = sentence.split(" ");
+var head = words.shift();
+var tail = words.pop();
+var drag_id = 0;
+var drag_text = "";
+console.log(words);
+
+for (var count = 0; count < 20; count++) {  // Shuffling
+  var n1 = Math.floor(Math.random() * words.length);
+  var n2 = Math.floor(Math.random() * words.length);
+  tmp = words[n1];
+  words[n1] = words[n2];
+  words[n2] = tmp;
+}
+console.log(words);
+
+function create() {
+for (var count = 0; count < words.length; count++) {
+  var new_button = "<button class=\"word\" id=\"" + String(count + 1) + "\" draggable=true ondragstart=\"dragging(" + String(count + 1) + ")\" ondragover=\"allowDrop(" + String(count + 1) + ")\" ondrop=\"dropped(" + String(count + 1) + ")\">" + words[count] + "</button>";
+  document.getElementById("pieces").innerHTML += new_button;
+}
+document.getElementById("head").innerHTML = head + " ";
+document.getElementById("tail").innerHTML = " " + tail;
+}
+
+function dragging(x) {
+  drag_id = x;
+  drag_text = document.getElementById(x).innerHTML;
+  console.log(drag_text)
+}
+
+function allowDrop(x) {
+  // document.getElementById(x).addEventListener("ondragover", function(event){
+  event.preventDefault()
+// });
+}
+
+function dropped(x) {
+  // document.getElementById(x).addEventListener("ondrop", function(event){
+  event.preventDefault();
+  document.getElementById(drag_id).innerHTML = document.getElementById(x).innerHTML;
+  document.getElementById(x).innerHTML = drag_text;
+// });
+
+}
+// function input(x) {
+//   var current_text = document.getElementById("text_input").innerHTML;
+//   var addition = document.getElementById(x).innerHTML;
+//   if (current_text.length === 0) {
+//     document.getElementById("text_input").innerHTML = addition;
+//   }
+//   else {
+//   document.getElementById("text_input").innerHTML = current_text + " " + addition;
+// }
+//   document.getElementById(x).disabled = true;
+//   if (document.getElementById("head").innerHTML + document.getElementById("text_input").innerHTML + document.getElementById("tail").innerHTML === sentence) {
+//     console.log("BINGO!")
+//   }
+// }
+
+// function undo() {
+//   var current_text = document.getElementById("text_input").innerHTML;
+//   if (current_text.length === 0) {
+//     return;
+//   }
+//   // var undo_text;
+//   // if (current_text.split(" ").length === 1) {
+//   //   undo_text = current_text.split(" ")[0]
+//   // }
+//   // else {
+//   var undo_text = current_text.split(" ")[current_text.split(" ").length-1];
+//   // }
+//   console.log(current_text.split(" "),undo_text);
+//   for (var count = 0; count < words.length; count++) {
+//     if (document.getElementById(count + 1).innerHTML === undo_text) {
+//       document.getElementById(count + 1).disabled = false;
+//     }
+//   }
+//   var end_pos = current_text.length - undo_text.length - 1;
+//   if (end_pos < 0) {
+//     end_pos = 0
+//   }
+//   var new_text = current_text.slice(0,end_pos);
+//   document.getElementById("text_input").innerHTML = new_text;
+// }
+</script>
+<body>
+  <header>
+    <h1></h1>
+    <nav><a></a></nav>
+  </header>
+  <main>
+    <button onclick="create()">GO</button><br>
+    <button onclick="undo()">UNDO</button><br>
+    <section id="display">
+    <p><span id="head"></span><span id="pieces"></span><span id="tail"></span></p>
+  </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
