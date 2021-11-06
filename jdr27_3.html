@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+</head>
+<style>
+#display {
+  background-color: rgb(168,240,247);
+  border: 3px outset rgb(168,240,247);
+  padding: 6px;
+  text-align: center;
+}
+#head, #tail {
+  background-color: rgb(168,240,247);
+  border: none;
+  font-size: 3vw;
+}
+.word {
+  background-color: white;
+  border: 2px solid lightgray;
+  margin: 6px;
+  padding: 4px 12px;
+  font-size: 3vw;
+  cursor: move;
+}
+</style>
+<script>
+var sentence = "I don't wanna talk about it how you broke my heart.";
+var words = sentence.split(" ");
+var head = words.shift();
+var tail = words.pop();
+var waiting = false;
+var sel_id = 0;
+var swap_text = "";
+var current_text = "";
+console.log(words);
+
+for (var count = 0; count < 20; count++) {  // Shuffling
+  var n1 = Math.floor(Math.random() * words.length);
+  var n2 = Math.floor(Math.random() * words.length);
+  tmp = words[n1];
+  words[n1] = words[n2];
+  words[n2] = tmp;
+}
+console.log(words);
+
+function create() {
+  for (var count = 0; count < words.length; count++) {
+    var new_button = "<button class=\"word\" id=\"" + String(count + 1) + "\" onclick=\"clicked(" + String(count + 1) + ")\">" + words[count] + "</button>";
+    document.getElementById("pieces").innerHTML += new_button;
+  }
+  document.getElementById("head").innerHTML = head + " ";
+  document.getElementById("tail").innerHTML = " " + tail;
+}
+
+function clicked(x) {
+  if (waiting === false) {
+    waiting = true;
+    sel_id = x;
+    document.getElementById(x).style.backgroundColor = "black";
+    document.getElementById(x).style.color = "white";
+    console.log(x,sel_id,waiting)
+  }
+  else {
+    swap_text = document.getElementById(x).innerHTML;
+    document.getElementById(x).innerHTML = document.getElementById(sel_id).innerHTML;
+    document.getElementById(sel_id).innerHTML = swap_text;
+    document.getElementById(x).style.backgroundColor = "black";
+    document.getElementById(x).style.color = "white";
+    setTimeout(function(){
+      document.getElementById(x).style.backgroundColor = "white";
+      document.getElementById(x).style.color = "black";
+      document.getElementById(sel_id).style.backgroundColor = "white";
+      document.getElementById(sel_id).style.color = "black";
+      waiting = false;
+      check_it();
+      console.log(x,sel_id,waiting)
+    }, 200);
+  }
+}
+
+function check_it() {
+  for (var count = 0; count < words.length; count++) {
+    current_text += document.getElementById(count + 1).innerHTML + " ";
+  }
+  if (head + " " + current_text + tail === sentence) {
+    window.alert("BINGO!");
+  }
+  else {current_text = ""}
+}
+// }
+</script>
+<body>
+  <header>
+    <h1></h1>
+    <nav><a></a></nav>
+  </header>
+  <main>
+    <button onclick="create()">GO</button><br>
+    <section id="display">
+    <p><button id="head"></button><span id="pieces"></span><button id="tail"></button></p>
+  </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
