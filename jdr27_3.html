@@ -18,15 +18,15 @@
 }
 .word {
   background-color: white;
-  border: 2px solid lightgray;
-  margin: 6px;
+  border: 2px dotted lightgray;
+  margin: 6px 3px;
   padding: 4px 12px;
   font-size: 3vw;
   cursor: move;
 }
 </style>
 <script>
-var sentence = "I don't wanna talk about it how you broke my heart.";
+var sentence = "Andy failed the exam, but that doesn't mean he didn't work hard enough for it.";
 var words = sentence.split(" ");
 var head = words.shift();
 var tail = words.pop();
@@ -52,9 +52,14 @@ function create() {
   }
   document.getElementById("head").innerHTML = head + " ";
   document.getElementById("tail").innerHTML = " " + tail;
+  check_it();
 }
 
 function clicked(x) {
+  if (document.getElementById(x).style.border === "none") {
+    console.log(document.getElementById(x).style.border);
+    return;
+  }
   if (waiting === false) {
     waiting = true;
     sel_id = x;
@@ -82,10 +87,21 @@ function clicked(x) {
 
 function check_it() {
   for (var count = 0; count < words.length; count++) {
+    if (document.getElementById(count + 1).innerHTML === sentence.split(" ")[count + 1]) {
+      document.getElementById(count + 1).style.backgroundColor = "rgb(168,240,247)";
+      document.getElementById(count + 1).style.cursor = "auto";
+      document.getElementById(count + 1).style.border = "none";
+    }
     current_text += document.getElementById(count + 1).innerHTML + " ";
   }
   if (head + " " + current_text + tail === sentence) {
-    window.alert("BINGO!");
+    document.getElementById("pieces").innerHTML = "";
+    document.getElementById("tail").innerHTML = "";
+    document.getElementById("head").innerHTML = sentence;
+    setTimeout(function(){
+      document.getElementById("result").innerHTML = "BINGO!";
+    }, 200);
+
   }
   else {current_text = ""}
 }
@@ -99,7 +115,8 @@ function check_it() {
   <main>
     <button onclick="create()">GO</button><br>
     <section id="display">
-    <p><button id="head"></button><span id="pieces"></span><button id="tail"></button></p>
+    <p><span id="head"></span><span id="pieces"></span><span id="tail"></span></p>
+    <p id="result"></p>
   </section>
   </main>
   <footer>
