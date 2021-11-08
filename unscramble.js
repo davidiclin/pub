@@ -72,8 +72,6 @@ function check_it() {
     document.getElementById("tail").innerHTML = "";
     document.getElementById("head").innerHTML = sentence;
     setTimeout(function(){
-      document.getElementById("status").style.color = "red";
-      document.getElementById("status").style.fontSize = "3vw";
       var n = Math.floor(Math.random() * 5);
       switch(n) {
         case 0:
@@ -92,7 +90,7 @@ function check_it() {
         comment = "YOU DID IT!";
         break;
       }
-      document.getElementById("status").innerHTML = "<p>" + comment + "</p><button id=\"next\" onclick=\"again()\">NEXT</button>";
+      document.getElementById("status").innerHTML = "<p id=\"comment\">" + comment + "</p><button id=\"next\" onclick=\"again()\">NEXT</button>";
     }, 200);
 
   }
