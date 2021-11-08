@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(168,240,247);
+}
+header {
+  text-align: center;
+}
+#title {
+  font-weight: bold;
+  font-size: 4vw;
+  color: blue;
+}
+#tip {
+  font-size:2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+#display {
+  background-color: rgb(168,240,247);
+  padding: 6px 18px;
+  align: left;
+}
+#head, #tail {
+  background-color: rgb(168,240,247);
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+}
+#status {
+  text-align: center;
+}
+#next {
+  font-size:2vw;
+}
+.word {
+  background-color: white;
+  border: 2px outset lightgray;
+  margin: 6px 3px;
+  padding: 4px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  cursor: move;
+}
+@media screen and (max-width: 1199px) {
+  body {
+    background-color: rgb(168,240,247);
+  }
+  header {
+    text-align: center;
+  }
+  #title {
+    font-weight: bold;
+    font-size: 6vw;
+    color: blue;
+  }
+  #tip {
+    font-size:3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+  }
+  #display {
+    background-color: rgb(168,240,247);
+    padding: 6px 18px;
+    align: left;
+  }
+  #head, #tail {
+    background-color: rgb(168,240,247);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+  }
+  #status {
+    text-align: center;
+  }
+  #next {
+    font-size:3vw;
+  }
+  .word {
+    background-color: white;
+    border: 2px outset lightgray;
+    margin: 6px 3px;
+    padding: 4px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    cursor: move;
+  }
+@media screen and (max-width: 767px) {
+  body {
+    background-color: rgb(168,240,247);
+  }
+  header {
+    text-align: center;
+  }
+  #title {
+    font-weight: bold;
+    font-size: 8vw;
+    color: blue;
+  }
+  #tip {
+    font-size:4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+  }
+  #display {
+    background-color: rgb(168,240,247);
+    padding: 6px 18px;
+    align: left;
+  }
+  #head, #tail {
+    background-color: rgb(168,240,247);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vw;
+  }
+  #status {
+    text-align: center;
+  }
+  #next {
+    font-size:4vw;
+  }
+  .word {
+    background-color: white;
+    border: 2px outset lightgray;
+    margin: 6px 3px;
+    padding: 4px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vw;
+    cursor: move;
+  }
