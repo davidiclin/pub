@@ -83,6 +83,7 @@ header {
     font-size: 4vw;
     cursor: move;
   }
+}
 @media screen and (max-width: 767px) {
   body {
     background-color: rgb(168,240,247);
@@ -109,7 +110,7 @@ header {
     background-color: rgb(168,240,247);
     border: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6vw;
+    font-size: 8vw;
   }
   #status {
     text-align: center;
@@ -126,3 +127,4 @@ header {
     font-size: 8vw;
     cursor: move;
   }
+}
