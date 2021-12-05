@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/start.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/start.gif" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/blank.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/roll.jpg" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/topmost.jpg" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t01010.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t01011.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t01012.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t01110.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t01111.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t01112.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t11010.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t11011.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t11012.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t11110.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t11111.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/t11112.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/heart0.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/heart1.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/heart2.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/heart3.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/left.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/right.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/upward.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/leftr.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/rightr.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/upwardr.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/pawn.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/recon.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/recon1.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/recon1.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/fire.png" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/boom.gif" as="image">
+  <link rel="preload" href="https://davidiclin.github.io/pub/THmap_tiles/newgame.png" as="image">
+</head>
+<style>
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(230,230,230);
+  border-spacing: 0px;
+}
+#showmap {
+  background-position: center bottom;
+}
+th, td {
+  padding: 0px;
+}
+img {
+  display: block;
+}
+td {
+  position: relative;
+}
+td .up-arrow {
+  position: absolute;
+  top: 2%;
+  left: 35%;
+}
+td .left-arrow {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+}
+td .right-arrow {
+  position: absolute;
+  top: 35%;
+  left: 68%;
+}
+td .pawn {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.unvisited {
+  opacity: 0.3;
+}
+td #barLeft {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+td #barMidLeft {
+  position: absolute;
+  top:5%;
+  left:33%;
+}
+td #barMidRight {
+  position: absolute;
+  top:5%;
+  left:43%;
+}
+td #barRightLeft {
+  position: absolute;
+  top: 8%;
+  left: 55%;
+}
+td #barRightRight {
+  position: absolute;
+  top: 8%;
+  left: 77%;
+}
+td #message {
+  position: absolute;
+  font-size: 2.5em;
+  top:35%;
+  left: 5%;
+}
+</style>
+<body>
+  <header>
+    <h1></h1>
+    <nav><a></a></nav>
+  </header>
+  <main>
+    <section>
+      <table><tr id="topEnd"><td colspan="6"><img id="topEndBack" src="https://davidiclin.github.io/pub/THmap_tiles/roll.jpg">
+                                             <img id="barLeft" src="https://davidiclin.github.io/pub/THmap_tiles/heart3.png">
+                                             <img id="barRightLeft" src="https://davidiclin.github.io/pub/THmap_tiles/retry.png" onclick="tryAgain()">
+                                             <img id="barRightRight" src="https://davidiclin.github.io/pub/THmap_tiles/newgame.png" onclick="newGame()">
+                                             <img id="barMidLeft" src="" onclick="sendRecon()">
+                                             <img id="barMidRight" src="" onclick="fireSupp()">
+                                             <p id="message">"Onward, soldiers!" -- Pick your start point</p></td></tr></table>
+    <table id="showmap">
+           <tr><td id="102"><img src="https://davidiclin.github.io/pub/THmap_tiles/start.gif" onclick="startHandler(102)"></td>
+               <td id="103"><img src="https://davidiclin.github.io/pub/THmap_tiles/start.gif" onclick="startHandler(103)"></td>
+               <td id="104"><img src="https://davidiclin.github.io/pub/THmap_tiles/start.gif" onclick="startHandler(104)"></td>
+               <td id="105"><img src="https://davidiclin.github.io/pub/THmap_tiles/start.gif" onclick="startHandler(105)"></td>
+               <td id="106"><img src="https://davidiclin.github.io/pub/THmap_tiles/start.gif" onclick="startHandler(106)"></td>
+               <td id="107"><img src="https://davidiclin.github.io/pub/THmap_tiles/start.gif" onclick="startHandler(107)"></td>
+    </tr></table>
+    </section>
+    <section>
+      <img src="https://davidiclin.github.io/pub/THmap_tiles/mapkey.jpg">
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+  <script>
+  var Getmaps = new XMLHttpRequest(); // a new request
+  Getmaps.open("GET","https://davidiclin.github.io/pub/THmap.json",false);
+  Getmaps.send(null);
+  const maps = JSON.parse(Getmaps.responseText);
+  var pick = Math.floor(Math.random() * 252);
+  var map = maps[pick].mapcode.split("-");
+  var route = maps[pick].path;
+  console.log(route);
+  var currentRow = 17;
+  var currentLocation;
+  var path = [];
+  var hearts = 3;
+  var initHTML = document.getElementById("showmap").innerHTML;
+  var backgroundImg = "paper" + (Math.floor(Math.random() * 3) + 1) + ".jpg";
+  var recon = 2;
+  var fireSupport = 1;
+
+  document.getElementById("showmap").style.backgroundImage = "url(\'https://davidiclin.github.io/pub/THmap_tiles/" + backgroundImg + "\')";
+
+  function startHandler(x) {
+    if (currentRow < 17) {
+      return;
+    }
+    for (count = 102; count < 108; count++) {
+      document.getElementById(count).innerHTML = "<img src=\"https://davidiclin.github.io/pub/THmap_tiles/blank.png\">"
+    }
+    document.getElementById(x).innerHTML = "<img src=\"https://davidiclin.github.io/pub/THmap_tiles/start.png\">";
+    document.getElementById("barMidLeft").src = "https://davidiclin.github.io/pub/THmap_tiles/recon.png";
+    document.getElementById("barMidRight").src = "https://davidiclin.github.io/pub/THmap_tiles/fire.png";
+    renderNewRow();
+    focusOn(x-6);
+  }
+
+  function renderNewRow() {
+    currentRow -= 1;
+    console.log(currentRow);
+    if (currentRow === -1) {
+      revealAll();
+      document.getElementById("topEndBack").src = "https://davidiclin.github.io/pub/THmap_tiles/topmost.jpg";
+      document.getElementById("barMidLeft").src = "";
+      document.getElementById("barMidRight").src = "";
+      document.getElementById("barLeft").src = "";
+      document.getElementById("message").style.position = "relative";
+      thisScore = getScore();
+      thisRank = getRank(thisScore);
+      document.getElementById("message").innerHTML = "Moves : " + path.length + "<br>" +
+                                                     "Recon Dispatched : " + (2 -recon) + "<br>" +
+                                                     "Fire Support Requested : " + (1 - fireSupport) + "<br>" +
+                                                     "Casualties : " + Math.floor((3 - hearts) / 3 * 100) + "%" + "<br>" +
+                                                     "Final Score : " + thisScore + "<br>" +
+                                                     "Rank : " + thisRank;
+      return;
+    }
+    var oldHTML = document.getElementById("showmap").innerHTML;
+    var addHTML = "<tr>";
+    for (var count = 0; count < 6; count++) {
+      addHTML += "<td id=\"" + ((currentRow * 6) + count) + "\">";
+    }
+    document.getElementById("showmap").innerHTML = addHTML + "</tr>" + oldHTML
+  }
+
+  function focusOn(x) {
+    currentLocation = x;
+    path.push(currentLocation);
+    document.getElementById("message").innerHTML = "";
+    var imgHTML = "<img src=\"https://davidiclin.github.io/pub/THmap_tiles/t" + map[currentLocation] + ".png\">";
+    var upHTML = "<img class=\"up-arrow\" src=\"https://davidiclin.github.io/pub/THmap_tiles/upward.png\" onclick=\"actionHandler(\'up\')\">";
+    var leftHTML = "<img class=\"left-arrow\" src=\"https://davidiclin.github.io/pub/THmap_tiles/left.png\" onclick=\"actionHandler(\'left\')\">";
+    var rightHTML = "<img class=\"right-arrow\" src=\"https://davidiclin.github.io/pub/THmap_tiles/right.png\" onclick=\"actionHandler(\'right\')\">";
+    var pawnHTML = "<img class=\"pawn\" src=\"https://davidiclin.github.io/pub/THmap_tiles/pawn.png\">"
+    if (map[currentLocation][4] === "1") {
+      hearts -= 1;
+      document.getElementById("barLeft").src = "https://davidiclin.github.io/pub/THmap_tiles/heart" + hearts + ".png";
+      if (hearts === 2) {
+        document.getElementById("message").innerHTML = "\"We just lost one third of our men!\""
+      }
+      if (hearts === 1) {
+        document.getElementById("message").innerHTML = "\"We got hit hard! Let's get outta here!\""
+      }
+    }
+    if (hearts === 0) {
+      document.getElementById(currentLocation).innerHTML = imgHTML;
+      document.getElementById("barMidLeft").src = "";
+      document.getElementById("barMidRight").src = "";
+    }
+    else {
+      if (path.includes(currentLocation - 1)) {
+        leftHTML = "";
+      }
+      if (map[currentLocation][0] === "0") {
+        leftHTML = "";
+      }
+      if (path.includes(currentLocation + 1)) {
+        rightHTML = "";
+      }
+      if (map[currentLocation][2] === "0") {
+        rightHTML = "";
+      }
+      document.getElementById(currentLocation).innerHTML = imgHTML + upHTML + leftHTML + rightHTML + pawnHTML;
+    }
+  }
+
+  function actionHandler(m) {
+    document.getElementById(currentLocation).innerHTML = "<img src=\"https://davidiclin.github.io/pub/THmap_tiles/t" + map[currentLocation] + ".png\">";
+    if (m === "up") {
+      renderNewRow();
+      if (currentLocation > 5) {
+      focusOn(currentLocation - 6);
+      }
+    }
+    if (m === "left") {
+      focusOn(currentLocation - 1);
+    }
+    if (m === "right") {
+      focusOn(currentLocation + 1);
+    }
+  }
+
+  function revealAll() {
+    for (count = 0; count < 102; count++) {
+      if (path.includes(count)) {
+        continue;
+      }
+      if (map[count][4] === "1") {
+        document.getElementById(count).innerHTML = "<img src=\"https://davidiclin.github.io/pub/THmap_tiles/t" + map[count].slice(0,4) + "2" + ".png\" class = \"unvisited\">";
+      }
+      else {
+        document.getElementById(count).innerHTML = "<img src=\"https://davidiclin.github.io/pub/THmap_tiles/t" + map[count] + ".png\" class = \"unvisited\">";
+      }
+    }
+  }
+
+  function fireSupp() {
+    fireSupport -= 1;
+    document.getElementById("message").innerHTML = "\"Fire support incoming!\""
+    document.getElementById("barMidRight").src = "https://davidiclin.github.io/pub/THmap_tiles/boom.gif";
+    setTimeout(function(){
+      document.getElementById("barMidRight").src = "";
+    }, 2000);
+    if (currentLocation % 6 > 0) {
+      if (! path.includes(currentLocation - 1)) {
+        if (map[currentLocation - 1][4] === "1") {
+          map[currentLocation - 1] = map[currentLocation - 1].slice(0,4) + "2";
+        }
+      }
+    }
+    if (currentLocation % 6 < 5) {
+      if (! path.includes(currentLocation + 1)) {
+        if (map[currentLocation + 1][4] === "1") {
+          map[currentLocation + 1] = map[currentLocation + 1].slice(0,4) + "2";
+        }
+      }
+    }
+    if (currentRow > 0) {
+      if (map[currentLocation - 6][4] === "1") {
+        map[currentLocation - 6] = map[currentLocation - 6].slice(0,4) + "2";
+      }
+    }
+  }
+
+  function sendRecon() {
+    var enemySpotted;
+    recon -= 1;
+    if (recon === 0) {
+      document.getElementById("barMidLeft").src = "";
+    }
+    else {
+      document.getElementById("barMidLeft").src = "https://davidiclin.github.io/pub/THmap_tiles/recon1.png";
+    }
+    if (map[currentLocation - 1][4] === "1") {
+      for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
+        document.getElementsByClassName("left-arrow")[count].src = "https://davidiclin.github.io/pub/THmap_tiles/leftr.png";
+        enemySpotted = true;
+      }
+    }
+    else {
+      for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
+        document.getElementsByClassName("left-arrow")[count].src = "https://davidiclin.github.io/pub/THmap_tiles/left.png";
+      }
+    }
+    if (map[currentLocation + 1][4] === "1") {
+      for (count = 0; count < document.getElementsByClassName("right-arrow").length; count++) {
+        document.getElementsByClassName("right-arrow")[count].src = "https://davidiclin.github.io/pub/THmap_tiles/rightr.png";
+        enemySpotted = true;
+      }
+    }
+    else {
+      for (count = 0; count < document.getElementsByClassName("right-arrow").length; count++) {
+        document.getElementsByClassName("right-arrow")[count].src = "https://davidiclin.github.io/pub/THmap_tiles/right.png";
+      }
+    }
+    if (currentRow > 0) {
+      if (map[currentLocation - 6][4] === "1") {
+        for (count = 0; count < document.getElementsByClassName("up-arrow").length; count++) {
+          document.getElementsByClassName("up-arrow")[count].src = "https://davidiclin.github.io/pub/THmap_tiles/upwardr.png";
+          enemySpotted = true;
+        }
+      }
+      else {
+        for (count = 0; count < document.getElementsByClassName("up-arrow").length; count++) {
+          document.getElementsByClassName("up-arrow")[count].src = "https://davidiclin.github.io/pub/THmap_tiles/upward.png";
+        }
+      }
+    }
+    if (enemySpotted === true) {
+      document.getElementById("message").innerHTML = "\"Enemy spotted!\"";
+    }
+    else {
+      document.getElementById("message").innerHTML = "\"No sign of enemy movement, sir.\""
+    }
+    enemySpotted = false;
+  }
+
+function getScore() {
+  var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 300 + (hearts - 3) * 600;
+  return score;
+}
+
+function getRank(x) {
+  var rank = "SECOND LIEUTENANT";
+  if (x > 4000) {rank = "FIRST LIEUTENANT"};
+  if (x > 4100) {rank = "CAPTAIN"};
+  if (x > 4200) {rank = "MAJOR"};
+  if (x > 4400) {rank = "LIEUTENANT COLONEL"};
+  if (x > 4600) {rank = "COLONEL"};
+  if (x > 4800) {rank = "BRIGADIER GENERAL"};
+  if (x > 5000) {rank = "MAJOR GENERAL"};
+  if (x > 5200) {rank = "LIEUTENANT GENERAL"};
+  if (x > 5400) {rank = "GENERAL"};
+  if (x > 5600) {rank = "GENERAL OF THE ARMY"};
+  return rank
+}
+
+  function tryAgain() {
+    document.getElementById("topEndBack").src = "https://davidiclin.github.io/pub/THmap_tiles/roll.jpg";
+    document.getElementById("barLeft").src = "https://davidiclin.github.io/pub/THmap_tiles/heart3.png";
+    document.getElementById("showmap").innerHTML = initHTML;
+    currentRow = 17;
+    currentLocation = null;
+    path = [];
+    hearts = 3;
+    recon = 2;
+    document.getElementById("message").style.position = "absolute";
+    document.getElementById("message").innerHTML = "\"Onward, soldiers!\" -- Pick your start point";
+    document.getElementById("barMidLeft").src = "";
+    fireSupport = 1;
+    document.getElementById("barMidRight").src = "";
+    for (count = 0; count < map.length; count++) {
+      if (map[count][4] === "2") {
+        map[count] = map[count].slice(0,4) + "1"
+      }
+    }
+  }
+
+  function newGame() {
+    window.location.reload();
+  }
+
+</script>
+</body>
+</html>
