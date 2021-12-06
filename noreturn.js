@@ -235,11 +235,11 @@ return rank
 }
 
 function openHelp() {
-  if (document.getElementById("helpBlock").display === "none") {
-    document.getElementById("helpBlock").display = "block";
+  if (document.getElementById("helpBlock").style.display === "none") {
+    document.getElementById("helpBlock").style.display = "block";
   }
   else {
-    document.getElementById("helpBlock").display === "none";
+    document.getElementById("helpBlock").style.display === "none";
   }
 }
 

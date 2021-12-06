@@ -9,6 +9,7 @@ table {
 }
 #showmap {
   background-position: center bottom;
+  align: center;
 }
 th, td {
   padding: 0px;
@@ -73,4 +74,7 @@ td #message {
   color: green;
   top:35%;
   left: 5%;
+}
+td #helpBlock {
+  display: none;
 }
