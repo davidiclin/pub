@@ -234,6 +234,15 @@ if (x > 5600) {rank = "GENERAL OF THE ARMY"};
 return rank
 }
 
+function openHelp() {
+  if (document.getElementById("helpBlock").display === "none") {
+    document.getElementById("helpBlock").display = "block";
+  }
+  else {
+    document.getElementById("helpBlock").display === "none";
+  }
+}
+
 function tryAgain() {
   document.getElementById("topEndBack").src = "NRmap_tiles/roll.jpg";
   document.getElementById("barLeft").src = "NRmap_tiles/heart3.png";
