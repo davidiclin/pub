@@ -239,12 +239,12 @@ function openHelp() {
   if (helpOpen === false) {
     helpOpen = true;
     document.getElementById("helpBlock").src = "NRmap_tiles/mapkey.jpg";
-    document.getElementById("help").innerHTML = "CLOSE";
+    document.getElementById("help").innerHTML = "<img src=\"NRmap_tiles/close.png\">";
   }
   else {
     helpOpen = false;
     document.getElementById("helpBlock").src = "";
-    document.getElementById("help").innerHTML = "HELP";
+    document.getElementById("help").innerHTML = "<img src=\"NRmap_tiles/help.png\">";
   }
 }
 
