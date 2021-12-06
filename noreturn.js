@@ -132,11 +132,14 @@ function revealAll() {
 
 function fireSupp() {
   fireSupport -= 1;
+  if (fireSupport < 0) {
+    return;
+  }
   document.getElementById("message").innerHTML = "\"Fire support incoming!\""
   document.getElementById("barMidRight").src = "NRmap_tiles/boom.gif";
   setTimeout(function(){
-    document.getElementById("barMidRight").src = "";
-  }, 2000);
+    document.getElementById("barMidRight").src = "NRmap_tiles/fire0.png";
+  }, 1500);
   if (currentLocation % 6 > 0) {
     if (! path.includes(currentLocation - 1)) {
       if (map[currentLocation - 1][4] === "1") {
@@ -161,11 +164,11 @@ function fireSupp() {
 function sendRecon() {
   var enemySpotted;
   recon -= 1;
-  if (recon === 0) {
-    document.getElementById("barMidLeft").src = "";
+  if (recon < 0) {
+    return;
   }
   else {
-    document.getElementById("barMidLeft").src = "NRmap_tiles/recon1.png";
+    document.getElementById("barMidLeft").src = "NRmap_tiles/recon" + recon + ".png";
   }
   if (map[currentLocation - 1][4] === "1") {
     for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
@@ -212,7 +215,7 @@ function sendRecon() {
 }
 
 function getScore() {
-var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 300 + (hearts - 3) * 600;
+var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 200 + (hearts - 3) * 600;
 return score;
 }
 
