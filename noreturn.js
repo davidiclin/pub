@@ -239,7 +239,7 @@ function openHelp() {
     document.getElementById("helpBlock").style.display = "block";
   }
   else {
-    document.getElementById("helpBlock").style.display === "none";
+    document.getElementById("helpBlock").style.display = "none";
   }
 }
 
