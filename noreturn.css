@@ -78,5 +78,6 @@ td #message {
 }
 td #help {
   width: 900px;
-  font-size: 1.5em;
+  height: 100px;
+  font-size: 2em;
 }
