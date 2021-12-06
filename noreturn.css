@@ -6,6 +6,7 @@ table {
   margin-right: auto;
   background-color: rgb(230,230,230);
   border-spacing: 0px;
+  text-align: center;
 }
 #showmap {
   background-position: center bottom;
@@ -75,6 +76,7 @@ td #message {
   top:35%;
   left: 5%;
 }
-#helpBlock {
-  display: none;
+td #help {
+  width: 900px;
+  font-size: 1.5em;
 }

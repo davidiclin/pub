@@ -14,6 +14,7 @@ var initHTML = document.getElementById("showmap").innerHTML;
 var backgroundImg = "paper" + (Math.floor(Math.random() * 4) + 1) + ".jpg";
 var recon = 2;
 var fireSupport = 1;
+var helpOpen = false;
 
 document.getElementById("showmap").style.backgroundImage = "url(\'NRmap_tiles/" + backgroundImg + "\')";
 
@@ -235,11 +236,15 @@ return rank
 }
 
 function openHelp() {
-  if (document.getElementById("helpBlock").style.display === "none") {
-    document.getElementById("helpBlock").style.display = "block";
+  if (helpOpen === false) {
+    helpOpen = true;
+    document.getElementById("helpBlock").src = "NRmap_tiles/mapkey.jpg";
+    document.getElementById("help").innerHTML = "CLOSE";
   }
   else {
-    document.getElementById("helpBlock").style.display = "none";
+    helpOpen = false;
+    document.getElementById("helpBlock").src = "";
+    document.getElementById("help").innerHTML = "HELP";
   }
 }
 
