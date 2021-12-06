@@ -75,6 +75,6 @@ td #message {
   top:35%;
   left: 5%;
 }
-td #helpBlock {
+#helpBlock {
   display: none;
 }
