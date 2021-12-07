@@ -218,6 +218,9 @@ function sendRecon() {
 function getScore() {
   var penalty;
   switch (hearts) {
+    case 3:
+      penalty = 0;
+      break;
     case 2:
       penalty = -400;
       break;
