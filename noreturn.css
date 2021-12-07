@@ -10,6 +10,7 @@ table {
 #showmap {
   background-position: center bottom;
   align: center;
+  border-bottom: 10px solid white;
 }
 th, td {
   padding: 0px;

@@ -12,8 +12,8 @@ var path = [];
 var hearts = 3;
 var initHTML = document.getElementById("showmap").innerHTML;
 var backgroundImg = "paper" + (Math.floor(Math.random() * 3) + 1) + ".jpg";
-var recon = 2;
-var fireSupport = 1;
+var recon = 3;
+var fireSupport = 2;
 var helpOpen = true;
 
 document.getElementById("showmap").style.backgroundImage = "url(\'NRmap_tiles/" + backgroundImg + "\')";
@@ -45,8 +45,8 @@ function renderNewRow() {
     thisScore = getScore();
     thisRank = getRank(thisScore);
     document.getElementById("message").innerHTML = "Moves : " + path.length + "<br>" +
-                                                   "Recon Dispatched : " + (2 -recon) + "<br>" +
-                                                   "Fire Support Requested : " + (1 - fireSupport) + "<br>" +
+                                                   "Recon Dispatched : " + (3 -recon) + "<br>" +
+                                                   "Fire Support Requested : " + (2 - fireSupport) + "<br>" +
                                                    "Casualties : " + Math.floor((3 - hearts) / 3 * 100) + "%" + "<br>" +
                                                    "Final Score : " + thisScore + "<br>" +
                                                    "Rank : " + thisRank;
@@ -139,7 +139,7 @@ function fireSupp() {
   document.getElementById("message").innerHTML = "\"Fire support incoming!\""
   document.getElementById("barMidRight").src = "NRmap_tiles/boom.gif";
   setTimeout(function(){
-    document.getElementById("barMidRight").src = "NRmap_tiles/fire0.png";
+    document.getElementById("barMidRight").src = "NRmap_tiles/fire" + fireSupport + ".png";
   }, 1500);
   if (currentLocation % 6 > 0) {
     if (! path.includes(currentLocation - 1)) {
@@ -228,7 +228,7 @@ function getScore() {
       penalty = -1200;
       break;
   }
-  var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 200 + penalty;
+  var score = 5000 + (25 - path.length) * 100 + (recon - 3) * 100 + (fireSupport - 2) * 150 + penalty;
   if (path.length < 21) {
     score += (21 - path.length) * 100;
   }
@@ -271,11 +271,11 @@ function tryAgain() {
   currentLocation = null;
   path = [];
   hearts = 3;
-  recon = 2;
+  recon = 3;
   document.getElementById("message").style.position = "absolute";
-  document.getElementById("message").innerHTML = "\"Onward, soldiers!\" -- Pick your start point";
+  document.getElementById("message").innerHTML = "\"Onward, soldiers!\" => Pick a start point";
   document.getElementById("barMidLeft").src = "";
-  fireSupport = 1;
+  fireSupport = 2;
   document.getElementById("barMidRight").src = "";
   for (count = 0; count < map.length; count++) {
     if (map[count][4] === "2") {
