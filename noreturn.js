@@ -216,35 +216,44 @@ function sendRecon() {
 }
 
 function getScore() {
-var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 200 + (hearts - 3) * 600;
-return score;
+  var penalty;
+  switch (hearts) {
+    case 2:
+      penalty = -400;
+      break;
+    case 1:
+      penalty = -1200;
+      break;
+  }
+  var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 200 + penalty;
+  return score;
 }
 
 function getRank(x) {
-var rank = "SECOND LIEUTENANT";
-if (x > 4000) {rank = "FIRST LIEUTENANT"};
-if (x > 4100) {rank = "CAPTAIN"};
-if (x > 4200) {rank = "MAJOR"};
-if (x > 4400) {rank = "LIEUTENANT COLONEL"};
-if (x > 4600) {rank = "COLONEL"};
-if (x > 4800) {rank = "BRIGADIER GENERAL"};
-if (x > 5000) {rank = "MAJOR GENERAL"};
-if (x > 5200) {rank = "LIEUTENANT GENERAL"};
-if (x > 5400) {rank = "GENERAL"};
-if (x > 5600) {rank = "GENERAL OF THE ARMY"};
-return rank
+  var rank = "SECOND LIEUTENANT";
+  if (x > 4000) {rank = "FIRST LIEUTENANT"};
+  if (x > 4100) {rank = "CAPTAIN"};
+  if (x > 4200) {rank = "MAJOR"};
+  if (x > 4400) {rank = "LIEUTENANT COLONEL"};
+  if (x > 4600) {rank = "COLONEL"};
+  if (x > 4800) {rank = "BRIGADIER GENERAL"};
+  if (x > 5000) {rank = "MAJOR GENERAL"};
+  if (x > 5200) {rank = "LIEUTENANT GENERAL"};
+  if (x > 5400) {rank = "GENERAL"};
+  if (x > 5600) {rank = "GENERAL OF THE ARMY"};
+  return rank
 }
 
 function openHelp() {
   if (helpOpen === false) {
     helpOpen = true;
     document.getElementById("helpBlock").src = "NRmap_tiles/mapkey.jpg";
-    document.getElementById("help").innerHTML = "<img src=\"NRmap_tiles/close.png\">";
+    document.getElementById("help").src = "NRmap_tiles/close.png";
   }
   else {
     helpOpen = false;
     document.getElementById("helpBlock").src = "";
-    document.getElementById("help").innerHTML = "<img src=\"NRmap_tiles/help.png\">";
+    document.getElementById("help").src = "NRmap_tiles/help.png";
   }
 }
 
