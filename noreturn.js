@@ -14,7 +14,7 @@ var initHTML = document.getElementById("showmap").innerHTML;
 var backgroundImg = "paper" + (Math.floor(Math.random() * 3) + 1) + ".jpg";
 var recon = 2;
 var fireSupport = 1;
-var helpOpen = false;
+var helpOpen = true;
 
 document.getElementById("showmap").style.backgroundImage = "url(\'NRmap_tiles/" + backgroundImg + "\')";
 
