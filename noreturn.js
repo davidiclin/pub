@@ -229,6 +229,9 @@ function getScore() {
       break;
   }
   var score = 5000 + (25 - path.length) * 100 + (recon - 2) * 100 + (fireSupport - 1) * 200 + penalty;
+  if (path.length < 21) {
+    score += (21 - path.length) * 100;
+  }
   return score;
 }
 
