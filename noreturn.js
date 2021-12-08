@@ -41,7 +41,6 @@ function renderNewRow() {
     document.getElementById("barMidLeft").src = "";
     document.getElementById("barMidRight").src = "";
     document.getElementById("barLeft").src = "";
-    document.getElementById("message").style.position = "relative";
     thisScore = getScore();
     thisRank = getRank(thisScore);
     document.getElementById("message").innerHTML = "Moves : " + path.length + "<br>" +
@@ -272,7 +271,6 @@ function tryAgain() {
   path = [];
   hearts = 3;
   recon = 3;
-  document.getElementById("message").style.position = "absolute";
   document.getElementById("message").innerHTML = "\"Onward, soldiers!\" => Pick a start point";
   document.getElementById("barMidLeft").src = "";
   fireSupport = 2;
