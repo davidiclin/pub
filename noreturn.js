@@ -9,7 +9,7 @@ console.log(route);
 var currentRow = 17;
 var currentLocation;
 var path = [];
-var hearts = 3;
+var hearts = 4;
 var initHTML = document.getElementById("showmap").innerHTML;
 var backgroundImg = "paper" + (Math.floor(Math.random() * 3) + 1) + ".jpg";
 var recon = 3;
@@ -46,7 +46,7 @@ function renderNewRow() {
     document.getElementById("message").innerHTML = "Moves : " + path.length + "<br>" +
                                                    "Recon Dispatched : " + (3 -recon) + "<br>" +
                                                    "Fire Support Requested : " + (2 - fireSupport) + "<br>" +
-                                                   "Casualties : " + Math.floor((3 - hearts) / 3 * 100) + "%" + "<br>" +
+                                                   "Casualties : " + Math.floor((4 - hearts) / 4 * 100) + "%" + "<br>" +
                                                    "Final Score : " + thisScore + "<br>" +
                                                    "Rank : " + thisRank;
     return;
@@ -71,8 +71,11 @@ function focusOn(x) {
   if (map[currentLocation][4] === "1") {
     hearts -= 1;
     document.getElementById("barLeft").src = "NRmap_tiles/heart" + hearts + ".png";
+    if (hearts === 3) {
+      document.getElementById("message").innerHTML = "\"We just lost a quarter of our men!\""
+    }
     if (hearts === 2) {
-      document.getElementById("message").innerHTML = "\"We just lost one third of our men!\""
+      document.getElementById("message").innerHTML = "\"Things ain't looking good, sir!\""
     }
     if (hearts === 1) {
       document.getElementById("message").innerHTML = "\"We got hit hard! Let's get outta here!\""
@@ -217,11 +220,14 @@ function sendRecon() {
 function getScore() {
   var penalty;
   switch (hearts) {
-    case 3:
+    case 4:
       penalty = 0;
       break;
+    case 3:
+      penalty = -250;
+      break;
     case 2:
-      penalty = -400;
+      penalty = -550;
       break;
     case 1:
       penalty = -1200;
@@ -264,12 +270,12 @@ function openHelp() {
 
 function tryAgain() {
   document.getElementById("topEndBack").src = "NRmap_tiles/roll.jpg";
-  document.getElementById("barLeft").src = "NRmap_tiles/heart3.png";
+  document.getElementById("barLeft").src = "NRmap_tiles/heart4.png";
   document.getElementById("showmap").innerHTML = initHTML;
   currentRow = 17;
   currentLocation = null;
   path = [];
-  hearts = 3;
+  hearts = 4;
   recon = 3;
   document.getElementById("message").innerHTML = "\"Onward, soldiers!\" => Pick a start point";
   document.getElementById("barMidLeft").src = "";
