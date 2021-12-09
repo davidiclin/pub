@@ -242,16 +242,16 @@ function getScore() {
 
 function getRank(x) {
   var rank = "SECOND LIEUTENANT";
-  if (x > 4000) {rank = "FIRST LIEUTENANT"};
-  if (x > 4100) {rank = "CAPTAIN"};
-  if (x > 4200) {rank = "MAJOR"};
-  if (x > 4400) {rank = "LIEUTENANT COLONEL"};
-  if (x > 4600) {rank = "COLONEL"};
-  if (x > 4800) {rank = "BRIGADIER GENERAL"};
-  if (x > 5000) {rank = "MAJOR GENERAL"};
-  if (x > 5200) {rank = "LIEUTENANT GENERAL"};
-  if (x > 5400) {rank = "GENERAL"};
-  if (x > 5600) {rank = "GENERAL OF THE ARMY"};
+  if (x > 3899) {rank = "FIRST LIEUTENANT"};
+  if (x > 4049) {rank = "CAPTAIN"};
+  if (x > 4199) {rank = "MAJOR"};
+  if (x > 4399) {rank = "LIEUTENANT COLONEL"};
+  if (x > 4599) {rank = "COLONEL"};
+  if (x > 4799) {rank = "BRIGADIER GENERAL"};
+  if (x > 5049) {rank = "MAJOR GENERAL"};
+  if (x > 5299) {rank = "LIEUTENANT GENERAL"};
+  if (x > 5549) {rank = "GENERAL"};
+  if (x > 5799) {rank = "GENERAL OF THE ARMY"};
   return rank
 }
 
