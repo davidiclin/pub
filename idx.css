@@ -1,15 +1,25 @@
+body {
+  background-color: rgb(212,255,255);
+}
 #pageTitle {
 font-size: 4em;
-align: center;
+font-weight: bold;
+color: blue;
+text-align: center;
 }
 .drpDwnBtn {
   width: 100%;
   font-size: 2em;
   text-align: center;
-  background-color: cyan;
   border: 2px outset white;
   padding: 5px;
   display: block;
+}
+#Btn1 {
+  background-color: rgb(178,255,212);
+}
+#Btn2 {
+  background-color: rgb(255,212,178);
 }
 table {
   width: 100%;
@@ -18,21 +28,21 @@ tr {
   height: 150px;
 }
 .itemText {
-  padding: 5px 20px;
+  padding: 0px 20px;
 }
 td .itemTitle {
-  font-size: 2em;
+  font-size: 3em;
   color: blue;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 td .itemDetail {
   margin-top: 0px;
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: green;
 }
 .itemPic {
-  width: 150px;
-  height: 150px;
+  width: 15%;
 }
 img {
   width: 100%;
