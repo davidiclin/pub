@@ -11,7 +11,7 @@ var currentLocation;
 var path = [];
 var hearts = 4;
 var initHTML = document.getElementById("showmap").innerHTML;
-var backgroundImg = "paper" + (Math.floor(Math.random() * 3) + 1) + ".jpg";
+var backgroundImg = "paper" + (Math.floor(Math.random() * 4) + 1) + ".jpg";
 var recon = 3;
 var fireSupport = 2;
 var helpOpen = true;
