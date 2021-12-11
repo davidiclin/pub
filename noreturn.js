@@ -2,7 +2,7 @@ var Getmaps = new XMLHttpRequest(); // a new request
 Getmaps.open("GET","https://davidiclin.github.io/pub/NRmap.json",false);
 Getmaps.send(null);
 const maps = JSON.parse(Getmaps.responseText);
-var pick = Math.floor(Math.random() * 252);
+var pick = Math.floor(Math.random() * 251);
 var map = maps[pick].mapcode.split("-");
 var route = maps[pick].path;
 console.log(route);
