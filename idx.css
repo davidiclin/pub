@@ -2,14 +2,20 @@ body {
   background-color: rgb(212,255,255);
 }
 #pageTitle {
-font-size: 4em;
+font-size: 5vw;
 font-weight: bold;
 color: blue;
 text-align: center;
 }
+#catCon {
+  background-color: rgb(212,255,255);
+  border: 3px outset White;
+  width: 15%;
+  font-size: 2vw;
+}
 .drpDwnBtn {
   width: 100%;
-  font-size: 2em;
+  font-size: 3vw;
   text-align: center;
   border: 2px outset white;
   padding: 5px;
@@ -31,14 +37,14 @@ tr {
   padding: 0px 20px;
 }
 td .itemTitle {
-  font-size: 3em;
+  font-size: 4vw;
   color: blue;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 td .itemDetail {
   margin-top: 0px;
-  font-size: 2.5em;
+  font-size: 3.5vw;
   color: green;
 }
 .itemPic {

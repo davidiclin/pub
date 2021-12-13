@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Page</title>
+  <title>David's Pub</title>
   <link rel="stylesheet" href="idx.css">
 </head>
 <body>
   <header>
     <p id="pageTitle">DAVID'S PUB</p>
+    <button id="catCon" onclick="catHandler()">Expand All</button>
     <nav><a></a></nav>
   </header>
   <main>
+    <br>
     <details class="cat" id="learning">
     <summary><span class="drpDwnBtn" id="Btn1">LEARNING</span></summary>
     <p>
@@ -52,5 +54,21 @@
   <footer>
     <p></p>
   </footer>
+  <script>
+    function catHandler() {
+      if (document.getElementById("catCon").innerHTML === "Collapse All") {
+        for (count = 0; count < document.getElementsByClassName("cat").length; count++) {
+          document.getElementsByClassName("cat")[count].open = false;
+        }
+        document.getElementById("catCon").innerHTML = "Expand All";
+      }
+      else {
+        for (count = 0; count < document.getElementsByClassName("cat").length; count++) {
+          document.getElementsByClassName("cat")[count].open = true;
+        }
+        document.getElementById("catCon").innerHTML = "Collapse All";
+      }
+    }
+  </script>
 </body>
 </html>
