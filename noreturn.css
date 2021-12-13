@@ -76,12 +76,3 @@ td #message {
   top:35%;
   left: 5%;
 }
-#refPoint {
-  width: 900px;
-  height: 120px;
-}
-#refPoint #help {
-  position: absolute;
-  top: 0%;
-  left:40%;
-}

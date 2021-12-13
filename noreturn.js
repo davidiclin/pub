@@ -14,7 +14,6 @@ var initHTML = document.getElementById("showmap").innerHTML;
 var backgroundImg = "paper" + (Math.floor(Math.random() * 5) + 1) + ".jpg";
 var recon = 3;
 var fireSupport = 2;
-var helpOpen = true;
 
 document.getElementById("showmap").style.backgroundImage = "url(\'NRmap_tiles/" + backgroundImg + "\')";
 
@@ -251,19 +250,6 @@ function getRank(x) {
   if (x > 5549) {rank = "GENERAL"};
   if (x > 5799) {rank = "GENERAL OF THE ARMY"};
   return rank
-}
-
-function openHelp() {
-  if (helpOpen === false) {
-    helpOpen = true;
-    document.getElementById("helpBlock").src = "NRmap_tiles/mapkey.jpg";
-    document.getElementById("help").src = "NRmap_tiles/close.png";
-  }
-  else {
-    helpOpen = false;
-    document.getElementById("helpBlock").src = "";
-    document.getElementById("help").src = "NRmap_tiles/help.png";
-  }
 }
 
 function tryAgain() {
