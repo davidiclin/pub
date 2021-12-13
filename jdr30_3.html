@@ -2,22 +2,24 @@
 <html>
 <style>
 #colorPanel {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 1620px;
   border-spacing: 0;
+  z-index: 1;
 }
-#LightCoral, #Yellow, #LightGreen, #Magenta, #MediumPurple, #Pink, #Orange, #CornflowerBlue {
+#LightCoral, #Yellow, #LightGreen, #Magenta, #MediumPurple, #Pink, #Orange, #CornflowerBlue, #DarkKhaki, #LightSteelBlue {
   height: 80px;
 }
-#selForm {
-  width: 200px;
-  height: 150px;
+#selPad {
+  width: 162px;
+  height: 250px;
   background-color: gray;
   position: absolute;
-  top: 93px;
-  left: 35px;
-  display: none;
+  top: 80px;
+  left: 0px;
+  visibility: hidden;
 }
 #subject {
   position: relative;
@@ -30,12 +32,13 @@
   opacity: 67%;
   background-repeat: repeat;
   background-position: 0px;
+  z-index: 0;
 }
 #scrollLeft {
-position: absolute;
-top: 40%;
-left: 0%;
-opacity: 33%;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  opacity: 33%;
 }
 #scrollRight {
   position: absolute;
@@ -51,26 +54,31 @@ opacity: 33%;
 <section>
   <table id="colorPanel">
     <tr>
-      <td id="LightCoral" onclick="openForm('LightCoral')">123</td>
-      <td id="Yellow" onclick="openForm('Yellow')">123</td>
-      <td id="LightGreen" onclick="openForm('LightGreen')">123</td>
-      <td id="Magenta" onclick="openForm('Magenta')">123</td>
-      <td id="MediumPurple" onclick="openForm('MediumPurple')">123</td>
-      <td id="Pink" onclick="openForm('Pink')">123</td>
-      <td id="Orange" onclick="openForm('Orange')">123</td>
-      <td id="CornflowerBlue" onclick="openForm('CornflowerBlue')">123</td>
+      <td id="LightCoral" onclick="openPad('LightCoral')">123</td>
+      <td id="Yellow" onclick="openPad('Yellow')">123</td>
+      <td id="LightGreen" onclick="openPad('LightGreen')">123</td>
+      <td id="Magenta" onclick="openPad('Magenta')">123</td>
+      <td id="MediumPurple" onclick="openPad('MediumPurple')">123</td>
+      <td id="Pink" onclick="openPad('Pink')">123</td>
+      <td id="Orange" onclick="openPad('Orange')">123</td>
+      <td id="CornflowerBlue" onclick="openPad('CornflowerBlue')">123</td>
+      <td id="DarkKhaki" onclick="openPad('DarkKhaki')">123</td>
+      <td id="LightSteelBlue" onclick="openPad('LightSteelBlue')">123</td>
     </tr>
+    <tr><td colspan=10>
+      <p id="selPad">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+        <button onclick="shutPad()">Cancel</button>
+      </p>
+    </td></tr>
   </table>
 </section>
-<form id="selForm">
-  <label for="cars">Choose a car:</label>
-  <select name="cars" id="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="mercedes">Mercedes</option>
-    <option value="audi">Audi</option>
-  </select>
-</form>
 <section>
   <table id="subject" onclick="showCoords(event)">
     <tr><td><img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
@@ -86,10 +94,10 @@ opacity: 33%;
 <p id="demo3"></p>
 <script>
 var latZero = 810;
-var labels = ["LightCoral","Yellow","LightGreen","Magenta","MediumPurple","Pink","Orange","CornflowerBlue"]
+var labels = ["LightCoral","Yellow","LightGreen","Magenta","MediumPurple","Pink","Orange","CornflowerBlue","DarkKhaki","LightSteelBlue"]
 
 function getReady() {
-  for (count = 0; count < 8; count++) {
+  for (count = 0; count < 10; count++) {
     document.getElementById(labels[count]).style.backgroundColor = labels[count];
   }
 }
@@ -121,33 +129,28 @@ function showCoords(event) {
 
 function scrollMap(x) {
   latZero += x;
-  if (latZero > 1619) {
-    latZero = 0;
+  if (latZero > 1620) {
+    latZero -= 1620;
   }
   if (latZero < 0) {
-    latZero = 1619 + latZero;
+    latZero += 1620;
   }
   console.log(latZero);
   document.getElementById("subject").style.backgroundPosition = (latZero - 810) + "px";
 }
 
-function openForm(x) {
-  if (document.getElementById("selForm").style.display === "block") {
-    document.getElementById(x).style.opacity = "100%";
-    document.getElementById("selForm").style.display = "none";
-    document.getElementById("subject").style.zIndex = 0;
-  }
-  else {
-    document.getElementById(x).style.opacity = "50%";
-    document.getElementById("selForm").style.display = "block";
-    document.getElementById("subject").style.zIndex = -1;
-  }
-  document.getElementById("selForm").style.backgroundColor = x;
-  for (count = 0; count < 8; count++) {
+function openPad(x) {
+  document.getElementById("selPad").style.visibility = "visible";
+  document.getElementById("selPad").style.backgroundColor = x;
+  for (count = 0; count < 10; count++) {
     if (labels[count] === x) {
-      document.getElementById("selForm").style.left = 35 + (count * 203) + "px";
+      document.getElementById("selPad").style.left = (count * 162) + "px";
     }
   }
+}
+
+function shutPad() {
+  document.getElementById("selPad").style.visibility = "hidden";
 }
 </script>
 
