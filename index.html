@@ -8,7 +8,7 @@
 <body>
   <header>
     <p id="pageTitle">DAVID'S PUB</p>
-    <button id="catCon" onclick="catHandler()">Expand All</button>
+    <button id="catCon" onclick="catHandler()">Show All</button>
     <nav><a></a></nav>
   </header>
   <main>
@@ -56,17 +56,17 @@
   </footer>
   <script>
     function catHandler() {
-      if (document.getElementById("catCon").innerHTML === "Collapse All") {
+      if (document.getElementById("catCon").innerHTML === "Hide All") {
         for (count = 0; count < document.getElementsByClassName("cat").length; count++) {
           document.getElementsByClassName("cat")[count].open = false;
         }
-        document.getElementById("catCon").innerHTML = "Expand All";
+        document.getElementById("catCon").innerHTML = "Show All";
       }
       else {
         for (count = 0; count < document.getElementsByClassName("cat").length; count++) {
           document.getElementsByClassName("cat")[count].open = true;
         }
-        document.getElementById("catCon").innerHTML = "Collapse All";
+        document.getElementById("catCon").innerHTML = "Hide All";
       }
     }
   </script>
