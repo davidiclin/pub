@@ -67,12 +67,8 @@
     </tr>
     <tr><td colspan=10>
       <p id="selPad">
-        <label for="cars">Choose a car:</label>
-        <select name="cars" id="cars">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
+        <label for="chooseCity">Choose a city:</label>
+        <select name="chooseCity" id="chooseCity">
         </select>
         <button onclick="shutPad()">Cancel</button>
       </p>
@@ -93,12 +89,20 @@
 <p id="demo2"></p>
 <p id="demo3"></p>
 <script>
+var getCities = new XMLHttpRequest(); // a new request
+getCities.open("GET","https://davidiclin.github.io/pub/Cities.json",false);
+getCities.send(null);
+const cities = JSON.parse(getCities.responseText);
+
 var latZero = 810;
 var labels = ["LightCoral","Yellow","LightGreen","Magenta","MediumPurple","Pink","Orange","CornflowerBlue","DarkKhaki","LightSteelBlue"]
 
 function getReady() {
   for (count = 0; count < 10; count++) {
     document.getElementById(labels[count]).style.backgroundColor = labels[count];
+  }
+  for (count = 0; count < cities.length; count++) {
+    document.getElementById("chooseCity").innerHTML += "<option value=\"" + cities[count].nameE + "\">" + cities[count].nameE + "</option>";
   }
 }
 

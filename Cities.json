@@ -1,0 +1,1748 @@
+[
+    {
+        "ctryC": "澳大利亞聯邦",
+        "ctryE": "Australia",
+        "id": 1,
+        "lat": -35.2931,
+        "long": 149.1269,
+        "nameC": "坎培拉",
+        "nameE": "Canberra"
+    },
+    {
+        "ctryC": "孟加拉人民共和國",
+        "ctryE": "Bangladesh",
+        "id": 2,
+        "lat": 23.7289,
+        "long": 90.3944,
+        "nameC": "達卡",
+        "nameE": "Dhaka"
+    },
+    {
+        "ctryC": "不丹王國",
+        "ctryE": "Bhutan",
+        "id": 3,
+        "lat": 27.4833,
+        "long": 89.6333,
+        "nameC": "辛布",
+        "nameE": "Thimphu"
+    },
+    {
+        "ctryC": "汶萊",
+        "ctryE": "Brunei",
+        "id": 4,
+        "lat": 4.9167,
+        "long": 114.9167,
+        "nameC": "斯里貝加灣市",
+        "nameE": "Bandar Seri Begawan"
+    },
+    {
+        "ctryC": "柬埔寨王國",
+        "ctryE": "Cambodia",
+        "id": 5,
+        "lat": 11.5696,
+        "long": 104.921,
+        "nameC": "金邊",
+        "nameE": "Phnom Penh"
+    },
+    {
+        "ctryC": "庫克群島",
+        "ctryE": "Cook Islands",
+        "id": 6,
+        "lat": -21.207,
+        "long": -159.771,
+        "nameC": "阿瓦盧阿",
+        "nameE": "Avarua"
+    },
+    {
+        "ctryC": "斐濟共和國",
+        "ctryE": "Fiji",
+        "id": 7,
+        "lat": -18.1333,
+        "long": 178.4333,
+        "nameC": "蘇瓦",
+        "nameE": "Suva"
+    },
+    {
+        "ctryC": "印度共和國",
+        "ctryE": "India",
+        "id": 8,
+        "lat": 28.7,
+        "long": 77.2,
+        "nameC": "新德里",
+        "nameE": "New Delhi"
+    },
+    {
+        "ctryC": "印度尼西亞共和國",
+        "ctryE": "Indonesia",
+        "id": 9,
+        "lat": -6.2146,
+        "long": 106.8451,
+        "nameC": "雅加達",
+        "nameE": "Jakarta"
+    },
+    {
+        "ctryC": "日本",
+        "ctryE": "Japan",
+        "id": 10,
+        "lat": 35.6897,
+        "long": 139.6922,
+        "nameC": "東京",
+        "nameE": "Tokyo"
+    },
+    {
+        "ctryC": "吉里巴斯共和國",
+        "ctryE": "Kiribati",
+        "id": 11,
+        "lat": 1.3382,
+        "long": 173.0176,
+        "nameC": "塔拉瓦",
+        "nameE": "Tarawa"
+    },
+    {
+        "ctryC": "朝鮮民主主義人民共和國 (北韓)",
+        "ctryE": "North Korea",
+        "id": 12,
+        "lat": 39.03,
+        "long": 125.73,
+        "nameC": "平壤",
+        "nameE": "Pyongyang"
+    },
+    {
+        "ctryC": "大韓民國 (南韓)",
+        "ctryE": "South Korea",
+        "id": 13,
+        "lat": 37.56,
+        "long": 126.99,
+        "nameC": "首爾",
+        "nameE": "Seoul"
+    },
+    {
+        "ctryC": "寮人民民主共和國",
+        "ctryE": "Laos",
+        "id": 14,
+        "lat": 17.9667,
+        "long": 102.6,
+        "nameC": "永珍",
+        "nameE": "Vientiane"
+    },
+    {
+        "ctryC": "馬來西亞",
+        "ctryE": "Malaysia",
+        "id": 15,
+        "lat": 3.1478,
+        "long": 101.6953,
+        "nameC": "吉隆坡",
+        "nameE": "Kuala Lumpur"
+    },
+    {
+        "ctryC": "馬爾地夫共和國",
+        "ctryE": "Maldives",
+        "id": 16,
+        "lat": 4.175,
+        "long": 73.5083,
+        "nameC": "馬律",
+        "nameE": "Male"
+    },
+    {
+        "ctryC": "馬紹爾群島共和國",
+        "ctryE": "Marshall Islands",
+        "id": 17,
+        "lat": 7.0918,
+        "long": 171.3802,
+        "nameC": "馬久羅",
+        "nameE": "Majuro"
+    },
+    {
+        "ctryC": "密克羅尼西亞聯邦",
+        "ctryE": "Micronesia",
+        "id": 18,
+        "lat": 6.9178,
+        "long": 158.185,
+        "nameC": "帕里喀",
+        "nameE": "Palikir"
+    },
+    {
+        "ctryC": "緬甸聯邦共和國",
+        "ctryE": "Myanmar",
+        "id": 19,
+        "lat": 19.7475,
+        "long": 96.115,
+        "nameC": "奈比多",
+        "nameE": "Nay Pyi Taw"
+    },
+    {
+        "ctryC": "諾魯共和國",
+        "ctryE": "Nauru",
+        "id": 20,
+        "lat": 0.5467,
+        "long": 166.9211,
+        "nameC": "雅連",
+        "nameE": "Yaren"
+    },
+    {
+        "ctryC": "尼泊爾聯邦民主共和國",
+        "ctryE": "Nepal",
+        "id": 21,
+        "lat": 27.7167,
+        "long": 85.3667,
+        "nameC": "加德滿都",
+        "nameE": "Kathmandu"
+    },
+    {
+        "ctryC": "紐西蘭",
+        "ctryE": "New Zealand",
+        "id": 22,
+        "lat": -41.2889,
+        "long": 174.7772,
+        "nameC": "威靈頓",
+        "nameE": "Wellington"
+    },
+    {
+        "ctryC": "紐埃",
+        "ctryE": "Niue",
+        "id": 23,
+        "lat": -19.056,
+        "long": -169.921,
+        "nameC": "阿洛非",
+        "nameE": "Alofi"
+    },
+    {
+        "ctryC": "帛琉共和國",
+        "ctryE": "Palau",
+        "id": 24,
+        "lat": 7.4874,
+        "long": 134.6265,
+        "nameC": "美律坵",
+        "nameE": "Melekeok"
+    },
+    {
+        "ctryC": "巴布亞紐幾內亞",
+        "ctryE": "Papua New Guinea",
+        "id": 25,
+        "lat": -9.4789,
+        "long": 147.1494,
+        "nameC": "莫斯比港",
+        "nameE": "Port Moresby"
+    },
+    {
+        "ctryC": "菲律賓共和國",
+        "ctryE": "Philippines",
+        "id": 26,
+        "lat": 14.6,
+        "long": 120.9833,
+        "nameC": "馬尼拉",
+        "nameE": "Manila"
+    },
+    {
+        "ctryC": "薩摩亞",
+        "ctryE": "Samoa",
+        "id": 27,
+        "lat": -13.8333,
+        "long": -171.8333,
+        "nameC": "阿庇亞",
+        "nameE": "Apia"
+    },
+    {
+        "ctryC": "新加坡共和國",
+        "ctryE": "Singapore",
+        "id": 28,
+        "lat": 1.3,
+        "long": 103.8,
+        "nameC": "新加坡",
+        "nameE": "Singapore"
+    },
+    {
+        "ctryC": "索羅門群島",
+        "ctryE": "Solomon Islands",
+        "id": 29,
+        "lat": -9.4333,
+        "long": 159.95,
+        "nameC": "荷尼阿拉",
+        "nameE": "Honiara"
+    },
+    {
+        "ctryC": "斯里蘭卡民主社會主義共和國",
+        "ctryE": "Sri Lanka",
+        "id": 30,
+        "lat": 6.9167,
+        "long": 79.8333,
+        "nameC": "可倫坡",
+        "nameE": "Colombo"
+    },
+    {
+        "ctryC": "泰王國",
+        "ctryE": "Thailand",
+        "id": 31,
+        "lat": 13.75,
+        "long": 100.5167,
+        "nameC": "曼谷",
+        "nameE": "Bangkok"
+    },
+    {
+        "ctryC": "東帝汶民主共和國",
+        "ctryE": "East Timor",
+        "id": 32,
+        "lat": -8.5586,
+        "long": 125.5736,
+        "nameC": "帝利市",
+        "nameE": "Dili"
+    },
+    {
+        "ctryC": "東加王國",
+        "ctryE": "Tonga",
+        "id": 33,
+        "lat": -21.1347,
+        "long": -175.2083,
+        "nameC": "努瓜婁發",
+        "nameE": "Nuku'alofa"
+    },
+    {
+        "ctryC": "吐瓦魯",
+        "ctryE": "Tuvalu",
+        "id": 34,
+        "lat": -8.5167,
+        "long": 179.2167,
+        "nameC": "富那富提",
+        "nameE": "Funafuti"
+    },
+    {
+        "ctryC": "萬那杜共和國",
+        "ctryE": "Vanuatu",
+        "id": 35,
+        "lat": -17.7333,
+        "long": 168.3167,
+        "nameC": "維拉港",
+        "nameE": "Port Vila"
+    },
+    {
+        "ctryC": "越南社會主義共和國",
+        "ctryE": "Vietnam",
+        "id": 36,
+        "lat": 21.0245,
+        "long": 105.8412,
+        "nameC": "河內",
+        "nameE": "Ha Noi"
+    },
+    {
+        "ctryC": "阿富汗伊斯蘭共和國",
+        "ctryE": "Afghanistan",
+        "id": 37,
+        "lat": 34.5328,
+        "long": 69.1658,
+        "nameC": "喀布爾",
+        "nameE": "Kabul"
+    },
+    {
+        "ctryC": "亞美尼亞共和國",
+        "ctryE": "Armenia",
+        "id": 38,
+        "lat": 40.1814,
+        "long": 44.5144,
+        "nameC": "葉里溫",
+        "nameE": "Yerevan"
+    },
+    {
+        "ctryC": "亞塞拜然共和國",
+        "ctryE": "Azerbaijan",
+        "id": 39,
+        "lat": 40.3667,
+        "long": 49.8352,
+        "nameC": "巴庫",
+        "nameE": "Baku"
+    },
+    {
+        "ctryC": "巴林王國",
+        "ctryE": "Bahrain",
+        "id": 40,
+        "lat": 26.225,
+        "long": 50.5775,
+        "nameC": "麥納瑪",
+        "nameE": "Manama"
+    },
+    {
+        "ctryC": "白俄羅斯共和國",
+        "ctryE": "Belarus",
+        "id": 41,
+        "lat": 53.9022,
+        "long": 27.5618,
+        "nameC": "明斯克",
+        "nameE": "Minsk"
+    },
+    {
+        "ctryC": "喬治亞",
+        "ctryE": "Georgia",
+        "id": 42,
+        "lat": 41.7225,
+        "long": 44.7925,
+        "nameC": "提比里斯",
+        "nameE": "Tbilisi"
+    },
+    {
+        "ctryC": "伊朗伊斯蘭共和國",
+        "ctryE": "Iran",
+        "id": 43,
+        "lat": 35.7,
+        "long": 51.4167,
+        "nameC": "德黑蘭",
+        "nameE": "Tehran"
+    },
+    {
+        "ctryC": "伊拉克共和國",
+        "ctryE": "Iraq",
+        "id": 44,
+        "lat": 33.35,
+        "long": 44.4167,
+        "nameC": "巴格達",
+        "nameE": "Baghdad"
+    },
+    {
+        "ctryC": "以色列",
+        "ctryE": "Israel",
+        "id": 45,
+        "lat": 31.7833,
+        "long": 35.2167,
+        "nameC": "耶路撒冷",
+        "nameE": "Jerusalem"
+    },
+    {
+        "ctryC": "約旦哈希米王國",
+        "ctryE": "Jordan",
+        "id": 46,
+        "lat": 31.95,
+        "long": 35.9333,
+        "nameC": "安曼",
+        "nameE": "Amman"
+    },
+    {
+        "ctryC": "哈薩克共和國",
+        "ctryE": "Kazakhstan",
+        "id": 47,
+        "lat": 51.1333,
+        "long": 71.4333,
+        "nameC": "阿斯塔納",
+        "nameE": "Astana"
+    },
+    {
+        "ctryC": "科威特",
+        "ctryE": "Kuwait",
+        "id": 48,
+        "lat": 29.375,
+        "long": 47.98,
+        "nameC": "科威特市",
+        "nameE": "Kuwait City"
+    },
+    {
+        "ctryC": "吉爾吉斯共和國",
+        "ctryE": "Kyrgyzstan",
+        "id": 49,
+        "lat": 42.8667,
+        "long": 74.5667,
+        "nameC": "比斯凱克",
+        "nameE": "Bishkek"
+    },
+    {
+        "ctryC": "黎巴嫩共和國",
+        "ctryE": "Lebanon",
+        "id": 50,
+        "lat": 33.8869,
+        "long": 35.5131,
+        "nameC": "貝魯特",
+        "nameE": "Beirut"
+    },
+    {
+        "ctryC": "摩爾多瓦共和國",
+        "ctryE": "Moldova",
+        "id": 51,
+        "lat": 47.0228,
+        "long": 28.8353,
+        "nameC": "基希涅夫",
+        "nameE": "Kishinev"
+    },
+    {
+        "ctryC": "蒙古國",
+        "ctryE": "Mongolia",
+        "id": 52,
+        "lat": 47.9203,
+        "long": 106.9172,
+        "nameC": "烏蘭巴托",
+        "nameE": "Ulaanbaatar"
+    },
+    {
+        "ctryC": "阿曼王國",
+        "ctryE": "Oman",
+        "id": 53,
+        "lat": 23.6139,
+        "long": 58.5922,
+        "nameC": "馬斯開特",
+        "nameE": "Muscat"
+    },
+    {
+        "ctryC": "巴基斯坦伊斯蘭共和國",
+        "ctryE": "Pakistan",
+        "id": 54,
+        "lat": 33.6989,
+        "long": 73.0369,
+        "nameC": "伊斯蘭瑪巴德",
+        "nameE": "Islamabad"
+    },
+    {
+        "ctryC": "卡達",
+        "ctryE": "Qatar",
+        "id": 55,
+        "lat": 25.3,
+        "long": 51.5333,
+        "nameC": "杜哈",
+        "nameE": "Doha"
+    },
+    {
+        "ctryC": "俄羅斯聯邦",
+        "ctryE": "Russia",
+        "id": 56,
+        "lat": 55.7558,
+        "long": 37.6178,
+        "nameC": "莫斯科",
+        "nameE": "Moscow"
+    },
+    {
+        "ctryC": "沙烏地阿拉伯王國",
+        "ctryE": "Saudi Arabia",
+        "id": 57,
+        "lat": 24.65,
+        "long": 46.71,
+        "nameC": "利雅德",
+        "nameE": "Riyadh"
+    },
+    {
+        "ctryC": "敘利亞阿拉伯共和國",
+        "ctryE": "Syria",
+        "id": 58,
+        "lat": 33.5131,
+        "long": 36.2919,
+        "nameC": "大馬士革",
+        "nameE": "Damascus"
+    },
+    {
+        "ctryC": "塔吉克共和國",
+        "ctryE": "Tajikistan",
+        "id": 59,
+        "lat": 38.5731,
+        "long": 68.7864,
+        "nameC": "杜尚貝",
+        "nameE": "Dushanbe"
+    },
+    {
+        "ctryC": "土耳其共和國",
+        "ctryE": "Turkey",
+        "id": 60,
+        "lat": 39.93,
+        "long": 32.85,
+        "nameC": "安卡拉",
+        "nameE": "Ankara"
+    },
+    {
+        "ctryC": "土庫曼",
+        "ctryE": "Turkmenistan",
+        "id": 61,
+        "lat": 37.95,
+        "long": 58.3833,
+        "nameC": "阿什哈巴特",
+        "nameE": "Ashgabat"
+    },
+    {
+        "ctryC": "烏克蘭",
+        "ctryE": "Ukraine",
+        "id": 62,
+        "lat": 50.45,
+        "long": 30.5236,
+        "nameC": "基輔",
+        "nameE": "Kiev"
+    },
+    {
+        "ctryC": "阿拉伯聯合大公國",
+        "ctryE": "U.A.E.",
+        "id": 63,
+        "lat": 24.4781,
+        "long": 54.3686,
+        "nameC": "阿布達比",
+        "nameE": "Abu Dhabi"
+    },
+    {
+        "ctryC": "烏茲別克共和國",
+        "ctryE": "Uzbekistan",
+        "id": 64,
+        "lat": 41.3,
+        "long": 69.2667,
+        "nameC": "塔什干",
+        "nameE": "Tashkent"
+    },
+    {
+        "ctryC": "葉門共和國",
+        "ctryE": "Yemen",
+        "id": 65,
+        "lat": 15.35,
+        "long": 44.2,
+        "nameC": "沙那",
+        "nameE": "Sanaa"
+    },
+    {
+        "ctryC": "阿爾及利亞人民民主共和國",
+        "ctryE": "Algeria",
+        "id": 66,
+        "lat": 36.7764,
+        "long": 3.0586,
+        "nameC": "阿爾及爾",
+        "nameE": "Algiers"
+    },
+    {
+        "ctryC": "安哥拉共和國",
+        "ctryE": "Angola",
+        "id": 67,
+        "lat": -8.8383,
+        "long": 13.2344,
+        "nameC": "魯安達",
+        "nameE": "Luanda"
+    },
+    {
+        "ctryC": "貝南共和國",
+        "ctryE": "Benin",
+        "id": 68,
+        "lat": 6.4833,
+        "long": 2.6167,
+        "nameC": "新港",
+        "nameE": "Porto-Novo"
+    },
+    {
+        "ctryC": "波札那共和國",
+        "ctryE": "Botswana",
+        "id": 69,
+        "lat": -24.6569,
+        "long": 25.9086,
+        "nameC": "嘉伯隆里",
+        "nameE": "Gaborone"
+    },
+    {
+        "ctryC": "布吉納法索",
+        "ctryE": "Burkina Faso",
+        "id": 70,
+        "lat": 12.3572,
+        "long": -1.5353,
+        "nameC": "瓦加杜古",
+        "nameE": "Ouagadougou"
+    },
+    {
+        "ctryC": "蒲隆地共和國",
+        "ctryE": "Burundi",
+        "id": 71,
+        "lat": -3.3825,
+        "long": 29.3611,
+        "nameC": "布松布拉",
+        "nameE": "Bujumbura"
+    },
+    {
+        "ctryC": "喀麥隆共和國",
+        "ctryE": "Cameroon",
+        "id": 72,
+        "lat": 3.8578,
+        "long": 11.5181,
+        "nameC": "雅恩德",
+        "nameE": "Yaoundé"
+    },
+    {
+        "ctryC": "維德角共和國",
+        "ctryE": "Cape Verde",
+        "id": 73,
+        "lat": 14.9177,
+        "long": -23.5092,
+        "nameC": "培亞",
+        "nameE": "Praia"
+    },
+    {
+        "ctryC": "中非共和國",
+        "ctryE": "Central African Republic",
+        "id": 74,
+        "lat": 4.3732,
+        "long": 18.5628,
+        "nameC": "班基",
+        "nameE": "Bangui"
+    },
+    {
+        "ctryC": "查德共和國",
+        "ctryE": "Chad",
+        "id": 75,
+        "lat": 12.11,
+        "long": 15.05,
+        "nameC": "恩加美納",
+        "nameE": "N'Djamena"
+    },
+    {
+        "ctryC": "葛摩聯邦",
+        "ctryE": "Comoros",
+        "id": 76,
+        "lat": -11.7036,
+        "long": 43.2536,
+        "nameC": "莫洛尼",
+        "nameE": "Moroni"
+    },
+    {
+        "ctryC": "剛果民主共和國",
+        "ctryE": "Democratic Republic of the Congo",
+        "id": 77,
+        "lat": -4.3233,
+        "long": 15.3081,
+        "nameC": "金夏沙",
+        "nameE": "Kinshasa"
+    },
+    {
+        "ctryC": "剛果共和國",
+        "ctryE": "Republic of the Congo",
+        "id": 78,
+        "lat": -4.2667,
+        "long": 15.2833,
+        "nameC": "布拉薩市",
+        "nameE": "Brazzaville"
+    },
+    {
+        "ctryC": "象牙海岸共和國",
+        "ctryE": "Côte d'Ivoire (Ivory Coast)",
+        "id": 79,
+        "lat": 6.8161,
+        "long": -5.2742,
+        "nameC": "雅穆索戈",
+        "nameE": "Yamoussoukro"
+    },
+    {
+        "ctryC": "吉布地共和國",
+        "ctryE": "Djibouti",
+        "id": 80,
+        "lat": 11.595,
+        "long": 43.1481,
+        "nameC": "吉布地",
+        "nameE": "Djibouti"
+    },
+    {
+        "ctryC": "埃及阿拉伯共和國",
+        "ctryE": "Egypt",
+        "id": 81,
+        "lat": 30.0561,
+        "long": 31.2394,
+        "nameC": "開羅",
+        "nameE": "Cairo"
+    },
+    {
+        "ctryC": "赤道幾內亞共和國",
+        "ctryE": "Equatorial Guinea",
+        "id": 82,
+        "lat": 3.7521,
+        "long": 8.7737,
+        "nameC": "馬拉博",
+        "nameE": "Malabo"
+    },
+    {
+        "ctryC": "厄利垂亞共和國",
+        "ctryE": "Eritrea",
+        "id": 83,
+        "lat": 15.3333,
+        "long": 38.9167,
+        "nameC": "阿斯瑪拉",
+        "nameE": "Asmara"
+    },
+    {
+        "ctryC": "衣索比亞聯邦民主共和國",
+        "ctryE": "Ethiopia",
+        "id": 84,
+        "lat": 9.0272,
+        "long": 38.7369,
+        "nameC": "阿迪斯阿貝巴",
+        "nameE": "Addis Ababa"
+    },
+    {
+        "ctryC": "加彭共和國",
+        "ctryE": "Gabon",
+        "id": 85,
+        "lat": 0.3901,
+        "long": 9.4544,
+        "nameC": "自由市",
+        "nameE": "Libreville"
+    },
+    {
+        "ctryC": "甘比亞共和國",
+        "ctryE": "Gambia",
+        "id": 86,
+        "lat": 13.4531,
+        "long": -16.5775,
+        "nameC": "班竹市",
+        "nameE": "Banjul"
+    },
+    {
+        "ctryC": "迦納共和國",
+        "ctryE": "Ghana",
+        "id": 87,
+        "lat": 5.6037,
+        "long": -0.187,
+        "nameC": "阿克拉",
+        "nameE": "Accra"
+    },
+    {
+        "ctryC": "幾內亞共和國",
+        "ctryE": "Guinea",
+        "id": 88,
+        "lat": 9.5092,
+        "long": -13.7122,
+        "nameC": "柯那克里",
+        "nameE": "Conakry"
+    },
+    {
+        "ctryC": "幾內亞比索共和國",
+        "ctryE": "Guinea-Bissau",
+        "id": 89,
+        "lat": 11.8592,
+        "long": -15.5956,
+        "nameC": "比索",
+        "nameE": "Bissau"
+    },
+    {
+        "ctryC": "肯亞共和國",
+        "ctryE": "Kenya",
+        "id": 90,
+        "lat": -1.2864,
+        "long": 36.8172,
+        "nameC": "奈洛比",
+        "nameE": "Nairobi"
+    },
+    {
+        "ctryC": "賴索托王國",
+        "ctryE": "Lesotho",
+        "id": 91,
+        "lat": -29.31,
+        "long": 27.48,
+        "nameC": "馬賽魯",
+        "nameE": "Maseru"
+    },
+    {
+        "ctryC": "賴比瑞亞共和國",
+        "ctryE": "Liberia",
+        "id": 92,
+        "lat": 6.3106,
+        "long": -10.8047,
+        "nameC": "蒙羅維亞",
+        "nameE": "Monrovia"
+    },
+    {
+        "ctryC": "大利比亞阿拉伯人民社會主義群眾國",
+        "ctryE": "Libya",
+        "id": 93,
+        "lat": 32.8752,
+        "long": 13.1875,
+        "nameC": "的黎波里",
+        "nameE": "Tripoli"
+    },
+    {
+        "ctryC": "馬達加斯加共和國",
+        "ctryE": "Madagascar",
+        "id": 94,
+        "lat": -18.9386,
+        "long": 47.5214,
+        "nameC": "安塔那那利佛",
+        "nameE": "Antananarivo"
+    },
+    {
+        "ctryC": "馬拉威共和國",
+        "ctryE": "Malawi",
+        "id": 95,
+        "lat": -13.9833,
+        "long": 33.7833,
+        "nameC": "里朗威",
+        "nameE": "Lilongwe"
+    },
+    {
+        "ctryC": "馬利共和國",
+        "ctryE": "Mali",
+        "id": 96,
+        "lat": 12.6458,
+        "long": -7.9922,
+        "nameC": "巴馬科",
+        "nameE": "Bamako"
+    },
+    {
+        "ctryC": "茅利塔尼亞伊斯蘭共和國",
+        "ctryE": "Mauritania",
+        "id": 97,
+        "lat": 18.0858,
+        "long": -15.9785,
+        "nameC": "諾克少",
+        "nameE": "Nouakchott"
+    },
+    {
+        "ctryC": "模里西斯共和國",
+        "ctryE": "Mauritius",
+        "id": 98,
+        "lat": -20.1667,
+        "long": 57.5,
+        "nameC": "路易士港",
+        "nameE": "Port Louis"
+    },
+    {
+        "ctryC": "摩洛哥王國",
+        "ctryE": "Morocco",
+        "id": 99,
+        "lat": 34.0253,
+        "long": -6.8361,
+        "nameC": "拉巴特",
+        "nameE": "Rabat"
+    },
+    {
+        "ctryC": "莫三比克共和國",
+        "ctryE": "Mozambique",
+        "id": 100,
+        "lat": -25.9153,
+        "long": 32.5764,
+        "nameC": "馬布多",
+        "nameE": "Maputo"
+    },
+    {
+        "ctryC": "納米比亞共和國",
+        "ctryE": "Namibia",
+        "id": 101,
+        "lat": -22.57,
+        "long": 17.0836,
+        "nameC": "溫荷克",
+        "nameE": "Windhoek"
+    },
+    {
+        "ctryC": "尼日共和國",
+        "ctryE": "Niger",
+        "id": 102,
+        "lat": 13.5086,
+        "long": 2.1111,
+        "nameC": "尼阿美",
+        "nameE": "Niamey"
+    },
+    {
+        "ctryC": "奈及利亞聯邦共和國",
+        "ctryE": "Nigeria",
+        "id": 103,
+        "lat": 9.0556,
+        "long": 7.4914,
+        "nameC": "阿布札",
+        "nameE": "Abuja"
+    },
+    {
+        "ctryC": "盧安達共和國",
+        "ctryE": "Rwanda",
+        "id": 104,
+        "lat": -1.9536,
+        "long": 30.0606,
+        "nameC": "吉佳利",
+        "nameE": "Kigali"
+    },
+    {
+        "ctryC": "聖多美普林西比民主共和國",
+        "ctryE": "São Tomé and Príncipe",
+        "id": 105,
+        "lat": 0.3333,
+        "long": 6.7333,
+        "nameC": "聖多美市",
+        "nameE": "São Tomé"
+    },
+    {
+        "ctryC": "塞內加爾共和國",
+        "ctryE": "Senegal",
+        "id": 106,
+        "lat": 14.7319,
+        "long": -17.4572,
+        "nameC": "達卡",
+        "nameE": "Dakar"
+    },
+    {
+        "ctryC": "塞席爾共和國",
+        "ctryE": "Seychelles",
+        "id": 107,
+        "lat": -4.6236,
+        "long": 55.4544,
+        "nameC": "維多利亞港",
+        "nameE": "Victoria"
+    },
+    {
+        "ctryC": "獅子山共和國",
+        "ctryE": "Sierra Leone",
+        "id": 108,
+        "lat": 8.4833,
+        "long": -13.2331,
+        "nameC": "自由城",
+        "nameE": "Freetown"
+    },
+    {
+        "ctryC": "索馬利亞民主共和國",
+        "ctryE": "Somalia",
+        "id": 109,
+        "lat": 2.0408,
+        "long": 45.3425,
+        "nameC": "摩加迪休",
+        "nameE": "Mogadishu"
+    },
+    {
+        "ctryC": "南非共和國",
+        "ctryE": "South Africa",
+        "id": 110,
+        "lat": -25.7464,
+        "long": 28.1881,
+        "nameC": "普里托利亞",
+        "nameE": "Pretoria"
+    },
+    {
+        "ctryC": "蘇丹共和國",
+        "ctryE": "Sudan",
+        "id": 111,
+        "lat": 15.6031,
+        "long": 32.5265,
+        "nameC": "喀土穆",
+        "nameE": "Khartoum"
+    },
+    {
+        "ctryC": "史瓦濟蘭王國",
+        "ctryE": "Swaziland",
+        "id": 112,
+        "lat": -26.3208,
+        "long": 31.1617,
+        "nameC": "姆巴巴內",
+        "nameE": "Mbabane"
+    },
+    {
+        "ctryC": "坦尚尼亞聯合共和國",
+        "ctryE": "Tanzania",
+        "id": 113,
+        "lat": -6.8,
+        "long": 39.2833,
+        "nameC": "沙蘭港",
+        "nameE": "Dar es Salaam"
+    },
+    {
+        "ctryC": "多哥共和國",
+        "ctryE": "Togo",
+        "id": 114,
+        "lat": 6.1319,
+        "long": 1.2228,
+        "nameC": "洛梅",
+        "nameE": "Lome"
+    },
+    {
+        "ctryC": "突尼西亞共和國",
+        "ctryE": "Tunisia",
+        "id": 115,
+        "lat": 36.8008,
+        "long": 10.18,
+        "nameC": "突尼斯",
+        "nameE": "Tunis"
+    },
+    {
+        "ctryC": "烏干達共和國",
+        "ctryE": "Uganda",
+        "id": 116,
+        "lat": 0.3136,
+        "long": 32.5811,
+        "nameC": "康培拉",
+        "nameE": "Kampaala"
+    },
+    {
+        "ctryC": "辛巴威共和國",
+        "ctryE": "Zimbabwe",
+        "id": 117,
+        "lat": -17.8292,
+        "long": 31.0522,
+        "nameC": "哈拉雷",
+        "nameE": "Harare"
+    },
+    {
+        "ctryC": "尚比亞共和國",
+        "ctryE": "Zambia",
+        "id": 118,
+        "lat": -15.4167,
+        "long": 28.2833,
+        "nameC": "路沙卡",
+        "nameE": "Lusaka"
+    },
+    {
+        "ctryC": "阿爾巴尼亞共和國",
+        "ctryE": "Albania",
+        "id": 119,
+        "lat": 41.33,
+        "long": 19.82,
+        "nameC": "地拉那",
+        "nameE": "Tirana"
+    },
+    {
+        "ctryC": "安道爾侯國",
+        "ctryE": "Andorra",
+        "id": 120,
+        "lat": 42.5,
+        "long": 1.5,
+        "nameC": "老安道爾",
+        "nameE": "Andorra-la-Vella"
+    },
+    {
+        "ctryC": "奧地利共和國",
+        "ctryE": "Austria",
+        "id": 121,
+        "lat": 48.2083,
+        "long": 16.3731,
+        "nameC": "維也納",
+        "nameE": "Vienna"
+    },
+    {
+        "ctryC": "比利時王國",
+        "ctryE": "Belgium",
+        "id": 122,
+        "lat": 50.8333,
+        "long": 4.3333,
+        "nameC": "布魯塞爾",
+        "nameE": "Brussels"
+    },
+    {
+        "ctryC": "波士尼亞與赫塞哥維納",
+        "ctryE": "Bosnia and Herzegovina",
+        "id": 123,
+        "lat": 43.8667,
+        "long": 18.4167,
+        "nameC": "塞拉耶佛",
+        "nameE": "Sarajevo"
+    },
+    {
+        "ctryC": "大不列顛與北愛爾蘭聯合王國 (英國)",
+        "ctryE": "United Kingdom",
+        "id": 124,
+        "lat": 51.5072,
+        "long": -0.1275,
+        "nameC": "倫敦",
+        "nameE": "London"
+    },
+    {
+        "ctryC": "保加利亞共和國",
+        "ctryE": "Bulgaria",
+        "id": 125,
+        "lat": 42.6979,
+        "long": 23.3217,
+        "nameC": "索菲亞",
+        "nameE": "Sofia"
+    },
+    {
+        "ctryC": "克羅埃西亞共和國",
+        "ctryE": "Croatia",
+        "id": 126,
+        "lat": 45.8,
+        "long": 15.95,
+        "nameC": "札格雷布",
+        "nameE": "Zagreb"
+    },
+    {
+        "ctryC": "賽普勒斯亞共和國",
+        "ctryE": "Cyprus",
+        "id": 127,
+        "lat": 35.1725,
+        "long": 33.365,
+        "nameC": "尼柯西亞",
+        "nameE": "Nicosia"
+    },
+    {
+        "ctryC": "捷克共和國",
+        "ctryE": "Czech Republic (Czechia)",
+        "id": 128,
+        "lat": 50.0833,
+        "long": 14.4167,
+        "nameC": "布拉格",
+        "nameE": "Prague"
+    },
+    {
+        "ctryC": "丹麥王國",
+        "ctryE": "Denmark",
+        "id": 129,
+        "lat": 55.6761,
+        "long": 12.5689,
+        "nameC": "哥本哈根",
+        "nameE": "Copenhagen"
+    },
+    {
+        "ctryC": "愛沙尼亞共和國",
+        "ctryE": "Estonia",
+        "id": 130,
+        "lat": 59.4372,
+        "long": 24.745,
+        "nameC": "塔林",
+        "nameE": "Tallinn"
+    },
+    {
+        "ctryC": "芬蘭共和國",
+        "ctryE": "Finland",
+        "id": 131,
+        "lat": 60.1756,
+        "long": 24.9342,
+        "nameC": "赫爾辛基市",
+        "nameE": "Helsinki City"
+    },
+    {
+        "ctryC": "法蘭西共和國",
+        "ctryE": "France",
+        "id": 132,
+        "lat": 48.8566,
+        "long": 2.3522,
+        "nameC": "巴黎",
+        "nameE": "Paris"
+    },
+    {
+        "ctryC": "德意志聯邦共和國",
+        "ctryE": "Germany",
+        "id": 133,
+        "lat": 52.5167,
+        "long": 13.3833,
+        "nameC": "柏林",
+        "nameE": "Berlin"
+    },
+    {
+        "ctryC": "希臘共和國",
+        "ctryE": "Greece",
+        "id": 134,
+        "lat": 37.9842,
+        "long": 23.7281,
+        "nameC": "雅典",
+        "nameE": "Athens"
+    },
+    {
+        "ctryC": "教廷",
+        "ctryE": "Vatican City",
+        "id": 135,
+        "lat": 41.9,
+        "long": 12.4478,
+        "nameC": "梵蒂岡城",
+        "nameE": "Vatican City"
+    },
+    {
+        "ctryC": "匈牙利共和國",
+        "ctryE": "Hungary",
+        "id": 136,
+        "lat": 47.4983,
+        "long": 19.0408,
+        "nameC": "布達佩斯",
+        "nameE": "Budapest"
+    },
+    {
+        "ctryC": "冰島共和國",
+        "ctryE": "Iceland",
+        "id": 137,
+        "lat": 64.1475,
+        "long": -21.935,
+        "nameC": "雷克雅維克",
+        "nameE": "Reykjavik"
+    },
+    {
+        "ctryC": "愛爾蘭共和國",
+        "ctryE": "Ireland",
+        "id": 138,
+        "lat": 53.3497,
+        "long": -6.2603,
+        "nameC": "都柏林",
+        "nameE": "Dublin"
+    },
+    {
+        "ctryC": "義大利共和國",
+        "ctryE": "Italy",
+        "id": 139,
+        "lat": 41.8931,
+        "long": 12.4828,
+        "nameC": "羅馬",
+        "nameE": "Roma"
+    },
+    {
+        "ctryC": "拉脫維亞共和國",
+        "ctryE": "Latvia",
+        "id": 140,
+        "lat": 56.9475,
+        "long": 24.1069,
+        "nameC": "里加",
+        "nameE": "Riga"
+    },
+    {
+        "ctryC": "列支敦斯登侯國",
+        "ctryE": "Liechtenstein",
+        "id": 141,
+        "lat": 47.1415,
+        "long": 9.5215,
+        "nameC": "瓦都茲",
+        "nameE": "Vaduz"
+    },
+    {
+        "ctryC": "立陶宛共和國",
+        "ctryE": "Lithuania",
+        "id": 142,
+        "lat": 54.6833,
+        "long": 25.2833,
+        "nameC": "維爾紐斯",
+        "nameE": "Vilnius"
+    },
+    {
+        "ctryC": "盧森堡大公國",
+        "ctryE": "Luxembourg",
+        "id": 143,
+        "lat": 49.6106,
+        "long": 6.1328,
+        "nameC": "盧森堡市",
+        "nameE": "Luxembourg City"
+    },
+    {
+        "ctryC": "馬其頓共和國",
+        "ctryE": "North Macedonia (Macedonia)",
+        "id": 144,
+        "lat": 41.9833,
+        "long": 21.4333,
+        "nameC": "史高比耶",
+        "nameE": "Skopje"
+    },
+    {
+        "ctryC": "馬爾他共和國",
+        "ctryE": "Malta",
+        "id": 145,
+        "lat": 35.8978,
+        "long": 14.5125,
+        "nameC": "瓦勒他",
+        "nameE": "Valleta"
+    },
+    {
+        "ctryC": "摩納哥侯國",
+        "ctryE": "Monaco",
+        "id": 146,
+        "lat": 43.7396,
+        "long": 7.4069,
+        "nameC": "摩納哥市",
+        "nameE": "Monaco"
+    },
+    {
+        "ctryC": "荷蘭王國",
+        "ctryE": "Netherlands",
+        "id": 147,
+        "lat": 52.3667,
+        "long": 4.8833,
+        "nameC": "阿姆斯特丹",
+        "nameE": "Amsterdam"
+    },
+    {
+        "ctryC": "挪威王國",
+        "ctryE": "Norway",
+        "id": 148,
+        "lat": 59.9111,
+        "long": 10.7528,
+        "nameC": "奧斯陸",
+        "nameE": "Oslo"
+    },
+    {
+        "ctryC": "波蘭共和國",
+        "ctryE": "Poland",
+        "id": 149,
+        "lat": 52.2167,
+        "long": 21.0333,
+        "nameC": "華沙",
+        "nameE": "Warsaw"
+    },
+    {
+        "ctryC": "葡萄牙共和國",
+        "ctryE": "Portugal",
+        "id": 150,
+        "lat": 38.7452,
+        "long": -9.1604,
+        "nameC": "里斯本",
+        "nameE": "Lisbon"
+    },
+    {
+        "ctryC": "羅馬尼亞",
+        "ctryE": "Romania",
+        "id": 151,
+        "lat": 44.4,
+        "long": 26.0833,
+        "nameC": "布加勒斯特",
+        "nameE": "Bucharest"
+    },
+    {
+        "ctryC": "聖馬利諾共和國",
+        "ctryE": "San Marino",
+        "id": 152,
+        "lat": 43.932,
+        "long": 12.4484,
+        "nameC": "聖馬利諾",
+        "nameE": "San Marino"
+    },
+    {
+        "ctryC": "斯洛伐克共和國",
+        "ctryE": "Slovakia",
+        "id": 153,
+        "lat": 48.1447,
+        "long": 17.1128,
+        "nameC": "布拉提斯拉瓦",
+        "nameE": "Bratislava"
+    },
+    {
+        "ctryC": "斯洛維尼亞共和國",
+        "ctryE": "Slovenia",
+        "id": 154,
+        "lat": 46.05,
+        "long": 14.5167,
+        "nameC": "盧比安納",
+        "nameE": "Ljubljana"
+    },
+    {
+        "ctryC": "西班牙王國",
+        "ctryE": "Spain",
+        "id": 155,
+        "lat": 40.4167,
+        "long": -3.7167,
+        "nameC": "馬德里市",
+        "nameE": "Madrid"
+    },
+    {
+        "ctryC": "瑞典王國",
+        "ctryE": "Sweden",
+        "id": 156,
+        "lat": 59.3294,
+        "long": 18.0686,
+        "nameC": "斯德哥爾摩",
+        "nameE": "Stockholm"
+    },
+    {
+        "ctryC": "瑞士聯邦",
+        "ctryE": "Switzerland",
+        "id": 157,
+        "lat": 46.948,
+        "long": 7.4474,
+        "nameC": "伯恩",
+        "nameE": "Bern"
+    },
+    {
+        "ctryC": "塞爾維亞共和國",
+        "ctryE": "Serbia",
+        "id": 158,
+        "lat": 44.8167,
+        "long": 20.4667,
+        "nameC": "貝爾格勒",
+        "nameE": "Belgrade"
+    },
+    {
+        "ctryC": "蒙特內哥羅共和國",
+        "ctryE": "Montenegro",
+        "id": 159,
+        "lat": 42.4397,
+        "long": 19.2661,
+        "nameC": "波哥利卡",
+        "nameE": "Podgorica"
+    },
+    {
+        "ctryC": "美利堅合眾國",
+        "ctryE": "U.S.A.",
+        "id": 160,
+        "lat": 38.9047,
+        "long": -77.0163,
+        "nameC": "華盛頓特區",
+        "nameE": "Washington, D.C."
+    },
+    {
+        "ctryC": "加拿大",
+        "ctryE": "Canada",
+        "id": 161,
+        "lat": 45.4247,
+        "long": -75.695,
+        "nameC": "渥太華",
+        "nameE": "Ottawa"
+    },
+    {
+        "ctryC": "安地卡及巴布達",
+        "ctryE": "Antigua and Barbuda",
+        "id": 162,
+        "lat": 17.1211,
+        "long": -61.8447,
+        "nameC": "聖約翰",
+        "nameE": "St. John's"
+    },
+    {
+        "ctryC": "阿根廷共和國",
+        "ctryE": "Argentina",
+        "id": 163,
+        "lat": -34.5997,
+        "long": -58.3819,
+        "nameC": "布宜諾斯艾利斯",
+        "nameE": "Buenos Aires"
+    },
+    {
+        "ctryC": "巴哈馬",
+        "ctryE": "Bahamas",
+        "id": 164,
+        "lat": 25.0667,
+        "long": -77.3333,
+        "nameC": "拿索",
+        "nameE": "Nassau"
+    },
+    {
+        "ctryC": "巴貝多",
+        "ctryE": "Barbados",
+        "id": 165,
+        "lat": 13.0975,
+        "long": -59.6167,
+        "nameC": "橋鎮",
+        "nameE": "Bridgetown"
+    },
+    {
+        "ctryC": "貝里斯",
+        "ctryE": "Belize",
+        "id": 166,
+        "lat": 17.25,
+        "long": -88.7675,
+        "nameC": "貝爾墨邦",
+        "nameE": "Belmopan"
+    },
+    {
+        "ctryC": "玻利維亞共和國",
+        "ctryE": "Bolivia",
+        "id": 167,
+        "lat": -16.4942,
+        "long": -68.1475,
+        "nameC": "拉巴斯",
+        "nameE": "La Paz"
+    },
+    {
+        "ctryC": "巴西聯邦共和國",
+        "ctryE": "Brazil",
+        "id": 168,
+        "lat": -15.7939,
+        "long": -47.8828,
+        "nameC": "巴西利亞",
+        "nameE": "Brasilia"
+    },
+    {
+        "ctryC": "智利共和國",
+        "ctryE": "Chile",
+        "id": 169,
+        "lat": -33.45,
+        "long": -70.6667,
+        "nameC": "聖地牙哥",
+        "nameE": "Santiago"
+    },
+    {
+        "ctryC": "哥倫比亞共和國",
+        "ctryE": "Colombia",
+        "id": 170,
+        "lat": 4.6126,
+        "long": -74.0705,
+        "nameC": "波哥大",
+        "nameE": "Bogotá"
+    },
+    {
+        "ctryC": "哥斯大黎加共和國",
+        "ctryE": "Costa Rica",
+        "id": 171,
+        "lat": 9.9333,
+        "long": -84.0833,
+        "nameC": "聖約瑟",
+        "nameE": "San José"
+    },
+    {
+        "ctryC": "古巴共和國",
+        "ctryE": "Cuba",
+        "id": 172,
+        "lat": 23.1367,
+        "long": -82.3589,
+        "nameC": "哈瓦那",
+        "nameE": "Havana"
+    },
+    {
+        "ctryC": "多米尼克",
+        "ctryE": "Dominica",
+        "id": 173,
+        "lat": 15.3,
+        "long": -61.3833,
+        "nameC": "羅梭",
+        "nameE": "Roseau"
+    },
+    {
+        "ctryC": "多明尼加共和國",
+        "ctryE": "Dominican Republic",
+        "id": 174,
+        "lat": 18.4764,
+        "long": -69.8933,
+        "nameC": "聖多明哥",
+        "nameE": "Santo Domingo"
+    },
+    {
+        "ctryC": "厄瓜多共和國",
+        "ctryE": "Ecuador",
+        "id": 175,
+        "lat": -0.2186,
+        "long": -78.5097,
+        "nameC": "基多",
+        "nameE": "Quito"
+    },
+    {
+        "ctryC": "薩爾瓦多共和國",
+        "ctryE": "El Salvador",
+        "id": 176,
+        "lat": 13.6989,
+        "long": -89.1914,
+        "nameC": "聖薩爾瓦多",
+        "nameE": "San Salvador"
+    },
+    {
+        "ctryC": "格瑞那達",
+        "ctryE": "Grenada",
+        "id": 177,
+        "lat": 12.0444,
+        "long": -61.7417,
+        "nameC": "聖喬治市",
+        "nameE": "St. George's"
+    },
+    {
+        "ctryC": "瓜地馬拉共和國",
+        "ctryE": "Guatemala",
+        "id": 178,
+        "lat": 14.6099,
+        "long": -90.5252,
+        "nameC": "瓜地馬拉市",
+        "nameE": "Ciudad de Guatemala"
+    },
+    {
+        "ctryC": "蓋亞那合作共和國",
+        "ctryE": "Guyana",
+        "id": 179,
+        "lat": 6.7833,
+        "long": -58.1667,
+        "nameC": "喬治城",
+        "nameE": "Georgetown"
+    },
+    {
+        "ctryC": "海地共和國",
+        "ctryE": "Haiti",
+        "id": 180,
+        "lat": 18.5425,
+        "long": -72.3386,
+        "nameC": "太子港",
+        "nameE": "Port-au-Prince"
+    },
+    {
+        "ctryC": "宏都拉斯共和國",
+        "ctryE": "Honduras",
+        "id": 181,
+        "lat": 14.0942,
+        "long": -87.2067,
+        "nameC": "德古西加巴",
+        "nameE": "Tegucigalpa"
+    },
+    {
+        "ctryC": "牙買加",
+        "ctryE": "Jamaica",
+        "id": 182,
+        "lat": 17.9714,
+        "long": -76.7931,
+        "nameC": "京斯敦",
+        "nameE": "Kingston"
+    },
+    {
+        "ctryC": "墨西哥合眾國",
+        "ctryE": "Mexico",
+        "id": 183,
+        "lat": 19.4333,
+        "long": -99.1333,
+        "nameC": "墨西哥城",
+        "nameE": "Mexico City"
+    },
+    {
+        "ctryC": "尼加拉瓜共和國",
+        "ctryE": "Nicaragua",
+        "id": 184,
+        "lat": 12.15,
+        "long": -86.2667,
+        "nameC": "馬納瓜",
+        "nameE": "Managua"
+    },
+    {
+        "ctryC": "巴拿馬共和國",
+        "ctryE": "Panama",
+        "id": 185,
+        "lat": 9.0,
+        "long": -79.5,
+        "nameC": "巴拿馬市",
+        "nameE": "Panama City"
+    },
+    {
+        "ctryC": "巴拉圭共和國",
+        "ctryE": "Paraguay",
+        "id": 186,
+        "lat": -25.3,
+        "long": -57.6333,
+        "nameC": "亞松森",
+        "nameE": "Asunción"
+    },
+    {
+        "ctryC": "秘魯共和國",
+        "ctryE": "Peru",
+        "id": 187,
+        "lat": -12.05,
+        "long": -77.0333,
+        "nameC": "利馬",
+        "nameE": "Lima"
+    },
+    {
+        "ctryC": "聖克里斯多福及尼維斯",
+        "ctryE": "Saint Kitts and Nevis",
+        "id": 188,
+        "lat": 17.2983,
+        "long": -62.7342,
+        "nameC": "巴士地",
+        "nameE": "Basseterre"
+    },
+    {
+        "ctryC": "聖露西亞",
+        "ctryE": "Saint Lucia",
+        "id": 189,
+        "lat": 14.0167,
+        "long": -60.9833,
+        "nameC": "卡斯翠",
+        "nameE": "Castries"
+    },
+    {
+        "ctryC": "聖文森及格瑞那丁",
+        "ctryE": "Saint Vincent and the Grenadines",
+        "id": 190,
+        "lat": 13.1667,
+        "long": -61.2333,
+        "nameC": "金石城",
+        "nameE": "Kingstown"
+    },
+    {
+        "ctryC": "蘇利南共和國",
+        "ctryE": "Suriname",
+        "id": 191,
+        "lat": 5.8667,
+        "long": -55.1667,
+        "nameC": "巴拉馬利波",
+        "nameE": "Paramaribo"
+    },
+    {
+        "ctryC": "千里達及托巴哥共和國",
+        "ctryE": "Trinidad and Tobago",
+        "id": 192,
+        "lat": 10.6667,
+        "long": -61.5167,
+        "nameC": "西班牙港",
+        "nameE": "Port of Spain"
+    },
+    {
+        "ctryC": "烏拉圭共和國",
+        "ctryE": "Uruguay",
+        "id": 193,
+        "lat": -34.8667,
+        "long": -56.1667,
+        "nameC": "蒙特維多市",
+        "nameE": "Montevideo"
+    },
+    {
+        "ctryC": "委內瑞拉共和國",
+        "ctryE": "Venezuela",
+        "id": 194,
+        "lat": 10.5,
+        "long": -66.9333,
+        "nameC": "卡拉卡斯",
+        "nameE": "Caracas"
+    }
+]
