@@ -101,9 +101,6 @@ function getReady() {
   for (count = 0; count < 10; count++) {
     document.getElementById(labels[count]).style.backgroundColor = labels[count];
   }
-  for (count = 0; count < cities.length; count++) {
-    document.getElementById("chooseCity").innerHTML += "<option value=\"" + cities[count].nameE + "\">" + cities[count].nameE + "</option>";
-  }
 }
 
 function showCoords(event) {
@@ -150,6 +147,9 @@ function openPad(x) {
     if (labels[count] === x) {
       document.getElementById("selPad").style.left = (count * 162) + "px";
     }
+  }
+  for (count = 0; count < cities.length; count++) {
+    document.getElementById("chooseCity").innerHTML += "<option value=\"" + cities[count].nameE + "\">" + cities[count].nameE + "</option>";
   }
 }
 
