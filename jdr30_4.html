@@ -12,13 +12,14 @@
 #LightCoral, #Yellow, #LightGreen, #Magenta, #MediumPurple, #Pink, #Orange, #CornflowerBlue, #DarkKhaki, #LightSteelBlue {
   height: 80px;
 }
-#selPad {
-  width: 405px;
+#searchPad {
+  width: 180px;
   height: 250px;
   background-color: gray;
   position: absolute;
   top: 80px;
   left: 0px;
+  padding: 5px;
   visibility: hidden;
 }
 #subject {
@@ -66,10 +67,21 @@
       <td id="LightSteelBlue" onclick="openPad('LightSteelBlue')">123</td>
     </tr>
     <tr><td colspan=10>
-      <p id="selPad">
-        <label for="chooseCity">Choose a city:</label>
-        <select name="chooseCity" id="chooseCity">
+      <p id="searchPad">
+        <label for="searchCity"></label>
+        <input type="text" id="searchCity" value="Enter City Name">
+        <br>
+        <button onclick="searchIt()">Search</button>
+        <br>
+        <label for="searchResult"></label>
+        <select id="searchResult">
         </select>
+        <br>
+        <br>
+        <button>Pin it</button>
+        <br>
+        <button>Remove Pin</button>
+        <br>
         <button onclick="shutPad()">Cancel</button>
       </p>
     </td></tr>
@@ -96,13 +108,18 @@ const cities = JSON.parse(getCities.responseText);
 var LongZero = 810;
 var labels = ["LightCoral","Yellow","LightGreen","Magenta","MediumPurple","Pink","Orange","CornflowerBlue","DarkKhaki","LightSteelBlue"]
 
-for (count = 0; count < cities.length; count++) {
-  document.getElementById("chooseCity").innerHTML += "<option value=\"" + cities[count].nameE + " (" + cities[count].ctryE + ")\">" + cities[count].nameE + " (" + cities[count].ctryE + ")</option>";
-}
-
 function getReady() {
   for (count = 0; count < 10; count++) {
     document.getElementById(labels[count]).style.backgroundColor = labels[count];
+  }
+}
+
+function searchIt() {
+  document.getElementById("searchResult").innerHTML = "";
+  for (count = 0; count < cities.length; count++) {
+    if (document.getElementById("searchCity").value === cities[count].nameE) {
+      document.getElementById("searchResult").innerHTML += "<option value=\"" + cities[count].nameE + " (" + cities[count].ctryE + ")\">" + cities[count].nameE + " (" + cities[count].ctryE + ")</option>";
+    }
   }
 }
 
@@ -144,17 +161,17 @@ function scrollMap(x) {
 }
 
 function openPad(x) {
-  document.getElementById("selPad").style.visibility = "visible";
-  document.getElementById("selPad").style.backgroundColor = x;
+  document.getElementById("searchPad").style.visibility = "visible";
+  document.getElementById("searchPad").style.backgroundColor = x;
   for (count = 0; count < 10; count++) {
     if (labels[count] === x) {
-      document.getElementById("selPad").style.left = (count * 162) + "px";
+      document.getElementById("searchPad").style.left = (count * 162) + "px";
     }
   }
 }
 
 function shutPad() {
-  document.getElementById("selPad").style.visibility = "hidden";
+  document.getElementById("searchPad").style.visibility = "hidden";
 }
 </script>
 

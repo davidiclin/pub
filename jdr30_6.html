@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<style>
+#searchPanel {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1620px;
+  border-spacing: 0;
+  z-index: 1;
+}
+#searchPad {
+  width: 250px;
+  height: 200px;
+  background-color: LightSteelBlue;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  padding: 5px;
+  visibility: hidden;
+  align: left;
+}
+#searchCity {
+  width: 175px;
+}
+#searchResult {
+  width: 225px;
+}
+#searchResult, #lowerPad {
+  visibility: hidden;
+}
+#subject {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1620px;
+  height: 810px;
+  border: none;
+  background-image: url("Worldmap08.png");
+  opacity: 67%;
+  background-repeat: repeat;
+  background-position: 0px;
+  z-index: 0;
+}
+#myCanvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#scrollLeft {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  opacity: 33%;
+}
+#scrollRight {
+  position: absolute;
+  top: 40%;
+  left: 97%;
+  opacity: 33%;
+}
+#imgSource {
+  text-align: center;
+}
+</style>
+<body>
+<section>
+  <table id="searchPanel">
+    <tr><td><button id="addPin" onclick="openPad()">+</button></td></tr>
+    <tr><td>
+      <p id="searchPad">
+        <label for="searchCity"></label>
+        <input type="text" id="searchCity" value="Enter City Name">
+        <button onclick="searchIt()">Search</button>
+        <br>
+        <span id="showSearchResult"></span>
+        <br>
+        <label for="searchResult"></label>
+        <select id="searchResult" size=2>
+        </select>
+        <br>
+      <span id="lowerPad">
+        <br>
+        <label for="pinColor">Select pin color:</label>
+        <input type="color" id="pinColor" name="pinColor" value="#ffff00">
+        <br>
+        <br>
+        <button onclick="pinIt()">Add</button>
+        <br>
+        <br>
+      </span>
+        <button onclick="shutPad()">Close</button>
+      </p>
+    </td></tr>
+  </table>
+</section>
+<section>
+  <table id="subject" onclick="showCoords(event)">
+    <tr><td id="myMap">
+    <canvas id="myCanvas" width="1620" height="810"></canvas>
+    <img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
+    <img id="scrollRight" onclick="scrollMap(270)" src="rightScroll.png">
+    </td></tr>
+  </table>
+</section>
+<p id="imgSource">Map file: <a href="https://commons.wikimedia.org/wiki/File:World_location_map.svg" target="_blank">https://commons.wikimedia.org/wiki/File:World_location_map.svg</a></p>
+<p><strong>Tip:</strong> Try to click different places in the heading.</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+var getCities = new XMLHttpRequest(); // a new request
+getCities.open("GET","https://davidiclin.github.io/pub/Cities.json",false);
+getCities.send(null);
+const cities = JSON.parse(getCities.responseText);
+var LongZero = 810;
+var pinList = [];
+var cityCandidates;
+
+function searchIt() {
+  cityCandidates = [];
+  document.getElementById("searchResult").innerHTML = "";
+  for (count = 0; count < cities.length; count++) {
+    if (document.getElementById("searchCity").value === cities[count].nameE) {
+      document.getElementById("searchResult").style.visibility = "visible";
+      document.getElementById("lowerPad").style.visibility = "visible";
+      document.getElementById("searchResult").innerHTML += "<option value=\"" + cities[count].nameE + " (" + cities[count].ctryE + ")\">" + cities[count].nameE + " (" + cities[count].ctryE + ")</option>";
+      cityCandidates.push(cities[count]);
+    }
+  if (cityCandidates.length === 0) {
+    document.getElementById("showSearchResult").innerHTML = "City not found";
+    document.getElementById("searchResult").style.visibility = "hidden";
+    document.getElementById("lowerPad").style.visibility = "hidden";
+  }
+  else {
+    document.getElementById("showSearchResult").innerHTML = cityCandidates.length + "match(es) found";
+    document.getElementById("searchResult").selectedIndex = "0";
+  }
+  }
+}
+
+function showCoords(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  var x1 = event.offsetX;
+  var y1 = event.offsetY;
+  var x2 = event.pageX;
+  var y2 = event.pageY;
+  var coords = "CLIENT - X coords: " + x + ", Y coords: " + y;
+  document.getElementById("demo").innerHTML = coords;
+  var coords1 = "OFFSET - X coords: " + x1 + ", Y coords: " + y1;
+  document.getElementById("demo1").innerHTML = coords1;
+  var coords2 = "PAGE - X coords: " + x2 + ", Y coords: " + y2;
+  document.getElementById("demo2").innerHTML = coords2;
+  var longitude = Math.floor((x1 - LongZero) / 4.5 * 10) / 10;
+  if (longitude > 180) {
+    longitude = longitude - 360;
+  }
+  if (longitude < -180) {
+    longitude = longitude + 360;
+  }
+  var latitude =  - Math.floor((y1 - 405) /4.5 * 10) / 10;
+  var coord3 = "WORLD - Longitude: " + longitude + ", Latitude: " + latitude;
+  document.getElementById("demo3").innerHTML = coord3;
+}
+
+function scrollMap(x) {
+  LongZero += x;
+  if (LongZero > 1620) {
+    LongZero -= 1620;
+  }
+  if (LongZero < 0) {
+    LongZero += 1620;
+  }
+  document.getElementById("subject").style.backgroundPosition = (LongZero - 810) + "px";
+  document.getElementById("myCanvas").style.left = (LongZero - 810) + "px";
+
+}
+
+function pinIt() {
+  pinList.push(cityCandidates[document.getElementById("searchResult").selectedIndex]);
+  pinList[pinList.length - 1].color = document.getElementById("pinColor").value;
+  document.getElementById("searchCity").value = "Enter City Name";
+  document.getElementById("showSearchResult").innerHTML = "";
+  document.getElementById("searchResult").style.visibility = "hidden";
+  document.getElementById("lowerPad").style.visibility = "hidden";
+  renderIt(pinList);
+  console.log(pinList);
+}
+
+function renderIt(x) {
+  var canvas = document.getElementById("myCanvas");
+  var ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, 1620, 810);
+  for (count = 0; count < x.length; count++) {
+    var mapX = 4.5 * x[count].long + LongZero;
+    var mapY = 405 - 4.5 * x[count].lat;
+    ctx.beginPath();
+    ctx.arc(mapX, mapY, 5, 0, 2 * Math.PI);
+    ctx.fillStyle = x[count].color;
+    ctx.fill();
+    ctx.font = "15px Comic Sans MS";
+    ctx.fillText(x[count].nameE, mapX + 10, mapY + 5)
+  }
+  console.log(document.getElementById("myMap").innerHTML);
+}
+
+function openPad() {
+  document.getElementById("searchPad").style.display = "block";
+  document.getElementById("searchPad").style.visibility = "visible";
+}
+
+function shutPad() {
+  document.getElementById("showSearchResult").innerHTML = "";
+  document.getElementById("searchResult").style.visibility = "hidden";
+  document.getElementById("lowerPad").style.visibility = "hidden";
+  document.getElementById("searchPad").style.display = "none";
+}
+</script>
+
+</body>
+</html>

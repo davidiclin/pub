@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <style>
-#colorPanel {
+#searchPanel {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -9,16 +9,14 @@
   border-spacing: 0;
   z-index: 1;
 }
-#LightCoral, #Yellow, #LightGreen, #Magenta, #MediumPurple, #Pink, #Orange, #CornflowerBlue, #DarkKhaki, #LightSteelBlue {
-  height: 80px;
-}
-#selPad {
-  width: 405px;
+#searchPad {
+  width: 180px;
   height: 250px;
-  background-color: gray;
+  background-color: LightSteelBlue;
   position: absolute;
-  top: 80px;
+  top: 10px;
   left: 0px;
+  padding: 5px;
   visibility: hidden;
 }
 #subject {
@@ -33,6 +31,9 @@
   background-repeat: repeat;
   background-position: 0px;
   z-index: 0;
+}
+canvas {
+  position: absolute;
 }
 #scrollLeft {
   position: absolute;
@@ -50,26 +51,27 @@
   text-align: center;
 }
 </style>
-<body onload="getReady()">
+<body>
 <section>
-  <table id="colorPanel">
-    <tr>
-      <td id="LightCoral" onclick="openPad('LightCoral')">123</td>
-      <td id="Yellow" onclick="openPad('Yellow')">123</td>
-      <td id="LightGreen" onclick="openPad('LightGreen')">123</td>
-      <td id="Magenta" onclick="openPad('Magenta')">123</td>
-      <td id="MediumPurple" onclick="openPad('MediumPurple')">123</td>
-      <td id="Pink" onclick="openPad('Pink')">123</td>
-      <td id="Orange" onclick="openPad('Orange')">123</td>
-      <td id="CornflowerBlue" onclick="openPad('CornflowerBlue')">123</td>
-      <td id="DarkKhaki" onclick="openPad('DarkKhaki')">123</td>
-      <td id="LightSteelBlue" onclick="openPad('LightSteelBlue')">123</td>
-    </tr>
+  <table id="searchPanel">
+    <tr><td><button id="addPin" onclick="openPad()">Add Pin</button>
     <tr><td colspan=10>
-      <p id="selPad">
-        <label for="chooseCity">Choose a city:</label>
-        <select name="chooseCity" id="chooseCity">
+      <p id="searchPad">
+        <label for="searchCity"></label>
+        <input type="text" id="searchCity" value="Enter City Name">
+        <br>
+        <button onclick="searchIt()">Search</button>
+        <br>
+        <label for="searchResult"></label>
+        <select id="searchResult">
         </select>
+        <br>
+        <label for="pinColor">Select pin color:</label>
+        <input type="color" id="pinColor" name="pinColor" value="#ffff00">
+        <br>
+        <button onclick="pinIt()">Pin it</button>
+        <br>
+        <span id="mapCoord"></span>
         <button onclick="shutPad()">Cancel</button>
       </p>
     </td></tr>
@@ -77,7 +79,7 @@
 </section>
 <section>
   <table id="subject" onclick="showCoords(event)">
-    <tr><td><img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
+    <tr><td id="myMap"><img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
     <img id="scrollRight" onclick="scrollMap(270)" src="rightScroll.png"></td></tr>
   </table>
 </section>
@@ -88,21 +90,24 @@
 <p id="demo1"></p>
 <p id="demo2"></p>
 <p id="demo3"></p>
+
 <script>
 var getCities = new XMLHttpRequest(); // a new request
 getCities.open("GET","https://davidiclin.github.io/pub/Cities.json",false);
 getCities.send(null);
 const cities = JSON.parse(getCities.responseText);
 var LongZero = 810;
-var labels = ["LightCoral","Yellow","LightGreen","Magenta","MediumPurple","Pink","Orange","CornflowerBlue","DarkKhaki","LightSteelBlue"]
+var currentTarget;
+var pinList = [];
 
-for (count = 0; count < cities.length; count++) {
-  document.getElementById("chooseCity").innerHTML += "<option value=\"" + cities[count].nameE + " (" + cities[count].ctryE + ")\">" + cities[count].nameE + " (" + cities[count].ctryE + ")</option>";
-}
-
-function getReady() {
-  for (count = 0; count < 10; count++) {
-    document.getElementById(labels[count]).style.backgroundColor = labels[count];
+function searchIt() {
+  document.getElementById("searchResult").innerHTML = "";
+  for (count = 0; count < cities.length; count++) {
+    if (document.getElementById("searchCity").value === cities[count].nameE) {
+      document.getElementById("searchResult").innerHTML += "<option value=\"" + cities[count].nameE + " (" + cities[count].ctryE + ")\">" + cities[count].nameE + " (" + cities[count].ctryE + ")</option>";
+      currentTarget = cities[count];
+      break
+    }
   }
 }
 
@@ -139,22 +144,40 @@ function scrollMap(x) {
   if (LongZero < 0) {
     LongZero += 1620;
   }
-  console.log(LongZero);
   document.getElementById("subject").style.backgroundPosition = (LongZero - 810) + "px";
 }
 
-function openPad(x) {
-  document.getElementById("selPad").style.visibility = "visible";
-  document.getElementById("selPad").style.backgroundColor = x;
-  for (count = 0; count < 10; count++) {
-    if (labels[count] === x) {
-      document.getElementById("selPad").style.left = (count * 162) + "px";
-    }
-  }
+function pinIt() {
+  var mapX = 4.5 * currentTarget.long + LongZero;
+  var mapY = 405 - 4.5 * currentTarget.lat;
+  document.getElementById("mapCoord").innerHTML = "X:" + mapX +" Y:" + mapY;
+  pinList.push(currentTarget);
+  renderIt(currentTarget);
+  console.log(pinList);
+}
+
+function renderIt(x) {
+  var canvasHTML = "<canvas id=\"" + x.id + "\" width=\"10\" height=\"10\"></canvas>";
+  document.getElementById("myMap").innerHTML = document.getElementById("myMap").innerHTML + canvasHTML;
+  var mapX = 4.5 * x.long + LongZero - 5;
+  var mapY = 405 - 4.5 * x.lat - 5;
+  var canvas = document.getElementById(x.id);
+  var ctx = canvas.getContext("2d");
+  canvas.style.top = mapY + "px";
+  canvas.style.left = mapX + "px";
+  ctx.beginPath();
+  ctx.arc(5, 5, 5, 0, 2 * Math.PI);
+  ctx.fillStyle = "#FF0000";
+  ctx.fill();
+  console.log(document.getElementById("myMap").innerHTML);
+}
+
+function openPad() {
+  document.getElementById("searchPad").style.visibility = "visible";
 }
 
 function shutPad() {
-  document.getElementById("selPad").style.visibility = "hidden";
+  document.getElementById("searchPad").style.visibility = "hidden";
 }
 </script>
 
