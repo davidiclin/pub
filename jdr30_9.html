@@ -2,18 +2,24 @@
 <html>
 <style>
 #searchPanel {
-  position: relative;
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
-  width: 1620px;
-  border-spacing: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: LightSteelBlue;
+  border-spacing: 2;
   z-index: 1;
+}
+#panelSwitch {
+  width: 10%;
 }
 #searchPanelUpper {
   width: 250px;
   background-color: LightSteelBlue;
   position: absolute;
-  top: 10px;
+  top: 16px;
   left: 0px;
   padding: 5px;
   display: none;
@@ -29,25 +35,26 @@
 #searchPanelLower {
   display: none;
 }
-.leftCol {
+#startCol {
   width: 20%;
 }
 .cityTag {
   margin-left: 2px;
   margin-right: 2px;
   padding: 2px;
-  border-style: solid;
-  border-width: 8px 1px 1px 1px;
+  background-color: White;
   cursor: default;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #subject {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   width: 1620px;
   height: 810px;
   border: none;
-  background-image: url("Worldmap081.png");
+  background-image: url("Worldmap08a.png");
   background-repeat: repeat;
   background-position: 0px;
   z-index: 0;
@@ -56,8 +63,9 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#scrollLeft {
+/* #scrollLeft {
   position: absolute;
   top: 40%;
   left: 0%;
@@ -68,7 +76,7 @@
   top: 40%;
   left: 97%;
   opacity: 33%;
-}
+} */
 #imgSource {
   text-align: center;
 }
@@ -76,7 +84,10 @@
 <body>
 <section>
   <table id="searchPanel">
-    <tr><td class="leftCol"><button id="panelSwitch" onclick="switchPanel()">+</button></td><td id="tagCol"></td></tr>
+    <tr><td id="startCol"><button id="panelSwitch" onclick="switchPanel()">+</button>
+        <button id="mapZoom" onclick="zoomMap()">Large Map</button></td>
+        <td id="tagCol"></td>
+    </tr>
     <tr><td class="leftCol">
       <p id="searchPanelUpper">
         <label for="searchCity"></label>
@@ -91,7 +102,7 @@
         <br>
       <segment id="searchPanelLower">
         <label for="pinColor">Select pin color:</label>
-        <input type="color" id="pinColor" name="pinColor" value="#ffff00">
+        <input type="color" id="pinColor" name="pinColor" value="#0000ff">
         <br>
         <br>
         <button onclick="pinIt()">Add</button>
@@ -105,9 +116,9 @@
 <section>
   <table id="subject" onclick="showCoords(event)">
     <tr><td id="myMap">
-    <canvas id="myCanvas" width="1620" height="810"></canvas>
-    <img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
-    <img id="scrollRight" onclick="scrollMap(270)" src="rightScroll.png">
+    <canvas id="myCanvas" width="1620" height="810" style="border:1px solid #000000;"></canvas>
+    <!-- <img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
+    <img id="scrollRight" onclick="scrollMap(270)" src="rightScroll.png"> -->
     </td></tr>
   </table>
 </section>
@@ -124,7 +135,8 @@ var getCities = new XMLHttpRequest(); // a new request
 getCities.open("GET","https://davidiclin.github.io/pub/Cities.json",false);
 getCities.send(null);
 const cities = JSON.parse(getCities.responseText);
-var LongZero = 810;
+var longZero = 810;
+var scale = 4.5;
 var pinList = [];
 var cityCandidates;
 var panelOn = 0;
@@ -164,7 +176,7 @@ function showCoords(event) {
   document.getElementById("demo1").innerHTML = coords1;
   var coords2 = "PAGE - X coords: " + x2 + ", Y coords: " + y2;
   document.getElementById("demo2").innerHTML = coords2;
-  var longitude = Math.floor((x1 - LongZero) / 4.5 * 10) / 10;
+  var longitude = Math.floor((x1 - longZero) / 4.5 * 10) / 10;
   if (longitude > 180) {
     longitude = longitude - 360;
   }
@@ -176,48 +188,70 @@ function showCoords(event) {
   document.getElementById("demo3").innerHTML = coord3;
 }
 
-function scrollMap(x) {
-  LongZero += x;
-  if (LongZero > 1620) {
-    LongZero -= 1620;
-  }
-  if (LongZero < 0) {
-    LongZero += 1620;
-  }
-  document.getElementById("subject").style.backgroundPosition = (LongZero - 810) + "px";
-  document.getElementById("myCanvas").style.left = (LongZero - 810) + "px";
-
-}
+// function scrollMap(x) {
+//   longZero += x;
+//   if (longZero > 1620) {
+//     longZero -= 1620;
+//   }
+//   if (longZero < 0) {
+//     longZero += 1620;
+//   }
+//   document.getElementById("subject").style.backgroundPosition = (longZero - 810) + "px";
+//   document.getElementById("myCanvas").style.left = (longZero - 810) + "px";
+//
+// }
 
 function pinIt() {
   pinList.push(cityCandidates[document.getElementById("searchResult").selectedIndex]);
   pinList[pinList.length - 1].color = document.getElementById("pinColor").value;
-  document.getElementById("tagCol").innerHTML += "<span class=\"cityTag\" id=\"" + pinList[pinList.length -1].id + "\">" + pinList[pinList.length -1].nameE + "</span>";
+  document.getElementById("tagCol").innerHTML += "<span class=\"cityTag\" id=\"" + pinList[pinList.length -1].id + "\">" + "&#11044; " + pinList[pinList.length -1].nameE + "</span>";
   document.getElementById(pinList[pinList.length -1].id).style.color = pinList[pinList.length -1].color;
-  document.getElementById(pinList[pinList.length -1].id).style.borderColor = pinList[pinList.length -1].color;
   document.getElementById("searchCity").value = "Enter City Name";
   document.getElementById("showSearchResult").innerHTML = "";
   document.getElementById("searchResult").style.display = "none";
   document.getElementById("searchPanelLower").style.display = "none";
   renderIt(pinList);
-  console.log(pinList);
+  // console.log(pinList);
 }
 
 function renderIt(x) {
   var canvas = document.getElementById("myCanvas");
   var ctx = canvas.getContext("2d");
-  ctx.clearRect(0, 0, 1620, 810);
+  ctx.clearRect(0, 0, 360 * scale, 180 * scale);
   for (count = 0; count < x.length; count++) {
-    var mapX = 4.5 * x[count].long + LongZero;
-    var mapY = 405 - 4.5 * x[count].lat;
+    var mapX = scale * x[count].long + longZero;
+    var mapY = 180 * scale / 2 - scale * x[count].lat;
     ctx.beginPath();
     ctx.arc(mapX, mapY, 5, 0, 2 * Math.PI);
     ctx.fillStyle = x[count].color;
     ctx.fill();
-    ctx.font = "15px Comic Sans MS";
+    ctx.font = "15px Arial";
     ctx.fillText(x[count].nameE, mapX + 10, mapY + 5)
   }
-  console.log(document.getElementById("myMap").innerHTML);
+}
+
+function zoomMap() {
+  if (scale === 4.5) {
+    scale = 18;
+    document.getElementById("subject").style.width = "6480px";
+    document.getElementById("subject").style.height = "3240px";
+    document.getElementById("myCanvas").width = "6480";
+    document.getElementById("myCanvas").height = "3240";
+    document.getElementById("subject").style.backgroundImage = "url('Worldmap10a.png')";
+    longZero = 3240;
+    renderIt(pinList);
+    document.getElementById("mapZoom").innerHTML = "Small Map";
+  }
+  else {scale = 4.5;
+    document.getElementById("subject").style.width = "1620px";
+    document.getElementById("subject").style.height = "810px";
+    document.getElementById("myCanvas").width = "1620";
+    document.getElementById("myCanvas").height = "810";
+    document.getElementById("subject").style.backgroundImage = "url('Worldmap08a.png')";
+    longZero = 810;
+    renderIt(pinList);
+    document.getElementById("mapZoom").innerHTML = "Large Map";
+  }
 }
 
 function switchPanel() {
