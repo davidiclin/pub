@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pin it on the Map!</title>
 <style>
 #searchPanel {
   position: fixed;
@@ -112,10 +115,11 @@
   left: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-#imgSource {
+#imgSource, #dbSource {
   text-align: center;
 }
 </style>
+</head>
 <body>
 <div>
   <table id="searchPanel">
@@ -165,16 +169,14 @@
   </table>
 </div>
 <section>
-  <table id="subject" onclick="showCoords(event)">
+  <table id="subject">
     <tr><td id="myMap">
     <canvas id="myCanvas" width="1620" height="810"></canvas>
-    <!-- <img id="scrollLeft" onclick="scrollMap(-270)" src="leftScroll.png">
-    <img id="scrollRight" onclick="scrollMap(270)" src="rightScroll.png"> -->
     </td></tr>
   </table>
 </section>
 <p id="imgSource">Original Map file: <a href="https://commons.wikimedia.org/wiki/File:World_location_map.svg" target="_blank">https://commons.wikimedia.org/wiki/File:World_location_map.svg</a></p>
-
+<p id="dbSource">Database Source: <a href="https://simplemaps.com/data/world-cities" target="_blank">https://simplemaps.com/data/world-cities</a></p>
 <script>
 var getCities = new XMLHttpRequest(); // a new request
 getCities.open("GET","https://davidiclin.github.io/pub/worldcities.json",false);
