@@ -27,20 +27,20 @@
   text-align: right;
 }
 #mapSize {
-  width: 10%;
+  width: 16%;
 }
 #mapZoomS {
-  width: 30%;
+  width: 22%;
   background-color: Yellow;
   border: 2px solid White;
 }
-#mapZoomM, #mapZoomL {
-  width: 30%;
+#mapZoomM, #mapZoomL, #mapZoomXL {
+  width: 22%;
   background-color: LightGray;
   border: 2px solid White;
 }
 #mapCenter {
-  width: 25%;
+  width: 10%;
 }
 #PMBtn {
   background-color: Yellow;
@@ -124,9 +124,10 @@
           <td id="mapSize"><button id="mapZoomS" onclick="zoomMap(0)">S</button>
           <button id="mapZoomM" onclick="zoomMap(1)">M</button>
           <button id="mapZoomL" onclick="zoomMap(2)">L</button>
+          <button id="mapZoomXL" onclick="zoomMap(3)">XL</button>
         </td>
         <td class="barCap">Center </td>
-        <td id="mapCenter"><button id="PMBtn" onclick="shiftMap(0)">Prime Meridian</button><button id="AMBtn" onclick="shiftMap(1)">Anti-meridian</button></td>
+        <td id="mapCenter"><button id="PMBtn" onclick="shiftMap(0)">0&#176;</button><button id="AMBtn" onclick="shiftMap(1)">180&#176;</button></td>
         <td class="barCap">Pin List </td>
         <td id="dropDownList"><label for="pinDropDownList"></label>
           <select id="pinDropDownList" onchange="locatePin()">
@@ -274,6 +275,7 @@ function zoomMap(x) {
       document.getElementById("mapZoomS").style.backgroundColor = "Yellow";
       document.getElementById("mapZoomM").style.backgroundColor = "LightGray";
       document.getElementById("mapZoomL").style.backgroundColor = "LightGray";
+      document.getElementById("mapZoomXL").style.backgroundColor = "LightGray";
       renderIt(pinList);
       locatePin();
       break;
@@ -293,6 +295,7 @@ function zoomMap(x) {
       document.getElementById("mapZoomS").style.backgroundColor = "LightGray";
       document.getElementById("mapZoomM").style.backgroundColor = "Yellow";
       document.getElementById("mapZoomL").style.backgroundColor = "LightGray";
+      document.getElementById("mapZoomXL").style.backgroundColor = "LightGray";
       renderIt(pinList);
       locatePin();
       break;
@@ -312,9 +315,30 @@ function zoomMap(x) {
       document.getElementById("mapZoomS").style.backgroundColor = "LightGray";
       document.getElementById("mapZoomM").style.backgroundColor = "LightGray";
       document.getElementById("mapZoomL").style.backgroundColor = "Yellow";
+      document.getElementById("mapZoomXL").style.backgroundColor = "LightGray";
       renderIt(pinList);
       locatePin();
       break;
+      case 3:
+        scale = 36;
+        document.getElementById("subject").style.width = "12960px";
+        document.getElementById("subject").style.height = "6480px";
+        document.getElementById("myCanvas").width = "12960";
+        document.getElementById("myCanvas").height = "6480";
+        document.getElementById("subject").style.backgroundImage = "url('Worldmap11a.png')";
+        if (mapShift === 1) {
+          document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
+        }
+        else {
+          document.getElementById("subject").style.backgroundPosition = "0px";
+        }
+        document.getElementById("mapZoomS").style.backgroundColor = "LightGray";
+        document.getElementById("mapZoomM").style.backgroundColor = "LightGray";
+        document.getElementById("mapZoomL").style.backgroundColor = "LightGray";
+        document.getElementById("mapZoomXL").style.backgroundColor = "Yellow";
+        renderIt(pinList);
+        locatePin();
+        break;
   }
 }
 
