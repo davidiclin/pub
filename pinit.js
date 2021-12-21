@@ -50,9 +50,6 @@ function pinIt() {
 }
 
 function renderIt(x) {
-  if (x.length === 0) {
-    return;
-  }
   if (mapShift === 1) {
     longZero = document.getElementById("myCanvas").width;
   }
@@ -184,8 +181,6 @@ function focusOnPin(x) {
         var toY = 180 * scale / 2 - scale * pinList[count3].lat - window.innerHeight / 2;
         window.scrollTo(toX, toY);
       }
-      console.log(scale * pinList[count3].lng + longZero - window.innerWidth / 2);
-      console.log(180 * scale / 2 - scale * pinList[count3].lat - window.innerHeight / 2);
       renderIt(pinList);
       break;
     }
@@ -198,7 +193,6 @@ function locatePin() {
 }
 
 function getWiki() {
-  console.log(document.getElementById("pinDropDownList").selectedIndex);
   if (document.getElementById("pinDropDownList").selectedIndex === 0) {
     return;
   }
@@ -208,7 +202,6 @@ function getWiki() {
 }
 
 function getGoogle() {
-  console.log(document.getElementById("pinDropDownList").selectedIndex);
   if (document.getElementById("pinDropDownList").selectedIndex === 0) {
     return;
   }
@@ -218,14 +211,13 @@ function getGoogle() {
 }
 
 function removePin() {
-  console.log(document.getElementById("pinDropDownList").selectedIndex);
   if (document.getElementById("pinDropDownList").selectedIndex === 0) {
     return;
   }
   if (pinList.length === 0) {
     return;
   }
-  pinList.splice(document.getElementById("pinDropDownList").selectedIndex - 1,1);
+  pinList.splice(document.getElementById("pinDropDownList").selectedIndex - 1, 1);
   refreshDropDownList(pinList);
   renderIt(pinList);
   document.getElementById("pinDropDownList").selectedIndex = 0;
