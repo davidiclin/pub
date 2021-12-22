@@ -15,7 +15,9 @@ function searchIt() {
   cityCandidates = [];
   document.getElementById("searchResult").innerHTML = "";
   for (count1 = 0; count1 < cities.length; count1++) {
-    if (document.getElementById("searchCity").value.toLowerCase() === cities[count1].city_ascii.toLowerCase()) {
+    if (document.getElementById("searchCity").value.toLowerCase() === cities[count1].city_ascii.toLowerCase() ||
+        document.getElementById("searchCity").value.toLowerCase().includes(cities[count1].city_ascii.toLowerCase()) ||
+        cities[count1].city_ascii.toLowerCase().includes(document.getElementById("searchCity").value.toLowerCase())) {
       document.getElementById("searchResult").style.display = "block";
       document.getElementById("searchPanelLower").style.display = "block";
       document.getElementById("searchResult").innerHTML += "<option value=\"" + cities[count1].city_ascii + " (" + cities[count1].country + ")\">" + cities[count1].city_ascii + " (" + cities[count1].country + ")</option>";
@@ -84,7 +86,7 @@ function zoomMap(x) {
       document.getElementById("subject").style.height = "810px";
       document.getElementById("myCanvas").width = "1620";
       document.getElementById("myCanvas").height = "810";
-      document.getElementById("subject").style.backgroundImage = "url('Worldmap08a.png')";
+      document.getElementById("subject").style.backgroundImage = "url('pinit-img/Worldmap08a.png')";
       if (mapShift === 1) {
         document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
       }
@@ -104,7 +106,7 @@ function zoomMap(x) {
       document.getElementById("subject").style.height = "1620px";
       document.getElementById("myCanvas").width = "3240";
       document.getElementById("myCanvas").height = "1620";
-      document.getElementById("subject").style.backgroundImage = "url('Worldmap09a.png')";
+      document.getElementById("subject").style.backgroundImage = "url('pinit-img/Worldmap09a.png')";
       if (mapShift === 1) {
         document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
       }
@@ -124,7 +126,7 @@ function zoomMap(x) {
       document.getElementById("subject").style.height = "3240px";
       document.getElementById("myCanvas").width = "6480";
       document.getElementById("myCanvas").height = "3240";
-      document.getElementById("subject").style.backgroundImage = "url('Worldmap10a.png')";
+      document.getElementById("subject").style.backgroundImage = "url('pinit-img/Worldmap10a.png')";
       if (mapShift === 1) {
         document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
       }
@@ -144,7 +146,7 @@ function zoomMap(x) {
         document.getElementById("subject").style.height = "6480px";
         document.getElementById("myCanvas").width = "12960";
         document.getElementById("myCanvas").height = "6480";
-        document.getElementById("subject").style.backgroundImage = "url('Worldmap11a.png')";
+        document.getElementById("subject").style.backgroundImage = "url('pinit-img/Worldmap11a.png')";
         if (mapShift === 1) {
           document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
         }
