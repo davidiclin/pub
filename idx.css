@@ -1,4 +1,66 @@
 body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(212,255,255);
+}
+#pageTitle {
+font-size: 4vw;
+font-weight: bold;
+color: blue;
+text-align: center;
+}
+#catCon {
+  background-color: rgb(212,255,255);
+  border: 3px outset White;
+  font-size: 1.5vw;
+}
+.drpDwnBtn {
+  width: 100%;
+  font-size: 2.5vw;
+  text-align: center;
+  border: 2px outset white;
+  padding: 5px;
+  display: block;
+}
+#Btn1 {
+  background-color: rgb(178,255,212);
+}
+#Btn2 {
+  background-color: rgb(255,212,178);
+}
+#Btn3 {
+  background-color: rgb(255,153,239);
+}
+table {
+  width: 100%;
+}
+tr {
+  height: 150px;
+}
+.itemText {
+  padding: 0px 20px;
+}
+td .itemTitle {
+  font-size: 2vw;
+  color: blue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+td .itemDetail {
+  margin-top: 0px;
+  font-size: 2vw;
+  color: green;
+}
+.itemPic {
+  width: 15%;
+}
+img {
+  width: 100%;
+  border: 5px outset white;
+}
+@media screen and (max-width: 767px) {
+body {
   background-color: rgb(212,255,255);
 }
 #pageTitle {
@@ -55,4 +117,5 @@ td .itemDetail {
 img {
   width: 100%;
   border: 5px outset white;
+}
 }

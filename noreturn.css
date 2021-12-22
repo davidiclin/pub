@@ -1,7 +1,4 @@
 body {
-  width: 768px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: black;
 }
 table {
@@ -78,84 +75,4 @@ td #message {
   color: green;
   top:35%;
   left: 5%;
-}
-@media screen and (max-width: 767px) {
-body {
-  background-color: black;
-}
-table {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(230,230,230);
-  border-spacing: 0px;
-}
-#showmap {
-  background-position: center bottom;
-  align: center;
-  border-bottom: 10px solid white;
-}
-th, td {
-  padding: 0px;
-}
-img {
-  display: block;
-}
-td {
-  position: relative;
-}
-td .up-arrow {
-  position: absolute;
-  top: 2%;
-  left: 35%;
-}
-td .left-arrow {
-  position: absolute;
-  top: 35%;
-  left: 2%;
-}
-td .right-arrow {
-  position: absolute;
-  top: 35%;
-  left: 68%;
-}
-td .pawn {
-  position: absolute;
-  top: 40%;
-  left: 30%;
-}
-.unvisited {
-  opacity: 0.3;
-}
-td #barLeft {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-}
-td #barMidLeft {
-  position: absolute;
-  top:5%;
-  left:33%;
-}
-td #barMidRight {
-  position: absolute;
-  top:5%;
-  left:43%;
-}
-td #barRightLeft {
-  position: absolute;
-  top: 8%;
-  left: 55%;
-}
-td #barRightRight {
-  position: absolute;
-  top: 8%;
-  left: 77%;
-}
-td #message {
-  position: absolute;
-  font-size: 2.5em;
-  color: green;
-  top:35%;
-  left: 5%;
-}
 }
