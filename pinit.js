@@ -86,7 +86,7 @@ function zoomMap(x) {
       document.getElementById("subject").style.height = "810px";
       document.getElementById("myCanvas").width = "1620";
       document.getElementById("myCanvas").height = "810";
-      document.getElementById("subject").style.backgroundImage = "pinit-img/Worldmap08a.png";
+      document.getElementById("subject").style.backgroundImage = "url('pinit_img/Worldmap08a.png')";
       if (mapShift === 1) {
         document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
       }
@@ -106,7 +106,7 @@ function zoomMap(x) {
       document.getElementById("subject").style.height = "1620px";
       document.getElementById("myCanvas").width = "3240";
       document.getElementById("myCanvas").height = "1620";
-      document.getElementById("subject").style.backgroundImage = "pinit-img/Worldmap09a.png";
+      document.getElementById("subject").style.backgroundImage = "url('pinit_img/Worldmap09a.png')";
       if (mapShift === 1) {
         document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
       }
@@ -126,7 +126,7 @@ function zoomMap(x) {
       document.getElementById("subject").style.height = "3240px";
       document.getElementById("myCanvas").width = "6480";
       document.getElementById("myCanvas").height = "3240";
-      document.getElementById("subject").style.backgroundImage = "pinit-img/Worldmap10a.png";
+      document.getElementById("subject").style.backgroundImage = "url('pinit_img/Worldmap10a.png')";
       if (mapShift === 1) {
         document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
       }
@@ -146,7 +146,7 @@ function zoomMap(x) {
         document.getElementById("subject").style.height = "6480px";
         document.getElementById("myCanvas").width = "12960";
         document.getElementById("myCanvas").height = "6480";
-        document.getElementById("subject").style.backgroundImage = "pinit-img/Worldmap11a.png";
+        document.getElementById("subject").style.backgroundImage = "url('pinit_img/Worldmap11a.png')";
         if (mapShift === 1) {
           document.getElementById("subject").style.backgroundPosition = document.getElementById("myCanvas").width / 2 + "px";
         }
