@@ -60,6 +60,7 @@ function renderNewRow() {
 
 function focusOn(x) {
   currentLocation = x;
+  console.log(currentLocation);
   path.push(currentLocation);
   document.getElementById("message").innerHTML = "";
   var imgHTML = "<img src=\"NRmap_tiles/t" + map[currentLocation] + ".png\">";
@@ -170,26 +171,30 @@ function sendRecon() {
   }
   recon -= 1;
   document.getElementById("barMidLeft").src = "NRmap_tiles/recon" + recon + ".png";
-  if (map[currentLocation - 1][4] === "1") {
-    for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
-      document.getElementsByClassName("left-arrow")[count].src = "NRmap_tiles/leftr.png";
-      enemySpotted = true;
+  if (currentLocation > 0) {
+    if (map[currentLocation - 1][4] === "1") {
+      for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
+        document.getElementsByClassName("left-arrow")[count].src = "NRmap_tiles/leftr.png";
+        enemySpotted = true;
+      }
+    }
+    else {
+      for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
+        document.getElementsByClassName("left-arrow")[count].src = "NRmap_tiles/left.png";
+      }
     }
   }
-  else {
-    for (count = 0; count < document.getElementsByClassName("left-arrow").length; count++) {
-      document.getElementsByClassName("left-arrow")[count].src = "NRmap_tiles/left.png";
+  if (currentLocation < 101) {
+    if (map[currentLocation + 1][4] === "1") {
+      for (count = 0; count < document.getElementsByClassName("right-arrow").length; count++) {
+        document.getElementsByClassName("right-arrow")[count].src = "NRmap_tiles/rightr.png";
+        enemySpotted = true;
+      }
     }
-  }
-  if (map[currentLocation + 1][4] === "1") {
-    for (count = 0; count < document.getElementsByClassName("right-arrow").length; count++) {
-      document.getElementsByClassName("right-arrow")[count].src = "NRmap_tiles/rightr.png";
-      enemySpotted = true;
-    }
-  }
-  else {
-    for (count = 0; count < document.getElementsByClassName("right-arrow").length; count++) {
-      document.getElementsByClassName("right-arrow")[count].src = "NRmap_tiles/right.png";
+    else {
+      for (count = 0; count < document.getElementsByClassName("right-arrow").length; count++) {
+        document.getElementsByClassName("right-arrow")[count].src = "NRmap_tiles/right.png";
+      }
     }
   }
   if (currentRow > 0) {
