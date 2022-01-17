@@ -10,7 +10,7 @@
         "option3": "on board",
         "option3C": "在(交通工具)上",
         "synonym": "overseas",
-        "synonymC": "在海外",
+        "synonymC": "在海外"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "option3": "massive",
         "option3C": "龐大的",
         "synonym": "balanced",
-        "synonymC": "均衡的",
+        "synonymC": "均衡的"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "option3": "slight",
         "option3C": "輕微的",
         "synonym": "least",
-        "synonymC": "最少的",
+        "synonymC": "最少的"
     },
     {
         "id": 4,
@@ -49,7 +49,7 @@
         "option3": "utility",
         "option3C": "工具；公用事業",
         "synonym": "commercial",
-        "synonymC": "廣告",
+        "synonymC": "廣告"
     },
     {
         "id": 5,
@@ -62,7 +62,7 @@
         "option3": "entrance",
         "option3C": "入口",
         "synonym": "function",
-        "synonymC": "社交活動",
+        "synonymC": "社交活動"
     },
     {
         "id": 6,
@@ -75,7 +75,7 @@
         "option3": "maintain",
         "option3C": "維持",
         "synonym": "produce",
-        "synonymC": "生產",
+        "synonymC": "生產"
     },
     {
         "id": 7,
@@ -88,7 +88,7 @@
         "option3": "solution",
         "option3C": "解決辦法",
         "synonym": "investigation",
-        "synonymC": "調查",
+        "synonymC": "調查"
     },
     {
         "id": 8,
@@ -101,7 +101,7 @@
         "option3": "modify",
         "option3C": "修改",
         "synonym": "invoice",
-        "synonymC": "開發票",
+        "synonymC": "開發票"
     },
     {
         "id": 9,
@@ -114,7 +114,7 @@
         "option3": "surpass",
         "option3C": "超越",
         "synonym": "summarize",
-        "synonymC": "摘要；概述",
+        "synonymC": "摘要；概述"
     },
     {
         "id": 10,
@@ -127,7 +127,7 @@
         "option3": "response",
         "option3C": "回應",
         "synonym": "provision",
-        "synonymC": "供給",
+        "synonymC": "供給"
     },
     {
         "id": 11,
@@ -140,7 +140,7 @@
         "option3": "electronic",
         "option3C": "電子的",
         "synonym": "useful",
-        "synonymC": "有用的",
+        "synonymC": "有用的"
     },
     {
         "id": 12,
@@ -153,7 +153,7 @@
         "option3": "supreme",
         "option3C": "地位最高的",
         "synonym": "knowledgeable",
-        "synonymC": "聰明的；有知識的",
+        "synonymC": "聰明的；有知識的"
     },
     {
         "id": 13,
@@ -166,7 +166,7 @@
         "option3": "beneficial",
         "option3C": "有益的",
         "synonym": "characteristic",
-        "synonymC": "特色的",
+        "synonymC": "特色的"
     },
     {
         "id": 14,
@@ -179,7 +179,7 @@
         "option3": "employee",
         "option3C": "雇員；員工",
         "synonym": "candidate",
-        "synonymC": "人選；候選人",
+        "synonymC": "人選；候選人"
     },
     {
         "id": 15,
@@ -192,7 +192,7 @@
         "option3": "audience",
         "option3C": "聽眾；觀眾",
         "synonym": "structure",
-        "synonymC": "結構；建物",
+        "synonymC": "結構；建物"
     },
     {
         "id": 16,
@@ -205,7 +205,7 @@
         "option3": "revenue",
         "option3C": "營收",
         "synonym": "conference",
-        "synonymC": "會議",
+        "synonymC": "會議"
     },
     {
         "id": 17,
@@ -218,7 +218,7 @@
         "option3": "liaison",
         "option3C": "聯絡(人)",
         "synonym": "answer",
-        "synonymC": "解答",
+        "synonymC": "解答"
     },
     {
         "id": 18,
@@ -231,7 +231,7 @@
         "option3": "suppose",
         "option3C": "猜想",
         "synonym": "tolerate",
-        "synonymC": "容許",
+        "synonymC": "容許"
     },
     {
         "id": 19,
@@ -244,7 +244,7 @@
         "option3": "retreat",
         "option3C": "撤退",
         "synonym": "examine",
-        "synonymC": "檢查",
+        "synonymC": "檢查"
     },
     {
         "id": 20,
@@ -257,7 +257,7 @@
         "option3": "verify",
         "option3C": "證實；驗證",
         "synonym": "renew",
-        "synonymC": "更新",
+        "synonymC": "更新"
     },
     {
         "id": 21,
@@ -270,7 +270,7 @@
         "option3": "simple",
         "option3C": "單純的",
         "synonym": "close",
-        "synonymC": "接近的",
+        "synonymC": "接近的"
     },
     {
         "id": 22,
@@ -283,7 +283,7 @@
         "option3": "profitable",
         "option3C": "有利潤的；賺錢的",
         "synonym": "undivided",
-        "synonymC": "無分歧的",
+        "synonymC": "無分歧的"
     },
     {
         "id": 23,
@@ -296,7 +296,7 @@
         "option3": "similarity",
         "option3C": "相似性",
         "synonym": "neighborhood",
-        "synonymC": "社區；街坊",
+        "synonymC": "社區；街坊"
     },
     {
         "id": 24,
@@ -309,7 +309,7 @@
         "option3": "message",
         "option3C": "訊息",
         "synonym": "value",
-        "synonymC": "價值",
+        "synonymC": "價值"
     },
     {
         "id": 25,
@@ -322,7 +322,7 @@
         "option3": "occupation",
         "option3C": "職業",
         "synonym": "formula",
-        "synonymC": "公式；方程式",
+        "synonymC": "公式；方程式"
     },
     {
         "id": 26,
@@ -335,7 +335,7 @@
         "option3": "defect",
         "option3C": "缺陷",
         "synonym": "opening",
-        "synonymC": "職缺",
+        "synonymC": "職缺"
     },
     {
         "id": 27,
@@ -348,7 +348,7 @@
         "option3": "discover",
         "option3C": "發現",
         "synonym": "allow",
-        "synonymC": "准許",
+        "synonymC": "准許"
     },
     {
         "id": 28,
@@ -361,7 +361,7 @@
         "option3": "purchase",
         "option3C": "購買",
         "synonym": "surround",
-        "synonymC": "包圍；圍繞",
+        "synonymC": "包圍；圍繞"
     },
     {
         "id": 29,
@@ -374,7 +374,7 @@
         "option3": "secure",
         "option3C": "確保；固定",
         "synonym": "arrange",
-        "synonymC": "安排；整理",
+        "synonymC": "安排；整理"
     },
     {
         "id": 30,
@@ -387,7 +387,7 @@
         "option3": "operation",
         "option3C": "運作；行動",
         "synonym": "timetable",
-        "synonymC": "時刻表",
+        "synonymC": "時刻表"
     },
     {
         "id": 31,
@@ -400,7 +400,7 @@
         "option3": "unacceptable",
         "option3C": "無法接受的",
         "synonym": "inexpensive",
-        "synonymC": "便宜的",
+        "synonymC": "便宜的"
     },
     {
         "id": 32,
@@ -413,7 +413,7 @@
         "option3": "regional",
         "option3C": "區域的",
         "synonym": "economic",
-        "synonymC": "經濟的",
+        "synonymC": "經濟的"
     },
     {
         "id": 33,
@@ -426,7 +426,7 @@
         "option3": "immediate",
         "option3C": "立即的",
         "synonym": "interim",
-        "synonymC": "過渡時期的",
+        "synonymC": "過渡時期的"
     },
     {
         "id": 34,
@@ -439,7 +439,7 @@
         "option3": "service",
         "option3C": "服務",
         "synonym": "movement",
-        "synonymC": "運動；活動",
+        "synonymC": "運動；活動"
     },
     {
         "id": 35,
@@ -452,7 +452,7 @@
         "option3": "confidence",
         "option3C": "信心",
         "synonym": "publicity",
-        "synonymC": "宣傳；知名度",
+        "synonymC": "宣傳；知名度"
     },
     {
         "id": 36,
@@ -465,7 +465,7 @@
         "option3": "habit",
         "option3C": "習慣",
         "synonym": "method",
-        "synonymC": "方法",
+        "synonymC": "方法"
     },
     {
         "id": 37,
@@ -478,7 +478,7 @@
         "option3": "decision",
         "option3C": "決定",
         "synonym": "danger",
-        "synonymC": "危險",
+        "synonymC": "危險"
     },
     {
         "id": 38,
@@ -491,7 +491,7 @@
         "option3": "guide",
         "option3C": "引導",
         "synonym": "select",
-        "synonymC": "選擇",
+        "synonymC": "選擇"
     },
     {
         "id": 39,
@@ -504,7 +504,7 @@
         "option3": "approach",
         "option3C": "靠近",
         "synonym": "anticipate",
-        "synonymC": "預期",
+        "synonymC": "預期"
     },
     {
         "id": 40,
@@ -517,7 +517,7 @@
         "option3": "omit",
         "option3C": "省略",
         "synonym": "present",
-        "synonymC": "呈現；提出",
+        "synonymC": "呈現；提出"
     },
     {
         "id": 41,
@@ -530,7 +530,7 @@
         "option3": "exceptional",
         "option3C": "例外的；傑出的",
         "synonym": "vigorous",
-        "synonymC": "有活力的",
+        "synonymC": "有活力的"
     },
     {
         "id": 42,
@@ -543,7 +543,7 @@
         "option3": "conventional",
         "option3C": "傳統的",
         "synonym": "unshared",
-        "synonymC": "獨佔的",
+        "synonymC": "獨佔的"
     },
     {
         "id": 43,
@@ -556,7 +556,7 @@
         "option3": "graphic",
         "option3C": "圖形的",
         "synonym": "willing",
-        "synonymC": "樂意的",
+        "synonymC": "樂意的"
     },
     {
         "id": 44,
@@ -569,7 +569,7 @@
         "option3": "catalog",
         "option3C": "型錄",
         "synonym": "amount",
-        "synonymC": "量；金額",
+        "synonymC": "量；金額"
     },
     {
         "id": 45,
@@ -582,7 +582,7 @@
         "option3": "cancellation",
         "option3C": "取消",
         "synonym": "deduction",
-        "synonymC": "扣除；減免",
+        "synonymC": "扣除；減免"
     },
     {
         "id": 46,
@@ -595,7 +595,7 @@
         "option3": "impairment",
         "option3C": "損害",
         "synonym": "upkeep",
-        "synonymC": "維護",
+        "synonymC": "維護"
     },
     {
         "id": 47,
@@ -608,7 +608,7 @@
         "option3": "headquarters",
         "option3C": "總部",
         "synonym": "assets",
-        "synonymC": "資產",
+        "synonymC": "資產"
     },
     {
         "id": 48,
@@ -621,7 +621,7 @@
         "option3": "influence",
         "option3C": "影響",
         "synonym": "evaluate",
-        "synonymC": "評價；評估",
+        "synonymC": "評價；評估"
     },
     {
         "id": 49,
@@ -634,7 +634,7 @@
         "option3": "regard",
         "option3C": "看待；認為",
         "synonym": "continue",
-        "synonymC": "繼續",
+        "synonymC": "繼續"
     },
     {
         "id": 50,
@@ -647,7 +647,7 @@
         "option3": "prohibit",
         "option3C": "禁止",
         "synonym": "relocate",
-        "synonymC": "搬遷；重新安置",
+        "synonymC": "搬遷；重新安置"
     },
     {
         "id": 51,
@@ -660,7 +660,7 @@
         "option3": "moderate",
         "option3C": "適度的",
         "synonym": "scarce",
-        "synonymC": "缺乏的；稀少的",
+        "synonymC": "缺乏的；稀少的"
     },
     {
         "id": 52,
@@ -673,7 +673,7 @@
         "option3": "standard",
         "option3C": "標準的",
         "synonym": "eligible",
-        "synonymC": "有資格的",
+        "synonymC": "有資格的"
     },
     {
         "id": 53,
@@ -686,7 +686,7 @@
         "option3": "serious",
         "option3C": "嚴肅的；認真的",
         "synonym": "complete",
-        "synonymC": "完全的",
+        "synonymC": "完全的"
     },
     {
         "id": 54,
@@ -699,7 +699,7 @@
         "option3": "intervention",
         "option3C": "介入；調停",
         "synonym": "consent",
-        "synonymC": "共識；同意",
+        "synonymC": "共識；同意"
     },
     {
         "id": 55,
@@ -712,7 +712,7 @@
         "option3": "connection",
         "option3C": "連結",
         "synonym": "conference",
-        "synonymC": "會議",
+        "synonymC": "會議"
     },
     {
         "id": 56,
@@ -725,7 +725,7 @@
         "option3": "realtor",
         "option3C": "不動產經紀人",
         "synonym": "investor",
-        "synonymC": "投資人",
+        "synonymC": "投資人"
     },
     {
         "id": 57,
@@ -738,7 +738,7 @@
         "option3": "career",
         "option3C": "職涯",
         "synonym": "advertising",
-        "synonymC": "廣告",
+        "synonymC": "廣告"
     },
     {
         "id": 58,
@@ -751,7 +751,7 @@
         "option3": "material",
         "option3C": "物質；材料",
         "synonym": "indication",
-        "synonymC": "指示；徵兆",
+        "synonymC": "指示；徵兆"
     },
     {
         "id": 59,
@@ -764,7 +764,7 @@
         "option3": "arrange",
         "option3C": "安排；整理",
         "synonym": "calculate",
-        "synonymC": "計算",
+        "synonymC": "計算"
     },
     {
         "id": 60,
@@ -777,7 +777,7 @@
         "option3": "resolve",
         "option3C": "解決",
         "synonym": "substitute",
-        "synonymC": "替代",
+        "synonymC": "替代"
     },
     {
         "id": 61,
@@ -790,7 +790,7 @@
         "option3": "attractive",
         "option3C": "有吸引力的",
         "synonym": "unoccupied",
-        "synonymC": "有空的；非使用中的",
+        "synonymC": "有空的；非使用中的"
     },
     {
         "id": 62,
@@ -803,7 +803,7 @@
         "option3": "impressive",
         "option3C": "令人印象深刻的",
         "synonym": "viable",
-        "synonymC": "可行的",
+        "synonymC": "可行的"
     },
     {
         "id": 63,
@@ -816,7 +816,7 @@
         "option3": "opposite",
         "option3C": "相反的",
         "synonym": "broad",
-        "synonymC": "廣闊的",
+        "synonymC": "廣闊的"
     },
     {
         "id": 64,
@@ -829,7 +829,7 @@
         "option3": "inspection",
         "option3C": "檢查",
         "synonym": "device",
-        "synonymC": "裝置；設備",
+        "synonymC": "裝置；設備"
     },
     {
         "id": 65,
@@ -842,7 +842,7 @@
         "option3": "setback",
         "option3C": "挫折",
         "synonym": "payment",
-        "synonymC": "付款",
+        "synonymC": "付款"
     },
     {
         "id": 66,
@@ -855,7 +855,7 @@
         "option3": "district",
         "option3C": "區域",
         "synonym": "protection",
-        "synonymC": "保護",
+        "synonymC": "保護"
     },
     {
         "id": 67,
@@ -868,7 +868,7 @@
         "option3": "punishment",
         "option3C": "處罰",
         "synonym": "adaptation",
-        "synonymC": "改版；適應",
+        "synonymC": "改版；適應"
     },
     {
         "id": 68,
@@ -881,7 +881,7 @@
         "option3": "confine",
         "option3C": "限制",
         "synonym": "collaborate",
-        "synonymC": "合作；協力",
+        "synonymC": "合作；協力"
     },
     {
         "id": 69,
@@ -894,7 +894,7 @@
         "option3": "contact",
         "option3C": "接觸；聯繫",
         "synonym": "develop",
-        "synonymC": "發展",
+        "synonymC": "發展"
     },
     {
         "id": 70,
@@ -907,7 +907,7 @@
         "option3": "repeat",
         "option3C": "重複",
         "synonym": "advocate",
-        "synonymC": "鼓吹；提倡",
+        "synonymC": "鼓吹；提倡"
     },
     {
         "id": 71,
@@ -920,7 +920,7 @@
         "option3": "capable",
         "option3C": "有能力的",
         "synonym": "yearly",
-        "synonymC": "年度的；每年的",
+        "synonymC": "年度的；每年的"
     },
     {
         "id": 72,
@@ -933,7 +933,7 @@
         "option3": "famous",
         "option3C": "著名的",
         "synonym": "utmost",
-        "synonymC": "極度的",
+        "synonymC": "極度的"
     },
     {
         "id": 73,
@@ -946,7 +946,7 @@
         "option3": "partial",
         "option3C": "局部的；偏袒的",
         "synonym": "following",
-        "synonymC": "接下來的",
+        "synonymC": "接下來的"
     },
     {
         "id": 74,
@@ -959,7 +959,7 @@
         "option3": "warning",
         "option3C": "警告",
         "synonym": "benefit",
-        "synonymC": "利益",
+        "synonymC": "利益"
     },
     {
         "id": 75,
@@ -972,7 +972,7 @@
         "option3": "influence",
         "option3C": "影響",
         "synonym": "diploma",
-        "synonymC": "文憑",
+        "synonymC": "文憑"
     },
     {
         "id": 76,
@@ -985,7 +985,7 @@
         "option3": "control",
         "option3C": "控制",
         "synonym": "extent",
-        "synonymC": "程度；範圍",
+        "synonymC": "程度；範圍"
     },
     {
         "id": 77,
@@ -998,7 +998,7 @@
         "option3": "compromise",
         "option3C": "妥協；折衷辦法",
         "synonym": "requirement",
-        "synonymC": "要求；條件",
+        "synonymC": "要求；條件"
     },
     {
         "id": 78,
@@ -1011,7 +1011,7 @@
         "option3": "assess",
         "option3C": "評量",
         "synonym": "proclaim",
-        "synonymC": "宣布",
+        "synonymC": "宣布"
     },
     {
         "id": 79,
@@ -1024,7 +1024,7 @@
         "option3": "enlarge",
         "option3C": "放大",
         "synonym": "evaluate",
-        "synonymC": "評價；評估",
+        "synonymC": "評價；評估"
     },
     {
         "id": 80,
@@ -1037,7 +1037,7 @@
         "option3": "release",
         "option3C": "釋放；發行",
         "synonym": "oversee",
-        "synonymC": "監督",
+        "synonymC": "監督"
     },
     {
         "id": 81,
@@ -1050,7 +1050,7 @@
         "option3": "fundamental",
         "option3C": "基礎的",
         "synonym": "aggressive",
-        "synonymC": "積極的；侵略性的",
+        "synonymC": "積極的；侵略性的"
     },
     {
         "id": 82,
@@ -1063,7 +1063,7 @@
         "option3": "productive",
         "option3C": "有生產力的",
         "synonym": "confidential",
-        "synonymC": "機密的",
+        "synonymC": "機密的"
     },
     {
         "id": 83,
@@ -1076,7 +1076,7 @@
         "option3": "inherent",
         "option3C": "先天的；固有的",
         "synonym": "matchless",
-        "synonymC": "無可匹敵的",
+        "synonymC": "無可匹敵的"
     },
     {
         "id": 84,
@@ -1089,7 +1089,7 @@
         "option3": "spouse",
         "option3C": "配偶",
         "synonym": "aide",
-        "synonymC": "助手",
+        "synonymC": "助手"
     },
     {
         "id": 85,
@@ -1102,7 +1102,7 @@
         "option3": "comparison",
         "option3C": "比較",
         "synonym": "confrontation",
-        "synonymC": "衝突",
+        "synonymC": "衝突"
     },
     {
         "id": 86,
@@ -1115,7 +1115,7 @@
         "option3": "estate",
         "option3C": "不動產",
         "synonym": "expense",
-        "synonymC": "花費",
+        "synonymC": "花費"
     },
     {
         "id": 87,
@@ -1128,7 +1128,7 @@
         "option3": "division",
         "option3C": "部門；分區",
         "synonym": "stock",
-        "synonymC": "存貨",
+        "synonymC": "存貨"
     },
     {
         "id": 88,
@@ -1141,7 +1141,7 @@
         "option3": "dismiss",
         "option3C": "解散；解雇",
         "synonym": "adapt",
-        "synonymC": "調適；改編",
+        "synonymC": "調適；改編"
     },
     {
         "id": 89,
@@ -1154,7 +1154,7 @@
         "option3": "determine",
         "option3C": "決定",
         "synonym": "bargain",
-        "synonymC": "議價",
+        "synonymC": "議價"
     },
     {
         "id": 90,
@@ -1167,7 +1167,7 @@
         "option3": "illustrate",
         "option3C": "闡明；圖解",
         "synonym": "certify",
-        "synonymC": "證明；認證",
+        "synonymC": "證明；認證"
     },
     {
         "id": 91,
@@ -1180,7 +1180,7 @@
         "option3": "generous",
         "option3C": "慷慨的",
         "synonym": "substitute",
-        "synonymC": "替代的",
+        "synonymC": "替代的"
     },
     {
         "id": 92,
@@ -1193,7 +1193,7 @@
         "option3": "cautious",
         "option3C": "謹慎的",
         "synonym": "extravagant",
-        "synonymC": "鋪張的；放肆的",
+        "synonymC": "鋪張的；放肆的"
     },
     {
         "id": 93,
@@ -1206,7 +1206,7 @@
         "option3": "experienced",
         "option3C": "有經驗的",
         "synonym": "enduring",
-        "synonymC": "持久的",
+        "synonymC": "持久的"
     },
     {
         "id": 94,
@@ -1219,7 +1219,7 @@
         "option3": "presentation",
         "option3C": "呈現；簡報",
         "synonym": "applicant",
-        "synonymC": "應徵者；申請人",
+        "synonymC": "應徵者；申請人"
     },
     {
         "id": 95,
@@ -1232,7 +1232,7 @@
         "option3": "compartment",
         "option3C": "小隔間；置物空間",
         "synonym": "amenity",
-        "synonymC": "善意；便利設施",
+        "synonymC": "善意；便利設施"
     },
     {
         "id": 96,
@@ -1245,7 +1245,7 @@
         "option3": "proposal",
         "option3C": "提議；提案",
         "synonym": "scheme",
-        "synonymC": "計畫；計謀",
+        "synonymC": "計畫；計謀"
     },
     {
         "id": 97,
@@ -1258,7 +1258,7 @@
         "option3": "privilege",
         "option3C": "特權；特惠",
         "synonym": "hindrance",
-        "synonymC": "阻礙",
+        "synonymC": "阻礙"
     },
     {
         "id": 98,
@@ -1271,7 +1271,7 @@
         "option3": "struggle",
         "option3C": "掙扎；奮鬥",
         "synonym": "record",
-        "synonymC": "記錄；錄音(影)",
+        "synonymC": "記錄；錄音(影)"
     },
     {
         "id": 99,
@@ -1284,7 +1284,7 @@
         "option3": "discuss",
         "option3C": "討論",
         "synonym": "enforce",
-        "synonymC": "執行；強制",
+        "synonymC": "執行；強制"
     },
     {
         "id": 100,
@@ -1297,7 +1297,7 @@
         "option3": "regulate",
         "option3C": "規範；調節",
         "synonym": "license",
-        "synonymC": "發照；授予資格",
+        "synonymC": "發照；授予資格"
     },
     {
         "id": 101,
@@ -1310,7 +1310,7 @@
         "option3": "synthetic",
         "option3C": "合成的；人造的",
         "synonym": "harmful",
-        "synonymC": "有害的",
+        "synonymC": "有害的"
     },
     {
         "id": 102,
@@ -1323,7 +1323,7 @@
         "option3": "widespread",
         "option3C": "流傳甚廣的；普及的",
         "synonym": "outstanding",
-        "synonymC": "傑出的",
+        "synonymC": "傑出的"
     },
     {
         "id": 103,
@@ -1336,7 +1336,7 @@
         "option3": "principal",
         "option3C": "主要的",
         "synonym": "numerous",
-        "synonymC": "眾多的",
+        "synonymC": "眾多的"
     },
     {
         "id": 104,
@@ -1349,7 +1349,7 @@
         "option3": "leverage",
         "option3C": "槓桿效應",
         "synonym": "portal",
-        "synonymC": "入口",
+        "synonymC": "入口"
     },
     {
         "id": 105,
@@ -1362,7 +1362,7 @@
         "option3": "capital",
         "option3C": "資本；資金",
         "synonym": "delay",
-        "synonymC": "延遲；誤點",
+        "synonymC": "延遲；誤點"
     },
     {
         "id": 106,
@@ -1375,7 +1375,7 @@
         "option3": "reminder",
         "option3C": "提醒",
         "synonym": "liaison",
-        "synonymC": "聯絡人",
+        "synonymC": "聯絡人"
     },
     {
         "id": 107,
@@ -1388,7 +1388,7 @@
         "option3": "interview",
         "option3C": "訪談；面試",
         "synonym": "outlook",
-        "synonymC": "前景；展望",
+        "synonymC": "前景；展望"
     },
     {
         "id": 108,
@@ -1401,7 +1401,7 @@
         "option3": "predict",
         "option3C": "預測",
         "synonym": "venture",
-        "synonymC": "(高風險的)投資",
+        "synonymC": "(高風險的)投資"
     },
     {
         "id": 109,
@@ -1414,7 +1414,7 @@
         "option3": "illustrate",
         "option3C": "闡明；圖解",
         "synonym": "renew",
-        "synonymC": "更新",
+        "synonymC": "更新"
     },
     {
         "id": 110,
@@ -1427,7 +1427,7 @@
         "option3": "confuse",
         "option3C": "使混淆",
         "synonym": "define",
-        "synonymC": "定義；界定",
+        "synonymC": "定義；界定"
     },
     {
         "id": 111,
@@ -1440,7 +1440,7 @@
         "option3": "significant",
         "option3C": "顯著的；重要的",
         "synonym": "administrative",
-        "synonymC": "行政的；管理的",
+        "synonymC": "行政的；管理的"
     },
     {
         "id": 112,
@@ -1453,7 +1453,7 @@
         "option3": "realistic",
         "option3C": "實際的",
         "synonym": "supreme",
-        "synonymC": "地位最高的",
+        "synonymC": "地位最高的"
     },
     {
         "id": 113,
@@ -1466,7 +1466,7 @@
         "option3": "imminent",
         "option3C": "迫近的；即將發生的",
         "synonym": "up-to-date",
-        "synonymC": "最新的",
+        "synonymC": "最新的"
     },
     {
         "id": 114,
@@ -1479,7 +1479,7 @@
         "option3": "expert",
         "option3C": "專家",
         "synonym": "associate",
-        "synonymC": "同事；生意夥伴",
+        "synonymC": "同事；生意夥伴"
     },
     {
         "id": 115,
@@ -1492,7 +1492,7 @@
         "option3": "reality",
         "option3C": "現實",
         "synonym": "convenience",
-        "synonymC": "便利設施",
+        "synonymC": "便利設施"
     },
     {
         "id": 116,
@@ -1505,7 +1505,7 @@
         "option3": "innovation",
         "option3C": "創新",
         "synonym": "arrangement",
-        "synonymC": "安排",
+        "synonymC": "安排"
     },
     {
         "id": 117,
@@ -1518,7 +1518,7 @@
         "option3": "instruction",
         "option3C": "指示；教導",
         "synonym": "prerequisite",
-        "synonymC": "先決條件",
+        "synonymC": "先決條件"
     },
     {
         "id": 118,
@@ -1531,7 +1531,7 @@
         "option3": "restrict",
         "option3C": "限制",
         "synonym": "institute",
-        "synonymC": "設立",
+        "synonymC": "設立"
     },
     {
         "id": 119,
@@ -1544,7 +1544,7 @@
         "option3": "compile",
         "option3C": "編纂",
         "synonym": "publish",
-        "synonymC": "出版；發行",
+        "synonymC": "出版；發行"
     },
     {
         "id": 120,
@@ -1557,7 +1557,7 @@
         "option3": "retreat",
         "option3C": "撤退",
         "synonym": "enclose",
-        "synonymC": "包圍；內附",
+        "synonymC": "包圍；內附"
     },
     {
         "id": 121,
@@ -1570,7 +1570,7 @@
         "option3": "disorganized",
         "option3C": "凌亂的",
         "synonym": "mechanized",
-        "synonymC": "機械化的",
+        "synonymC": "機械化的"
     },
     {
         "id": 122,
@@ -1583,7 +1583,7 @@
         "option3": "apparent",
         "option3C": "明顯的",
         "synonym": "entitled",
-        "synonymC": "資格符合的",
+        "synonymC": "資格符合的"
     },
     {
         "id": 123,
@@ -1596,7 +1596,7 @@
         "option3": "dedicated",
         "option3C": "專用的；奉獻的",
         "synonym": "ingenious",
-        "synonymC": "原創的",
+        "synonymC": "原創的"
     },
     {
         "id": 124,
@@ -1609,7 +1609,7 @@
         "option3": "suggestion",
         "option3C": "建議",
         "synonym": "shortcoming",
-        "synonymC": "缺點",
+        "synonymC": "缺點"
     },
     {
         "id": 125,
@@ -1622,7 +1622,7 @@
         "option3": "complaint",
         "option3C": "怨言",
         "synonym": "apparatus",
-        "synonymC": "儀器；器材",
+        "synonymC": "儀器；器材"
     },
     {
         "id": 126,
@@ -1635,7 +1635,7 @@
         "option3": "contractor",
         "option3C": "承包商",
         "synonym": "basis",
-        "synonymC": "基礎",
+        "synonymC": "基礎"
     },
     {
         "id": 127,
@@ -1648,7 +1648,7 @@
         "option3": "maintenance",
         "option3C": "維修；維護",
         "synonym": "limitation",
-        "synonymC": "限制",
+        "synonymC": "限制"
     },
     {
         "id": 128,
@@ -1661,7 +1661,7 @@
         "option3": "satisfy",
         "option3C": "使滿意；滿足",
         "synonym": "counsel",
-        "synonymC": "勸告；提供意見",
+        "synonymC": "勸告；提供意見"
     },
     {
         "id": 129,
@@ -1674,7 +1674,7 @@
         "option3": "ensure",
         "option3C": "確保；保證",
         "synonym": "include",
-        "synonymC": "包含",
+        "synonymC": "包含"
     },
     {
         "id": 130,
@@ -1687,7 +1687,7 @@
         "option3": "undergo",
         "option3C": "經歷；遭受",
         "synonym": "inspire",
-        "synonymC": "啟發；鼓舞",
+        "synonymC": "啟發；鼓舞"
     },
     {
         "id": 131,
@@ -1700,7 +1700,7 @@
         "option3": "opposite",
         "option3C": "相反的",
         "synonym": "sufficient",
-        "synonymC": "足夠的",
+        "synonymC": "足夠的"
     },
     {
         "id": 132,
@@ -1713,7 +1713,7 @@
         "option3": "acceptable",
         "option3C": "可接受的",
         "synonym": "attractive",
-        "synonymC": "有吸引力的",
+        "synonymC": "有吸引力的"
     },
     {
         "id": 133,
@@ -1726,7 +1726,7 @@
         "option3": "spacious",
         "option3C": "寬敞的",
         "synonym": "specific",
-        "synonymC": "特定的；明確的",
+        "synonymC": "特定的；明確的"
     },
     {
         "id": 134,
@@ -1739,7 +1739,7 @@
         "option3": "interim",
         "option3C": "過渡期",
         "synonym": "feat",
-        "synonymC": "功績",
+        "synonymC": "功績"
     },
     {
         "id": 135,
@@ -1752,7 +1752,7 @@
         "option3": "approval",
         "option3C": "批准；贊同",
         "synonym": "investigation",
-        "synonymC": "調查",
+        "synonymC": "調查"
     },
     {
         "id": 136,
@@ -1765,7 +1765,7 @@
         "option3": "demand",
         "option3C": "需求",
         "synonym": "assurance",
-        "synonymC": "保證",
+        "synonymC": "保證"
     },
     {
         "id": 137,
@@ -1778,7 +1778,7 @@
         "option3": "quantity",
         "option3C": "數量",
         "synonym": "handling",
-        "synonymC": "處理",
+        "synonymC": "處理"
     },
     {
         "id": 138,
@@ -1791,7 +1791,7 @@
         "option3": "represent",
         "option3C": "代表",
         "synonym": "contain",
-        "synonymC": "包含；容納",
+        "synonymC": "包含；容納"
     },
     {
         "id": 139,
@@ -1804,7 +1804,7 @@
         "option3": "insist",
         "option3C": "堅持",
         "synonym": "strive",
-        "synonymC": "努力；爭取",
+        "synonymC": "努力；爭取"
     },
     {
         "id": 140,
@@ -1817,7 +1817,7 @@
         "option3": "purchase",
         "option3C": "購買",
         "synonym": "applaud",
-        "synonymC": "喝采；鼓掌",
+        "synonymC": "喝采；鼓掌"
     },
     {
         "id": 141,
@@ -1830,7 +1830,7 @@
         "option3": "detailed",
         "option3C": "詳細的",
         "synonym": "extreme",
-        "synonymC": "極端的",
+        "synonymC": "極端的"
     },
     {
         "id": 142,
@@ -1843,7 +1843,7 @@
         "option3": "aimless",
         "option3C": "漫無目標的",
         "synonym": "zealous",
-        "synonymC": "熱衷的",
+        "synonymC": "熱衷的"
     },
     {
         "id": 143,
@@ -1856,7 +1856,7 @@
         "option3": "intensive",
         "option3C": "高強度的；密集的",
         "synonym": "liable",
-        "synonymC": "應負責任的",
+        "synonymC": "應負責任的"
     },
     {
         "id": 144,
@@ -1869,7 +1869,7 @@
         "option3": "feedback",
         "option3C": "回饋；意見反映",
         "synonym": "extent",
-        "synonymC": "程度；範圍",
+        "synonymC": "程度；範圍"
     },
     {
         "id": 145,
@@ -1882,7 +1882,7 @@
         "option3": "offer",
         "option3C": "提供；出價",
         "synonym": "risk",
-        "synonymC": "風險",
+        "synonymC": "風險"
     },
     {
         "id": 146,
@@ -1895,7 +1895,7 @@
         "option3": "attachment",
         "option3C": "附件",
         "synonym": "schedule",
-        "synonymC": "時程表",
+        "synonymC": "時程表"
     },
     {
         "id": 147,
@@ -1908,7 +1908,7 @@
         "option3": "discipline",
         "option3C": "紀律；學科",
         "synonym": "extravagance",
-        "synonymC": "奢華；鋪張",
+        "synonymC": "奢華；鋪張"
     },
     {
         "id": 148,
@@ -1921,7 +1921,7 @@
         "option3": "vindicate",
         "option3C": "辯護；證明",
         "synonym": "modify",
-        "synonymC": "修改",
+        "synonymC": "修改"
     },
     {
         "id": 149,
@@ -1934,7 +1934,7 @@
         "option3": "proceed",
         "option3C": "進行",
         "synonym": "outrun",
-        "synonymC": "超過",
+        "synonymC": "超過"
     },
     {
         "id": 150,
@@ -1947,7 +1947,7 @@
         "option3": "intervene",
         "option3C": "介入；調停",
         "synonym": "symbolize",
-        "synonymC": "象徵；代表",
+        "synonymC": "象徵；代表"
     },
     {
         "id": 151,
@@ -1960,7 +1960,7 @@
         "option3": "infamous",
         "option3C": "不名譽的",
         "synonym": "confidential",
-        "synonymC": "機密的",
+        "synonymC": "機密的"
     },
     {
         "id": 152,
@@ -1973,7 +1973,7 @@
         "option3": "extreme",
         "option3C": "極端的",
         "synonym": "adequate",
-        "synonymC": "足夠的",
+        "synonymC": "足夠的"
     },
     {
         "id": 153,
@@ -1986,7 +1986,7 @@
         "option3": "absolute",
         "option3C": "絕對的；完全的",
         "synonym": "precise",
-        "synonymC": "精確的",
+        "synonymC": "精確的"
     },
     {
         "id": 154,
@@ -1999,7 +1999,7 @@
         "option3": "promise",
         "option3C": "承諾",
         "synonym": "interest",
-        "synonymC": "興趣",
+        "synonymC": "興趣"
     },
     {
         "id": 155,
@@ -2012,7 +2012,7 @@
         "option3": "component",
         "option3C": "元件",
         "synonym": "characteristic",
-        "synonymC": "特性",
+        "synonymC": "特性"
     },
     {
         "id": 156,
@@ -2025,7 +2025,7 @@
         "option3": "recycling",
         "option3C": "資源回收；循環利用",
         "synonym": "breakdown",
-        "synonymC": "故障",
+        "synonymC": "故障"
     },
     {
         "id": 157,
@@ -2038,7 +2038,7 @@
         "option3": "agreement",
         "option3C": "合約；協議",
         "synonym": "conveyance",
-        "synonymC": "運輸工具",
+        "synonymC": "運輸工具"
     },
     {
         "id": 158,
@@ -2051,7 +2051,7 @@
         "option3": "confine",
         "option3C": "限制",
         "synonym": "transport",
-        "synonymC": "運送",
+        "synonymC": "運送"
     },
     {
         "id": 159,
@@ -2064,7 +2064,7 @@
         "option3": "transmit",
         "option3C": "傳送",
         "synonym": "acquire",
-        "synonymC": "取得",
+        "synonymC": "取得"
     },
     {
         "id": 160,
@@ -2077,7 +2077,7 @@
         "option3": "reveal",
         "option3C": "揭露；顯示",
         "synonym": "activate",
-        "synonymC": "啟動；引發",
+        "synonymC": "啟動；引發"
     },
     {
         "id": 161,
@@ -2090,7 +2090,7 @@
         "option3": "regrettable",
         "option3C": "令人遺憾的",
         "synonym": "notable",
-        "synonymC": "值得注意的",
+        "synonymC": "值得注意的"
     },
     {
         "id": 162,
@@ -2103,7 +2103,7 @@
         "option3": "feasible",
         "option3C": "可行的",
         "synonym": "certain",
-        "synonymC": "確信的；必然的",
+        "synonymC": "確信的；必然的"
     },
     {
         "id": 163,
@@ -2116,7 +2116,7 @@
         "option3": "compulsory",
         "option3C": "強制的；義務的",
         "synonym": "proper",
-        "synonymC": "適當的",
+        "synonymC": "適當的"
     },
     {
         "id": 164,
@@ -2129,7 +2129,7 @@
         "option3": "accounting",
         "option3C": "會計",
         "synonym": "discussion",
-        "synonymC": "商談",
+        "synonymC": "商談"
     },
     {
         "id": 165,
@@ -2142,7 +2142,7 @@
         "option3": "examination",
         "option3C": "檢查",
         "synonym": "representative",
-        "synonymC": "代表",
+        "synonymC": "代表"
     },
     {
         "id": 166,
@@ -2155,7 +2155,7 @@
         "option3": "terminal",
         "option3C": "航廈；終點站",
         "synonym": "remainder",
-        "synonymC": "剩餘數量或金額",
+        "synonymC": "剩餘數量或金額"
     },
     {
         "id": 167,
@@ -2168,7 +2168,7 @@
         "option3": "method",
         "option3C": "方法",
         "synonym": "influence",
-        "synonymC": "影響",
+        "synonymC": "影響"
     },
     {
         "id": 168,
@@ -2181,7 +2181,7 @@
         "option3": "designate",
         "option3C": "指定；指派",
         "synonym": "issue",
-        "synonymC": "發行",
+        "synonymC": "發行"
     },
     {
         "id": 169,
@@ -2194,7 +2194,7 @@
         "option3": "decrease",
         "option3C": "減少",
         "synonym": "decline",
-        "synonymC": "衰落",
+        "synonymC": "衰落"
     },
     {
         "id": 170,
@@ -2207,7 +2207,7 @@
         "option3": "rotate",
         "option3C": "旋轉；輪替",
         "synonym": "display",
-        "synonymC": "展示",
+        "synonymC": "展示"
     },
     {
         "id": 171,
@@ -2220,7 +2220,7 @@
         "option3": "harmful",
         "option3C": "有害的",
         "synonym": "vibrant",
-        "synonymC": "活躍的",
+        "synonymC": "活躍的"
     },
     {
         "id": 172,
@@ -2233,7 +2233,7 @@
         "option3": "viable",
         "option3C": "可行的",
         "synonym": "steady",
-        "synonymC": "穩定的",
+        "synonymC": "穩定的"
     },
     {
         "id": 173,
@@ -2246,7 +2246,7 @@
         "option3": "ambitious",
         "option3C": "有企圖心的",
         "synonym": "unprejudiced",
-        "synonymC": "沒有成見的",
+        "synonymC": "沒有成見的"
     },
     {
         "id": 174,
@@ -2259,7 +2259,7 @@
         "option3": "conclusion",
         "option3C": "結論",
         "synonym": "response",
-        "synonymC": "回應",
+        "synonymC": "回應"
     },
     {
         "id": 175,
@@ -2272,7 +2272,7 @@
         "option3": "investigation",
         "option3C": "調查",
         "synonym": "situation",
-        "synonymC": "情況",
+        "synonymC": "情況"
     },
     {
         "id": 176,
@@ -2285,7 +2285,7 @@
         "option3": "diagnosis",
         "option3C": "診斷",
         "synonym": "projection",
-        "synonymC": "預測",
+        "synonymC": "預測"
     },
     {
         "id": 177,
@@ -2298,7 +2298,7 @@
         "option3": "technique",
         "option3C": "技巧",
         "synonym": "device",
-        "synonymC": "裝置；設備",
+        "synonymC": "裝置；設備"
     },
     {
         "id": 178,
@@ -2311,7 +2311,7 @@
         "option3": "condense",
         "option3C": "濃縮",
         "synonym": "dispense",
-        "synonymC": "分配；配發",
+        "synonymC": "分配；配發"
     },
     {
         "id": 179,
@@ -2324,7 +2324,7 @@
         "option3": "retrieve",
         "option3C": "取回；檢索",
         "synonym": "communicate",
-        "synonymC": "溝通；傳達",
+        "synonymC": "溝通；傳達"
     },
     {
         "id": 180,
@@ -2337,7 +2337,7 @@
         "option3": "explain",
         "option3C": "解釋",
         "synonym": "control",
-        "synonymC": "控制",
+        "synonymC": "控制"
     },
     {
         "id": 181,
@@ -2350,7 +2350,7 @@
         "option3": "various",
         "option3C": "各式各樣的",
         "synonym": "plentiful",
-        "synonymC": "充分的",
+        "synonymC": "充分的"
     },
     {
         "id": 182,
@@ -2363,7 +2363,7 @@
         "option3": "different",
         "option3C": "不同的",
         "synonym": "grave",
-        "synonymC": "嚴重的",
+        "synonymC": "嚴重的"
     },
     {
         "id": 183,
@@ -2376,7 +2376,7 @@
         "option3": "reluctant",
         "option3C": "不情願的",
         "synonym": "confusing",
-        "synonymC": "令人困惑的",
+        "synonymC": "令人困惑的"
     },
     {
         "id": 184,
@@ -2389,7 +2389,7 @@
         "option3": "perspective",
         "option3C": "觀點；視野",
         "synonym": "capacity",
-        "synonymC": "容量；才能",
+        "synonymC": "容量；才能"
     },
     {
         "id": 185,
@@ -2402,7 +2402,7 @@
         "option3": "specialist",
         "option3C": "專家",
         "synonym": "category",
-        "synonymC": "分類；類別",
+        "synonymC": "分類；類別"
     },
     {
         "id": 186,
@@ -2415,7 +2415,7 @@
         "option3": "settlement",
         "option3C": "聚落；解決方案",
         "synonym": "etiquette",
-        "synonymC": "禮節；規範",
+        "synonymC": "禮節；規範"
     },
     {
         "id": 187,
@@ -2428,7 +2428,7 @@
         "option3": "argument",
         "option3C": "爭論",
         "synonym": "accuracy",
-        "synonymC": "準確",
+        "synonymC": "準確"
     },
     {
         "id": 188,
@@ -2441,7 +2441,7 @@
         "option3": "demote",
         "option3C": "降級；降職",
         "synonym": "value",
-        "synonymC": "重視；評價",
+        "synonymC": "重視；評價"
     },
     {
         "id": 189,
@@ -2454,7 +2454,7 @@
         "option3": "entertain",
         "option3C": "娛樂；款待",
         "synonym": "concentrate",
-        "synonymC": "專注",
+        "synonymC": "專注"
     },
     {
         "id": 190,
@@ -2467,7 +2467,7 @@
         "option3": "separate",
         "option3C": "分開；使分離",
         "synonym": "analyze",
-        "synonymC": "分析",
+        "synonymC": "分析"
     },
     {
         "id": 191,
@@ -2480,7 +2480,7 @@
         "option3": "vacant",
         "option3C": "空缺的",
         "synonym": "hopeless",
-        "synonymC": "絕望的",
+        "synonymC": "絕望的"
     },
     {
         "id": 192,
@@ -2493,7 +2493,7 @@
         "option3": "obvious",
         "option3C": "明顯的",
         "synonym": "internal",
-        "synonymC": "內部的",
+        "synonymC": "內部的"
     },
     {
         "id": 193,
@@ -2506,7 +2506,7 @@
         "option3": "abandoned",
         "option3C": "廢棄的",
         "synonym": "subtle",
-        "synonymC": "精細的；微妙的",
+        "synonymC": "精細的；微妙的"
     },
     {
         "id": 194,
@@ -2519,7 +2519,7 @@
         "option3": "interval",
         "option3C": "間隔；週期",
         "synonym": "leave",
-        "synonymC": "告假",
+        "synonymC": "告假"
     },
     {
         "id": 195,
@@ -2532,7 +2532,7 @@
         "option3": "visit",
         "option3C": "訪問；參觀",
         "synonym": "party",
-        "synonymC": "宴會；(合約的)一方",
+        "synonymC": "宴會；(合約的)一方"
     },
     {
         "id": 196,
@@ -2545,7 +2545,7 @@
         "option3": "barrier",
         "option3C": "柵欄；障礙",
         "synonym": "praise",
-        "synonymC": "讚美",
+        "synonymC": "讚美"
     },
     {
         "id": 197,
@@ -2558,7 +2558,7 @@
         "option3": "enforcement",
         "option3C": "執行；強制",
         "synonym": "atmosphere",
-        "synonymC": "氣氛",
+        "synonymC": "氣氛"
     },
     {
         "id": 198,
@@ -2571,7 +2571,7 @@
         "option3": "continue",
         "option3C": "繼續",
         "synonym": "improve",
-        "synonymC": "改善",
+        "synonymC": "改善"
     },
     {
         "id": 199,
@@ -2584,7 +2584,7 @@
         "option3": "produce",
         "option3C": "生產",
         "synonym": "verify",
-        "synonymC": "驗證",
+        "synonymC": "驗證"
     },
     {
         "id": 200,
@@ -2597,7 +2597,7 @@
         "option3": "reject",
         "option3C": "拒絕；退回",
         "synonym": "convince",
-        "synonymC": "說服；使相信",
+        "synonymC": "說服；使相信"
     },
     {
         "id": 201,
@@ -2610,7 +2610,7 @@
         "option3": "instant",
         "option3C": "立即的",
         "synonym": "vital",
-        "synonymC": "重要的；生命攸關的",
+        "synonymC": "重要的；生命攸關的"
     },
     {
         "id": 202,
@@ -2623,7 +2623,7 @@
         "option3": "powerful",
         "option3C": "強有力的",
         "synonym": "authorized",
-        "synonymC": "經過授權的",
+        "synonymC": "經過授權的"
     },
     {
         "id": 203,
@@ -2636,7 +2636,7 @@
         "option3": "flexible",
         "option3C": "有彈性的",
         "synonym": "rational",
-        "synonymC": "理性的",
+        "synonymC": "理性的"
     },
     {
         "id": 204,
@@ -2649,7 +2649,7 @@
         "option3": "schedule",
         "option3C": "時程表",
         "synonym": "fusion",
-        "synonymC": "融合",
+        "synonymC": "融合"
     },
     {
         "id": 205,
@@ -2662,7 +2662,7 @@
         "option3": "technician",
         "option3C": "技術人員",
         "synonym": "forerunner",
-        "synonymC": "先驅；前任",
+        "synonymC": "先驅；前任"
     },
     {
         "id": 206,
@@ -2675,7 +2675,7 @@
         "option3": "deadlock",
         "option3C": "僵局",
         "synonym": "requirement",
-        "synonymC": "需求；條件",
+        "synonymC": "需求；條件"
     },
     {
         "id": 207,
@@ -2688,7 +2688,7 @@
         "option3": "statement",
         "option3C": "陳述；聲明",
         "synonym": "importance",
-        "synonymC": "重要性",
+        "synonymC": "重要性"
     },
     {
         "id": 208,
@@ -2701,7 +2701,7 @@
         "option3": "intend",
         "option3C": "意圖；打算",
         "synonym": "explain",
-        "synonymC": "解釋",
+        "synonymC": "解釋"
     },
     {
         "id": 209,
@@ -2714,7 +2714,7 @@
         "option3": "enforce",
         "option3C": "執行；強制",
         "synonym": "initiate",
-        "synonymC": "開始；啟動",
+        "synonymC": "開始；啟動"
     },
     {
         "id": 210,
@@ -2727,7 +2727,7 @@
         "option3": "summarize",
         "option3C": "摘要；概述",
         "synonym": "incorporate",
-        "synonymC": "納入；包含",
+        "synonymC": "納入；包含"
     },
     {
         "id": 211,
@@ -2740,7 +2740,7 @@
         "option3": "optional",
         "option3C": "可選擇的",
         "synonym": "diversified",
-        "synonymC": "多樣化的",
+        "synonymC": "多樣化的"
     },
     {
         "id": 212,
@@ -2753,7 +2753,7 @@
         "option3": "medical",
         "option3C": "醫學的",
         "synonym": "portable",
-        "synonymC": "可攜式的；可移動的",
+        "synonymC": "可攜式的；可移動的"
     },
     {
         "id": 213,
@@ -2766,7 +2766,7 @@
         "option3": "superior",
         "option3C": "優越的",
         "synonym": "thorough",
-        "synonymC": "徹底的；完全的",
+        "synonymC": "徹底的；完全的"
     },
     {
         "id": 214,
@@ -2779,7 +2779,7 @@
         "option3": "return",
         "option3C": "歸還；返回",
         "synonym": "repetition",
-        "synonymC": "重複",
+        "synonymC": "重複"
     },
     {
         "id": 215,
@@ -2792,7 +2792,7 @@
         "option3": "commitment",
         "option3C": "承諾；義務",
         "synonym": "capability",
-        "synonymC": "能力",
+        "synonymC": "能力"
     },
     {
         "id": 216,
@@ -2805,7 +2805,7 @@
         "option3": "expert",
         "option3C": "專家",
         "synonym": "newcomer",
-        "synonymC": "新人",
+        "synonymC": "新人"
     },
     {
         "id": 217,
@@ -2818,7 +2818,7 @@
         "option3": "prescription",
         "option3C": "處方",
         "synonym": "patronage",
-        "synonymC": "贊助；光顧",
+        "synonymC": "贊助；光顧"
     },
     {
         "id": 218,
@@ -2831,7 +2831,7 @@
         "option3": "attract",
         "option3C": "吸引",
         "synonym": "encourage",
-        "synonymC": "鼓勵；倡導",
+        "synonymC": "鼓勵；倡導"
     },
     {
         "id": 219,
@@ -2844,7 +2844,7 @@
         "option3": "maintain",
         "option3C": "維持；堅稱",
         "synonym": "suppose",
-        "synonymC": "猜想；以為",
+        "synonymC": "猜想；以為"
     },
     {
         "id": 220,
@@ -2857,7 +2857,7 @@
         "option3": "eliminate",
         "option3C": "消除；淘汰",
         "synonym": "expedite",
-        "synonymC": "加速；促進",
+        "synonymC": "加速；促進"
     },
     {
         "id": 221,
@@ -2870,7 +2870,7 @@
         "option3": "complicated",
         "option3C": "複雜的",
         "synonym": "available",
-        "synonymC": "有空的；有現貨的",
+        "synonymC": "有空的；有現貨的"
     },
     {
         "id": 222,
@@ -2883,7 +2883,7 @@
         "option3": "infamous",
         "option3C": "不名譽的",
         "synonym": "tentative",
-        "synonymC": "暫定的；臨時的",
+        "synonymC": "暫定的；臨時的"
     },
     {
         "id": 223,
@@ -2896,7 +2896,7 @@
         "option3": "satisfied",
         "option3C": "滿意的",
         "synonym": "befitting",
-        "synonymC": "合適的",
+        "synonymC": "合適的"
     },
     {
         "id": 224,
@@ -2909,7 +2909,7 @@
         "option3": "statement",
         "option3C": "陳述；聲明",
         "synonym": "criterion",
-        "synonymC": "評判標準",
+        "synonymC": "評判標準"
     },
     {
         "id": 225,
@@ -2922,7 +2922,7 @@
         "option3": "apprentice",
         "option3C": "學徒；見習生",
         "synonym": "patron",
-        "synonymC": "贊助人；顧客",
+        "synonymC": "贊助人；顧客"
     },
     {
         "id": 226,
@@ -2935,7 +2935,7 @@
         "option3": "reunion",
         "option3C": "重逢；團聚",
         "synonym": "imitation",
-        "synonymC": "模仿",
+        "synonymC": "模仿"
     },
     {
         "id": 227,
@@ -2948,7 +2948,7 @@
         "option3": "subtraction",
         "option3C": "減法；扣除",
         "synonym": "acquisition",
-        "synonymC": "獲得",
+        "synonymC": "獲得"
     },
     {
         "id": 228,
@@ -2961,7 +2961,7 @@
         "option3": "debate",
         "option3C": "爭論",
         "synonym": "impact",
-        "synonymC": "衝擊；影響",
+        "synonymC": "衝擊；影響"
     },
     {
         "id": 229,
@@ -2974,7 +2974,7 @@
         "option3": "assemble",
         "option3C": "組裝；集合",
         "synonym": "examine",
-        "synonymC": "檢查；審視",
+        "synonymC": "檢查；審視"
     },
     {
         "id": 230,
@@ -2987,7 +2987,7 @@
         "option3": "peruse",
         "option3C": "詳細閱讀",
         "synonym": "disagree",
-        "synonymC": "不同意",
+        "synonymC": "不同意"
     },
     {
         "id": 231,
@@ -3000,7 +3000,7 @@
         "option3": "diligent",
         "option3C": "勤勞的",
         "synonym": "abundant",
-        "synonymC": "充沛的；大量的",
+        "synonymC": "充沛的；大量的"
     },
     {
         "id": 232,
@@ -3013,7 +3013,7 @@
         "option3": "fundamental",
         "option3C": "基礎的",
         "synonym": "intermittent",
-        "synonymC": "間歇的；斷斷續續的",
+        "synonymC": "間歇的；斷斷續續的"
     },
     {
         "id": 233,
@@ -3026,7 +3026,7 @@
         "option3": "eventual",
         "option3C": "最終的",
         "synonym": "constant",
-        "synonymC": "持續的；不變的",
+        "synonymC": "持續的；不變的"
     },
     {
         "id": 234,
@@ -3039,7 +3039,7 @@
         "option3": "vehicle",
         "option3C": "車輛",
         "synonym": "package",
-        "synonymC": "包裹；套裝產品",
+        "synonymC": "包裹；套裝產品"
     },
     {
         "id": 235,
@@ -3052,7 +3052,7 @@
         "option3": "confession",
         "option3C": "告白；承認",
         "synonym": "involvement",
-        "synonymC": "涉入；參與",
+        "synonymC": "涉入；參與"
     },
     {
         "id": 236,
@@ -3065,7 +3065,7 @@
         "option3": "intention",
         "option3C": "意圖；打算",
         "synonym": "license",
-        "synonymC": "執照；許可證",
+        "synonymC": "執照；許可證"
     },
     {
         "id": 237,
@@ -3078,7 +3078,7 @@
         "option3": "conclusion",
         "option3C": "結論",
         "synonym": "permission",
-        "synonymC": "許可",
+        "synonymC": "許可"
     },
     {
         "id": 238,
@@ -3091,7 +3091,7 @@
         "option3": "suggest",
         "option3C": "建議",
         "synonym": "resist",
-        "synonymC": "抗拒",
+        "synonymC": "抗拒"
     },
     {
         "id": 239,
@@ -3104,7 +3104,7 @@
         "option3": "include",
         "option3C": "包括",
         "synonym": "urge",
-        "synonymC": "強烈要求",
+        "synonymC": "強烈要求"
     },
     {
         "id": 240,
@@ -3117,7 +3117,7 @@
         "option3": "trust",
         "option3C": "信任",
         "synonym": "calculate",
-        "synonymC": "計算",
+        "synonymC": "計算"
     },
     {
         "id": 241,
@@ -3130,7 +3130,7 @@
         "option3": "crucial",
         "option3C": "決定性的",
         "synonym": "introductory",
-        "synonymC": "入門的",
+        "synonymC": "入門的"
     },
     {
         "id": 242,
@@ -3143,7 +3143,7 @@
         "option3": "permanent",
         "option3C": "永久的；不變的",
         "synonym": "bilateral",
-        "synonymC": "雙邊的",
+        "synonymC": "雙邊的"
     },
     {
         "id": 243,
@@ -3156,7 +3156,7 @@
         "option3": "upscale",
         "option3C": "高檔的",
         "synonym": "unplanned",
-        "synonymC": "非計畫性的",
+        "synonymC": "非計畫性的"
     },
     {
         "id": 244,
@@ -3169,7 +3169,7 @@
         "option3": "patent",
         "option3C": "專利",
         "synonym": "tag",
-        "synonymC": "標籤",
+        "synonymC": "標籤"
     },
     {
         "id": 245,
@@ -3182,7 +3182,7 @@
         "option3": "shipment",
         "option3C": "貨物；出貨",
         "synonym": "layout",
-        "synonymC": "配置；版面",
+        "synonymC": "配置；版面"
     },
     {
         "id": 246,
@@ -3195,7 +3195,7 @@
         "option3": "objective",
         "option3C": "目標",
         "synonym": "know-how",
-        "synonymC": "專業知識",
+        "synonymC": "專業知識"
     },
     {
         "id": 247,
@@ -3208,7 +3208,7 @@
         "option3": "disability",
         "option3C": "失能；殘疾",
         "synonym": "administration",
-        "synonymC": "行政；主管機關",
+        "synonymC": "行政；主管機關"
     },
     {
         "id": 248,
@@ -3221,7 +3221,7 @@
         "option3": "follow",
         "option3C": "跟隨；遵守",
         "synonym": "specify",
-        "synonymC": "註明；具體說明",
+        "synonymC": "註明；具體說明"
     },
     {
         "id": 249,
@@ -3234,7 +3234,7 @@
         "option3": "agree",
         "option3C": "同意",
         "synonym": "disobey",
-        "synonymC": "不遵守",
+        "synonymC": "不遵守"
     },
     {
         "id": 250,
@@ -3247,7 +3247,7 @@
         "option3": "ignore",
         "option3C": "忽略；無視",
         "synonym": "improve",
-        "synonymC": "改良；改進",
+        "synonymC": "改良；改進"
     },
     {
         "id": 251,
@@ -3260,7 +3260,7 @@
         "option3": "stylish",
         "option3C": "流行的；風格的",
         "synonym": "pertinent",
-        "synonymC": "切題的；有關的",
+        "synonymC": "切題的；有關的"
     },
     {
         "id": 252,
@@ -3273,7 +3273,7 @@
         "option3": "widespread",
         "option3C": "普及的；廣為流傳的",
         "synonym": "prestigious",
-        "synonymC": "聲望高的；顯赫的",
+        "synonymC": "聲望高的；顯赫的"
     },
     {
         "id": 253,
@@ -3286,7 +3286,7 @@
         "option3": "primary",
         "option3C": "主要的；根本的",
         "synonym": "former",
-        "synonymC": "之前的",
+        "synonymC": "之前的"
     },
     {
         "id": 254,
@@ -3299,7 +3299,7 @@
         "option3": "courage",
         "option3C": "勇氣",
         "synonym": "ordinance",
-        "synonymC": "法令",
+        "synonymC": "法令"
     },
     {
         "id": 255,
@@ -3312,7 +3312,7 @@
         "option3": "expectation",
         "option3C": "期望",
         "synonym": "shortage",
-        "synonymC": "缺乏；不足",
+        "synonymC": "缺乏；不足"
     },
     {
         "id": 256,
@@ -3325,7 +3325,7 @@
         "option3": "protocol",
         "option3C": "協定；規則",
         "synonym": "method",
-        "synonymC": "方法",
+        "synonymC": "方法"
     },
     {
         "id": 257,
@@ -3338,7 +3338,7 @@
         "option3": "demonstrate",
         "option3C": "證明；示範",
         "synonym": "integrate",
-        "synonymC": "整合",
+        "synonymC": "整合"
     },
     {
         "id": 258,
@@ -3351,7 +3351,7 @@
         "option3": "simulate",
         "option3C": "模擬",
         "synonym": "begin",
-        "synonymC": "開始",
+        "synonymC": "開始"
     },
     {
         "id": 259,
@@ -3364,7 +3364,7 @@
         "option3": "restart",
         "option3C": "重新開始",
         "synonym": "eliminate",
-        "synonymC": "消滅；淘汰",
+        "synonymC": "消滅；淘汰"
     },
     {
         "id": 260,
@@ -3377,7 +3377,7 @@
         "option3": "respond",
         "option3C": "回應",
         "synonym": "assemble",
-        "synonymC": "集合；組裝",
+        "synonymC": "集合；組裝"
     },
     {
         "id": 261,
@@ -3390,7 +3390,7 @@
         "option3": "advanced",
         "option3C": "先進的；進階的",
         "synonym": "typical",
-        "synonymC": "典型的；一般的",
+        "synonymC": "典型的；一般的"
     },
     {
         "id": 262,
@@ -3403,7 +3403,7 @@
         "option3": "particular",
         "option3C": "特別的",
         "synonym": "significant",
-        "synonymC": "顯著的；重大的",
+        "synonymC": "顯著的；重大的"
     },
     {
         "id": 263,
@@ -3416,7 +3416,7 @@
         "option3": "abundant",
         "option3C": "豐富的；大量的",
         "synonym": "concise",
-        "synonymC": "簡潔的",
+        "synonymC": "簡潔的"
     },
     {
         "id": 264,
@@ -3429,7 +3429,7 @@
         "option3": "relationship",
         "option3C": "關係",
         "synonym": "fashion",
-        "synonymC": "流行",
+        "synonymC": "流行"
     },
     {
         "id": 265,
@@ -3442,7 +3442,7 @@
         "option3": "feature",
         "option3C": "特性；特色",
         "synonym": "indication",
-        "synonymC": "指示；徵兆",
+        "synonymC": "指示；徵兆"
     },
     {
         "id": 266,
@@ -3455,7 +3455,7 @@
         "option3": "pharmacist",
         "option3C": "藥師",
         "synonym": "distributor",
-        "synonymC": "經銷商",
+        "synonymC": "經銷商"
     },
     {
         "id": 267,
@@ -3468,7 +3468,7 @@
         "option3": "detail",
         "option3C": "細節",
         "synonym": "inhabitant",
-        "synonymC": "住民",
+        "synonymC": "住民"
     },
     {
         "id": 268,
@@ -3481,7 +3481,7 @@
         "option3": "inform",
         "option3C": "通知",
         "synonym": "procure",
-        "synonymC": "獲得",
+        "synonymC": "獲得"
     },
     {
         "id": 269,
@@ -3494,7 +3494,7 @@
         "option3": "replace",
         "option3C": "取代",
         "synonym": "suppose",
-        "synonymC": "猜想；以為",
+        "synonymC": "猜想；以為"
     },
     {
         "id": 270,
@@ -3507,7 +3507,7 @@
         "option3": "broadcast",
         "option3C": "廣播",
         "synonym": "enhance",
-        "synonymC": "提升",
+        "synonymC": "提升"
     },
     {
         "id": 271,
@@ -3520,7 +3520,7 @@
         "option3": "periodical",
         "option3C": "定期的",
         "synonym": "important",
-        "synonymC": "重要的",
+        "synonymC": "重要的"
     },
     {
         "id": 272,
@@ -3533,7 +3533,7 @@
         "option3": "concerned",
         "option3C": "關切的",
         "synonym": "skilled",
-        "synonymC": "技巧純熟的",
+        "synonymC": "技巧純熟的"
     },
     {
         "id": 273,
@@ -3546,7 +3546,7 @@
         "option3": "everlasting",
         "option3C": "持久的；永恆的",
         "synonym": "exceptional",
-        "synonymC": "例外的；傑出的",
+        "synonymC": "例外的；傑出的"
     },
     {
         "id": 274,
@@ -3559,7 +3559,7 @@
         "option3": "requirement",
         "option3C": "要求；條件",
         "synonym": "specialty",
-        "synonymC": "特長",
+        "synonymC": "特長"
     },
     {
         "id": 275,
@@ -3572,7 +3572,7 @@
         "option3": "pressure",
         "option3C": "壓力",
         "synonym": "donation",
-        "synonymC": "捐助；捐獻",
+        "synonymC": "捐助；捐獻"
     },
     {
         "id": 276,
@@ -3585,7 +3585,7 @@
         "option3": "appliance",
         "option3C": "家電用品",
         "synonym": "acceptance",
-        "synonymC": "接受；認同",
+        "synonymC": "接受；認同"
     },
     {
         "id": 277,
@@ -3598,7 +3598,7 @@
         "option3": "salary",
         "option3C": "薪水",
         "synonym": "recreation",
-        "synonymC": "休閒；消遣",
+        "synonymC": "休閒；消遣"
     },
     {
         "id": 278,
@@ -3611,7 +3611,7 @@
         "option3": "attend",
         "option3C": "出席；照料",
         "synonym": "exhibit",
-        "synonymC": "展示",
+        "synonymC": "展示"
     },
     {
         "id": 279,
@@ -3624,7 +3624,7 @@
         "option3": "check",
         "option3C": "檢查；核對",
         "synonym": "stay",
-        "synonymC": "停留；維持",
+        "synonymC": "停留；維持"
     },
     {
         "id": 280,
@@ -3637,7 +3637,7 @@
         "option3": "search",
         "option3C": "搜尋",
         "synonym": "fasten",
-        "synonymC": "綁緊；固定",
+        "synonymC": "綁緊；固定"
     },
     {
         "id": 281,
@@ -3650,7 +3650,7 @@
         "option3": "relevant",
         "option3C": "相關的",
         "synonym": "managerial",
-        "synonymC": "管理的",
+        "synonymC": "管理的"
     },
     {
         "id": 282,
@@ -3663,7 +3663,7 @@
         "option3": "innocent",
         "option3C": "純潔的；清白的",
         "synonym": "explicit",
-        "synonymC": "清楚的；明顯的",
+        "synonymC": "清楚的；明顯的"
     },
     {
         "id": 283,
@@ -3676,7 +3676,7 @@
         "option3": "imaginative",
         "option3C": "有想像力的",
         "synonym": "productive",
-        "synonymC": "有生產力的",
+        "synonymC": "有生產力的"
     },
     {
         "id": 284,
@@ -3689,7 +3689,7 @@
         "option3": "collection",
         "option3C": "集合；收藏",
         "synonym": "agreement",
-        "synonymC": "合約；協議",
+        "synonymC": "合約；協議"
     },
     {
         "id": 285,
@@ -3702,7 +3702,7 @@
         "option3": "sponsorship",
         "option3C": "贊助",
         "synonym": "authorization",
-        "synonymC": "授權",
+        "synonymC": "授權"
     },
     {
         "id": 286,
@@ -3715,7 +3715,7 @@
         "option3": "arrangement",
         "option3C": "安排；整理",
         "synonym": "probe",
-        "synonymC": "調查；探測",
+        "synonymC": "調查；探測"
     },
     {
         "id": 287,
@@ -3728,7 +3728,7 @@
         "option3": "district",
         "option3C": "區域",
         "synonym": "promotion",
-        "synonymC": "促銷",
+        "synonymC": "促銷"
     },
     {
         "id": 288,
@@ -3741,7 +3741,7 @@
         "option3": "withdraw",
         "option3C": "撤回；提款",
         "synonym": "reimburse",
-        "synonymC": "補貼；補償",
+        "synonymC": "補貼；補償"
     },
     {
         "id": 289,
@@ -3754,7 +3754,7 @@
         "option3": "transfer",
         "option3C": "轉移；調動",
         "synonym": "prohibit",
-        "synonymC": "禁止",
+        "synonymC": "禁止"
     },
     {
         "id": 290,
@@ -3767,7 +3767,7 @@
         "option3": "announce",
         "option3C": "宣布",
         "synonym": "withhold",
-        "synonymC": "扣住；保留",
+        "synonymC": "扣住；保留"
     },
     {
         "id": 291,
@@ -3780,7 +3780,7 @@
         "option3": "financial",
         "option3C": "財務的；金融的",
         "synonym": "primary",
-        "synonymC": "主要的",
+        "synonymC": "主要的"
     },
     {
         "id": 292,
@@ -3793,7 +3793,7 @@
         "option3": "convenient",
         "option3C": "方便的",
         "synonym": "challenging",
-        "synonymC": "有挑戰性的；困難的",
+        "synonymC": "有挑戰性的；困難的"
     },
     {
         "id": 293,
@@ -3806,7 +3806,7 @@
         "option3": "inspiring",
         "option3C": "啟發性的；鼓舞人心的",
         "synonym": "persistent",
-        "synonymC": "持續的；頑強的",
+        "synonymC": "持續的；頑強的"
     },
     {
         "id": 294,
@@ -3819,7 +3819,7 @@
         "option3": "leadership",
         "option3C": "領導能力",
         "synonym": "upbringing",
-        "synonymC": "出身背景；教養",
+        "synonymC": "出身背景；教養"
     },
     {
         "id": 295,
@@ -3832,7 +3832,7 @@
         "option3": "penalty",
         "option3C": "處罰",
         "synonym": "awareness",
-        "synonymC": "知覺；認識",
+        "synonymC": "知覺；認識"
     },
     {
         "id": 296,
@@ -3845,7 +3845,7 @@
         "option3": "strategy",
         "option3C": "策略",
         "synonym": "resource",
-        "synonymC": "資源",
+        "synonymC": "資源"
     },
     {
         "id": 297,
@@ -3858,7 +3858,7 @@
         "option3": "transmission",
         "option3C": "傳送(信號)",
         "synonym": "trademark",
-        "synonymC": "商標",
+        "synonymC": "商標"
     },
     {
         "id": 298,
@@ -3871,7 +3871,7 @@
         "option3": "strengthen",
         "option3C": "加強",
         "synonym": "extend",
-        "synonymC": "延長",
+        "synonymC": "延長"
     },
     {
         "id": 299,
@@ -3884,7 +3884,7 @@
         "option3": "travel",
         "option3C": "旅行",
         "synonym": "spread",
-        "synonymC": "散播",
+        "synonymC": "散播"
     },
     {
         "id": 300,
@@ -3897,6 +3897,6 @@
         "option3": "execute",
         "option3C": "執行",
         "synonym": "depart",
-        "synonymC": "離開；出境",
+        "synonymC": "離開；出境"
     }
 ]
