@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TOEIC Preparation: Vocabulary</title>
+  <style>
+  body {
+    background-color:rgb(168,240,247);
+  }
+  #menuBar {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: LightSteelBlue;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #menuBarTop {
+    padding-left: 35px;
+  }
+  #menuBar select, #menuBar button {
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #partOneBtn, #partTwoBtn {
+    width: 25%;
+    background-color: LightGray;
+    border: 3px outset White;
+  }
+  #trans {
+    float: right;
+    margin-right: 35px;
+    background-color: LightGray;
+    border: 3px outset White;
+  }
+  #indicatorBar {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #prevArrow {
+  }
+  #nextArrow {
+  }
+  #containerOne, #containerTwo, #selectWord {
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  #partOne, #partTwo {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid LightSteelBlue;
+    border-collapse: collapse;
+  }
+  #partOne td {
+    width: 42%;
+    border-bottom: 3px solid LightSteelBlue;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  #partOne .TC {
+    width: 58%;
+  }
+  #partTwo td {
+    text-align: left;
+  }
+  .instructions {
+    padding-left: 25px;
+    color: Green;
+  }
+  #keywordHolder {
+    padding-left: 25px;
+  }
+  .optionHolder {
+    width: 100%;
+    background-color: LightGray;
+    border: 3px outset White;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .indicator {
+    width: 9%;
+    background-color: White;
+    border: 5px solid LightSteelBlue;
+    text-align: center;
+    cursor: pointer;
+  }
+  #containerThree {
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <section id="menuBar">
+      <span id="menuBarTop">
+        <label for="selectUnit">第</label>
+        <select id="selectUnit" onchange="changeUnit()">
+        </select>回
+        <button id="partOneBtn" onclick="switchParts(1)">I. 同義字</button>
+        <button id="partTwoBtn" onclick="switchParts(2)">II. 選字填空</button>
+        <button id="trans" onclick="toggleTrans()">顯示中譯</button>
+      </span>
+      <hr>
+      <table id="indicatorBar">
+        <tr>
+          <td class="indicator" id="1" onclick="navTo(1)">1</td>
+          <td class="indicator" id="2" onclick="navTo(2)">2</td>
+          <td class="indicator" id="3" onclick="navTo(3)">3</td>
+          <td class="indicator" id="4" onclick="navTo(4)">4</td>
+          <td class="indicator" id="5" onclick="navTo(5)">5</td>
+          <td class="indicator" id="6" onclick="navTo(6)">6</td>
+          <td class="indicator" id="7" onclick="navTo(7)">7</td>
+          <td class="indicator" id="8" onclick="navTo(8)">8</td>
+          <td class="indicator" id="9" onclick="navTo(9)">9</td>
+          <td class="indicator" id="10" onclick="navTo(10)">10</td>
+        </tr>
+      </table>
+    </section>
+  </header>
+  <main>
+    <section id="containerOne">
+      <br>
+      <br>
+      <br>
+      <br>
+      <span class="instructions">選出與第一個字意思最接近者：</span>
+      <br>
+      <table id="partOne">
+        <tr><td><span id="keywordHolder"></span></td><td class="TC" id="keywordCHolder"></td></tr>
+        <tr><td><button id="option1Holder" class="optionHolder" onclick="checkPartOne(1)"></button></td><td class="TC" id="option1CHolder"></td></tr>
+        <tr><td><button id="option2Holder" class="optionHolder" onclick="checkPartOne(2)"></button></td><td class="TC" id="option2CHolder"></td></tr>
+        <tr><td><button id="option3Holder" class="optionHolder" onclick="checkPartOne(3)"></button></td><td class="TC" id="option3CHolder"></td></tr>
+        <tr><td><button id="option4Holder" class="optionHolder" onclick="checkPartOne(4)"></button></td><td class="TC" id="option4CHolder"></td></tr>
+      </table>
+    </section>
+    <section id="containerTwo">
+      <br>
+      <br>
+      <br>
+      <br>
+      <span class="instructions">選出適當單字以完成句子：</span>
+      <br>
+      <table id="partTwo">
+        <tr><td><span id="firstHalfHolder"></span>
+                <span id="optionsHolder">
+                  <label for="selectWord"></label>
+                  <select id="selectWord" onchange="checkPartTwo()"></select>
+                </span>
+                <span id="secondHalfHolder"></span>
+        </td></tr>
+        <tr><td class="TC" id="sentenceCHolder"></td></tr>
+      </table>
+    </section>
+    <section id="containerThree">
+      <img id="result" src="thinking.png">
+      <br>
+      <img id="prevArrow" onclick="navTo(11)" src="prevStop.png">
+      <img id="nextArrow" onclick="navTo(12)" src="next.png">
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+  <script>
+  var getPartOne = new XMLHttpRequest(); // a new request
+  getPartOne.open("GET","https://davidiclin.github.io/pub/toeicWarmupV.json",false);
+  getPartOne.send(null);
+  const partOneAll = JSON.parse(getPartOne.responseText);
+  var getPartTwo = new XMLHttpRequest(); // a new request
+  getPartTwo.open("GET","https://davidiclin.github.io/pub/toeicWarmupS.json",false);
+  getPartTwo.send(null);
+  const partTwoAll = JSON.parse(getPartTwo.responseText);
+  var translation = 0;
+  var currentPartOne = [];
+  var currentPartTwo = [];
+  var partTwoOptions = [];
+  var partOneAnswers = [0,0,0,0,0,0,0,0,0,0];
+  var partTwoAnswers = [0,0,0,0,0,0,0,0,0,0];
+  var partOneReport = [0,0,0,0,0,0,0,0,0,0];
+  var partTwoReport = [0,0,0,0,0,0,0,0,0,0];
+  var currentItem = 1;
+  var viewingPart = 1;
+
+  for (count = 1; count < 31; count ++) {
+    document.getElementById("selectUnit").innerHTML += "<option value=\"" + count + "\">" + count + "</option>"
+  }
+  document.getElementById("partOneBtn").style.backgroundColor = "Yellow";
+  document.getElementById("partOneBtn").style.border = "3px inset LightGray";
+  document.getElementById("containerTwo").style.display = "none";
+  for (count = 0; count < document.getElementsByClassName("TC").length; count++) {
+    document.getElementsByClassName("TC")[count].style.visibility = "hidden";
+  }
+  updateCurrentUnit(1);
+
+  function switchParts(x) {
+    if (x === 1) {
+      document.getElementById("partOneBtn").style.backgroundColor = "Yellow";
+      document.getElementById("partOneBtn").style.border = "3px inset LightGray";
+      document.getElementById("partTwoBtn").style.backgroundColor = "LightGray";
+      document.getElementById("partTwoBtn").style.border = "3px outset White";
+      document.getElementById("containerOne").style.display = "block";
+      document.getElementById("containerTwo").style.display = "none";
+      viewingPart = 1;
+      navTo(1);
+    }
+    if (x === 2) {
+      document.getElementById("partOneBtn").style.backgroundColor = "LightGray";
+      document.getElementById("partOneBtn").style.border = "3px outset White";
+      document.getElementById("partTwoBtn").style.backgroundColor = "Yellow";
+      document.getElementById("partTwoBtn").style.border = "3px inset LightGray";
+      document.getElementById("containerOne").style.display = "none";
+      document.getElementById("containerTwo").style.display = "block";
+      viewingPart = 2;
+      navTo(1);
+    }
+  }
+
+  function toggleTrans() {
+    if (translation === 0) {
+      translation = 1;
+      document.getElementById("trans").style.backgroundColor = "Yellow";
+      document.getElementById("trans").style.border = "3px inset LightGray";
+      for (count = 0; count < document.getElementsByClassName("TC").length; count++) {
+        document.getElementsByClassName("TC")[count].style.visibility = "visible";
+      }
+      document.getElementById("trans").innerHTML = "隱藏中譯";
+    }
+    else {
+      translation = 0;
+      document.getElementById("trans").style.backgroundColor = "LightGray";
+      document.getElementById("trans").style.border = "3px outset White";
+      for (count = 0; count < document.getElementsByClassName("TC").length; count++) {
+        document.getElementsByClassName("TC")[count].style.visibility = "hidden";
+      }
+      document.getElementById("trans").innerHTML = "顯示中譯";
+    }
+  }
+
+  function navTo(x) {
+    if (x > 10) {
+      if (x === 11) {
+        currentItem -= 1
+      }
+      else {
+        currentItem += 1
+      }
+    }
+    else {
+      currentItem = x;
+    }
+    if (currentItem <= 1) {
+      currentItem = 1;
+      document.getElementById("prevArrow").src = "prevStop.png"
+    }
+    else {
+      document.getElementById("prevArrow").src = "prev.png"
+    }
+    if (currentItem >= 10) {
+      currentItem = 10;
+      document.getElementById("nextArrow").src = "nextStop.png"
+    }
+    else {
+      document.getElementById("nextArrow").src = "next.png"
+    }
+    updatePartOneItem(currentItem);
+    updatePartTwoItem(currentItem);
+    updateItemStatus();
+    updateItemIndicators();
+  }
+
+  function updateCurrentUnit(x) {
+    currentPartOne = [];
+    currentPartTwo = [];
+    partOneAnswers = [0,0,0,0,0,0,0,0,0,0];
+    partTwoAnswers = [0,0,0,0,0,0,0,0,0,0];
+    partOneReport = [0,0,0,0,0,0,0,0,0,0];
+    partTwoReport = [0,0,0,0,0,0,0,0,0,0];
+    for (count = 0; count < 10; count ++) {
+      currentPartOne.push(partOneAll[count + (x - 1) * 10].keyword + "#" + partOneAll[count + (x - 1) * 10].keywordC);
+      currentPartOne.push(partOneAll[count + (x - 1) * 10].option1 + "#" + partOneAll[count + (x - 1) * 10].option1C);
+      currentPartOne.push(partOneAll[count + (x - 1) * 10].option2 + "#" + partOneAll[count + (x - 1) * 10].option2C);
+      currentPartOne.push(partOneAll[count + (x - 1) * 10].option3 + "#" + partOneAll[count + (x - 1) * 10].option3C);
+      currentPartOne.push(partOneAll[count + (x - 1) * 10].synonym + "#" + partOneAll[count + (x - 1) * 10].synonymC);
+      currentPartOne.push(partOneAll[count + (x - 1) * 10].synonym);
+      //synonym itself also serves as an option, thus the repetition
+      currentPartTwo.push(partTwoAll[count + (x - 1) * 10].stem);
+      currentPartTwo.push(partTwoAll[count + (x - 1) * 10].chn);
+      currentPartTwo.push(partTwoAll[count + (x - 1) * 10].key);
+    }
+    shufflePartOneOptions();
+    shufflePartTwoOptions();
+    switchParts(1);
+    navTo(1);
+  }
+
+  function updatePartOneItem(x) {
+    document.getElementById("keywordHolder").innerHTML = currentPartOne[6 * (x - 1)].split("#")[0];
+    document.getElementById("keywordCHolder").innerHTML = currentPartOne[6 * (x - 1)].split("#")[1];
+    document.getElementById("option1Holder").innerHTML = currentPartOne[6 * (x - 1) + 1].split("#")[0];
+    document.getElementById("option1CHolder").innerHTML = currentPartOne[6 * (x - 1) + 1].split("#")[1];
+    document.getElementById("option2Holder").innerHTML = currentPartOne[6 * (x - 1) + 2].split("#")[0];
+    document.getElementById("option2CHolder").innerHTML = currentPartOne[6 * (x - 1) + 2].split("#")[1];
+    document.getElementById("option3Holder").innerHTML = currentPartOne[6 * (x - 1) + 3].split("#")[0];
+    document.getElementById("option3CHolder").innerHTML = currentPartOne[6 * (x - 1) + 3].split("#")[1];
+    document.getElementById("option4Holder").innerHTML = currentPartOne[6 * (x - 1) + 4].split("#")[0];
+    document.getElementById("option4CHolder").innerHTML = currentPartOne[6 * (x - 1) + 4].split("#")[1];
+  }
+
+  function updatePartTwoItem(x) {
+    document.getElementById("firstHalfHolder").innerHTML = currentPartTwo[3 * (x - 1)].split("***")[0];
+    document.getElementById("secondHalfHolder").innerHTML = currentPartTwo[3 * (x - 1)].split("***")[1];
+    document.getElementById("sentenceCHolder").innerHTML = currentPartTwo[3 * (x - 1) + 1];
+  }
+
+  function shufflePartOneOptions() {
+    for (count1 = 0; count1 < 10; count1 ++) {
+      for (count2 = 0; count2 < 4; count2 ++) {
+        var n1 = Math.floor(Math.random() * 4) + 1;
+        var n2 = Math.floor(Math.random() * 4) + 1;
+        temp = currentPartOne[count1 * 6 + n1];
+        currentPartOne[count1 * 6 + n1] = currentPartOne[count1 * 6 + n2];
+        currentPartOne[count1 * 6 + n2] = temp;
+      }
+    }
+  }
+
+  function shufflePartTwoOptions() {
+    partTwoOptions = [];
+    for (count1 = 0; count1 < 10; count1 ++) {
+      partTwoOptions.push(currentPartTwo[count1 * 3 + 2]);
+    }
+    for (count2 = 0; count2 < 10; count2 ++) {
+      var n1 = Math.floor(Math.random() * 10);
+      var n2 = Math.floor(Math.random() * 10);
+      temp = partTwoOptions[n1];
+      partTwoOptions[n1] = partTwoOptions[n2];
+      partTwoOptions[n2] = temp
+    }
+    document.getElementById("selectWord").innerHTML = "";
+    for (count = 0; count < 10; count ++) {
+      document.getElementById("selectWord").innerHTML += "<option value=\"" + partTwoOptions[count] + "\">" + partTwoOptions[count] + "</option>"
+    }
+  }
+
+  function changeUnit() {
+    var newUnit = document.getElementById("selectUnit").value;
+    updateCurrentUnit(newUnit);
+  }
+
+  function checkPartOne(x) {
+    partOneAnswers[currentItem - 1] = x;
+    updateItemStatus();
+    updateItemIndicators();
+  }
+
+  function checkPartTwo() {
+    partTwoAnswers[currentItem - 1] = document.getElementById("selectWord").selectedIndex + 1;
+    updateItemStatus();
+    updateItemIndicators();
+  }
+
+  function updateItemStatus() {
+    for (count = 1; count < 5; count ++) {
+      document.getElementById("option" + count + "Holder").style.backgroundColor = "LightGray";
+    }
+    var currentAnswer = partOneAnswers[currentItem - 1];
+    if ( currentAnswer > 0 ) {
+      document.getElementById("option" + currentAnswer + "Holder").style.backgroundColor = "Yellow";
+    }
+    document.getElementById("selectWord").selectedIndex = partTwoAnswers[currentItem - 1] - 1;
+    // Below: code to update the 'result' element
+    document.getElementById("result").src = "thinking.png";
+    if (viewingPart === 1) {
+      if (currentAnswer > 0) {
+        if (document.getElementById("option" + currentAnswer + "Holder").innerHTML === currentPartOne[currentItem * 6 - 1]) {
+          document.getElementById("result").src = "correct.png";
+          partOneReport[currentItem - 1] = 1;
+        }
+        else {
+          document.getElementById("result").src = "incorrect.png";
+          partOneReport[currentItem - 1] = 2;
+        }
+      }
+    }
+    else {
+      if (document.getElementById("selectWord").selectedIndex >= 0) {
+        if (document.getElementById("selectWord").value === currentPartTwo[currentItem * 3 - 1]) {
+          document.getElementById("result").src = "correct.png";
+          partTwoReport[currentItem - 1] = 1;
+        }
+        else {
+          document.getElementById("result").src = "incorrect.png";
+          partTwoReport[currentItem - 1] = 2;
+        }
+      }
+    }
+  }
+
+  function updateItemIndicators() {
+    for (count = 1; count < 11; count ++) {
+      document.getElementById(count).style.border = "5px solid LightSteelBlue";
+      document.getElementById(count).style.backgroundColor = "White";
+      if (viewingPart === 1) {
+        if (partOneReport[count - 1] === 1) {
+          document.getElementById(count).style.backgroundColor = "LightGreen";
+        }
+        if (partOneReport[count - 1] === 2) {
+          document.getElementById(count).style.backgroundColor = "LightPink";
+        }
+      }
+      else {
+        if (partTwoReport[count - 1] === 1) {
+          document.getElementById(count).style.backgroundColor = "LightGreen";
+        }
+        if (partTwoReport[count - 1] === 2) {
+          document.getElementById(count).style.backgroundColor = "LightPink";
+        }
+      }
+    }
+    document.getElementById(currentItem).style.border = "5px solid Gold";
+  }
+  </script>
+</body>
+</html>
