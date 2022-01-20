@@ -223,14 +223,14 @@ body {
     left: 0px;
     width: 100%;
     background-color: LightSteelBlue;
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
   }
   #menuBarTop {
     padding-left: 35px;
   }
   #menuBar select, #menuBar button {
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
   }
   #partOneBtn, #partTwoBtn {
