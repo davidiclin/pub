@@ -110,7 +110,7 @@ body {
   right: 10%;
 }
 @media screen and (max-width: 1199px) {
-  body {
+  /* body {
     background-color:rgb(168,240,247);
   }
   #menuBar {
@@ -209,7 +209,7 @@ body {
     object-fit: scale-down;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) { */
   body {
     background-color:rgb(168,240,247);
   }
@@ -223,14 +223,14 @@ body {
     left: 0px;
     width: 100%;
     background-color: LightSteelBlue;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: Arial, Helvetica, sans-serif;
   }
   #menuBarTop {
     padding-left: 35px;
   }
   #menuBar select, #menuBar button {
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: Arial, Helvetica, sans-serif;
   }
   #partOneBtn, #partTwoBtn {
