@@ -54,21 +54,15 @@ function switchParts(x) {
 function toggleTrans() {
   if (translation === 0) {
     translation = 1;
-    document.getElementById("trans").style.backgroundColor = "Yellow";
-    document.getElementById("trans").style.border = "3px inset LightGray";
     for (count = 0; count < document.getElementsByClassName("TC").length; count++) {
       document.getElementsByClassName("TC")[count].style.visibility = "visible";
     }
-    document.getElementById("trans").innerHTML = "隱藏中譯";
   }
   else {
     translation = 0;
-    document.getElementById("trans").style.backgroundColor = "LightGray";
-    document.getElementById("trans").style.border = "3px outset White";
     for (count = 0; count < document.getElementsByClassName("TC").length; count++) {
       document.getElementsByClassName("TC")[count].style.visibility = "hidden";
     }
-    document.getElementById("trans").innerHTML = "顯示中譯";
   }
 }
 
@@ -254,4 +248,13 @@ function updateItemIndicators() {
     }
   }
   document.getElementById(currentItem).style.border = "5px solid Gold";
+}
+
+function showHelp() {
+  alert("多益測驗 TOEIC 字彙練習\n\
+(1) 本練習共30回，每回有「同義字」與「選字填空」各10題。\n\
+(2) 按左上角選單可選擇回數；按「同義字」與「選字填空」鍵可切換題型。\n\
+(3) 勾選或取消「顯示中文」方塊可切換顯示中文翻譯。\n\
+(4) 按上方的1-10數字標籤或下方的「上一題」、「下一題」進行瀏覽。\n\
+(5) 答題完成立即回饋，答對者該題數字標籤呈綠色，答錯者呈紅色；未答者呈白色。")
 }

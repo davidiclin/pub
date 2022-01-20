@@ -18,11 +18,13 @@
     <section id="menuBar">
       <span id="menuBarTop">
         <label for="selectUnit">第</label>
-        <select id="selectUnit" onchange="changeUnit()">
+        <select id="selectUnit" name="selectUnit" onchange="changeUnit()">
         </select>回
         <button id="partOneBtn" onclick="switchParts(1)">I. 同義字</button>
         <button id="partTwoBtn" onclick="switchParts(2)">II. 選字填空</button>
-        <button id="trans" onclick="toggleTrans()">顯示中譯</button>
+        <input type="checkbox" id="trans" name="trans" onclick="toggleTrans()">
+        <label for="trans">顯示中文</label>
+        <button id="help" onclick="showHelp()">?</button>
       </span>
       <hr>
       <table id="indicatorBar">
