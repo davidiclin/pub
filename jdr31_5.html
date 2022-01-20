@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>TOEIC Preparation: Vocabulary</title>
+  <link rel="preload" href="toeicWarmupImg/correct.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/incorrect.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/thinking.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/next.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/nextStop.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/prev.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/prevStop.png" as="image">
   <style>
   body {
     background-color:rgb(168,240,247);
@@ -168,10 +175,10 @@
       </table>
     </section>
     <section id="containerThree">
-      <img id="result" src="thinking.png">
+      <img id="result" src="toeicWarmupImg/thinking.png">
       <br>
-      <img id="prevArrow" onclick="navTo(11)" src="prevStop.png">
-      <img id="nextArrow" onclick="navTo(12)" src="next.png">
+      <img id="prevArrow" onclick="navTo(11)" src="toeicWarmupImg/prevStop.png">
+      <img id="nextArrow" onclick="navTo(12)" src="toeicWarmupImg/next.png">
     </section>
   </main>
   <footer>
@@ -266,17 +273,17 @@
     }
     if (currentItem <= 1) {
       currentItem = 1;
-      document.getElementById("prevArrow").src = "prevStop.png"
+      document.getElementById("prevArrow").src = "toeicWarmupImg/prevStop.png"
     }
     else {
-      document.getElementById("prevArrow").src = "prev.png"
+      document.getElementById("prevArrow").src = "toeicWarmupImg/prev.png"
     }
     if (currentItem >= 10) {
       currentItem = 10;
-      document.getElementById("nextArrow").src = "nextStop.png"
+      document.getElementById("nextArrow").src = "toeicWarmupImg/nextStop.png"
     }
     else {
-      document.getElementById("nextArrow").src = "next.png"
+      document.getElementById("nextArrow").src = "toeicWarmupImg/next.png"
     }
     updatePartOneItem(currentItem);
     updatePartTwoItem(currentItem);
@@ -385,15 +392,15 @@
     }
     document.getElementById("selectWord").selectedIndex = partTwoAnswers[currentItem - 1] - 1;
     // Below: code to update the 'result' element
-    document.getElementById("result").src = "thinking.png";
+    document.getElementById("result").src = "toeicWarmupImg/thinking.png";
     if (viewingPart === 1) {
       if (currentAnswer > 0) {
         if (document.getElementById("option" + currentAnswer + "Holder").innerHTML === currentPartOne[currentItem * 6 - 1]) {
-          document.getElementById("result").src = "correct.png";
+          document.getElementById("result").src = "toeicWarmupImg/correct.png";
           partOneReport[currentItem - 1] = 1;
         }
         else {
-          document.getElementById("result").src = "incorrect.png";
+          document.getElementById("result").src = "toeicWarmupImg/incorrect.png";
           partOneReport[currentItem - 1] = 2;
         }
       }
@@ -401,11 +408,11 @@
     else {
       if (document.getElementById("selectWord").selectedIndex >= 0) {
         if (document.getElementById("selectWord").value === currentPartTwo[currentItem * 3 - 1]) {
-          document.getElementById("result").src = "correct.png";
+          document.getElementById("result").src = "toeicWarmupImg/correct.png";
           partTwoReport[currentItem - 1] = 1;
         }
         else {
-          document.getElementById("result").src = "incorrect.png";
+          document.getElementById("result").src = "toeicWarmupImg/incorrect.png";
           partTwoReport[currentItem - 1] = 2;
         }
       }

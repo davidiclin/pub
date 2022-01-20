@@ -1508,7 +1508,7 @@
     {
         "chn": "Redford先生負責協調所有參加活動來賓的住宿和交通。",
         "id": 252,
-        "key": "coordinations",
+        "key": "coordinating",
         "stem": "Mr. Redford is in charge of *** accommodations and transportation for all guests attending the event."
     },
     {
@@ -1730,7 +1730,7 @@
     {
         "chn": "董事們都同意必須進行企業再造，但他們尚未決定明確的計畫。",
         "id": 289,
-        "key": "difinite",
+        "key": "definite",
         "stem": "The board members all agree that business restructuring must be carried out, but they haven't decided on a *** plan."
     },
     {
