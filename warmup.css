@@ -164,7 +164,7 @@ body {
   #nextArrow {
   }
   #containerOne, #containerTwo, #selectWord {
-    font-size: 4.8vw;
+    font-size: 4.7vw;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
   }
@@ -200,7 +200,7 @@ body {
     border: 3px outset White;
     padding: 10px;
     padding-left: 20px;
-    font-size: 4.8vw;
+    font-size: 4.7vw;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
   }
