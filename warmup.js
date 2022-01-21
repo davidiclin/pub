@@ -247,7 +247,7 @@ function updateItemIndicators() {
       }
     }
   }
-  document.getElementById(currentItem).style.border = "5px solid Gold";
+  document.getElementById(currentItem).style.border = "5px solid Black";
 }
 
 function showHelp() {
@@ -256,5 +256,6 @@ function showHelp() {
 (2) 按左上角選單可選擇回數；按「同義字」與「選字填空」鍵可切換題型。\n\
 (3) 勾選或取消「顯示中文」方塊可切換顯示中文翻譯。\n\
 (4) 按上方的1-10數字標籤或下方的「上一題」、「下一題」進行瀏覽。\n\
-(5) 答題完成立即回饋，答對者該題數字標籤呈綠色，答錯者呈紅色；未答者呈白色。")
+(5) 答題完成立即回饋，答對者該題數字標籤呈綠色，答錯者呈紅色；未答者呈白色。\n\
+(6) 若選擇新的回數，目前的答題進度會全部清除，選項的順序也會重新排列。")
 }
