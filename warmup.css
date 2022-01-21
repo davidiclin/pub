@@ -165,12 +165,12 @@ body {
   #prevArrow {
     position: absolute;
     top: 0px;
-    left: 10%;
+    left: 4%;
   }
   #nextArrow {
     position: absolute;
     top: 0px;
-    right: 10%;
+    right: 4%;
   }
   #containerOne, #containerTwo, #selectWord {
     font-size: 4.7vw;
