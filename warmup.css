@@ -159,9 +159,20 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  #containerThree {
+    position: relative;
+  }
   #prevArrow {
+    position: absolute;
+    width: 50%;
+    top: 0px;
+    left: 10%;
   }
   #nextArrow {
+    position: absolute;
+    width: 50%;
+    top: 0px;
+    right: 10%;
   }
   #containerOne, #containerTwo, #selectWord {
     font-size: 4.7vw;
