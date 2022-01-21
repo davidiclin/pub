@@ -164,13 +164,11 @@ body {
   }
   #prevArrow {
     position: absolute;
-    width: 50%;
     top: 0px;
     left: 10%;
   }
   #nextArrow {
     position: absolute;
-    width: 50%;
     top: 0px;
     right: 10%;
   }
