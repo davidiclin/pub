@@ -112,12 +112,12 @@ body {
 }
 #prevArrow {
   position: absolute;
-  top: 0px;
+  top: 10px;
   left: 10%;
 }
 #nextArrow {
   position: absolute;
-  top: 0px;
+  top: 10px;
   right: 10%;
 }
 @media screen and (max-width: 1199px) {
@@ -157,6 +157,7 @@ body {
   }
   #help {
     float: right;
+    margin-right: 5%;
     background-color: LightGray;
     border: 3px outset White;
   }
@@ -235,12 +236,12 @@ body {
   }
   #prevArrow {
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 2%;
   }
   #nextArrow {
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 2%;
   }
 }
