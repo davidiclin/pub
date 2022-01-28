@@ -1,0 +1,236 @@
+body {
+  background-color:rgb(168,240,247);
+}
+#menuBar {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: LightSteelBlue;
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#menuBarTop {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#menuBar select, #menuBar button {
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#partOneBtn, #partTwoBtn {
+  width: 25%;
+  background-color: LightGray;
+  border: 3px outset White;
+}
+#trans {
+  margin-left: 30px;
+  height: 20px;
+  width: 20px;
+}
+#help {
+  float: right;
+  background-color: LightGray;
+  border: 3px outset White;
+}
+#indicatorBar {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+}
+#containerOne, #containerTwo, #selectWord {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+#partOneLeft {
+  float: left;
+  width: 35%;
+  padding-left: 10%;
+}
+#partOneRight {
+  float: right;
+  width: 45%;
+  padding-right: 10%;
+}
+#partTwo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#keywordHolder, .optionHolder, .TC {
+  display: inline-block;
+  padding-left: 25px;
+  height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+#keywordHolder, .TC {
+  width: 95%;
+  border-top: 3px solid rgb(168,240,247);
+  border-bottom: 3px solid LightSteelBlue;
+  border-collapse: collapse;
+}
+.optionHolder {
+  width: 94%;
+  border: 3px outset White;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+.instructions {
+  padding-left: 10%;
+  color: Green;
+}
+#sentenceCHolder {
+  width: 100%;
+  padding-left: 0px;
+}
+.indicator {
+  width: 9%;
+  background-color: White;
+  border: 5px solid LightSteelBlue;
+  text-align: center;
+  cursor: pointer;
+}
+#containerThree {
+  position: relative;
+  text-align: center;
+  clear: both;
+}
+#result {
+  width: 15%;
+  object-fit: scale-down;
+}
+#prevArrow {
+  position: absolute;
+  top: 0px;
+  left: 10%;
+}
+#nextArrow {
+  position: absolute;
+  top: 0px;
+  right: 10%;
+}
+@media screen and (max-width: 1199px) {
+  body {
+    background-color:rgb(168,240,247);
+  }
+  #menuBar {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: LightSteelBlue;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #menuBarTop {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #menuBar select, #menuBar button {
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #partOneBtn, #partTwoBtn {
+    width: 20%;
+    background-color: LightGray;
+    border: 3px outset White;
+  }
+  #trans {
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
+  }
+  #help {
+    float: right;
+    background-color: LightGray;
+    border: 3px outset White;
+  }
+  #indicatorBar {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  #containerOne, #containerTwo, #selectWord {
+    font-size: 4.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  #partOneLeft {
+    float: left;
+    width: 36%;
+    padding-left: 5%;
+  }
+  #partOneRight {
+    float: right;
+    width: 54%;
+    padding-right: 5%;
+  }
+  #partTwo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #keywordHolder, .optionHolder, .TC {
+    display: inline-block;
+    padding-left: 25px;
+    height: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  #keywordHolder, .TC {
+    width: 95%;
+    border-top: 3px solid rgb(168,240,247);
+    border-bottom: 3px solid LightSteelBlue;
+    border-collapse: collapse;
+  }
+  .optionHolder {
+    width: 92%;
+    border: 3px outset White;
+    border-collapse: collapse;
+    cursor: pointer;
+  }
+  .instructions {
+    padding-left: 25px;
+    color: Green;
+  }
+  #sentenceCHolder {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .indicator {
+    width: 9%;
+    background-color: White;
+    border: 5px solid LightSteelBlue;
+    text-align: center;
+    cursor: pointer;
+  }
+  #containerThree {
+    position: relative;
+    text-align: center;
+    clear: both;
+  }
+  #result {
+    width: 45%;
+    object-fit: scale-down;
+  }
+  #prevArrow {
+    position: absolute;
+    top: 0px;
+    left: 2%;
+  }
+  #nextArrow {
+    position: absolute;
+    top: 0px;
+    right: 2%;
+  }
+}

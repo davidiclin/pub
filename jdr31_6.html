@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TOEIC Preparation: Vocabulary</title>
+  <link rel="preload" href="toeicWarmupImg/correct.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/incorrect.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/thinking.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/next.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/nextStop.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/prev.png" as="image">
+  <link rel="preload" href="toeicWarmupImg/prevStop.png" as="image">
+  <link rel="stylesheet" href="warmup1.css">
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <div id="menuBar">
+      <section id="menuBarTop">
+        <label for="selectUnit">第</label>
+        <select id="selectUnit" name="selectUnit" onchange="changeUnit()">
+        </select>回
+        <button id="partOneBtn" onclick="switchParts(1)">同義字</button>
+        <button id="partTwoBtn" onclick="switchParts(2)">選字填空</button>
+        <input type="checkbox" id="trans" name="trans" onclick="toggleTrans()">
+        <label for="trans">中譯</label>
+        <button id="help" onclick="showHelp()">說明</button>
+      </section>
+      <hr>
+      <section id="indicatorBar">
+          <button class="indicator" id="1" onclick="navTo(1)">1</button>
+          <button class="indicator" id="2" onclick="navTo(2)">2</button>
+          <button class="indicator" id="3" onclick="navTo(3)">3</button>
+          <button class="indicator" id="4" onclick="navTo(4)">4</button>
+          <button class="indicator" id="5" onclick="navTo(5)">5</button>
+          <button class="indicator" id="6" onclick="navTo(6)">6</button>
+          <button class="indicator" id="7" onclick="navTo(7)">7</button>
+          <button class="indicator" id="8" onclick="navTo(8)">8</button>
+          <button class="indicator" id="9" onclick="navTo(9)">9</button>
+          <button class="indicator" id="10" onclick="navTo(10)">10</button>
+      </section>
+    </div>
+  </header>
+  <main>
+    <div id="containerOne">
+      <br>
+      <br>
+      <br>
+      <br>
+      <span class="instructions">選出與第一個字意思最接近者：</span>
+      <br>
+      <section id="partOneLeft">
+        <span id="keywordHolder"></span>
+        <span id="option1Holder" class="optionHolder" onclick="checkPartOne(1)"></span>
+        <span id="option2Holder" class="optionHolder" onclick="checkPartOne(2)"></span>
+        <span id="option3Holder" class="optionHolder" onclick="checkPartOne(3)"></span>
+        <span id="option4Holder" class="optionHolder" onclick="checkPartOne(4)"></span>
+      </section>
+      <section id="partOneRight">
+        <span class="TC" id="keywordCHolder"></span>
+        <span class="TC" id="option1CHolder"></span>
+        <span class="TC" id="option2CHolder"></span>
+        <span class="TC" id="option3CHolder"></span>
+        <span class="TC" id="option4CHolder"></span>
+      </section>
+    </div>
+    <div id="containerTwo">
+      <br>
+      <br>
+      <br>
+      <br>
+      <span class="instructions">選出適當單字以完成句子：</span>
+      <br>
+      <section id="partTwo">
+        <span id="firstHalfHolder"></span>
+        <span id="optionsHolder">
+          <label for="selectWord"></label>
+          <select id="selectWord" onchange="checkPartTwo()"></select>
+        </span>
+        <span id="secondHalfHolder"></span><br>
+        <span class="TC" id="sentenceCHolder"></span>
+      </section>
+    </div>
+    <div id="containerThree">
+      <img id="result" src="toeicWarmupImg/thinking.png">
+      <br>
+      <img id="prevArrow" onclick="navTo(11)" src="toeicWarmupImg/prevStop.png">
+      <img id="nextArrow" onclick="navTo(12)" src="toeicWarmupImg/next.png">
+    </div>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+  <script src="warmup1.js"></script>
+</body>
+</html>
