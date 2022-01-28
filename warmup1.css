@@ -81,6 +81,9 @@ body {
   border-collapse: collapse;
   cursor: pointer;
 }
+#option4CHolder {
+  border: none;
+}
 .instructions {
   padding-left: 10%;
   color: Green;
@@ -88,6 +91,7 @@ body {
 #sentenceCHolder {
   width: 100%;
   padding-left: 0px;
+  border: none;
 }
 .indicator {
   width: 9%;
@@ -98,6 +102,7 @@ body {
 }
 #containerThree {
   position: relative;
+  padding-top: 10px;
   text-align: center;
   clear: both;
 }
@@ -199,6 +204,9 @@ body {
     border-collapse: collapse;
     cursor: pointer;
   }
+  #option4CHolder {
+    border: none;
+  }
   .instructions {
     padding-left: 25px;
     color: Green;
@@ -206,6 +214,7 @@ body {
   #sentenceCHolder {
     width: 100%;
     padding-left: 0px;
+    border: none;
   }
   .indicator {
     width: 9%;
@@ -216,6 +225,7 @@ body {
   }
   #containerThree {
     position: relative;
+    padding-top: 10px;
     text-align: center;
     clear: both;
   }
