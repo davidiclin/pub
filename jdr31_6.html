@@ -49,18 +49,18 @@
       <span class="instructions">選出與第一個字意思最接近者：</span>
       <br>
       <section id="partOneLeft">
-        <span id="keywordHolder"></span>
-        <span id="option1Holder" class="optionHolder" onclick="checkPartOne(1)"></span>
-        <span id="option2Holder" class="optionHolder" onclick="checkPartOne(2)"></span>
-        <span id="option3Holder" class="optionHolder" onclick="checkPartOne(3)"></span>
-        <span id="option4Holder" class="optionHolder" onclick="checkPartOne(4)"></span>
+        <span class="cell cellPartOne"><span id="keywordHolder"></span></span>
+        <span class="cell cellPartOne"><span id="option1Holder" class="optionHolder" onclick="checkPartOne(1)"></span></span>
+        <span class="cell cellPartOne"><span id="option2Holder" class="optionHolder" onclick="checkPartOne(2)"></span></span>
+        <span class="cell cellPartOne"><span id="option3Holder" class="optionHolder" onclick="checkPartOne(3)"></span></span>
+        <span class="cell cellPartOne"><span id="option4Holder" class="optionHolder" onclick="checkPartOne(4)"></span></span>
       </section>
       <section id="partOneRight">
-        <span class="TC" id="keywordCHolder"></span>
-        <span class="TC" id="option1CHolder"></span>
-        <span class="TC" id="option2CHolder"></span>
-        <span class="TC" id="option3CHolder"></span>
-        <span class="TC" id="option4CHolder"></span>
+        <span class="cell cellPartOne"><span class="TC" id="keywordCHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option1CHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option2CHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option3CHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option4CHolder"></span></span>
       </section>
     </div>
     <div id="containerTwo">
@@ -71,17 +71,19 @@
       <span class="instructions">選出適當單字以完成句子：</span>
       <br>
       <section id="partTwo">
-        <span id="firstHalfHolder"></span>
-        <span id="optionsHolder">
-          <label for="selectWord"></label>
-          <select id="selectWord" onchange="checkPartTwo()"></select>
+        <span class="cell">
+          <span id="firstHalfHolder"></span>
+          <span id="optionsHolder">
+            <label for="selectWord"></label>
+            <select id="selectWord" onchange="checkPartTwo()"></select>
+          </span>
+          <span id="secondHalfHolder"></span>
+          <span class="TC" id="sentenceCHolder"></span>
         </span>
-        <span id="secondHalfHolder"></span><br>
-        <span class="TC" id="sentenceCHolder"></span>
       </section>
     </div>
     <div id="containerThree">
-      <hr>
+      <br>
       <img id="result" src="toeicWarmupImg/thinking.png" alt="You have not answered the question yet.">
       <br>
       <img id="prevArrow" onclick="navTo(11)" src="toeicWarmupImg/prevStop.png" alt="This is the beginning of the exercise.">
