@@ -81,20 +81,16 @@ function navTo(x) {
   if (currentItem <= 1) {
     currentItem = 1;
     document.getElementById("prevArrow").src = "toeicWarmupImg/prevStop.png"
-    document.getElementById("prevArrow").alt = "This is the beginning of the exercise."
   }
   else {
     document.getElementById("prevArrow").src = "toeicWarmupImg/prev.png"
-    document.getElementById("prevArrow").alt = "previous question"
   }
   if (currentItem >= 10) {
     currentItem = 10;
     document.getElementById("nextArrow").src = "toeicWarmupImg/nextStop.png"
-    document.getElementById("nextArrow").alt = "This is the end of the exercise."
   }
   else {
     document.getElementById("nextArrow").src = "toeicWarmupImg/next.png"
-    document.getElementById("nextArrow").alt = "next question"
   }
   updatePartOneItem(currentItem);
   updatePartTwoItem(currentItem);
@@ -204,17 +200,14 @@ function updateItemStatus() {
   document.getElementById("selectWord").selectedIndex = partTwoAnswers[currentItem - 1] - 1;
   // Below: code to update the 'result' element
   document.getElementById("result").src = "toeicWarmupImg/thinking.png";
-  document.getElementById("result").alt = "You have not answered the question yet.";
   if (viewingPart === 1) {
     if (currentAnswer > 0) {
       if (document.getElementById("option" + currentAnswer + "Holder").innerHTML === currentPartOne[currentItem * 6 - 1]) {
         document.getElementById("result").src = "toeicWarmupImg/correct.png";
-        document.getElementById("result").alt = "Your answer is correct.";
         partOneReport[currentItem - 1] = 1;
       }
       else {
         document.getElementById("result").src = "toeicWarmupImg/incorrect.png";
-        document.getElementById("result").alt = "Your answer is incorrect.";
         partOneReport[currentItem - 1] = 2;
       }
     }
@@ -223,12 +216,10 @@ function updateItemStatus() {
     if (document.getElementById("selectWord").selectedIndex >= 0) {
       if (document.getElementById("selectWord").value === currentPartTwo[currentItem * 3 - 1]) {
         document.getElementById("result").src = "toeicWarmupImg/correct.png";
-        document.getElementById("result").alt = "Your answer is correct.";
         partTwoReport[currentItem - 1] = 1;
       }
       else {
         document.getElementById("result").src = "toeicWarmupImg/incorrect.png";
-        document.getElementById("result").alt = "Your answer is incorrect.";
         partTwoReport[currentItem - 1] = 2;
       }
     }

@@ -16,6 +16,7 @@ body {
 }
 #menuBarTop {
   padding-left: 10%;
+  padding-right: 10%;
 }
 #menuBar select, #menuBar button {
   font-size: 1.2vw;
@@ -33,55 +34,66 @@ body {
 }
 #help {
   float: right;
-  margin-right: 10%;
   background-color: LightGray;
   border: 3px outset White;
 }
 #indicatorBar {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
 }
 #containerOne, #containerTwo, #selectWord {
   font-size: 1.5vw;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
-#partOne, #partTwo {
+#partOneLeft {
+  float: left;
+  width: 35%;
+  padding-left: 10%;
+}
+#partOneRight {
+  float: right;
+  width: 45%;
+  padding-right: 10%;
+}
+#partTwo {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+.cell {
+  display: inline-block;
+  width: 100%;
+  border-top: 3px solid rgb(168,240,247);
   border-bottom: 3px solid LightSteelBlue;
+  padding-top: 2px;
+  padding-bottom: 2px;
   border-collapse: collapse;
 }
-#partOne td {
-  width: 42%;
-  border-bottom: 3px solid LightSteelBlue;
-  border-collapse: collapse;
-  padding: 5px;
+.cellPartOne {
+  height: 2.5vw;
 }
-#partOne .TC {
-  width: 58%;
-}
-#partTwo td {
+#keywordHolder, .optionHolder, .TC {
+  display: inline-block;
+  padding-left: 25px;
+  width: 95%;
+  height: 80%;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
+}
+.optionHolder {
+  border: 3px outset White;
+  border-collapse: collapse;
+  cursor: pointer;
 }
 .instructions {
   padding-left: 10%;
   color: Green;
 }
-#keywordHolder {
-  padding-left: 25px;
-}
-.optionHolder {
+#sentenceCHolder {
   width: 100%;
-  background-color: LightGray;
-  border: 3px outset White;
-  padding: 5px;
-  padding-left: 20px;
-  font-size: 1.5vw;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  padding-left: 0px;
 }
 .indicator {
   width: 9%;
@@ -91,23 +103,23 @@ body {
   cursor: pointer;
 }
 #containerThree {
+  position: relative;
+  padding-top: 10px;
   text-align: center;
+  clear: both;
 }
 #result {
   width: 15%;
   object-fit: scale-down;
 }
-#containerThree {
-  position: relative;
-}
 #prevArrow {
   position: absolute;
-  top: 0px;
+  top: 10px;
   left: 10%;
 }
 #nextArrow {
   position: absolute;
-  top: 0px;
+  top: 10px;
   right: 10%;
 }
 @media screen and (max-width: 1199px) {
@@ -129,13 +141,14 @@ body {
   }
   #menuBarTop {
     padding-left: 5%;
+    padding-right: 5%;
   }
   #menuBar select, #menuBar button {
     font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
   }
   #partOneBtn, #partTwoBtn {
-    width: 20%;
+    width: 22%;
     background-color: LightGray;
     border: 3px outset White;
   }
@@ -146,68 +159,66 @@ body {
   }
   #help {
     float: right;
-    margin-right: 5%;
     background-color: LightGray;
     border: 3px outset White;
   }
   #indicatorBar {
-    width: 92%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #containerThree {
-    position: relative;
-  }
-  #prevArrow {
-    position: absolute;
-    top: 0px;
-    left: 2%;
-  }
-  #nextArrow {
-    position: absolute;
-    top: 0px;
-    right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
   }
   #containerOne, #containerTwo, #selectWord {
-    font-size: 4.7vw;
+    font-size: 4.5vw;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
   }
-  #partOne, #partTwo {
-    width: 96%;
+  #partOneLeft {
+    float: left;
+    width: 36%;
+    padding-left: 5%;
+  }
+  #partOneRight {
+    float: right;
+    width: 54%;
+    padding-right: 5%;
+  }
+  #partTwo {
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .cell {
+    display: inline-block;
+    width: 100%;
+    border-top: 3px solid rgb(168,240,247);
     border-bottom: 3px solid LightSteelBlue;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-collapse: collapse;
   }
-  #partOne td {
-    width: 42%;
-    border-bottom: 3px solid LightSteelBlue;
-    border-collapse: collapse;
-    padding: 10px;
+  .cellPartOne {
+    height: 7.2vw;
   }
-  #partOne .TC {
-    width: 58%;
-  }
-  #partTwo td {
+  #keywordHolder, .optionHolder, .TC {
+    display: inline-block;
+    padding-left: 25px;
+    width: 95%;
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+  }
+  .optionHolder {
+    border: 3px outset White;
+    border-collapse: collapse;
+    cursor: pointer;
   }
   .instructions {
     padding-left: 25px;
     color: Green;
   }
-  #keywordHolder {
-    padding-left: 25px;
-  }
-  .optionHolder {
+  #sentenceCHolder {
     width: 100%;
-    background-color: LightGray;
-    border: 3px outset White;
-    padding: 10px;
-    padding-left: 20px;
-    font-size: 4.7vw;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    padding-left: 0px;
   }
   .indicator {
     width: 9%;
@@ -217,10 +228,23 @@ body {
     cursor: pointer;
   }
   #containerThree {
+    position: relative;
+    padding-top: 10px;
     text-align: center;
+    clear: both;
   }
   #result {
     width: 45%;
     object-fit: scale-down;
+  }
+  #prevArrow {
+    position: absolute;
+    top: 10px;
+    left: 2%;
+  }
+  #nextArrow {
+    position: absolute;
+    top: 10px;
+    right: 2%;
   }
 }

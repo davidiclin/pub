@@ -14,9 +14,8 @@
 </head>
 <body>
   <header>
-    <h1></h1>
-    <section id="menuBar">
-      <span id="menuBarTop">
+    <div id="menuBar">
+      <section id="menuBarTop">
         <label for="selectUnit">第</label>
         <select id="selectUnit" name="selectUnit" onchange="changeUnit()">
         </select>回
@@ -25,64 +24,71 @@
         <input type="checkbox" id="trans" name="trans" onclick="toggleTrans()">
         <label for="trans">中譯</label>
         <button id="help" onclick="showHelp()">說明</button>
-      </span>
+      </section>
       <hr>
-      <table id="indicatorBar">
-        <tr>
-          <td class="indicator" id="1" onclick="navTo(1)">1</td>
-          <td class="indicator" id="2" onclick="navTo(2)">2</td>
-          <td class="indicator" id="3" onclick="navTo(3)">3</td>
-          <td class="indicator" id="4" onclick="navTo(4)">4</td>
-          <td class="indicator" id="5" onclick="navTo(5)">5</td>
-          <td class="indicator" id="6" onclick="navTo(6)">6</td>
-          <td class="indicator" id="7" onclick="navTo(7)">7</td>
-          <td class="indicator" id="8" onclick="navTo(8)">8</td>
-          <td class="indicator" id="9" onclick="navTo(9)">9</td>
-          <td class="indicator" id="10" onclick="navTo(10)">10</td>
-        </tr>
-      </table>
-    </section>
+      <section id="indicatorBar">
+          <button class="indicator" id="1" onclick="navTo(1)">1</button>
+          <button class="indicator" id="2" onclick="navTo(2)">2</button>
+          <button class="indicator" id="3" onclick="navTo(3)">3</button>
+          <button class="indicator" id="4" onclick="navTo(4)">4</button>
+          <button class="indicator" id="5" onclick="navTo(5)">5</button>
+          <button class="indicator" id="6" onclick="navTo(6)">6</button>
+          <button class="indicator" id="7" onclick="navTo(7)">7</button>
+          <button class="indicator" id="8" onclick="navTo(8)">8</button>
+          <button class="indicator" id="9" onclick="navTo(9)">9</button>
+          <button class="indicator" id="10" onclick="navTo(10)">10</button>
+      </section>
+    </div>
   </header>
   <main>
-    <section id="containerOne">
+    <div id="containerOne">
       <br>
       <br>
       <br>
       <br>
       <span class="instructions">選出與第一個字意思最接近者：</span>
       <br>
-      <table id="partOne">
-        <tr><td><span id="keywordHolder"></span></td><td class="TC" id="keywordCHolder"></td></tr>
-        <tr><td><button id="option1Holder" class="optionHolder" onclick="checkPartOne(1)"></button></td><td class="TC" id="option1CHolder"></td></tr>
-        <tr><td><button id="option2Holder" class="optionHolder" onclick="checkPartOne(2)"></button></td><td class="TC" id="option2CHolder"></td></tr>
-        <tr><td><button id="option3Holder" class="optionHolder" onclick="checkPartOne(3)"></button></td><td class="TC" id="option3CHolder"></td></tr>
-        <tr><td><button id="option4Holder" class="optionHolder" onclick="checkPartOne(4)"></button></td><td class="TC" id="option4CHolder"></td></tr>
-      </table>
-    </section>
-    <section id="containerTwo">
+      <section id="partOneLeft">
+        <span class="cell cellPartOne"><span id="keywordHolder"></span></span>
+        <span class="cell cellPartOne"><span id="option1Holder" class="optionHolder" onclick="checkPartOne(1)"></span></span>
+        <span class="cell cellPartOne"><span id="option2Holder" class="optionHolder" onclick="checkPartOne(2)"></span></span>
+        <span class="cell cellPartOne"><span id="option3Holder" class="optionHolder" onclick="checkPartOne(3)"></span></span>
+        <span class="cell cellPartOne"><span id="option4Holder" class="optionHolder" onclick="checkPartOne(4)"></span></span>
+      </section>
+      <section id="partOneRight">
+        <span class="cell cellPartOne"><span class="TC" id="keywordCHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option1CHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option2CHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option3CHolder"></span></span>
+        <span class="cell cellPartOne"><span class="TC" id="option4CHolder"></span></span>
+      </section>
+    </div>
+    <div id="containerTwo">
       <br>
       <br>
       <br>
       <br>
       <span class="instructions">選出適當單字以完成句子：</span>
       <br>
-      <table id="partTwo">
-        <tr><td><span id="firstHalfHolder"></span>
-                <span id="optionsHolder">
-                  <label for="selectWord"></label>
-                  <select id="selectWord" onchange="checkPartTwo()"></select>
-                </span>
-                <span id="secondHalfHolder"></span>
-        </td></tr>
-        <tr><td class="TC" id="sentenceCHolder"></td></tr>
-      </table>
-    </section>
-    <section id="containerThree">
-      <img id="result" src="toeicWarmupImg/thinking.png">
+      <section id="partTwo">
+        <span class="cell">
+          <span id="firstHalfHolder"></span>
+          <span id="optionsHolder">
+            <label for="selectWord"></label>
+            <select id="selectWord" onchange="checkPartTwo()"></select>
+          </span>
+          <span id="secondHalfHolder"></span>
+          <span class="TC" id="sentenceCHolder"></span>
+        </span>
+      </section>
+    </div>
+    <div id="containerThree">
       <br>
-      <img id="prevArrow" onclick="navTo(11)" src="toeicWarmupImg/prevStop.png">
-      <img id="nextArrow" onclick="navTo(12)" src="toeicWarmupImg/next.png">
-    </section>
+      <img id="result" src="toeicWarmupImg/thinking.png" alt="You have not answered the question yet.">
+      <br>
+      <img id="prevArrow" onclick="navTo(11)" src="toeicWarmupImg/prevStop.png" alt="This is the beginning of the exercise.">
+      <img id="nextArrow" onclick="navTo(12)" src="toeicWarmupImg/next.png" alt="next question">
+    </div>
   </main>
   <footer>
     <p></p>
