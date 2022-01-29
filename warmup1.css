@@ -67,6 +67,8 @@ body {
   width: 100%;
   border-top: 3px solid rgb(168,240,247);
   border-bottom: 3px solid LightSteelBlue;
+  padding-top: 2px;
+  padding-bottom: 2px;
   border-collapse: collapse;
 }
 .cellPartOne {
@@ -190,6 +192,8 @@ body {
     width: 100%;
     border-top: 3px solid rgb(168,240,247);
     border-bottom: 3px solid LightSteelBlue;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-collapse: collapse;
   }
   .cellPartOne {
