@@ -63,7 +63,7 @@ body {
   margin-right: auto;
 }
 .cell {
-  display: inline-block;
+  display: table;
   width: 100%;
   border-top: 3px solid rgb(168,240,247);
   border-bottom: 3px solid LightSteelBlue;
@@ -188,7 +188,7 @@ body {
     margin-right: auto;
   }
   .cell {
-    display: inline-block;
+    display: table;
     width: 100%;
     border-top: 3px solid rgb(168,240,247);
     border-bottom: 3px solid LightSteelBlue;
