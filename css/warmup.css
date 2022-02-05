@@ -13,6 +13,7 @@ body {
   background-color: LightSteelBlue;
   font-size: 1.2vw;
   font-family: Arial, Helvetica, sans-serif;
+  z-index: 2;
 }
 #menuBarTop {
   padding-left: 10%;
@@ -67,8 +68,6 @@ body {
   width: 100%;
   border-top: 3px solid rgb(168,240,247);
   border-bottom: 3px solid LightSteelBlue;
-  padding-top: auto;
-  padding-bottom: auto;
   border-collapse: collapse;
 }
 .cellPartOne {
@@ -109,18 +108,22 @@ body {
   clear: both;
 }
 #result {
+  position: relative;
   width: 15%;
   object-fit: scale-down;
+  z-index: 1;
 }
 #prevArrow {
   position: absolute;
   top: 10px;
   left: 10%;
+  z-index: 1;
 }
 #nextArrow {
   position: absolute;
   top: 10px;
   right: 10%;
+  z-index: 1;
 }
 @media screen and (max-width: 1199px) {
   body {
@@ -138,6 +141,7 @@ body {
     background-color: LightSteelBlue;
     font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
   }
   #menuBarTop {
     padding-left: 5%;
@@ -192,8 +196,6 @@ body {
     width: 100%;
     border-top: 3px solid rgb(168,240,247);
     border-bottom: 3px solid LightSteelBlue;
-    padding-top: auto;
-    padding-bottom: auto;
     border-collapse: collapse;
   }
   .cellPartOne {
@@ -204,8 +206,6 @@ body {
     padding-left: 25px;
     width: 95%;
     height: 85%;
-    /* line-height: 120%;
-    vertical-align: baseline; */
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
   }
@@ -236,17 +236,21 @@ body {
     clear: both;
   }
   #result {
+    position: relative;
     width: 45%;
     object-fit: scale-down;
+    z-index: 1;
   }
   #prevArrow {
     position: absolute;
     top: 10px;
     left: 2%;
+    z-index: 1;
   }
   #nextArrow {
     position: absolute;
     top: 10px;
     right: 2%;
+    z-index: 1;
   }
 }
