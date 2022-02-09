@@ -80,7 +80,7 @@ body {
 }
 #keywordHolder {
   width: 40%;
-  border: 3px solid rgb(168,240,247);
+  border: 3px solid rgba(168,240,247,0);
 }
 .optionHolder {
   width: 40%;
@@ -210,7 +210,7 @@ body {
   }
   #keywordHolder {
     width: 36%;
-    border: 3px solid rgb(168,240,247);
+    border: 3px solid rgba(168,240,247,0);
   }
   .optionHolder {
     width: 36%;
