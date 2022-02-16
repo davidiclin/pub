@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Pin it on the Map!</title>
-  <link rel="stylesheet" href="css/pinit.css">
+  <link rel="stylesheet" href="pinit.css">
 </head>
 <body>
-<div id="menuBar">
-    <section><span id="startCol"><button id="panelSwitch" onclick="switchPanel()">+</button></span>
-          <span class="barCap">Map Size </span>
-          <span id="mapSize"><button id="mapZoomS" onclick="zoomMap(0)">S</button>
+<div>
+  <table id="menuBar">
+    <tr><td id="startCol"><button id="panelSwitch" onclick="switchPanel()">+</button></td>
+          <td class="barCap">Map Size </td>
+          <td id="mapSize"><button id="mapZoomS" onclick="zoomMap(0)">S</button>
           <button id="mapZoomM" onclick="zoomMap(1)">M</button>
           <button id="mapZoomL" onclick="zoomMap(2)">L</button>
           <button id="mapZoomXL" onclick="zoomMap(3)">XL</button>
-        </span>
-        <span class="barCap">Center </span>
-        <span id="mapCenter"><button id="PMBtn" onclick="shiftMap(0)">0&#176;</button><button id="AMBtn" onclick="shiftMap(1)">180&#176;</button></span>
-        <span class="barCap"><label for="pinDropDownList">Pin List </label></span>
-        <span id="dropDownList">
+        </td>
+        <td class="barCap">Center </td>
+        <td id="mapCenter"><button id="PMBtn" onclick="shiftMap(0)">0&#176;</button><button id="AMBtn" onclick="shiftMap(1)">180&#176;</button></td>
+        <td class="barCap">Pin List </td>
+        <td id="dropDownList"><label for="pinDropDownList"></label>
           <select id="pinDropDownList" onchange="locatePin()">
             <option>(Find pins here)</option>
           </select>
           <button id="wikiBtn" onclick="getWiki()">Wikipedia</button>
           <button id="googleMapBtn" onclick="getGoogle()">Google Map</button>
           <button id="removeBtn" onclick="removePin()">Remove</button>
-        </span>
-        <span id="nameSwitch"><button id="nameSwitchBtn" onclick="switchName()">Hide Names</button></span>
-    </section>
+        </td>
+        <td id="nameSwitch"><button id="nameSwitchBtn" onclick="switchName()">Hide Names</button></td>
+    </tr>
+    <tr><td colspan="8">
       <section id="searchPanelUpper">
         <label for="searchCity"></label>
         <input type="text" id="searchCity" value="Enter City Name">
@@ -48,14 +50,18 @@
         </p>
       </segment>
     </section>
+    </td></tr>
+  </table>
 </div>
-<section id="subject">
-    <segment id="myMap">
+<section>
+  <table id="subject">
+    <tr><td id="myMap">
     <canvas id="myCanvas" width="1620" height="810"></canvas>
-  </segment>
+    </td></tr>
+  </table>
 </section>
 <p id="imgSource">Original Map file: <a href="https://commons.wikimedia.org/wiki/File:World_location_map.svg" target="_blank">https://commons.wikimedia.org/wiki/File:World_location_map.svg</a></p>
 <p id="dbSource">Database Source: <a href="https://simplemaps.com/data/world-cities" target="_blank">https://simplemaps.com/data/world-cities</a></p>
-<script src="js/pinit.js"></script>
+<script src="pinit.js"></script>
 </body>
 </html>

@@ -68,12 +68,12 @@ function renderIt(x) {
       mapX = mapX - document.getElementById("myCanvas").width;
     }
     ctx.beginPath();
-    ctx.arc(mapX, mapY, 5, 0, 2 * Math.PI);
+    ctx.arc(mapX + 6, mapY, 5, 0, 2 * Math.PI);
     ctx.fillStyle = x[count2].color;
     ctx.fill();
     if (namesOn === 1) {
       ctx.font = "15px Arial";
-      ctx.fillText(x[count2].city_ascii, mapX + 10, mapY + 5);
+      ctx.fillText(x[count2].city_ascii, mapX + 16, mapY + 5);
     }
   }
 }
