@@ -11,7 +11,6 @@ header {
 }
 #tip {
   font-size:2vw;
-  font-family: Arial, Helvetica, sans-serif;
   color: green;
 }
 #display {
@@ -58,7 +57,6 @@ header {
   }
   #tip {
     font-size:3vw;
-    font-family: Arial, Helvetica, sans-serif;
     color: green;
   }
   #display {
@@ -106,7 +104,6 @@ header {
   }
   #tip {
     font-size:4vw;
-    font-family: Arial, Helvetica, sans-serif;
     color: green;
   }
   #display {
