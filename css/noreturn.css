@@ -16,6 +16,9 @@ td {
   padding: 0px;
   position: relative;
 }
+img {
+  display: block;
+}
 td .up-arrow {
   position: absolute;
   top: 2%;
