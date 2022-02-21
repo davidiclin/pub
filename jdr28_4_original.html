@@ -42,7 +42,7 @@
   <link rel="preload" href="NRmap_tiles/boom.gif" as="image">
   <link rel="preload" href="NRmap_tiles/newgame.png" as="image">
   <link rel="preload" href="NRmap_tiles/retry.png" as="image">
-  <link rel="stylesheet" href="css/noreturn.css">
+  <link rel="stylesheet" href="noreturn.css">
 </head>
 <body>
   <header>
@@ -50,15 +50,14 @@
     <nav><a></a></nav>
   </header>
   <main>
-    <section id="topEnd">
-        <img id="topEndBack" src="NRmap_tiles/roll.jpg">
-        <img id="barLeft" src="NRmap_tiles/heart4.png">
-        <img id="barMidLeft" src="" onclick="sendRecon()">
-        <img id="barMidRight" src="" onclick="fireSupp()">
-        <img id="barRightLeft" src="NRmap_tiles/retry.png" onclick="tryAgain()">
-        <img id="barRightRight" src="NRmap_tiles/newgame.png" onclick="newGame()">
-        <span id="message">"Onward, soldiers!" => Pick a start point</span>
-    </section>
+    <section>
+      <table><tr id="topEnd"><td colspan="6"><img id="topEndBack" src="NRmap_tiles/roll.jpg">
+                                             <img id="barLeft" src="NRmap_tiles/heart4.png">
+                                             <img id="barRightLeft" src="NRmap_tiles/retry.png" onclick="tryAgain()">
+                                             <img id="barRightRight" src="NRmap_tiles/newgame.png" onclick="newGame()">
+                                             <img id="barMidLeft" src="" onclick="sendRecon()">
+                                             <img id="barMidRight" src="" onclick="fireSupp()">
+                                             <p id="message">"Onward, soldiers!" => Pick a start point</p></td></tr></table>
     <table id="showmap">
            <tr><td id="102"><img src="NRmap_tiles/start.gif" onclick="startHandler(102)"></td>
                <td id="103"><img src="NRmap_tiles/start.gif" onclick="startHandler(103)"></td>
@@ -69,13 +68,15 @@
     </tr>
     </table>
     </section>
-    <section id="helpBlock">
-      <img src="NRmap_tiles/mapkey.jpg">
+    <section>
+      <table>
+      <tr><td><img id="helpBlock" src="NRmap_tiles/mapkey.jpg">
+      </td></tr></table>
     </section>
   </main>
   <footer>
     <p></p>
   </footer>
-  <script src="js/noreturn.js"></script>
+  <script src="noreturn.js"></script>
 </body>
 </html>

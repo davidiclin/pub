@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(230,230,230);
+  border-spacing: 0px;
+}
+#showmap {
+  background-position: center bottom;
+  align: center;
+  border-bottom: 10px solid white;
+}
+td {
+  padding: 0px;
+  position: relative;
+}
+td .up-arrow {
+  position: absolute;
+  top: 2%;
+  left: 35%;
+}
+td .left-arrow {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+}
+td .right-arrow {
+  position: absolute;
+  top: 35%;
+  left: 68%;
+}
+td .pawn {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.unvisited {
+  opacity: 0.3;
+}
+#topEnd {
+  position: relative;
+  width: 900px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topEnd img, #topEnd span {
+  display: inline-block;
+}
+#topEndBack {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#barLeft {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+#barMidLeft {
+  position: absolute;
+  top: 4%;
+  left: 35%;
+}
+#barMidRight {
+  position: absolute;
+  top: 4%;
+  left: 45%;
+}
+#barRightLeft {
+  position: absolute;
+  top: 8%;
+  left: 58%;
+}
+#barRightRight {
+  position: absolute;
+  top: 8%;
+  left: 78%;
+}
+#message {
+  position: absolute;
+  font-size: 2.5em;
+  color: green;
+  top:55%;
+  left: 5%;
+}
+#helpBlock {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
