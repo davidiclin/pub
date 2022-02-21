@@ -1,17 +1,11 @@
-var active_q = 1;
-document.getElementById(1).style.display = "block";
-document.getElementById(active_q+1000).style.border = "4px solid gold";
-document.getElementById("prev").disabled = true;
-
 var n1 = Math.floor(Math.random()*20) + 1
 var bankname = "bank" + n1 + ".json"
 
-// function get_data(x) {
-  var GetData = new XMLHttpRequest(); // a new request
-  GetData.open("GET","https://davidiclin.github.io/pub/sentence_bank/" + bankname,false);
-  GetData.send(null);
-  bank = JSON.parse(GetData.responseText);
-// }
+var GetData = new XMLHttpRequest(); // a new request
+GetData.open("GET","https://davidiclin.github.io/pub/sentence_bank/" + bankname,false);
+GetData.send(null);
+bank = JSON.parse(GetData.responseText);
+
 var n2 = Math.floor(Math.random() * 100);
 
 for (var count = 1; count < 11; count++) {
@@ -21,6 +15,11 @@ for (var count = 1; count < 11; count++) {
   document.getElementById(count * 10 + 4).innerHTML = bank[n2][count-1].Opt_4;
   document.getElementById(count * 10 + 5).innerHTML = bank[n2][count-1].Stem;
 }
+
+var active_q = 1;
+document.getElementById(1).style.display = "table";
+document.getElementById(active_q+1000).style.border = "4px solid gold";
+document.getElementById("prev").disabled = true;
 
 function nav(x) {
   if (x === 999) {
@@ -48,7 +47,7 @@ function nav(x) {
   else {
     document.getElementById("next").disabled = false;
   }
-  document.getElementById(active_q).style.display = "block";
+  document.getElementById(active_q).style.display = "table";
   document.getElementById(active_q+1000).style.border = "4px solid gold";
 }
 
