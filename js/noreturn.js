@@ -37,6 +37,7 @@ function renderNewRow() {
   if (currentRow === -1) {
     revealAll();
     document.getElementById("topEndBack").src = "NRmap_tiles/topmost.jpg";
+    document.getElementById("topEnd").style.height = "650px";
     document.getElementById("barMidLeft").src = "";
     document.getElementById("barMidRight").src = "";
     document.getElementById("barLeft").src = "";
