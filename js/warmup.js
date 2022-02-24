@@ -1,9 +1,9 @@
 var getPartOne = new XMLHttpRequest(); // a new request
-getPartOne.open("GET","https://davidiclin.github.io/pub/toeicWarmupV.json",false);
+getPartOne.open("GET","https://davidiclin.github.io/pub/json/toeicWarmupV.json",false);
 getPartOne.send(null);
 const partOneAll = JSON.parse(getPartOne.responseText);
 var getPartTwo = new XMLHttpRequest(); // a new request
-getPartTwo.open("GET","https://davidiclin.github.io/pub/toeicWarmupS.json",false);
+getPartTwo.open("GET","https://davidiclin.github.io/pub/json/toeicWarmupS.json",false);
 getPartTwo.send(null);
 const partTwoAll = JSON.parse(getPartTwo.responseText);
 var translation = 0;
@@ -267,5 +267,6 @@ function showHelp() {
 (3) 勾選或取消「中譯」方塊可切換顯示中文翻譯。\n\
 (4) 按上方的1-10數字標籤或下方的「上一題」、「下一題」進行瀏覽。\n\
 (5) 答題完成立即回饋，答對者該題數字標籤呈綠色，答錯者呈紅色；未答者呈白色。\n\
-(6) 若選擇新的回數，目前的答題進度會全部清除，選項的順序也會重新排列。")
+(6) 若選擇新的回數，目前的答題進度會全部清除，選項的順序也會重新排列。\n\
+Contact : davidichunlin@gmail.com")
 }

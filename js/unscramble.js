@@ -1,5 +1,5 @@
 var Sentences = new XMLHttpRequest(); // a new request
-Sentences.open("GET","https://davidiclin.github.io/pub/esdui_15to20.json",false);
+Sentences.open("GET","https://davidiclin.github.io/pub/json/esdui_15to20.json",false);
 Sentences.send(null);
 const bank = JSON.parse(Sentences.responseText);
 var pick = Math.floor(Math.random() * 1624) + 1;

@@ -1,5 +1,5 @@
 var Getmaps = new XMLHttpRequest(); // a new request
-Getmaps.open("GET","https://davidiclin.github.io/pub/NRmap.json",false);
+Getmaps.open("GET","https://davidiclin.github.io/pub/json/NRmap.json",false);
 Getmaps.send(null);
 const maps = JSON.parse(Getmaps.responseText);
 var pick = Math.floor(Math.random() * 251);

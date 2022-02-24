@@ -1,5 +1,5 @@
 var getCities = new XMLHttpRequest(); // a new request
-getCities.open("GET","https://davidiclin.github.io/pub/worldcities.json",false);
+getCities.open("GET","https://davidiclin.github.io/pub/json/worldcities.json",false);
 getCities.send(null);
 const cities = JSON.parse(getCities.responseText);
 var longZero = 810;
