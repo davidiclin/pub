@@ -259,6 +259,7 @@ function getRank(x) {
 }
 
 function tryAgain() {
+  document.getElementById("topEnd").style.height = "197px";
   document.getElementById("topEndBack").src = "NRmap_tiles/roll.jpg";
   document.getElementById("barLeft").src = "NRmap_tiles/heart4.png";
   document.getElementById("showmap").innerHTML = initHTML;
