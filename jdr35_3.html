@@ -85,12 +85,12 @@
     <div id="mainContainer">
       <section id="mainCanvas">
       </section>
-      <img src="left.png" id="viewPrev" onclick="flip(-1)">
-      <img src="right.png" id="viewNext" onclick="flip(1)">
+      <img src="album/left.png" id="viewPrev" onclick="flip(-1)">
+      <img src="album/right.png" id="viewNext" onclick="flip(1)">
     </div>
   </main>
   <footer>
-    <img id="playButton" src="pause.png" onclick="autoPlayControl()">
+    <img id="playButton" src="album/pause.png" onclick="autoPlayControl()">
   </footer>
   <script>
     var currentView = 0;
@@ -141,7 +141,7 @@
         document.getElementsByTagName("header")[0].style.opacity = "100%";
         document.getElementById("viewPrev").style.visibility = "visible";
         document.getElementById("viewNext").style.visibility = "visible";
-        document.getElementById("playButton").src = "play.png";
+        document.getElementById("playButton").src = "album/play.png";
       }
       else {
         autoPlay = true;
@@ -149,7 +149,7 @@
         document.getElementsByTagName("header")[0].style.opacity = "0%";
         document.getElementById("viewPrev").style.visibility = "hidden";
         document.getElementById("viewNext").style.visibility = "hidden";
-        document.getElementById("playButton").src = "pause.png";
+        document.getElementById("playButton").src = "album/pause.png";
       }
     }
   </script>
