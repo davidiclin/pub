@@ -53,19 +53,18 @@
   }
   #playButton {
     position: fixed;
-    top: 90vh;
-    right: 10px;
+    top: 92vh;
+    left: 49vw;
   }
   main {
     position: relative;
   }
   #mainCanvas {
     position: absolute;
-    top: 2vh;
-    left: 20vw;
+    left: 5vw;
     margin: auto;
-    width: 60vw;
-    height: 40vw;
+    width: 90vw;
+    height: 80vh;
     border: none;
     background-size: contain;
     background-repeat: no-repeat;
@@ -73,6 +72,78 @@
     background-position: center;
     transition: background-image 2s;
     z-index: -1;
+  }
+  @media screen and (max-width: 1023px) {
+    body {
+      background-color: #000000;
+      text-align: center;
+    }
+    header {
+      position: relative;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      opacity: 0%;
+      transition: opacity 1s;
+      transform: rotateX(180deg);
+    }
+    header::-webkit-scrollbar {
+      height: 6px;               /* width of the entire scrollbar */
+    }
+    header::-webkit-scrollbar-track {
+      background: black;        /* color of the tracking area */
+    }
+    header::-webkit-scrollbar-thumb {
+      background-color: gray;    /* color of the scroll thumb */
+    }
+    nav {
+      display: flex;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      transform: rotateX(180deg);
+    }
+    nav img {
+      float: left;
+      height: 8vw;
+      margin-right: 3px;
+    }
+    #viewPrev {
+      position: fixed;
+      top: 90vh;
+      left: 40vw;
+      opacity: 0%;
+      visibility: hidden;
+    }
+    #viewNext {
+      position: fixed;
+      top: 90vh;
+      right: 40vw;
+      opacity: 50%;
+      visibility: hidden;
+    }
+    #playButton {
+      position: fixed;
+      top: 90vh;
+      left: 48vw;
+    }
+    main {
+      position: relative;
+    }
+    #mainCanvas {
+      position: absolute;
+      top: 10vw;
+      left: 10vw;
+      margin: auto;
+      width: 80vw;
+      height: 80vh;
+      border: none;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-clip: border-box;
+      background-position: center;
+      transition: background-image 2s;
+      z-index: -1;
+    }
   }
   </style>
 </head>
