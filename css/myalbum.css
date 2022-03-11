@@ -1,0 +1,136 @@
+body {
+  background-color: #000000;
+  text-align: center;
+}
+header {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  visibility: hidden;
+  height: 10vh;
+  transform: rotateX(180deg);
+}
+header::-webkit-scrollbar {
+  height: 6px;               /* width of the entire scrollbar */
+}
+header::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+header::-webkit-scrollbar-thumb {
+  background-color: gray;    /* color of the scroll thumb */
+}
+nav {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: rotateX(180deg);
+}
+nav img {
+  float: left;
+  height: 8vh;
+  margin-right: 3px;
+}
+#viewPrev {
+  position: fixed;
+  top: 50vh;
+  left: 10px;
+  visibility: hidden;
+}
+#viewNext {
+  position: fixed;
+  top: 50vh;
+  right: 10px;
+  visibility: hidden;
+}
+main {
+  position: relative;
+}
+#instruction {
+  font-size: 2.5em;
+  color: white;
+  background-color: black;
+}
+#mainCanvas {
+  position: absolute;
+  left: 5vw;
+  margin: auto;
+  width: 90vw;
+  height: 80vh;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: center;
+  transition: background-image 2s;
+  z-index: -1;
+}
+@media screen and (max-width: 1023px) {
+  body {
+    background-color: #000000;
+    text-align: center;
+  }
+  header {
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    visibility: hidden;
+    height: 8vh;
+    transform: rotateX(180deg);
+  }
+  header::-webkit-scrollbar {
+    height: 6px;               /* width of the entire scrollbar */
+  }
+  header::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  header::-webkit-scrollbar-thumb {
+    background-color: gray;    /* color of the scroll thumb */
+  }
+  nav {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotateX(180deg);
+  }
+  nav img {
+    float: left;
+    height: 6vh;
+    margin-right: 3px;
+  }
+  #viewPrev {
+    position: fixed;
+    top: 47vh;
+    left: 10px;
+    visibility: hidden;
+  }
+  #viewNext {
+    position: fixed;
+    top: 47vh;
+    right: 10px;
+    visibility: hidden;
+  }
+  main {
+    position: relative;
+  }
+  #instruction {
+    font-size: 2em;
+    color: white;
+    background-color: black;
+  }
+  #mainCanvas {
+    position: absolute;
+    left: 10vw;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+    transition: background-image 2s;
+    z-index: -1;
+  }
+}
