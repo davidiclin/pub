@@ -13,7 +13,7 @@
   </header>
   <main>
     <br>
-    <details class="cat" id="learning">
+    <details class="cat" id="learning" ontoggle="checkDetails()">
     <summary><span class="drpDwnBtn" id="Btn1">LEARNING</span></summary>
     <p>
       <table>
@@ -35,7 +35,7 @@
       </table>
     </p>
     </details>
-    <details class="cat" id="games">
+    <details class="cat" id="games" ontoggle="checkDetails()">
     <summary><span class="drpDwnBtn" id="Btn2">GAMES</span></summary>
     <p>
       <table>
@@ -52,7 +52,7 @@
       </table>
     </p>
     </details>
-    <details class="cat" id="tools">
+    <details class="cat" id="tools" ontoggle="checkDetails()">
     <summary><span class="drpDwnBtn" id="Btn3">TOOLS</span></summary>
     <p>
       <table>
@@ -81,6 +81,21 @@
           document.getElementsByClassName("cat")[count].open = true;
         }
         document.getElementById("catCon").innerHTML = "Hide All";
+      }
+    }
+    function checkDetails() {
+      var openDetails = 0;
+      var x = document.getElementsByClassName("cat").length;
+      for (var count=0; count < x; count++) {
+        if (document.getElementsByClassName("cat")[count].open == true) {
+          openDetails += 1;
+        }
+      }
+      if (openDetails == x) {
+        document.getElementById("catCon").innerHTML = "Hide All";
+      }
+      if (openDetails == 0) {
+        document.getElementById("catCon").innerHTML = "Show All";
       }
     }
   </script>
