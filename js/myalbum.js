@@ -56,7 +56,7 @@ function flip(x) {
   }
 }
 
-function autoPlayControl() {
+function slideShowControl() {
   if (autoPlay == true) {
     autoPlay = false;
     clearInterval(myInterval);
