@@ -5,7 +5,7 @@ setTimeout(function(){
 document.getElementById("instruction").style.visibility = "hidden";
 }, 5000);
 for (count = 0; count < 96; count++) {
-  document.getElementById("thumbnails").innerHTML += "<img id=\"" + count + "\" src=\"album/Image" + count + ".jpg\" onclick=\"thumbnailClicked(" + count + ")\">";
+  document.getElementById("thumbnails").innerHTML += "<img id=\"" + count + "\" src=\"album/Image" + count + ".jpg\" onclick=\"thumbnailClicked(" + count + ")\" alt=\"thumbnail\">";
 }
 document.getElementById("0").style.border = "2px solid yellow";
 var myInterval = setInterval(autoPlayOn, 6000);
