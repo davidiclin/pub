@@ -8,6 +8,11 @@
 <body>
   <header>
     <p id="pageTitle">DAVID'S PUB</p>
+    <section id="pageInfo">
+      <span><img src="images/mouseGood.png"> Good for desktops/laptops</span>
+      <span><img src="images/touchGood.png">Good for touch screens </span>
+    </section>
+    <hr>
     <button id="catCon" onclick="catHandler()">Show All</button>
     <nav><a></a></nav>
   </header>
@@ -15,89 +20,48 @@
     <br>
     <details class="cat" id="learning" ontoggle="checkDetails()">
     <summary><span class="drpDwnBtn" id="Btn1">LEARNING</span></summary>
-    <p>
-      <table>
-        <tr>
-          <td class="itemPic"><a href="jdr26.html" target="_blank"><img src="images/vq1icon.png"></a></td>
-          <td class="itemText"><a href="jdr26.html" target="_blank"><p class="itemTitle">Vocabulary Quiz</p></a>
-              <p class="itemDetail">Randomly-generated ten-question sets for upper-intermediate to advanced English learners</p></td>
-        </tr>
-        <tr>
-          <td class="itemPic"><a href="jdr27_4.html" target="_blank"><img src="images/uscrmbicon.png"></a></td>
-          <td class="itemText"><a href="jdr27_4.html" target="_blank"><p class="itemTitle">Unscramble It!</p></a>
-              <p class="itemDetail">Unscramble words to produce a grammatically correct, meaningful sentence</p></td>
-        </tr>
-        <tr>
-          <td class="itemPic"><a href="jdr31_5.html" target="_blank"><img src="images/warmup.png"></a></td>
-          <td class="itemText"><a href="jdr31_5.html" target="_blank"><p class="itemTitle">TOEIC Preparation: Vocabulary</p></a>
-              <p class="itemDetail">A series of vocabulary drills for Taiwanese students in their preparation for the TOEIC</p></td>
-        </tr>
-      </table>
-    </p>
+      <p class="entry">
+        <a href="jdr26.html" target="_blank"><span class="itemTitle">Vocabulary Quiz</span></a><img src="images/touchGood.png"><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">Randomly-generated ten-question sets for upper-intermediate to advanced English learners</span>
+      </p>
+      <p class="entry">
+        <a href="jdr27_4.html" target="_blank"><span class="itemTitle">Unscramble It!</span></a><img src="images/touchGood.png"><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">Unscramble words to produce a grammatically correct, meaningful sentence</span>
+      </p>
+      <p class="entry">
+        <a href="jdr31_5.html" target="_blank"><span class="itemTitle">TOEIC Preparation: Vocabulary</span></a><img src="images/touchGood.png"><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">A series of vocabulary drills for Taiwanese students in their preparation for the TOEIC</span>
+      </p>
     </details>
     <details class="cat" id="games" ontoggle="checkDetails()">
     <summary><span class="drpDwnBtn" id="Btn2">GAMES</span></summary>
-    <p>
-      <table>
-        <tr>
-          <td class="itemPic"><a href="jdr21_2.html" target="_blank"><img src="images/cmgicon.png"></a></td>
-          <td class="itemText"><a href="jdr21_2.html" target="_blank"><p class="itemTitle">Card Memory Game</p></a>
-              <p class="itemDetail">Flip and match cards of the same color and denomination</p></td>
-        </tr>
-        <tr>
-          <td class="itemPic"><a href="jdr28_4.html" target="_blank"><img src="images/wnricon.png"></a></td>
-          <td class="itemText"><a href="jdr28_4.html" target="_blank"><p class="itemTitle">A Way of No Return</p></a>
-              <p class="itemDetail">Lead your soldiers across a 6-by-16 grid map infested with enemy troops</p></td>
-        </tr>
-      </table>
-    </p>
+      <p class="entry">
+        <a href="jdr21_2.html" target="_blank"><span class="itemTitle">Card Memory Game</span></a><img src="images/touchGood.png"><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">Flip and match cards of the same color and denomination</span>
+      </p>
+      <p class="entry">
+        <a href="jdr28_4.html" target="_blank"><span class="itemTitle">A Way of No Return</span></a><img src="images/touchGood.png"><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">Lead your soldiers across a 6-by-16 grid map infested with enemy troops</span>
+      </p>
     </details>
     <details class="cat" id="tools" ontoggle="checkDetails()">
     <summary><span class="drpDwnBtn" id="Btn3">TOOLS</span></summary>
-    <p>
-      <table>
-        <tr>
-          <td class="itemPic"><a href="jdr30_16.html" target="_blank"><img src="images/piniticon.png"></a></td>
-          <td class="itemText"><a href="jdr30_16.html" target="_blank"><p class="itemTitle">Pin It On the Map!</p></a>
-              <p class="itemDetail">A much simplified version of Google's "My Maps" that lets users find and mark cities on a blank base map</p></td>
-        </tr>
-      </table>
-    </p>
+      <p class="entry">
+        <a href="jdr30_16.html" target="_blank"><span class="itemTitle">Pin It On the Map!</span></a><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">A much simplified version of Google's "My Maps" that lets users find and mark cities on a blank base map</span>
+      </p>
+    </details>
+    <details class="cat" id="others" ontoggle="checkDetails()">
+    <summary><span class="drpDwnBtn" id="Btn4">OTHERS</span></summary>
+      <p class="entry">
+        <a href="jdr35_5.html" target="_blank"><span class="itemTitle">A Random Spectator</span></a><img src="images/touchGood.png"><img src="images/mouseGood.png"><br>
+        <span class="itemDetail">A slideshow of some photographs taken by David between 2008 and 2022</span>
+      </p>
     </details>
   </main>
   <footer>
     <p></p>
   </footer>
-  <script>
-    function catHandler() {
-      if (document.getElementById("catCon").innerHTML === "Hide All") {
-        for (count = 0; count < document.getElementsByClassName("cat").length; count++) {
-          document.getElementsByClassName("cat")[count].open = false;
-        }
-        document.getElementById("catCon").innerHTML = "Show All";
-      }
-      else {
-        for (count = 0; count < document.getElementsByClassName("cat").length; count++) {
-          document.getElementsByClassName("cat")[count].open = true;
-        }
-        document.getElementById("catCon").innerHTML = "Hide All";
-      }
-    }
-    function checkDetails() {
-      var openDetails = 0;
-      var x = document.getElementsByClassName("cat").length;
-      for (var count=0; count < x; count++) {
-        if (document.getElementsByClassName("cat")[count].open == true) {
-          openDetails += 1;
-        }
-      }
-      if (openDetails == x) {
-        document.getElementById("catCon").innerHTML = "Hide All";
-      }
-      if (openDetails == 0) {
-        document.getElementById("catCon").innerHTML = "Show All";
-      }
-    }
-  </script>
+  <script src="js/idx.js"></script>
 </body>
 </html>

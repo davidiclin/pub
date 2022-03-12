@@ -10,18 +10,29 @@ font-weight: bold;
 color: blue;
 text-align: center;
 }
+#pageInfo {
+  font-size: 1.8vw;
+  text-align: center;
+}
+#pageInfo img {
+  width: 40px;
+}
 #catCon {
   background-color: rgb(212,255,255);
   border: 3px outset White;
   font-size: 1.5vw;
 }
+.cat {
+  margin-top: 20px;
+}
 .drpDwnBtn {
   width: 100%;
-  font-size: 2.5vw;
+  font-size: 3vw;
   text-align: center;
   border: 2px outset white;
   padding: 5px;
   display: block;
+  clear: left;
 }
 #Btn1 {
   background-color: rgb(178,255,212);
@@ -32,90 +43,32 @@ text-align: center;
 #Btn3 {
   background-color: rgb(255,153,239);
 }
-table {
-  width: 100%;
+#Btn4 {
+  background-color: rgb(147,185,239);
 }
-tr {
-  height: 150px;
+.cat .entry:nth-child(odd) {
+  background-color: rgba(230,230,230,0.7);
 }
-.itemText {
-  padding: 0px 20px;
+.entry {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
 }
-td .itemTitle {
-  font-size: 2vw;
+.entry img {
+  float: right;
+}
+.itemTitle {
+  font-size: 2.7vw;
   color: blue;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
-td .itemDetail {
-  margin-top: 0px;
-  font-size: 2vw;
+.itemDetail {
+  font-size: 2.2vw;
   color: green;
-}
-.itemPic {
-  width: 15%;
-}
-img {
-  width: 100%;
-  border: 5px outset white;
 }
 @media screen and (max-width: 1199px) {
-body {
-  background-color: rgb(212,255,255);
-}
 #pageTitle {
 font-size: 5vw;
-font-weight: bold;
-color: blue;
-text-align: center;
 }
 #catCon {
-  background-color: rgb(212,255,255);
-  border: 3px outset White;
   font-size: 3vw;
-}
-.drpDwnBtn {
-  width: 100%;
-  font-size: 3vw;
-  text-align: center;
-  border: 2px outset white;
-  padding: 5px;
-  display: block;
-}
-#Btn1 {
-  background-color: rgb(178,255,212);
-}
-#Btn2 {
-  background-color: rgb(255,212,178);
-}
-#Btn3 {
-  background-color: rgb(255,153,239);
-}
-table {
-  width: 100%;
-}
-tr {
-  height: 150px;
-}
-.itemText {
-  padding: 0px 20px;
-}
-td .itemTitle {
-  font-size: 4vw;
-  color: blue;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-td .itemDetail {
-  margin-top: 0px;
-  font-size: 3.5vw;
-  color: green;
-}
-.itemPic {
-  width: 15%;
-}
-img {
-  width: 100%;
-  border: 5px outset white;
-}
 }
