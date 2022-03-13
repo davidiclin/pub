@@ -1,5 +1,6 @@
 var currentView = 0;
 var autoPlay = true;
+document.getElementsByTagName("h1")[0].style.color = "black";
 document.getElementById("mainCanvas").style.backgroundImage  = "url('album/Image0.jpg')";
 setTimeout(function(){
 document.getElementById("instruction").style.visibility = "hidden";
