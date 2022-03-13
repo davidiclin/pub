@@ -19,9 +19,6 @@ header::-webkit-scrollbar-track {
 header::-webkit-scrollbar-thumb {
   background-color: gray;    /* color of the scroll thumb */
 }
-header h1 {
-  color: white;
-}
 nav {
   display: flex;
   position: absolute;
