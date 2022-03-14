@@ -67,9 +67,21 @@ text-align: center;
   color: green;
 }
 @media screen and (max-width: 1199px) {
+body {
+  width: 75vw;
+}
 #pageTitle {
 font-size: 5vw;
 }
+#pageInfo {
+  font-size: 2.5vw;
+}
 #catCon {
+  font-size: 3vw;
+}
+.itemTitle {
+  font-size: 3vw;
+}
+.itemDetail {
   font-size: 3vw;
 }
