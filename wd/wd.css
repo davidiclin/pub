@@ -1,0 +1,60 @@
+.navbar-brand img {
+  height: 5vh;
+}
+.navbar-collapse {
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header, footer {
+  text-align: center;
+}
+main div, footer div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 1.6em;
+}
+table {
+  font-size: .8em;
+  text-align: left;
+}
+#bigPic {
+  width: 100%;
+}
+#thumbNails img {
+  display: inline-block;
+  float: left;
+  max-width: 33%;
+}
+#thumbNails img:first-child {
+  opacity: 30%;
+}
+@media screen and (min-width: 768px) {
+  main div, footer div {
+    width: 75%;
+  }
+  table {
+    font-size: 0.9em.
+  }
+}
+@media screen and (min-width: 992px) {
+  main div, footer div {
+    width: 65%;
+  }
+  table {
+    font-size: 0.9em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main div, footer div {
+    width: 55%;
+  }
+  table {
+    font-size: 1em;
+  }
+}
