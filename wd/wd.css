@@ -26,6 +26,9 @@ table {
 #bigPic {
   width: 100%;
 }
+#thumbNails {
+  display: table;
+}
 #thumbNails img {
   display: inline-block;
   float: left;
