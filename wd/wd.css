@@ -17,7 +17,8 @@ main div, footer div {
   margin-right: auto;
 }
 h1 {
-  font-size: 1.6em;
+  font-size: 1.75em;
+  margin-top: 0.3em;
 }
 table {
   font-size: .8em;
