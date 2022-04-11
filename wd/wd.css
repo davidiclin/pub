@@ -59,6 +59,21 @@ p {
 #thumbNails img:first-child {
   opacity: 30%;
 }
+#slideCanvas {
+  width: 72vw;
+  height: 48vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid darkgray;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: center;
+  transition: background-image 1.5s;
+}
+#reminder {
+  color: gold;
+}
 @media screen and (min-width: 768px) {
   main div, footer div {
     width: 76%;
@@ -68,6 +83,10 @@ p {
   }
   p {
     font-size: 1.2em;
+  }
+  #slideCanvas {
+    width: 66vw;
+    height: 44vw;
   }
 }
 @media screen and (min-width: 992px) {
@@ -82,6 +101,10 @@ p {
     margin-left: 1vw;
     margin-right: 1vw;
   }
+  #slideCanvas {
+    width: 54vw;
+    height: 36vw;
+  }
 }
 @media screen and (min-width: 1200px) {
   main div, footer div {
@@ -94,5 +117,9 @@ p {
   .nav-item {
     margin-left: 2vw;
     margin-right: 2vw;
+  }
+  #slideCanvas {
+    width: 48vw;
+    height: 32vw;
   }
 }
