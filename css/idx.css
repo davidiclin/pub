@@ -1,39 +1,46 @@
 body {
-  width: 900px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(212,255,255);
 }
 #pageTitle {
-font-size: 4vw;
-font-weight: bold;
-color: blue;
-text-align: center;
-}
-#pageInfo {
-  font-size: 1.8vw;
+  font-size: 6vw;
+  font-weight: bold;
+  color: blue;
   text-align: center;
 }
+#pageInfo {
+  font-size: 4vw;
+  text-align: left;
+}
+#pageInfo span {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #pageInfo img {
-  width: 40px;
+  width: 5vw;
   vertical-align: middle;
 }
 #catCon {
   background-color: rgb(212,255,255);
   border: 3px outset White;
-  font-size: 1.5vw;
+  font-size: 4vw;
 }
 .cat {
   margin-top: 20px;
 }
 .drpDwnBtn {
-  width: 100%;
-  font-size: 3vw;
+  width: 95%;
+  font-size: 4.5vw;
   text-align: center;
   border: 2px outset white;
   padding: 5px;
   display: block;
-  clear: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 #Btn1 {
   background-color: rgb(178,255,212);
@@ -48,54 +55,83 @@ text-align: center;
   background-color: rgb(147,185,239);
 }
 .cat .entry:nth-child(odd) {
-  background-color: rgba(230,230,230,0.7);
+  background-image: linear-gradient(to right, transparent, rgb(192,235,235), transparent);
 }
 .entry {
-  width: 95%;
+  width: 93%;
   margin: auto;
   padding: 20px;
-}
-.entry img {
-  float: right;
-  width: 60px;
-}
-.itemTitle {
-  font-size: 2.7vw;
-  color: blue;
-}
-.itemDetail {
-  font-size: 2.2vw;
-  color: green;
-}
-@media screen and (max-width: 1199px) {
-body {
-  width: 75vw;
-}
-#pageTitle {
-font-size: 5vw;
-}
-#pageInfo {
-  font-size: 4vw;
-  text-align: left;
-  margin-left: 10vw;
-}
-#pageInfo span {
-  display: block;
-}
-#pageInfo img {
-  width: 5vw;
-  vertical-align: middle;
-}
-#catCon {
-  font-size: 3vw;
 }
 .entry img {
   float: right;
   width: 8vw;
 }
 .itemTitle {
-  font-size: 3vw;
+  font-size: 4vw;
+  color: blue;
 }
 .itemDetail {
-  font-size: 3vw;
+  font-size: 4vw;
+  color: green;
+}
+@media screen and (min-width: 992px) {
+  #pageTitle {
+    font-size: 4vw;
+  }
+  #pageInfo {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  #pageInfo span {
+    display: inline;
+    margin-right: 1vw;
+  }
+  #pageInfo img {
+    width: 3.5vw;
+    vertical-align: middle;
+  }
+  #catCon {
+    font-size: 2.5vw;
+  }
+  .drpDwnBtn {
+    font-size: 3vw;
+  }
+  .entry img {
+    width: 5vw;
+  }
+  .itemTitle {
+    font-size: 2.5vw;
+  }
+  .itemDetail {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #pageInfo {
+    font-size: 2vw;
+    text-align: center;
+  }
+  #pageInfo span {
+    display: inline;
+    margin-right: 1vw;
+  }
+  #pageInfo img {
+    width: 3vw;
+    vertical-align: middle;
+  }
+  #catCon {
+    font-size: 2vw;
+  }
+  .drpDwnBtn {
+    font-size: 2.5vw;
+  }
+  .entry img {
+    width: 4vw;
+  }
+  .itemTitle {
+    font-size: 2vw;
+  }
+  .itemDetail {
+    font-size: 2vw;
+  }
 }
