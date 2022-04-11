@@ -1,3 +1,9 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
 .navbar-brand img {
   height: 5vh;
 }
@@ -9,6 +15,12 @@ body {
   background-color: black;
   color: white;
   font-family: Arial, Verdana, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+#container-big {
+  flex: 1;
 }
 header, footer {
   text-align: center;
@@ -17,6 +29,9 @@ main div, footer div {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+header {
+  margin-top: 9vh;
 }
 h1 {
   font-size: 1.6em;
