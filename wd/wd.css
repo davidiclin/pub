@@ -16,7 +16,7 @@ body {
   color: white;
   font-family: Arial, Verdana, Helvetica, sans-serif;
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
   flex-direction: column;
 }
 #container-big {
