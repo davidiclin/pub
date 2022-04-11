@@ -55,7 +55,7 @@ body {
   background-color: rgb(147,185,239);
 }
 .cat .entry:nth-child(odd) {
-  background-image: linear-gradient(to right, transparent, white, transparent);
+  background-color: rgba(240,240,240,.5);
 }
 .entry {
   width: 93%;
