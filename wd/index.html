@@ -46,7 +46,7 @@
     </header>
     <main>
       <div>
-        <p><img class="col-12" src="../SampleAlbum/main.jpg" alt="person at beach"></p>
+        <p><img class="col-12" src="../SampleAlbum/BW/main.jpg" alt="person at beach"></p>
         <p>As a photography enthusiast, I view myself as a random spectator watching the world around.</p>
         <p>I have been fascinated by cameras and photographs ever since childhood, but it was not until I purchased my first digital camera that I started to take photography seriously - to read a lot about the art, search the web for information on the latest gear, learn to appreciate other people's works, and, most important of all, try to take pictures anytime and anywhere.</p>
         <p>At first my focus was on macro photography, shooting flowers and insects in the wild. Later my interests shifted to B&W, and then candid street, which I find a very effective medium to tell stories and convey ideas.</p>
@@ -72,32 +72,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  <script>
-  var currentView = 1;
-  var autoPlay = true;
-  document.getElementById("slideCanvas").style.backgroundImage  = "url('../SampleAlbum/BW/1.jpg')";
-  var myInterval = setInterval(autoPlayOn, 4000);
-
-  function autoPlayOn() {
-    currentView += 1;
-    if (currentView > 8) {
-      currentView = 1;
-    }
-    document.getElementById("slideCanvas").style.backgroundImage = "url('../SampleAlbum/BW/" + currentView + ".jpg')";
-  }
-
-  function slideShowControl() {
-    if (autoPlay == true) {
-      autoPlay = false;
-      document.getElementById("slideCanvas").style.border = "3px ridge gold";
-      clearInterval(myInterval);
-    }
-    else {
-      autoPlay = true;
-      document.getElementById("slideCanvas").style.border = "3px solid darkgray";
-      myInterval = setInterval(autoPlayOn, 4000);
-    }
-  }
-  </script>
+  <script src="https://davidiclin.github.io/pub/wd/wd.js"></script>
   </body>
 </html>
