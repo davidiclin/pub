@@ -52,10 +52,10 @@
         <p>At first my focus was on macro photography, shooting flowers and insects in the wild. Later my interests shifted to B&W, and then candid street, which I find a very effective medium to tell stories and convey ideas.</p>
         <p id="reminder">Click on the picture below to stop or resume a sample slide show of my street photography.</p>
         <div id="prevNext">
-        <div id="slideCanvas" onclick="slideShowControl()">
+        <div id="slideCanvas" role="button" aria-pressed="false" onclick="slideShowControl()">
         </div>
-          <img src="../SampleAlbum/BW/left.png" id="viewPrev" onclick="flip(-1)" alt="previous">
-          <img src="../SampleAlbum/BW/right.png" id="viewNext" onclick="flip(1)" alt="next">
+          <img src="../SampleAlbum/BW/left.png" id="viewPrev" role="button" aria-pressed="false" onclick="flip(-1)" alt="previous">
+          <img src="../SampleAlbum/BW/right.png" id="viewNext" role="button" aria-pressed="false" onclick="flip(1)" alt="next">
         </div>
       </div>
     </main>
