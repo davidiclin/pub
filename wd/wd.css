@@ -59,7 +59,11 @@ p {
 #thumbNails img:first-child {
   opacity: 30%;
 }
+#reminder {
+  color: gold;
+}
 #slideCanvas {
+  position: relative;
   width: 72vw;
   height: 48vw;
   margin-left: auto;
@@ -71,8 +75,22 @@ p {
   background-position: center;
   transition: background-image 1.5s;
 }
-#reminder {
-  color: gold;
+#prevNext {
+  position: relative;
+}
+#viewPrev {
+  height: 14%;
+  position: absolute;
+  top: 43%;
+  left: 0;
+  visibility: hidden;
+}
+#viewNext {
+  height: 14%;
+  position: absolute;
+  top: 43%;
+  right: 0;
+  visibility: hidden;
 }
 @media screen and (min-width: 768px) {
   main div, footer div {
