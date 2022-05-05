@@ -100,7 +100,7 @@ function navTo(x) {
   updatePartTwoItem(currentItem);
   updateItemStatus();
   updateItemIndicators();
-  document.getElementById("selectWord").selectedIndex = 0;
+  // document.getElementById("selectWord").selectedIndex = 0;
 }
 
 function updateCurrentUnit(x) {
