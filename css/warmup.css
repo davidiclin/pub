@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(168,240,247);
+  background-color: rgb(212,255,255);
 }
 #menuBar {
   position: fixed;
@@ -64,7 +64,7 @@ body {
 .cell {
   display: table;
   width: 100%;
-  border-top: 3px solid rgb(168,240,247);
+  border-top: 3px solid rgb(212,255,255);
   border-bottom: 3px solid LightSteelBlue;
   border-collapse: collapse;
 }
@@ -80,7 +80,7 @@ body {
 }
 #keywordHolder {
   width: 40%;
-  border: 3px solid rgba(168,240,247,0);
+  border: 3px solid rgba(212,255,255,0);
 }
 .optionHolder {
   width: 40%;
@@ -129,7 +129,7 @@ body {
 }
 @media screen and (max-width: 1199px) {
   body {
-    background-color:rgb(168,240,247);
+    background-color: rgb(212,255,255);
   }
   #menuBar {
     position: fixed;
@@ -194,7 +194,7 @@ body {
   .cell {
     display: table;
     width: 100%;
-    border-top: 3px solid rgb(168,240,247);
+    border-top: 3px solid rgb(212,255,255);
     border-bottom: 3px solid LightSteelBlue;
     border-collapse: collapse;
   }
@@ -210,7 +210,7 @@ body {
   }
   #keywordHolder {
     width: 36%;
-    border: 3px solid rgba(168,240,247,0);
+    border: 3px solid rgba(212,255,255,0);
   }
   .optionHolder {
     width: 36%;

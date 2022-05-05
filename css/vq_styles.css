@@ -1,8 +1,9 @@
 body {
-  background-color:rgb(168,240,247);
+  background-color: rgb(212,255,255);
 }
 h1 {
   color: #0000ff;
+  font-size: 3em;
 }
 .container, .navs {
   margin-left:auto;
@@ -53,10 +54,11 @@ h1 {
 }
 @media screen and (max-width: 1199px) {
 body {
-  background-color:rgb(168,240,247);
+  background-color: rgb(212,255,255);
 }
 h1 {
   color: #0000ff;
+  font-size: 3em;
 }
 .container, .navs {
   margin-left:auto;
@@ -107,10 +109,11 @@ h1 {
 }
 @media screen and (max-width: 767px) {
 body {
-  background-color:rgb(168,240,247);
+  background-color: rgb(212,255,255);
 }
 h1 {
   color: #0000ff;
+  font-size: 2em;
 }
 .container {
   margin-left:auto;

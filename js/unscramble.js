@@ -61,7 +61,7 @@ function clicked(x) {
 function check_it() {
   for (var count = 0; count < words.length; count++) {
     if (document.getElementById(count + 1).innerHTML === sentence.split(" ")[count + 1]) {
-      document.getElementById(count + 1).style.backgroundColor = "rgb(168,240,247)";
+      document.getElementById(count + 1).style.backgroundColor = "rgb(212,255,255)";
       document.getElementById(count + 1).style.cursor = "auto";
       document.getElementById(count + 1).style.border = "none";
     }
