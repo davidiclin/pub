@@ -37,8 +37,8 @@ function flip(x) {
   if (flipped === 2) {return;}
   if (deck[Math.abs(x)-1].done === true) {return;}
   if (deck[Math.abs(x)-1].shown === true) {return;}
-  document.getElementById(x).innerHTML = "<img src=\"https://davidiclin.files.wordpress.com/2021/08/" + deck[x-1].name + "-2.jpg\" style=\"width:90%\">"
-  document.getElementById(-x).innerHTML = "<img src=\"https://davidiclin.files.wordpress.com/2021/08/" + deck[x-1].name + "-2.jpg\" style=\"width:90%\">"
+  document.getElementById(x).innerHTML = "<img src=\"https://davidiclin.github.io/pub/PCards/" + deck[x-1].name + ".jpg\" style=\"width:90%\">"
+  document.getElementById(-x).innerHTML = "<img src=\"https://davidiclin.github.io/pub/PCards/" + deck[x-1].name + ".jpg\" style=\"width:90%\">"
   deck[x-1].shown = true
   if (flipped === 0) {
       y = x-1;
@@ -66,10 +66,10 @@ function flip(x) {
     setTimeout(function(){
     deck[x-1].shown = false;
     deck[y].shown = false;
-    document.getElementById(x).innerHTML = "<img src=\"https://davidiclin.files.wordpress.com/2021/08/0-2.jpg\" style=\"width:90%\">"
-    document.getElementById(-x).innerHTML = "<img src=\"https://davidiclin.files.wordpress.com/2021/08/0-2.jpg\" style=\"width:90%\">"
-    document.getElementById(y+1).innerHTML = "<img src=\"https://davidiclin.files.wordpress.com/2021/08/0-2.jpg\" style=\"width:90%\">"
-    document.getElementById(-(y+1)).innerHTML = "<img src=\"https://davidiclin.files.wordpress.com/2021/08/0-2.jpg\" style=\"width:90%\">"
+    document.getElementById(x).innerHTML = "<img src=\"https://davidiclin.github.io/pub/PCards/0.jpg\" style=\"width:90%\">"
+    document.getElementById(-x).innerHTML = "<img src=\"https://davidiclin.github.io/pub/PCards/0.jpg\" style=\"width:90%\">"
+    document.getElementById(y+1).innerHTML = "<img src=\"https://davidiclin.github.io/pub/PCards/0.jpg\" style=\"width:90%\">"
+    document.getElementById(-(y+1)).innerHTML = "<img src=\"https://davidiclin.github.io/pub/PCards/0.jpg\" style=\"width:90%\">"
     flipped = 0;
     }, 1000);
     };
