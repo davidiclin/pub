@@ -171,7 +171,7 @@ function shufflePartTwoOptions() {
     partTwoOptions[n1] = partTwoOptions[n2];
     partTwoOptions[n2] = temp
   }
-  document.getElementById("selectWord").innerHTML = "<option>請選擇</option>";
+  // document.getElementById("selectWord").innerHTML = "<option>請選擇</option>";
   for (count = 0; count < 10; count ++) {
     document.getElementById("selectWord").innerHTML += "<option value=\"" + partTwoOptions[count] + "\">" + partTwoOptions[count] + "</option>"
   }
