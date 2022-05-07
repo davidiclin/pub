@@ -1,0 +1,131 @@
+body {
+  background-color:Black;
+  margin-left:auto;
+  margin-right:auto;
+}
+span {
+  display: inline-block;
+}
+.barContainer {
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  border-collapse:collapse;
+  text-align: center;
+}
+.meterCaption {
+  width:18%;
+  text-align:center;
+  color:gray;
+}
+.meterBar {
+  height: 100%;
+}
+#meterLeft, #meterLeft2 {
+  text-align:right;
+  color:red
+}
+#meterMiddle, #meterMiddle2 {
+  text-align:center;
+  color:black;
+  background-color: yellow;
+}
+#meterRight, #meterRight2 {
+  text-align:left;
+  color:green
+}
+.cardTable {
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  border-collapse:collapse;
+}
+.cardRow {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.card1 {
+  height: 100%;
+  text-align:center;
+  margin:auto;
+  background-color:black;
+}
+.card1 img {
+  height: 100%;
+}
+.card2 {
+  width:23%;
+  text-align:center;
+  margin:auto;
+  background-color:black;
+}
+.card2 img{
+  width: 90%;
+}
+/*Either of the two synchronized divisions gets to show, judged by the media spec.*/
+@media screen and (orientation: landscape) {
+  .vrtc {
+    display:none;
+  }
+  .hrzt {
+    width:96%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:black;
+  }
+  .barContainer {
+    height:6vh;
+  }
+  .meterCaption {
+    font-size:2vw;
+  }
+  .meterBar {
+    font-size:2.4vw;
+  }
+  .cardRow {
+    height: 25vh;
+  }
+  #meterLeft {
+    width:40%;
+  }
+  #meterMiddle {
+    width:8%;
+  }
+  #meterRight {
+    width:40%;
+  }
+}
+@media screen and (orientation: portrait) {
+  .hrzt {
+    display:none;
+  }
+  .vrtc {
+    width: 96%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:black;
+  }
+  .barContainer {
+    width: 90%;
+    height: 2vh;
+  }
+  .meterCaption {
+    font-size:2.5vw;
+  }
+  .meterBar {
+    font-size:2.5vw;
+  }
+  .cardRow {
+    width: 100%;
+  }
+  #meterLeft2 {
+    width:40%;
+  }
+  #meterMiddle2 {
+    width:8%;
+  }
+  #meterRight2 {
+    width:40%;
+  }
+}
