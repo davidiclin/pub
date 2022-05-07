@@ -103,8 +103,9 @@ function show_meter() {
   var blocks = Math.abs(score);
   if (blocks > 12) {blocks = 12}
   for (var count = 0; count < blocks; count++) {
-    bar += "&#9609;"
-    }
+    if (score > 0) {bar += "<img src=\"images/left.png\">"}
+    if (score < 0) {bar += "<img src=\"images/right.png\">"}
+  }
   if (score > 0) {
     document.getElementById("meterLeft").innerHTML=bar;
     document.getElementById("meterRight").innerHTML="";
