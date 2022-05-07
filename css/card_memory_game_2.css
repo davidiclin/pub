@@ -111,6 +111,7 @@ span {
     font-size:1.5vh;
   }
   .cardRow {
+    width: 100%;
     height: 16vh;
   }
 }
