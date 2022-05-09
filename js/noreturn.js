@@ -54,7 +54,7 @@ function renderNewRow() {
   var oldHTML = document.getElementById("showmap").innerHTML;
   var addHTML = "<tr>";
   for (var count = 0; count < 6; count++) {
-    addHTML += "<td id=\"" + ((currentRow * 6) + count) + "\">";
+    addHTML += "<td id=\"" + ((currentRow * 6) + count) + "\"></td>";
   }
   document.getElementById("showmap").innerHTML = addHTML + "</tr>" + oldHTML
 }
