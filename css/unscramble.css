@@ -9,6 +9,18 @@ header {
   font-size: 4vw;
   color: blue;
 }
+nav {
+  text-align: center;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav span {
+  display: inline-block;
+  color: black;
+  background-color: lightgray;
+  border: 3px outset white;
+  cursor: default;
+}
 #tip {
   font-size:2vw;
   color: green;
@@ -54,6 +66,9 @@ header {
     font-weight: bold;
     font-size: 6vw;
     color: blue;
+  }
+  nav {
+    font-size: 2.5vw;
   }
   #tip {
     font-size:3vw;
@@ -101,6 +116,9 @@ header {
     font-weight: bold;
     font-size: 8vw;
     color: blue;
+  }
+  nav {
+    font-size: 3vw;
   }
   #tip {
     font-size:4vw;

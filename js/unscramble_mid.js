@@ -30,6 +30,8 @@ function create() {
   document.getElementById("head").innerHTML = head + " ";
   document.getElementById("tail").innerHTML = " " + tail;
   document.getElementById("trans").innerHTML = translation;
+  document.getElementById("intButton").style.backgroundColor = "yellow";
+  document.getElementById("intButton").style.border = "3px inset grey";
   check_it();
 }
 

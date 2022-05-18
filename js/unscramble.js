@@ -28,6 +28,8 @@ function create() {
   }
   document.getElementById("head").innerHTML = head + " ";
   document.getElementById("tail").innerHTML = " " + tail;
+  document.getElementById("advButton").style.backgroundColor = "yellow";
+  document.getElementById("advButton").style.border = "3px inset grey";
   check_it();
 }
 
