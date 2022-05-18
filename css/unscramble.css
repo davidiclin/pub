@@ -18,7 +18,7 @@ header {
   padding: 6px 18px;
   align: left;
 }
-#head, #tail {
+#head, #tail, #trans {
   background-color: rgb(212,255,255);
   border: none;
   font-family: Arial, Helvetica, sans-serif;
