@@ -312,7 +312,7 @@
     {
         "id": 63,
         "text": "Every night from my window I could see bright stars in the sky, and I would go to sleep with the smell of grass.",
-        "trans": "每天晚上我可以從我的窗戶看到天上明亮的星星，而且我可以在草香之中入睡。"
+        "trans": "每天晚上我可以從我的窗戶看到天上明亮的星星，而且我會在草香之中入睡。"
     },
     {
         "id": 64,
@@ -1092,7 +1092,7 @@
     {
         "id": 219,
         "text": "The quiet young man spent most of his life helping his parents on the farm.",
-        "trans": "這位安靜的青年，一生中大半時間都在農場上幫父母親的忙。"
+        "trans": "這位安靜的青年一生中大半時間都在農場上幫父母親的忙。"
     },
     {
         "id": 220,
@@ -1233,5 +1233,455 @@
         "id": 247,
         "text": "They learned that most people in Taiwan eat rice, drink tea, and take off their shoes when they go into a friend’s apartment.",
         "trans": "他們知道了大部份台灣人吃米飯，喝茶，並且進入朋友公寓時會脫鞋。"
+    },
+    {
+        "id": 248,
+        "text": "On average, most people sleep between seven and eight hours per night.",
+        "trans": "大部分人平均每晚睡七到八個小時。"
+    },
+    {
+        "id": 249,
+        "text": "Beaches are littered with leftover food wrappers and empty soda cans.",
+        "trans": "吃剩的食物包裝和空的汽水罐被任意丟棄在海灘上。"
+    },
+    {
+        "id": 250,
+        "text": "The introduction of high-speed rail was a major step forward in transportation history.",
+        "trans": "高速鐵路的問世是運輸歷史上的一大進步。"
+    },
+    {
+        "id": 251,
+        "text": "All people need sleep; however, the amount of sleep each person needs is different.",
+        "trans": "所有的人都需要睡眠；然而，每個人需要的睡眠量不同。"
+    },
+    {
+        "id": 252,
+        "text": "We all need to work, but we also need some leisure to balance our lives.",
+        "trans": "我們都需要工作，但我們也需要一些休閒來平衡生活。"
+    },
+    {
+        "id": 253,
+        "text": "After lunch, the students have recess, so they all go outside and play for a while.",
+        "trans": "午餐之後，學生們有休息時間，所以他們都出去外面玩一會兒。"
+    },
+    {
+        "id": 254,
+        "text": "A working holiday is a vacation that normally lasts for several months, with time divided between recreation and work.",
+        "trans": "打工度假正常來說是一段持續幾個月的假期，玩樂和工作各佔一半時間。"
+    },
+    {
+        "id": 255,
+        "text": "Although the accident crippled the boy both mentally and physically, he found a way to recover.",
+        "trans": "雖然這場意外讓男孩身心都受到重創，但他找到了復原的方法。"
+    },
+    {
+        "id": 256,
+        "text": "The world would be a much nicer place to look at if people disposed of their trash properly.",
+        "trans": "假如人們不亂丟垃圾，這個世界看起來會更美好。"
+    },
+    {
+        "id": 257,
+        "text": "Not only is Penghu full of interesting sights, but it is well-known for its abundance of seafood.",
+        "trans": "澎湖不但充滿有趣的景觀，也以豐富的海產聞名。"
+    },
+    {
+        "id": 258,
+        "text": "The best way to improve your health is to make a plan and stick to it.",
+        "trans": "增進健康的最佳方法就是訂定計畫並且堅持到底。"
+    },
+    {
+        "id": 259,
+        "text": "Pets give children something to love, to hug, and to spend time with.",
+        "trans": "寵物讓孩子們有可以疼愛、可以擁抱並且可以共度時光的對象。"
+    },
+    {
+        "id": 260,
+        "text": "In some countries, it is a tradition to go to church on Sunday mornings.",
+        "trans": "在某些國家，週日早晨上教堂是一項傳統。"
+    },
+    {
+        "id": 261,
+        "text": "You cannot stay healthy if your body does not get enough rest.",
+        "trans": "假如你的身體得不到足夠的休息，你就無法維持健康。"
+    },
+    {
+        "id": 262,
+        "text": "It is estimated that between one million and two million stray dogs live on Taiwan’s street.",
+        "trans": "據估計台灣的街頭有一百萬到兩百萬隻流浪狗。"
+    },
+    {
+        "id": 263,
+        "text": "For those who love music, learning to play an instrument can be an activity they find very fulfilling.",
+        "trans": "對那些喜愛音樂的人，學會演奏樂器是令他們很有成就感的活動。"
+    },
+    {
+        "id": 264,
+        "text": "Everyone wants to do something good for the environment, but they just don’t know where to start.",
+        "trans": "每個人都想要為環境做點好事，只是不知道從何著手。"
+    },
+    {
+        "id": 265,
+        "text": "If I could only have one possession, it would be my iPad.",
+        "trans": "假如我只能擁有一項財產，那會是我的iPad。"
+    },
+    {
+        "id": 266,
+        "text": "Although watching TV shows or reading books about a country can give background information, it doesn’t compare with an actual visit.",
+        "trans": "雖然觀賞有關某個國家的電視節目或閱讀相關書籍可以提供背景資訊，但那無法和身歷其境相提並論。"
+    },
+    {
+        "id": 267,
+        "text": "Some experts say that the Earth’s endangered languages are actually disappearing more rapidly than the Earth’s endangered animals.",
+        "trans": "有些專家說地球上的瀕危語言其實比瀕危動物消失的速度更快。"
+    },
+    {
+        "id": 268,
+        "text": "Several years ago, I traveled to Florida and experienced something truly unforgettable.",
+        "trans": "幾年前，我旅行到佛羅里達州並且有過真正難忘的體驗。"
+    },
+    {
+        "id": 269,
+        "text": "Jason is not doing well at school; furthermore, he is often absent from class.",
+        "trans": "Jason在學校表現不好；不但如此，他也常常缺課。"
+    },
+    {
+        "id": 270,
+        "text": "City kids usually don’t get to experience nature, and summer camp is often their first chance to enjoy it.",
+        "trans": "都市的孩子們通常無法體驗大自然，而夏令營往往是他們第一次享受大自然的機會。"
+    },
+    {
+        "id": 271,
+        "text": "There are many simple things you can do on a daily basis to get fit.",
+        "trans": "有許多簡單的事你可以每天做來保持身材。"
+    },
+    {
+        "id": 272,
+        "text": "Always carry your own shopping bag when you go shopping, and bring your own chopsticks when you are eating out.",
+        "trans": "每次去購物都攜帶自己的購物袋，而且去外面吃飯時都攜帶自己的筷子。"
+    },
+    {
+        "id": 273,
+        "text": "People will buy things electronically in the future, so they may not know what a real bill feels like.",
+        "trans": "將來人們會用電子方式購物，所以他們可能不會知道真正的紙鈔摸起來是什麼感覺。"
+    },
+    {
+        "id": 274,
+        "text": "If you take public transportation, you can get off at an earlier stop and walk the rest of the way.",
+        "trans": "假如你搭乘大眾運輸，你可以提早下車並且走完剩下的路程。"
+    },
+    {
+        "id": 275,
+        "text": "A huge benefit of genetically modified food is the help it provides struggling and starving people.",
+        "trans": "基改食物的一項重大好處就是為掙扎捱餓的人們提供協助。"
+    },
+    {
+        "id": 276,
+        "text": "The Earth is the only planet in our solar system with life, but once many people believed that there was life on Mars and Venus as well.",
+        "trans": "地球是太陽系唯一有生命的行星，但一度有許多人相信火星和金星上也有生命。"
+    },
+    {
+        "id": 277,
+        "text": "Studies have shown that we have already had colder winters, stronger typhoons, and more tornadoes than in the past.",
+        "trans": "研究顯示我們過去已經遇到更寒冷的冬天，更強烈的颱風，以及更多的龍捲風。"
+    },
+    {
+        "id": 278,
+        "text": "Joe is going to find a new job after he returns from his vacation.",
+        "trans": "Joe休完假期回來就要去找新工作。"
+    },
+    {
+        "id": 279,
+        "text": "It is thought that this church was built over a century ago.",
+        "trans": "一般認為這座教堂是超過一個世紀以前興建的。"
+    },
+    {
+        "id": 280,
+        "text": "Plants need plenty of sunlight, water, and nutrients in order to get bigger.",
+        "trans": "植物需要充分的陽光、水和養分才能長大。"
+    },
+    {
+        "id": 281,
+        "text": "Every animal goes through a life cycle of birth, life, and death.",
+        "trans": "每一種動物都會經歷出生、生活和死亡的生命循環。"
+    },
+    {
+        "id": 282,
+        "text": "Children need us to tell them what to do and how to behave properly.",
+        "trans": "孩子們需要我們告訴他們應該做什麼以及如何表現才適當。"
+    },
+    {
+        "id": 283,
+        "text": "The weather gets cooler as the temperature starts to decrease, and leaves on some trees start changing colors.",
+        "trans": "當氣溫開始下降，天氣會變涼，而且一些樹木的葉子會開始變色。"
+    },
+    {
+        "id": 284,
+        "text": "A few days or weeks after the seeds are planted, the plants will start growing above the ground.",
+        "trans": "種子種下去幾天或幾週後，植物會開始冒出地面。"
+    },
+    {
+        "id": 285,
+        "text": "Although everyone is learning English, it is still important for native English speakers to learn foreign languages.",
+        "trans": "雖然大家都在學英語，對以英語為母語的人來說學習外語仍然是很重要的。"
+    },
+    {
+        "id": 286,
+        "text": "Studies have shown that the people who are closest to you are often the ones to react most harshly to bad jokes.",
+        "trans": "研究顯示和你最親近的人往往也是對你的冷笑話反應最刻薄的人。"
+    },
+    {
+        "id": 287,
+        "text": "In some Asian countries like Japan and Korea, people take off their shoes before going inside their homes.",
+        "trans": "像日本和韓國等一些亞洲國家，人們進家門之前會先脫掉鞋子。"
+    },
+    {
+        "id": 288,
+        "text": "Andy failed the exam, but that doesn't mean he didn't work hard enough for it.",
+        "trans": "Andy考試沒過，但那並不表示他不夠用功準備。"
+    },
+    {
+        "id": 289,
+        "text": "Even though we had met several times before, I still felt nervous when I saw him.",
+        "trans": "即使我們以前見過幾次面，我看到他時還是感到緊張。"
+    },
+    {
+        "id": 290,
+        "text": "Darren made almost twenty spelling errors in the report he submitted last week.",
+        "trans": "Darren在上星期交出的報告中犯了將近二十個拼字錯誤。"
+    },
+    {
+        "id": 291,
+        "text": "An animal's habitat, which has everything it needs to survive, is where it spends most of its lifetime.",
+        "trans": "動物的棲息地有它生存所需的一切，是它度過生命大部分時間的地方。"
+    },
+    {
+        "id": 292,
+        "text": "It turned out that the earthquake was small and that there was no need to worry.",
+        "trans": "結果那次地震很小，不需要擔心。"
+    },
+    {
+        "id": 293,
+        "text": "We came to the conclusion that the teacher had already known about our plan.",
+        "trans": "我們做出這樣的結論：老師已經知悉我們的計畫。"
+    },
+    {
+        "id": 294,
+        "text": "My sister entered a university that accepts only the best students in the country.",
+        "trans": "我妹妹進入一所只收全國最優秀學生的大學。"
+    },
+    {
+        "id": 295,
+        "text": "Every year, there are a considerable number of crimes which go unreported in Taiwan.",
+        "trans": "每年在台灣有相當數量的犯罪沒有報案。"
+    },
+    {
+        "id": 296,
+        "text": "It won't be long before we all start driving vehicles powered solely by electricity.",
+        "trans": "不用多久之後，我們都會開始駕駛完全由電力驅動的車輛。"
+    },
+    {
+        "id": 297,
+        "text": "It was very considerate of my friend Sally to book a table at my favorite restaurant on my birthday.",
+        "trans": "我的朋友Sally很體貼，我生日那天她在我最愛的餐廳訂了一桌。"
+    },
+    {
+        "id": 298,
+        "text": "I threw down my backpack, ran to my mom and begged her to get me a Halloween costume.",
+        "trans": "我拋下背包跑向媽媽，乞求她買一套萬聖節服裝給我。"
+    },
+    {
+        "id": 299,
+        "text": "Whenever the teacher asked me a question, I got nervous and put my head down.",
+        "trans": "每當老師問我問題，我會緊張並且低下頭。"
+    },
+    {
+        "id": 300,
+        "text": "We are going to hold a farewell party for Mr. Johnson on the last day of school before the spring break.",
+        "trans": "我們要在春假前最後一個上學日為Mr. Johnson辦惜別派對。"
+    },
+    {
+        "id": 301,
+        "text": "My parents wanted to know exactly what happened last Tuesday during the field trip.",
+        "trans": "我父母想知道上週二校外教學期間究竟發生了什麼事。"
+    },
+    {
+        "id": 302,
+        "text": "We have been living in a world surrounded by technology for only about the last fifty years.",
+        "trans": "我們住在一個被科技包圍的世界也只不過大約五十年。"
+    },
+    {
+        "id": 303,
+        "text": "Even though automobiles allow us to go to places quickly, they can also be dangerous and sometimes even deadly.",
+        "trans": "即使汽車讓我們快速前往各地，它們也可能很危險，有時甚至會致命。"
+    },
+    {
+        "id": 304,
+        "text": "Even though people earn more now, the cost of living has risen more than individual incomes compared to fifty years ago.",
+        "trans": "即使人們現在賺更多錢，和五十年前相較，生活費用比個人收入提高更多。"
+    },
+    {
+        "id": 305,
+        "text": "Each and every one of us needs to be aware of how we impact the environment and how we can lessen this impact.",
+        "trans": "我們每個人都需要明白我們如何影響環境，以及如何能夠降低這樣的影響。"
+    },
+    {
+        "id": 306,
+        "text": "Can you remember whom you were with, what you were doing or even what you were wearing in your dream?",
+        "trans": "你能否記得在夢中和誰在一起，在做些什麼，或者甚至穿著什麼？"
+    },
+    {
+        "id": 307,
+        "text": "Hardly had my friends and I left the theater when the rain began to pour down.",
+        "trans": "我和朋友才剛剛離開戲院，雨就開始傾盆而下。"
+    },
+    {
+        "id": 308,
+        "text": "All my classmates have been working hard in the past weeks in the hope that they will pass the final test.",
+        "trans": "我所有的同學們過去幾週來一直很努力，希望能夠通過最後的測驗。"
+    },
+    {
+        "id": 309,
+        "text": "I know that I need to receive a lot of training before I can get a professional job.",
+        "trans": "我知道在得到一份專業的工作之前，我需要接受很多的訓練。"
+    },
+    {
+        "id": 310,
+        "text": "After a nasty fight with another cat a year ago, my cat got a wound on his back that never healed.",
+        "trans": "一年前和另一隻貓的一場惡鬥之後，我的貓背上有一處始終沒有痊癒的傷口。"
+    },
+    {
+        "id": 311,
+        "text": "The chef explained in detail the steps to prepare a healthy and balanced meal for the whole family.",
+        "trans": "主廚詳細地解釋了為全家人準備健康而均衡的一餐有哪些步驟。"
+    },
+    {
+        "id": 312,
+        "text": "One of the reasons why people leave their homeland for new places is to look for new opportunities and seek improvements in their lives.",
+        "trans": "人們離開故鄉去新的地方，其中一個原因就是尋找新的機會，以尋求改善他們的生活。"
+    },
+    {
+        "id": 313,
+        "text": "I felt that what I had lost in the trip was nothing compared with the old lady's misfortune.",
+        "trans": "我覺得我在這趟旅程當中所失去的，和這位老太太的不幸遭遇比起來，實在沒什麼。"
+    },
+    {
+        "id": 314,
+        "text": "There is a lot of misconception about what the medicine can do, as it has been mistaken for a quick solution to many complicated problems.",
+        "trans": "關於這種藥物的功用有很多的誤解，因為它一直被誤認為是許多複雜問題的快速解答。"
+    },
+    {
+        "id": 315,
+        "text": "Working on multiple projects at a time helps you get more experience quickly and learn how to manage your time efficiently.",
+        "trans": "同時忙好幾個案子有助於你快速得到經驗，並且學會有效率地管理時間。"
+    },
+    {
+        "id": 316,
+        "text": "When you are in pain, try to remember what used to make you happy before this pain came upon you.",
+        "trans": "當你感到痛苦時，設法去回想在痛苦降臨之前有什麼事會讓你快樂。"
+    },
+    {
+        "id": 317,
+        "text": "People might work in a big city, but many of them live in suburban communities, which are smaller cities near big ones.",
+        "trans": "儘管人們在大都市工作，他們之中很多人居住在市郊的社區，也就是大都市附近的小城市。"
+    },
+    {
+        "id": 318,
+        "text": "On our last trip, we spent roughly five thousand dollars on meals, accommodations and transportation, and an additional five hundred dollars on incidentals.",
+        "trans": "我們上一次的旅程大約花了五千元在用餐、住宿和交通，還有額外五百元的雜支。"
+    },
+    {
+        "id": 319,
+        "text": "Our conversation quickly shifted to another topic as we noticed each other’s uneasiness.",
+        "trans": "當我們注意到彼此的不安，我們的對話迅速轉換到別的主題。"
+    },
+    {
+        "id": 320,
+        "text": "I used to like Kenting a lot, but now I am not sure if I want to go there on this summer vacation.",
+        "trans": "我以前喜歡墾丁，但現在我不確定這次暑假是否想去那裡。"
+    },
+    {
+        "id": 321,
+        "text": "The skills Mr. Brown taught us also proved to be very useful when learning other subjects.",
+        "trans": "Mr. Brown教我們的技巧結果證明在學習其它科目時也很有用。"
+    },
+    {
+        "id": 322,
+        "text": "The proceeds from the charity auction will help fund local schools and community health centers.",
+        "trans": "這次慈善拍賣所得的款項將資助本地的學校和社區健康中心。"
+    },
+    {
+        "id": 323,
+        "text": "It would have saved me thousands of dollars if I had listened to my brother and bought a used laptop.",
+        "trans": "要是我有聽哥哥的話買一部二手筆電的話，就可以省下數千元了。"
+    },
+    {
+        "id": 324,
+        "text": "I really should have consulted my parents or teachers before making the decision.",
+        "trans": "我在做決定之前真的應該先和父母或老師商量過。"
+    },
+    {
+        "id": 325,
+        "text": "I can't imagine my friend doing such dishonorable things as riding a bus without paying the fare.",
+        "trans": "我無法想像我的朋友做出像搭公車不付車資這種不光彩的事情。"
+    },
+    {
+        "id": 326,
+        "text": "The car we rented was so small that we were hardly able to cram all our luggage into its trunk.",
+        "trans": "我們租的車子如此的小，以至於幾乎沒辦法把所有的行李塞進它的後行李箱。"
+    },
+    {
+        "id": 327,
+        "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+        "trans": "你的工作會填滿很大一部份的生活，而唯一能夠感到真正滿意的方法就是做你相信很棒的工作。"
+    },
+    {
+        "id": 328,
+        "text": "There are usually lots to do before I leave home for school every morning.",
+        "trans": "每天早上我離家去上學之前，通常有許多事要做。"
+    },
+    {
+        "id": 329,
+        "text": "I started writing down how I felt, and before long I had written five pages.",
+        "trans": "我開始寫下我的感覺，不久之後我已寫下五頁。"
+    },
+    {
+        "id": 330,
+        "text": "For people who want to keep in shape, there are plenty of things they can do.",
+        "trans": "那些想要保持身體健康的人們有很多事情可以做。"
+    },
+    {
+        "id": 331,
+        "text": "On a recent trip to Penghu, my cousin and I boarded a boat that took us to a bay, where we spent a whole morning fishing.",
+        "trans": "最近一趟去澎湖旅行，表弟和我搭上一艘船，船載我們去一處海灣，我們一整個上午都\t在那裏釣魚。"
+    },
+    {
+        "id": 332,
+        "text": "Since the elevators were not working that afternoon, we had no choice but to climb eleven floors to our apartment.",
+        "trans": "由於那天下午電梯停用，我們別無選擇，只能爬十一層樓到我們的公寓。"
+    },
+    {
+        "id": 333,
+        "text": "After disagreeing for weeks, the class finally reached a unanimous decision on the destination of the graduation trip.",
+        "trans": "在幾個星期的意見不合之後，全班終於對畢業旅行的目的地達成一致的決議。"
+    },
+    {
+        "id": 334,
+        "text": "We went all the way to the stadium only to find the game had been canceled, so we ended up taking a bus back home and going to bed early.",
+        "trans": "我們大老遠去體育場卻發現比賽已經取消，所以我們結果搭公車回家，早早上床睡覺。"
+    },
+    {
+        "id": 335,
+        "text": "To get used to the new neighborhood sooner, we decided that we should walk instead of driving when going shopping.",
+        "trans": "為了早點適應新的社區，我們決定去購物時用走的而不要開車。"
+    },
+    {
+        "id": 336,
+        "text": "History helps us prepare for the future, as there is no point in making the same mistakes as our forefathers did.",
+        "trans": "歷史幫助我們為將來做好準備，因為我們沒有理由和前人犯下一樣的錯誤。"
+    },
+    {
+        "id": 337,
+        "text": "An airplane can fly over obstacles such as mountains and seas so that the passengers on board can travel to distant places faster than ever.",
+        "trans": "飛機可以飛越像山和海那樣的障礙，因而讓機上的乘客們比以往更快旅行到遠方。"
     }
 ]

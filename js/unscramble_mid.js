@@ -2,7 +2,7 @@ var Sentences = new XMLHttpRequest(); // a new request
 Sentences.open("GET","https://davidiclin.github.io/pub/json/unscramble_mid.json",false);
 Sentences.send(null);
 const bank = JSON.parse(Sentences.responseText);
-var pick = Math.floor(Math.random() * 247) + 1;
+var pick = Math.floor(Math.random() * 337) + 1;
 var sentence = bank[pick].text;
 var translation = bank[pick].trans;
 var words = sentence.split(" ");
