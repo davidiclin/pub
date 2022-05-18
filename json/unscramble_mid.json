@@ -1,0 +1,1237 @@
+[
+    {
+        "id": 1,
+        "text": "The songs on this CD tell many sad stories from Irish history.",
+        "trans": "這張CD裡的歌曲訴說著許多愛爾蘭歷史上的憂傷故事。"
+    },
+    {
+        "id": 2,
+        "text": "During the day, she sits in front of the computer and writes stories for children.",
+        "trans": "白天裡，她坐在電腦前為小朋友寫故事。"
+    },
+    {
+        "id": 3,
+        "text": "Mr. Thomas gets a lot of cards and flowers from his students on Teacher’s Day every year; he is really a popular teacher.",
+        "trans": "Thomas先生每年教師節收到很多學生送的卡片和花；他真是個受歡迎的老師。"
+    },
+    {
+        "id": 4,
+        "text": "I like bread very much and I usually buy my breakfast at the bakery near my home.",
+        "trans": "我很喜歡麵包，而且我通常在我家附近的麵包店買早餐。"
+    },
+    {
+        "id": 5,
+        "text": "Helen usually orders a fish, a vegetable soup and a cup of coffee for lunch at Yummy Restaurant.",
+        "trans": "Helen通常在Yummy餐廳點魚、蔬菜湯和一杯咖啡當午餐。"
+    },
+    {
+        "id": 6,
+        "text": "She has many tests every day, but she does not even want to look at her books.",
+        "trans": "她每天有許多考試，但是她甚至連書都不想看一眼。"
+    },
+    {
+        "id": 7,
+        "text": "She is a shopkeeper and she works in her shoe store for twelve hours every day.",
+        "trans": "她是店老闆，每天在她的鞋店裡工作十二個小時。"
+    },
+    {
+        "id": 8,
+        "text": "Spring is a wonderful season because it is usually warm and sunny.",
+        "trans": "春天是個很棒的季節，因為它通常溫暖而晴朗。"
+    },
+    {
+        "id": 9,
+        "text": "On cold days, my cat loves to lie on the couch because it is warm and comfortable.",
+        "trans": "天冷的時候，我的貓喜歡躺在沙發椅上，因為那樣既溫暖又舒適。"
+    },
+    {
+        "id": 10,
+        "text": "To children, play is very important because they learn when they play.",
+        "trans": "對小朋友們來說，玩耍是很重要的，因為他們在玩耍的時候學習。"
+    },
+    {
+        "id": 11,
+        "text": "What comes to your mind when you hear the word “twins”?",
+        "trans": "當你聽到「雙胞胎」這個詞的時候，你心裡想到什麼？"
+    },
+    {
+        "id": 12,
+        "text": "Don’t forget to show me some pictures when you come back.",
+        "trans": "你回來的時候，別忘記給我看一些照片。"
+    },
+    {
+        "id": 13,
+        "text": "Maybe I’ll have a boyfriend when you see me next time!",
+        "trans": "也許你下次看到我時，我已有男朋友了。"
+    },
+    {
+        "id": 14,
+        "text": "There are several mistakes in your workbook. You should correct them before you go to bed.",
+        "trans": "你的作業簿裡有好幾個錯誤。你應該在上床睡覺前將它們訂正。"
+    },
+    {
+        "id": 15,
+        "text": "We could have lunch somewhere near the train station before we go to the museum.",
+        "trans": "我們去博物館之前，可以在火車站附近某個地方吃午餐。"
+    },
+    {
+        "id": 16,
+        "text": "She can only tell herself that things will get better after she starts senior high school.",
+        "trans": "她只能告訴自己，等她上高中之後，事情都會好轉。"
+    },
+    {
+        "id": 17,
+        "text": "I’ll help you find it after I put all the food in the refrigerator.",
+        "trans": "等我把食物放進冰箱之後，我會幫你把它找出來。"
+    },
+    {
+        "id": 18,
+        "text": "They have to stay in Kaohsiung for a long time, until their new house is built.",
+        "trans": "他們必須在高雄待很久，直到他們的新房子蓋好。"
+    },
+    {
+        "id": 19,
+        "text": "She knows she will be really happy if she can be a student again.",
+        "trans": "她知道假如她可以再當學生的話，她會真的很開心。"
+    },
+    {
+        "id": 20,
+        "text": "My mom will be worried if I’m not home before dinner.",
+        "trans": "假如我晚餐之前沒到家的話，我媽會很擔心。"
+    },
+    {
+        "id": 21,
+        "text": "If Frank comes to the office tonight, give this package to him.",
+        "trans": "假如法蘭克今晚到辦公室來，把這個包裹給他。"
+    },
+    {
+        "id": 22,
+        "text": "If you’re not in a hurry, we can still go after my car is fixed.",
+        "trans": "假如你不趕時間，等我的車修好之後我們還是可以去。"
+    },
+    {
+        "id": 23,
+        "text": "If he orders one main dish and one soup, how much does he need to pay?",
+        "trans": "假如他點了一道主菜和一道湯，他需要付多少錢？"
+    },
+    {
+        "id": 24,
+        "text": "If I finish my homework before eight o’clock, my parents will let me watch TV for an hour.",
+        "trans": "假如我在八點以前做完功課，我父母親會讓我看一個小時電視。"
+    },
+    {
+        "id": 25,
+        "text": "If, in the future, any of your Internet friends ask you to meet with them, you are welcome to invite them to have dinner with us in our house.",
+        "trans": "假如未來你的任何網友要你和他們碰面，歡迎你邀請他們到家裡來和我們吃晚餐。"
+    },
+    {
+        "id": 26,
+        "text": "If we want to win the ball game, we’ll have to practice long hours every day.",
+        "trans": "假如我們想要贏這場球賽，我們每天得練習很長時間。"
+    },
+    {
+        "id": 27,
+        "text": "The business at Linda’s supermarket is very good, so she makes a lot of money.",
+        "trans": "Linda的超市生意很好，所以她賺了很多錢。"
+    },
+    {
+        "id": 28,
+        "text": "The Lins do not have a dining room in their small apartment, so they always have meals in the living room.",
+        "trans": "姓林的一家人住的小公寓裡沒有飯廳，所以他們總是在客廳裡用餐。"
+    },
+    {
+        "id": 29,
+        "text": "The weather there is nice and warm all the year, so trees and flowers grow well in all seasons.",
+        "trans": "那裡的天氣整年都很好很溫暖，所以樹木和花朵四季都長得很好。"
+    },
+    {
+        "id": 30,
+        "text": "We don’t have enough toys for each child, so they will have to share them with each other.",
+        "trans": "我們沒有足夠的玩具給每個小孩，所以他們必須彼此分享。"
+    },
+    {
+        "id": 31,
+        "text": "You can spend a quiet day in the tea houses here to get away from your busy life.",
+        "trans": "你可以在這裡的茶館裡度過安靜的一天，從你的忙碌生活中逃離。"
+    },
+    {
+        "id": 32,
+        "text": "He knows a lot about animals, although he does not spend much time with our dogs and birds.",
+        "trans": "他知道很多關於動物的事，不過他並沒有花很多時間和我們的狗還有鳥在一起。"
+    },
+    {
+        "id": 33,
+        "text": "One of the books on the desk is about the famous writers of our country.",
+        "trans": "書桌上其中一本書是關於我國的知名作家。"
+    },
+    {
+        "id": 34,
+        "text": "He is looking for a place to eat and have fun with his friends on Saturday night.",
+        "trans": "他在找一個星期六晚上可以和朋友吃飯玩耍的地方。"
+    },
+    {
+        "id": 35,
+        "text": "Blue Bridge is full of different places for city fun – theaters, restaurants, museums, shopping centers. Also, don’t miss its famous night markets.",
+        "trans": "Blue Bridge這裡到處都是不同的城市娛樂場所 – 電影院、餐廳、博物館、購物中心。還有，別錯過它著名的夜市。"
+    },
+    {
+        "id": 36,
+        "text": "Oh! I forgot today’s Mary’s birthday! What should I do? The stores are all closed!",
+        "trans": "喔！我忘了今天是Mary的生日！我該怎麼辦？店都打烊了！"
+    },
+    {
+        "id": 37,
+        "text": "Stella is a baseball fan. She has more than one hundred pictures of famous baseball players.",
+        "trans": "Stella是個棒球迷。她有超過一百張知名棒球選手的照片。"
+    },
+    {
+        "id": 38,
+        "text": "Our dog always hides food under the ground. She digs it out when she needs it.",
+        "trans": "我們的狗總是把食物藏在地下。她需要的時候才把它挖出來。"
+    },
+    {
+        "id": 39,
+        "text": "Many people don’t use their real names on the Internet. Some of them even make up stories about themselves.",
+        "trans": "許多人在網路上並不使用他們的真實名字。其中有些人甚至編造關於他們自己的故事。"
+    },
+    {
+        "id": 40,
+        "text": "Different kinds of bears have different colors, but most elephants are gray.",
+        "trans": "不同的熊有不同的顏色，但是大部份的象都是灰色的。"
+    },
+    {
+        "id": 41,
+        "text": "Tina had hamburgers for lunch every day last week.",
+        "trans": "Tina上週每天午餐都吃漢堡。"
+    },
+    {
+        "id": 42,
+        "text": "Although Mrs. Brown told her son to hurry up, the little boy still walked slowly behind her.",
+        "trans": "雖然Brown太太告訴他兒子動作快一點，這個小男孩還是慢慢地走在她後面。"
+    },
+    {
+        "id": 43,
+        "text": "He liked to help others, and everyone around him liked him very much.",
+        "trans": "他喜歡幫助別人，而他周遭的每個人都很喜歡他。"
+    },
+    {
+        "id": 44,
+        "text": "My family moved here from England three months ago.",
+        "trans": "我們家三個月前從英國搬來這裡。"
+    },
+    {
+        "id": 45,
+        "text": "The man did not listen and kept asking for money.",
+        "trans": "那個人不聽話，繼續要錢。"
+    },
+    {
+        "id": 46,
+        "text": "On Friday morning, Mrs. Jones bought a present for her boss on her way to work.",
+        "trans": "星期五早上，Jones太太在上班途中買了一份禮物給她的老闆。"
+    },
+    {
+        "id": 47,
+        "text": "She did not have any close friends before, and she always felt lost and lonely.",
+        "trans": "她以前沒有任何好朋友，她總是感到失落和寂寞。"
+    },
+    {
+        "id": 48,
+        "text": "It was a present from my father for my thirteenth birthday.",
+        "trans": "那是我十三歲生日時父親送給我的禮物。"
+    },
+    {
+        "id": 49,
+        "text": "Did you have a good time at Mr. Moore’s house tonight?",
+        "trans": "你今晚在Moore先生家玩得開心嗎？"
+    },
+    {
+        "id": 50,
+        "text": "Most of the jobs did not pay well, but she tried her best in all of them and learned a lot.",
+        "trans": "這些工作大多待遇不好，但她都全力以赴並且學到很多。"
+    },
+    {
+        "id": 51,
+        "text": "The test was very difficult. Only five students in my class passed it.",
+        "trans": "這次考試很難。我班上只有五個學生及格。"
+    },
+    {
+        "id": 52,
+        "text": "Katie wrote a letter to her English teacher and got a reply from him.",
+        "trans": "Katie寫了一封信給她的英文老師並收到了回覆。"
+    },
+    {
+        "id": 53,
+        "text": "My brother doesn’t live with us. He moved out after he got married.",
+        "trans": "我哥哥沒有和我們住在一起。他結婚之後就搬出去了。"
+    },
+    {
+        "id": 54,
+        "text": "In fact, she enjoyed studying during her first two years of high school and always got high grades on tests.",
+        "trans": "事實上，她中學的前兩年很愛唸書，而且考試總是得高分。"
+    },
+    {
+        "id": 55,
+        "text": "She took the train to the beach and met her friends there at 3:00 p.m.",
+        "trans": "她搭火車到海邊，並於下午三點時與朋友們在那裡碰面。"
+    },
+    {
+        "id": 56,
+        "text": "Class 2A of St. John High School went to the History Museum yesterday and spent all morning there.",
+        "trans": "St. John高中的二年A班昨天去歷史博物館，並且在那裡過了一整個早上。"
+    },
+    {
+        "id": 57,
+        "text": "Last week she and her brother came to Kaohsiung to stay with their grandparents.",
+        "trans": "上週她和她弟弟來高雄和爺爺奶奶同住。"
+    },
+    {
+        "id": 58,
+        "text": "We could just stay in our room watching TV and playing cards.",
+        "trans": "我們可以只待在房間看電視和玩牌。"
+    },
+    {
+        "id": 59,
+        "text": "When the teacher was not in the classroom, the students talked loudly and made a lot of noise.",
+        "trans": "當老師不在教室，學生們大聲講話並且發出許多噪音。"
+    },
+    {
+        "id": 60,
+        "text": "She gave the mouse food and water every day and found that the mouse was in fact not dirty.",
+        "trans": "她每天都給老鼠食物和水，發現老鼠事實上並不髒。"
+    },
+    {
+        "id": 61,
+        "text": "Mom and Dad called several times from Tainan when you went to the movies last night.",
+        "trans": "你昨晚去看電影時，媽媽和爸爸從臺南打了好幾通電話來。"
+    },
+    {
+        "id": 62,
+        "text": "Her father took good care of the six children in her family after her mother died young.",
+        "trans": "她媽媽很年輕就過世了，之後她父親妥善地照顧家裡的六個小孩。"
+    },
+    {
+        "id": 63,
+        "text": "Every night from my window I could see bright stars in the sky, and I would go to sleep with the smell of grass.",
+        "trans": "每天晚上我可以從我的窗戶看到天上明亮的星星，而且我可以在草香之中入睡。"
+    },
+    {
+        "id": 64,
+        "text": "The next few days, they had breakfast in a coffee shop and ate hamburgers in a fast-food restaurant.",
+        "trans": "接下來幾天，他們在一家咖啡廳吃早餐，並且在速食餐廳吃漢堡。"
+    },
+    {
+        "id": 65,
+        "text": "She is going to join her friend’s band in the summer musical festival.",
+        "trans": "她要在夏季音樂節時加入她朋友的樂隊。"
+    },
+    {
+        "id": 66,
+        "text": "If we take the 2:00 train, we’ll arrive in Taichung at 4:30.",
+        "trans": "假如我們搭兩點的火車，我們會在四點半到達台中。"
+    },
+    {
+        "id": 67,
+        "text": "I’m going to the library with my classmates and will be home at five.",
+        "trans": "我要和我同學去圖書館，五點鐘會到家。"
+    },
+    {
+        "id": 68,
+        "text": "My parents will be waiting for me there later.",
+        "trans": "我的父母親稍後會在那裡等我。"
+    },
+    {
+        "id": 69,
+        "text": "What will the weather be like tomorrow in the south of Fishland?",
+        "trans": "明天Fishland南部的天氣如何？"
+    },
+    {
+        "id": 70,
+        "text": "Aren’t you going to have dinner with your girlfriend tonight?",
+        "trans": "你今晚不和你的女朋友共進晚餐嗎？"
+    },
+    {
+        "id": 71,
+        "text": "Are you going to stay in bed all day long?",
+        "trans": "你要一整天都待在床上嗎？"
+    },
+    {
+        "id": 72,
+        "text": "I’m excited because I’m going on a five-day vacation this week with Mark and Daniel.",
+        "trans": "我很興奮，因為我這星期要和Mark以及Daniel去度假五天。"
+    },
+    {
+        "id": 73,
+        "text": "Albert is going to drive to the History Museum from the airport, but he needs to go to the gas station first.",
+        "trans": "Albert要從機場開車到歷史博物館，但他必須先去加油站。"
+    },
+    {
+        "id": 74,
+        "text": "He is cleaning the house because some of his friends are coming for dinner.",
+        "trans": "他在打掃房子，因為有幾個朋友要過來吃晚餐。"
+    },
+    {
+        "id": 75,
+        "text": "The ball game will be on TV tomorrow at six in the morning.",
+        "trans": "比賽將於明天早上六點在電視上轉播。"
+    },
+    {
+        "id": 76,
+        "text": "Mr. Yang has worked in this factory since 1968.",
+        "trans": "楊先生從一九六八年就在這家工廠上班了。"
+    },
+    {
+        "id": 77,
+        "text": "Many of my classmates have had the experience of taking an airplane, but I haven’t.",
+        "trans": "我有許多同學有搭飛機的經驗，但我還沒有。"
+    },
+    {
+        "id": 78,
+        "text": "There are more and more cars in our city, so parking has become a serious problem.",
+        "trans": "我們的城市裡車子愈來愈多，所以停車已經成了嚴重的問題。"
+    },
+    {
+        "id": 79,
+        "text": "My three-year-old brother watched a magic show on TV last month. Since then he has always believed that rabbits may come out of hats.",
+        "trans": "我的三歲小弟上個月在電視上看了一場魔術表演。從那時候起他一直相信帽子裡會跑出兔子來。"
+    },
+    {
+        "id": 80,
+        "text": "School is not a problem for me, and I have made some friends in my class.",
+        "trans": "上學對我不成問題，而且我已經在班上交了一些朋友。"
+    },
+    {
+        "id": 81,
+        "text": "I’ve never been there, either. But I’m sure we’re going to have fun in this trip.",
+        "trans": "我也從來沒去過那兒。但我相信我們這趟旅途會玩得開心。"
+    },
+    {
+        "id": 82,
+        "text": "What? It’s Mother’s Day? Oh, I have been so busy these days. I haven’t bought a present for my mom!",
+        "trans": "什麼？是母親節？喔，我這陣子實在很忙。我還沒有買禮物給媽媽！"
+    },
+    {
+        "id": 83,
+        "text": "Your sister hasn’t come back yet. She never comes home later than five-thirty.",
+        "trans": "你妹妹還沒回來。她從來不會超過五點半回家。"
+    },
+    {
+        "id": 84,
+        "text": "Uncle Jim does not paint for money; he has never sold any of his pictures.",
+        "trans": "Jim叔叔作畫不是為了錢；他從來不曾出售他的畫作。"
+    },
+    {
+        "id": 85,
+        "text": "Mr. and Mrs. Jones are crazy about dolls. In the past three years, they have collected more than one hundred dolls.",
+        "trans": "Jones夫婦對洋娃娃很著迷。過去三年來，他們已經收集了超過一百個洋娃娃。"
+    },
+    {
+        "id": 86,
+        "text": "You’ve had the same food for breakfast for one week. Do you want something different for a change?",
+        "trans": "你一個星期以來早餐都吃一樣的食物，你想換換不同口味嗎？"
+    },
+    {
+        "id": 87,
+        "text": "It’s the most interesting fish I’ve ever seen. It looks like it has a big head but doesn’t have a body.",
+        "trans": "這是我看過最有趣的魚。它看起來好像有個大頭卻沒有身體。"
+    },
+    {
+        "id": 88,
+        "text": "This is the trip I’ve dreamed of for so long. Now it’s going to come true.",
+        "trans": "這趟旅行是我長久以來的夢想。如今它就要成真了。"
+    },
+    {
+        "id": 89,
+        "text": "It’s been a long time since you wrote me a letter.",
+        "trans": "你已經很久沒有寫信給我了。"
+    },
+    {
+        "id": 90,
+        "text": "So far I have studied very hard in every subject.",
+        "trans": "到目前為止，我每一科都很用功。"
+    },
+    {
+        "id": 91,
+        "text": "If you want to be successful in this job, you need to work harder than other people.",
+        "trans": "如果你想把這份工作做得成功，你需要比其他人更努力。"
+    },
+    {
+        "id": 92,
+        "text": "I hate to wear the same clothes as everyone else to school every day.",
+        "trans": "我討厭每天和別人穿一樣的衣服去學校。"
+    },
+    {
+        "id": 93,
+        "text": "He knows a lot about bicycles, but never likes to ride bikes as much as I do.",
+        "trans": "他懂很多腳踏車的事，但是從來不像我這樣愛騎腳踏車。"
+    },
+    {
+        "id": 94,
+        "text": "To me, my mother is the most beautiful woman in the world.",
+        "trans": "對我來說，我媽是全世界最漂亮的女人。"
+    },
+    {
+        "id": 95,
+        "text": "My younger sister likes lions best of all animals.",
+        "trans": "所有的動物裡頭，我妹妹最喜歡獅子。"
+    },
+    {
+        "id": 96,
+        "text": "Which sweater looks better on me, the red one or the blue one?",
+        "trans": "我穿哪一件毛衣比較好看，是紅的還是藍的？"
+    },
+    {
+        "id": 97,
+        "text": "More than 3,000 presents are ready for you at www.lastmoment5.com.",
+        "trans": "在www.lastmoment5.com 有超過三千種禮物等你去挑喔。"
+    },
+    {
+        "id": 98,
+        "text": "Lucy looks prettier in pants than in a dress.",
+        "trans": "Lucy穿褲子比穿洋裝好看。"
+    },
+    {
+        "id": 99,
+        "text": "Of all the subjects, math is the most useful to me.",
+        "trans": "所有的科目裡面，數學對我最有用處。"
+    },
+    {
+        "id": 100,
+        "text": "He really hopes that his daughter can love her family as much as she loves the pop singer.",
+        "trans": "他真的希望女兒能夠如同愛那個流行歌手一樣地愛家人。"
+    },
+    {
+        "id": 101,
+        "text": "There are usually some good programs on weekends.",
+        "trans": "週末通常有些好節目。"
+    },
+    {
+        "id": 102,
+        "text": "There are so many interesting fishes and sea animals in the water zoo.",
+        "trans": "在水中動物園裡有這麼多有趣的魚和海底動物。"
+    },
+    {
+        "id": 103,
+        "text": "There’s a supermarket just one block away from here. Let’s go there and buy some juice.",
+        "trans": "有一家超市離這裡只有一個街區遠。我們去那裡買點果汁吧。"
+    },
+    {
+        "id": 104,
+        "text": "How many people were there in the office when the fire happened?",
+        "trans": "火災發生時，辦公室裡有多少人呢？"
+    },
+    {
+        "id": 105,
+        "text": "There are many trees in the park. Most of them are over fifty years old.",
+        "trans": "公園裡有許多樹木。它們大部份都超過五十歲了。"
+    },
+    {
+        "id": 106,
+        "text": "There will be a welcome party next week for the new students.",
+        "trans": "下週將會有一場歡迎新生的派對。"
+    },
+    {
+        "id": 107,
+        "text": "Their sad faces made her decide to help, so she left school and started to work at the age of fifteen.",
+        "trans": "他們悲傷的表情使得她決定幫忙，所以她離開了學校，十五歲就開始工作。"
+    },
+    {
+        "id": 108,
+        "text": "If you keep being late, I will make you dump garbage for the class for one month.",
+        "trans": "假如你一直遲到下去，我會要你為本班倒垃圾一個月。"
+    },
+    {
+        "id": 109,
+        "text": "What made Bill and Jill think that Taiwan was just like America?",
+        "trans": "什麼原因讓Bill和Jill認為台灣就像美國一樣？"
+    },
+    {
+        "id": 110,
+        "text": "Let’s take a look at today’s TV schedule.",
+        "trans": "我們來看一看今天的電視時間表。"
+    },
+    {
+        "id": 111,
+        "text": "Let me get my bicycle. I’ll ride around and look for her.",
+        "trans": "我去騎我的腳踏車。我會到處繞一繞找尋她。"
+    },
+    {
+        "id": 112,
+        "text": "I’m glad that you let me know about your problem.",
+        "trans": "很高興你讓我知道你的問題。"
+    },
+    {
+        "id": 113,
+        "text": "They are wonderful friends, and their letters have made her feel much better.",
+        "trans": "他們是很棒的朋友，而且他們的信讓她覺得好多了。"
+    },
+    {
+        "id": 114,
+        "text": "I always hear people say good things about the restaurant.",
+        "trans": "我總是聽到人們說這家餐廳有多好。"
+    },
+    {
+        "id": 115,
+        "text": "The students got excited when they saw their favorite movie star eating at the next table.",
+        "trans": "當學生們看到他們最喜愛的電影明星在隔壁桌吃飯，都感到很興奮。"
+    },
+    {
+        "id": 116,
+        "text": "She made my mom stand between my two brothers, and made my dad walk to the back and then to the front.",
+        "trans": "她要我媽站在我的兩個兄弟之間，然後要我爸走到後面又走來前面。"
+    },
+    {
+        "id": 117,
+        "text": "When I was walking along the river, I saw some fish jumping out of the water.",
+        "trans": "當我沿著河邊走時，我看到一些魚跳出水面。"
+    },
+    {
+        "id": 118,
+        "text": "This TV program helps us get some knowledge of other countries. I’ve learned a lot from it.",
+        "trans": "這個電視節目幫助我們獲得一些其他國家的知識。我從裡面學到很多。"
+    },
+    {
+        "id": 119,
+        "text": "Asking questions helps Henna learn more and better.",
+        "trans": "提出問題有助於Henna學得更多而且更好。"
+    },
+    {
+        "id": 120,
+        "text": "The weather turned bad in the afternoon when we got to the island.",
+        "trans": "下午當我們到達島上，天氣變壞了。"
+    },
+    {
+        "id": 121,
+        "text": "Sally got angry because her little brother turned off the fan when she was still working on the computer.",
+        "trans": "Sally很生氣，因為她還在用電腦時，她弟弟就把電風扇關掉。"
+    },
+    {
+        "id": 122,
+        "text": "Last year, Dad got very sick and had to stay in the hospital.",
+        "trans": "去年，爸爸病得很重，必須住院。"
+    },
+    {
+        "id": 123,
+        "text": "Mom became very busy running between the house and the hospital.",
+        "trans": "媽媽變得很忙，在家和醫院之間奔走。"
+    },
+    {
+        "id": 124,
+        "text": "Summer is the best season to see the trees and flowers.",
+        "trans": "夏天是觀賞樹木和花朵的最佳季節。"
+    },
+    {
+        "id": 125,
+        "text": "I forgot to bring my cell phone, and there was no public phone around.",
+        "trans": "我忘記帶手機，而且附近也沒有公共電話。"
+    },
+    {
+        "id": 126,
+        "text": "She got a bad grade and was afraid to go home.",
+        "trans": "她成績不好，不敢回家。"
+    },
+    {
+        "id": 127,
+        "text": "Her teacher asked each student to take care of an animal and learn to get along with it.",
+        "trans": "她的老師要求每一位學生要照顧一種動物，並且學會與之相處。"
+    },
+    {
+        "id": 128,
+        "text": "The price of the house is too high. My parents do not have enough money to buy it.",
+        "trans": "這棟房子價格太高。我的父母親沒有足夠的錢可以買。"
+    },
+    {
+        "id": 129,
+        "text": "We pick up your children at school and give them a safe place to play, do homework, and learn after school.",
+        "trans": "我們到學校接您的小孩，並且在放學後給他們一個安全的地方可以玩耍，做功課和學習。"
+    },
+    {
+        "id": 130,
+        "text": "Tony’s biggest dream is to be a singer. He has always wanted to sing on TV since he was a child.",
+        "trans": "Tony最大的夢想就是當歌手。他從小就一直想在電視上演唱。"
+    },
+    {
+        "id": 131,
+        "text": "My sister told me to clean up our room. She did not want to see any garbage on the floor.",
+        "trans": "我妹妹告訴我要把我們的房間整理乾淨。她不想看到地板上有垃圾。"
+    },
+    {
+        "id": 132,
+        "text": "When mom asked you not to play computer games all day long, what did you do?",
+        "trans": "當媽媽告訴你不要一整天打電腦遊戲時，你做了什麼？"
+    },
+    {
+        "id": 133,
+        "text": "Learning foreign languages helps me to know more about other countries.",
+        "trans": "學習外國語言幫助我知道更多關於其他國家的事。"
+    },
+    {
+        "id": 134,
+        "text": "Mom loves talking and reading with us, but she hates cooking and cleaning.",
+        "trans": "媽媽喜歡和我們一起聊天、看書，但是她討厭煮飯和打掃。"
+    },
+    {
+        "id": 135,
+        "text": "Working all day on the computer makes my eyes really tired.",
+        "trans": "一整天用電腦工作使我的眼睛很疲勞。"
+    },
+    {
+        "id": 136,
+        "text": "Try to practice speaking English with your teachers and classmates.",
+        "trans": "想辦法和你的老師以及同學們練習說英語。"
+    },
+    {
+        "id": 137,
+        "text": "Many of the fans enjoy getting together to share their love for the stars.",
+        "trans": "許多粉絲喜歡聚在一起分享他們對明星的愛慕。"
+    },
+    {
+        "id": 138,
+        "text": "I’m sure you can learn a lot from doing so.",
+        "trans": "我相信你可以藉著這樣做而學到很多。"
+    },
+    {
+        "id": 139,
+        "text": "Rover did not like the idea of taking pictures, so he ran into his doghouse.",
+        "trans": "Rover不喜歡照相這個主意，所以牠跑進牠的狗屋裡。"
+    },
+    {
+        "id": 140,
+        "text": "Before they left America, Bill and Jill tried to learn about Chinese food and Taiwanese ways of doing things.",
+        "trans": "在離開美國之前，Bill和Jill設法學到關於中國菜和臺灣人的做事方式。"
+    },
+    {
+        "id": 141,
+        "text": "Ms. Smith is excellent at telling stories, so all of her students enjoy story time in her class very much.",
+        "trans": "史密斯女士善於講故事，所以她的學生們都非常喜歡她課堂上的故事時間。"
+    },
+    {
+        "id": 142,
+        "text": "Mom is always busy writing and taking care of us, but she is always smiling.",
+        "trans": "媽媽總是忙著寫作和照顧我們，但她總是面帶微笑。"
+    },
+    {
+        "id": 143,
+        "text": "My grandpa is good at cooking and he always prepares a big meal for us when we visit him.",
+        "trans": "我祖父擅長烹飪，當我們去看他時，他總是為我們準備一頓大餐。"
+    },
+    {
+        "id": 144,
+        "text": "When Marcy was a little girl, her parents were always worried about not having enough money.",
+        "trans": "當瑪西還是個小女孩時，她的父母親們總是擔心沒有足夠的錢。"
+    },
+    {
+        "id": 145,
+        "text": "I’ve always dreamed about having a room with lots of toys.",
+        "trans": "我總是夢到擁有一個有很多玩具的房間。"
+    },
+    {
+        "id": 146,
+        "text": "In my family, my sister is the only person who loves chocolate.",
+        "trans": "我妹妹是我的家人之中唯一喜愛巧克力的。"
+    },
+    {
+        "id": 147,
+        "text": "I like to read comic books that make me laugh.",
+        "trans": "我喜歡看會讓我大笑的漫畫書。"
+    },
+    {
+        "id": 148,
+        "text": "Today will be the last sunny day we have this week.",
+        "trans": "今天將是本星期最後一個晴朗的日子。"
+    },
+    {
+        "id": 149,
+        "text": "He was a man who loved his family and his life a lot.",
+        "trans": "他是一個深愛家人和妻子的男人。"
+    },
+    {
+        "id": 150,
+        "text": "Fans who do not want to miss the concert should get to the park as early as possible.",
+        "trans": "不想錯過這場演唱會的歌迷們應該儘可能早點到達公園。"
+    },
+    {
+        "id": 151,
+        "text": "The movie is about a true story that happened in Korea in 1945.",
+        "trans": "這部電影是關於1945年發生在韓國的真實故事。"
+    },
+    {
+        "id": 152,
+        "text": "They talked to each other in a language I didn’t understand.",
+        "trans": "他們用一種我不懂的語言彼此交談。"
+    },
+    {
+        "id": 153,
+        "text": "He cannot understand why a man who sings crazy songs can be so important to his daughter.",
+        "trans": "他不瞭解為什麼一個唱瘋狂歌曲的人會對他的女兒如此重要。"
+    },
+    {
+        "id": 154,
+        "text": "Heartland is a beautiful town in which cars and motorcycles are not allowed.",
+        "trans": "Heartland是一個美麗的城鎮，鎮上不允許開車和騎摩托車。"
+    },
+    {
+        "id": 155,
+        "text": "What she wants most now is to go back to school.",
+        "trans": "現在她最想要的就是回到學校。"
+    },
+    {
+        "id": 156,
+        "text": "What dogs want most is to have a real home and family.",
+        "trans": "狗最想要的就是真正的家和家人。"
+    },
+    {
+        "id": 157,
+        "text": "They learned to do things the way Taiwanese people do.",
+        "trans": "他們學會了用臺灣人的方式做事情。"
+    },
+    {
+        "id": 158,
+        "text": "People who want to have a vacation there will have to change their plans.",
+        "trans": "想去那個地方度假的人將必須改變計畫。"
+    },
+    {
+        "id": 159,
+        "text": "A new road is going to be built in town because traffic is getting busier and busier.",
+        "trans": "因為交通愈來愈繁忙，鎮上將要興建一條新的道路。"
+    },
+    {
+        "id": 160,
+        "text": "On her way to the park, she was stopped by a man who was biting his fingernails.",
+        "trans": "在她去公園的路上，她被一個咬著手指甲的男人攔下來。"
+    },
+    {
+        "id": 161,
+        "text": "Most of Jeff’s best books were written when he was sick and poor.",
+        "trans": "Jeff最好的書大多是在他貧病交迫的時候所寫的。"
+    },
+    {
+        "id": 162,
+        "text": "She enjoys writing a lot and also gets paid for it.",
+        "trans": "她很喜歡寫作，也因此獲得報酬。"
+    },
+    {
+        "id": 163,
+        "text": "Mom called back and told me that Dad was hit by a car on his way to look for me.",
+        "trans": "媽媽打電話回來，告訴我爸爸在找我的途中被車撞到。"
+    },
+    {
+        "id": 164,
+        "text": "Dad’s left leg was badly hurt, and he stayed in the hospital for several days.",
+        "trans": "爸爸的左腿傷勢嚴重，而且他在醫院裡住了好幾天。"
+    },
+    {
+        "id": 165,
+        "text": "All the packages are carefully checked at the airport to keep everyone safe.",
+        "trans": "在機場，所有的包裹都經過仔細檢查，以維護所有人的安全。"
+    },
+    {
+        "id": 166,
+        "text": "She was seriously hurt when the house fell down.",
+        "trans": "當房子倒塌時，她受了重傷。"
+    },
+    {
+        "id": 167,
+        "text": "His comic books were enjoyed by his family but never shown to the people outside the farm.",
+        "trans": "他的漫畫書受到全家人的喜愛，但卻從未給農場以外的人看過。"
+    },
+    {
+        "id": 168,
+        "text": "Now the pictures can be seen at the City Art Center for one month.",
+        "trans": "如今這些圖畫在市立藝術中心展出一個月。"
+    },
+    {
+        "id": 169,
+        "text": "It was very windy this morning. My hat was blown away when I was walking on the street.",
+        "trans": "今天早上風很大。我走在街上時帽子被吹走。"
+    },
+    {
+        "id": 170,
+        "text": "Last Sunday, at about 4 o’clock in the morning, my family and I were woken up by our dog.",
+        "trans": "上個星期天，大約早上四點鐘時，我的家人和我被我們的狗叫醒。"
+    },
+    {
+        "id": 171,
+        "text": "In my dream, I was taken to a room by three strange-looking people.",
+        "trans": "在夢中，我被三個長相怪異的人帶進一個房間。"
+    },
+    {
+        "id": 172,
+        "text": "The picture was taken in our garden by my cousin.",
+        "trans": "這張照片是我表哥在我們的花園裡拍的。"
+    },
+    {
+        "id": 173,
+        "text": "The doctor said the woman might become blind because her eyes were badly hurt.",
+        "trans": "醫生說因為這個女人的眼睛受傷嚴重，她可能會失明。"
+    },
+    {
+        "id": 174,
+        "text": "Peter and his sister are asked to call their parents if they have to go home late.",
+        "trans": "Peter和他妹妹受到要求：假如他們必須晚回家的話，要打電話給父母。"
+    },
+    {
+        "id": 175,
+        "text": "All of the gift boxes are already put under the Christmas tree.",
+        "trans": "所有的禮物盒都已經擺在聖誕樹下。"
+    },
+    {
+        "id": 176,
+        "text": "She got hurt when she slammed the door.",
+        "trans": "她用力關門的時候受了傷。"
+    },
+    {
+        "id": 177,
+        "text": "The city’s famous bright sun cannot be seen today because the rain is going to last all day.",
+        "trans": "今天看不到這城市出了名的豔陽，因為雨將會持續一整天。"
+    },
+    {
+        "id": 178,
+        "text": "When I got up this morning, I was so surprised to find a new watch on my desk.",
+        "trans": "今天早上起床時，我很驚訝地發現書桌上有一只新錶。"
+    },
+    {
+        "id": 179,
+        "text": "We do not look very much alike and we are always interested in different things. She is not interested in anything risky.",
+        "trans": "我們看起來不太像，而且我們總是對不同的事感興趣。她對任何冒險的事都不感興趣。"
+    },
+    {
+        "id": 180,
+        "text": "Melody is interested in the things on sale at Sandra’s Sports Shop.",
+        "trans": "Melody對Sandra運動商店拍賣的東西感興趣。"
+    },
+    {
+        "id": 181,
+        "text": "She has visited her married daughter in Japan three times.",
+        "trans": "她已經三度到日本拜訪她已婚的女兒。"
+    },
+    {
+        "id": 182,
+        "text": "The movie star does not like his family to appear in public places with him; he does not want people to know who they are.",
+        "trans": "這位電影明星不喜歡他的家人和他一起出現在公共場所；他不想讓人們知道他們是誰。"
+    },
+    {
+        "id": 183,
+        "text": "I do not quite understand Uncle Jim’s pictures, and he never tells us what he is trying to say with them.",
+        "trans": "我不太瞭解吉姆叔叔的畫作，而他從不告訴我們他想藉這些畫表達什麼。"
+    },
+    {
+        "id": 184,
+        "text": "Do you know where the library is? Just keep going for two more blocks and you’ll see it.",
+        "trans": "你知道圖書館在哪裡嗎？只要再走兩個街區，你就會看到了。"
+    },
+    {
+        "id": 185,
+        "text": "I really want to tell him how much I miss him.",
+        "trans": "我真的想告訴他我有多麼想念他。"
+    },
+    {
+        "id": 186,
+        "text": "I didn’t know what they would do to me.",
+        "trans": "我不知道他們會對我做什麼。"
+    },
+    {
+        "id": 187,
+        "text": "Do you know how long you have talked on the phone?",
+        "trans": "你知道你已經講了多久的電話嗎？"
+    },
+    {
+        "id": 188,
+        "text": "Adam wrote the letter to show how he felt about what he bought.",
+        "trans": "Adam寫這封信來表達他對於所買的東西有何感想。"
+    },
+    {
+        "id": 189,
+        "text": "Susan could never understand why people would like to have cats or dogs in the house.",
+        "trans": "Susan永遠無法瞭解為什麼有人會想在房子裡養貓或養狗。"
+    },
+    {
+        "id": 190,
+        "text": "The poor man’s wife was very sick. We did not know how to tell him the bad news.",
+        "trans": "這個可憐人的妻子病得很重。我們不知道要怎麼告訴他這個壞消息。"
+    },
+    {
+        "id": 191,
+        "text": "How about the hotel? Do you have any idea of where to stay?",
+        "trans": "飯店怎麼樣呢？你知道要在哪裡過夜嗎？"
+    },
+    {
+        "id": 192,
+        "text": "Even today, Lois is still wondering whether what she said to that man was right or wrong.",
+        "trans": "即使到今天，Lois仍然不知道她對那個人說的話是對的還是錯的。"
+    },
+    {
+        "id": 193,
+        "text": "Jacky would like to bring that poor dog back home, but he isn’t sure whether his mother likes dogs.",
+        "trans": "Jacky想要把那條可憐的狗帶回家，但他不確定他媽媽喜不喜歡狗。"
+    },
+    {
+        "id": 194,
+        "text": "He asked Lois if she could lend him some money.",
+        "trans": "他問Lois是否可以借他一些錢。"
+    },
+    {
+        "id": 195,
+        "text": "On their way back to America, Bill and Jill were thinking about why they never ate rice or drank tea or ate with chopsticks.",
+        "trans": "在他們回美國的途中，Bill和Jill想著為什麼他們一直沒有吃冰、喝茶或用筷子吃東西。"
+    },
+    {
+        "id": 196,
+        "text": "All of us will go and pick you up at the airport except Dad.",
+        "trans": "除了老爸以外，我們全部的人都會開車到機場接你。"
+    },
+    {
+        "id": 197,
+        "text": "Mr. Green was very angry with his daughter because she always put her dirty socks on the dining table.",
+        "trans": "Green先生很氣他女兒，因為她老是把髒襪子擺在餐桌上。"
+    },
+    {
+        "id": 198,
+        "text": "With the new bridge, life in this town will become more convenient.",
+        "trans": "有了這座新的橋，鎮上的生活會變得更方便。"
+    },
+    {
+        "id": 199,
+        "text": "She is in her third year of junior high school.",
+        "trans": "她現在國中三年級。"
+    },
+    {
+        "id": 200,
+        "text": "He bought a bicycle for his son as a birthday present on December 3.",
+        "trans": "十二月三日那天，他買了一部腳踏車給兒子當生日禮物。"
+    },
+    {
+        "id": 201,
+        "text": "He was a basketball player on our school team and was very popular with many girls.",
+        "trans": "他是籃球校隊的選手，而且受到很多女孩子的歡迎。"
+    },
+    {
+        "id": 202,
+        "text": "Tony and Peter are famous for their wonderful voices.",
+        "trans": "Tony和Peter以他們美妙的嗓音而聞名。"
+    },
+    {
+        "id": 203,
+        "text": "People in this small town are quite friendly to strangers; they always try to help out when strangers are in trouble.",
+        "trans": "這座小鎮上的人們對陌生人相當友善；當陌生人有麻煩時，他們總是想辦法幫忙解決。"
+    },
+    {
+        "id": 204,
+        "text": "Tina is getting married to a man she has known only for a month.",
+        "trans": "Tina即將嫁給一個她只認識了一個月的男人。"
+    },
+    {
+        "id": 205,
+        "text": "There are five stories in this book. The one about a shy police officer is the most interesting to me.",
+        "trans": "這本書裡有五篇故事。其中我覺得最有趣的一篇是關於一位害羞的警察。"
+    },
+    {
+        "id": 206,
+        "text": "Suddenly, one of them came up to me and tried to hurt me with a knife.",
+        "trans": "突然，他們其中一個人向我走來，想用刀子傷害我。"
+    },
+    {
+        "id": 207,
+        "text": "They were very worried because they couldn’t reach you by calling your cell phone.",
+        "trans": "他們很擔心，因為他們打你的手機卻聯絡不到你。"
+    },
+    {
+        "id": 208,
+        "text": "She said I can’t go to the movies without her before I’m fifteen.",
+        "trans": "她說在我十五歲以前，沒有她作陪我不能去看電影。"
+    },
+    {
+        "id": 209,
+        "text": "We offer a warm and safe place for dogs without a home.",
+        "trans": "我們為無家可歸的狗兒們提供一個溫暖而安全的地方。"
+    },
+    {
+        "id": 210,
+        "text": "In a loud voice, I told her I was doing my computer homework.",
+        "trans": "我很大聲地告訴她我在做我的電腦作業。"
+    },
+    {
+        "id": 211,
+        "text": "The boy in the cap is the cutest person in the class.",
+        "trans": "戴帽子的男孩是班上最可愛的一個。"
+    },
+    {
+        "id": 212,
+        "text": "Please give me some suggestions on what I should do.",
+        "trans": "我該怎麼做，請給我一些建議。"
+    },
+    {
+        "id": 213,
+        "text": "The city’s beautiful beaches are closed because of the typhoon.",
+        "trans": "因為颱風之故，這座城市的美麗海灘已關閉。"
+    },
+    {
+        "id": 214,
+        "text": "Don’t forget to brush your teeth before you go to bed. It’s important to clean them every night.",
+        "trans": "上床睡覺前別忘記刷牙。每晚清潔牙齒是很重要的。"
+    },
+    {
+        "id": 215,
+        "text": "It is very dangerous to play on the railway. The train may come at any time.",
+        "trans": "在鐵道上玩很危險。火車可能隨時會來。"
+    },
+    {
+        "id": 216,
+        "text": "It was important for Kevin to finish his homework quickly because he had to help his parents sell fruit in the night market.",
+        "trans": "很重要的是，凱文要很快把作業完成，因為他要到夜市幫忙父母親賣水果。"
+    },
+    {
+        "id": 217,
+        "text": "This water is too hot to drink. Let’s put some ice in it.",
+        "trans": "這水太燙不能喝。我們放些冰塊進去吧。"
+    },
+    {
+        "id": 218,
+        "text": "The weather was too hot for us to stay outside.",
+        "trans": "天氣太熱了，我們無法待在外面。"
+    },
+    {
+        "id": 219,
+        "text": "The quiet young man spent most of his life helping his parents on the farm.",
+        "trans": "這位安靜的青年，一生中大半時間都在農場上幫父母親的忙。"
+    },
+    {
+        "id": 220,
+        "text": "Andrew spends long hours studying every night. He is a hard-working student.",
+        "trans": "Andrew每晚花很長的時間唸書。他是個用功的學生。"
+    },
+    {
+        "id": 221,
+        "text": "There are so many tests that she cannot relax and do the things she likes.",
+        "trans": "考試那麼多，以致於她無法放輕鬆去做自己喜歡的事。"
+    },
+    {
+        "id": 222,
+        "text": "I was so afraid that I started to cry.",
+        "trans": "我擔心到開始哭了起來。"
+    },
+    {
+        "id": 223,
+        "text": "They were so delicious that we ate too much and were too full to eat dinner.",
+        "trans": "它們是如此地美味，以致於我們吃得太多，肚子太飽而吃不下晚餐。"
+    },
+    {
+        "id": 224,
+        "text": "We need to be back before five so that we can go to Alice’s party.",
+        "trans": "我們要在五點以前回來，才能去參加Alice的派對。"
+    },
+    {
+        "id": 225,
+        "text": "When I was a student, I liked to sit in the front of the classroom so that I could see the words better on the blackboard.",
+        "trans": "我還是學生的時候，喜歡坐在教室的前面，才能把黑板上的字看得較清楚。"
+    },
+    {
+        "id": 226,
+        "text": "Charles wanted to borrow $1,000 from me yesterday.",
+        "trans": "Charles昨天想跟我借一千元。"
+    },
+    {
+        "id": 227,
+        "text": "How about ten dollars for cleaning my room and five for taking out the garbage?",
+        "trans": "打掃我的房間算十塊錢，出去倒垃圾算五塊錢，如何？"
+    },
+    {
+        "id": 228,
+        "text": "Here you will find things that are made not only for children’s bodies but also for their minds.",
+        "trans": "你會在這裡發現某些不但是為了孩子們的身體，也是為了他們的心靈而做的事物。"
+    },
+    {
+        "id": 229,
+        "text": "Dad ran to the bathroom to get everyone a wet towel, and Mom told us to crawl on the floor.",
+        "trans": "爸爸跑進洗手間幫大家拿濕毛巾，媽媽告訴我們要在地板上爬行。"
+    },
+    {
+        "id": 230,
+        "text": "I understand that the picture does not always show the real color, but it should not be that different.",
+        "trans": "我明白圖畫不一定總是表現真實的色彩，但應該不至於差那麼多。"
+    },
+    {
+        "id": 231,
+        "text": "My sister does not like the jacket, \tand I don’t, either.",
+        "trans": "我妹妹不喜歡這件夾克，我也不喜歡。"
+    },
+    {
+        "id": 232,
+        "text": "Although the typhoon will not arrive until tomorrow, strong winds and heavy rains are here already.",
+        "trans": "雖然颱風明天才會來，強風豪雨已經到了。"
+    },
+    {
+        "id": 233,
+        "text": "I couldn’t believe I would not see him again.",
+        "trans": "我不敢相信我再也看不到他了。"
+    },
+    {
+        "id": 234,
+        "text": "At first, my bookstore’s business was not very good. But now it is doing quite well.",
+        "trans": "起初，我的書店生意不太好。但現在它營運得相當不錯。"
+    },
+    {
+        "id": 235,
+        "text": "This winter we have a lot of snow here, but a friend called yesterday and said that you’re still wearing T-shirts down there.",
+        "trans": "今年冬天我們這裡下了很多雪，但昨天有位朋友打電話來，說你們在南方仍然穿著T恤。"
+    },
+    {
+        "id": 236,
+        "text": "The little boys are now twenty-five years old and will come back home for the first time since they left ten years ago.",
+        "trans": "這些小男孩現在已經廿五歲了，離校十年以來他們將首次回家。"
+    },
+    {
+        "id": 237,
+        "text": "The five of them started to write their own songs and have become successful.",
+        "trans": "這五個人開始寫他們自己的歌，而且很成功。"
+    },
+    {
+        "id": 238,
+        "text": "Your Internet friends may be very different from what you think they are, so it could be dangerous for you to go out with them.",
+        "trans": "你的網友們可能和你所想的不一樣，所以你和他們出去可能有危險。"
+    },
+    {
+        "id": 239,
+        "text": "We don’t know when people started to celebrate Father’s Day for the first time. But it is clear that this holiday began a few years after the first Mother’s Day.",
+        "trans": "我們不知道人們何時第一次開始慶祝父親節。但很明顯的這個節日比第一個母親節晚了幾年才開始。"
+    },
+    {
+        "id": 240,
+        "text": "Joan loves reading but she does not have much money to buy books. She is happy that there is a public library right next to her house.",
+        "trans": "Joan喜愛閱讀，但她沒有多少錢可以買書。她很高興她家隔壁就有一座公立圖書館。"
+    },
+    {
+        "id": 241,
+        "text": "Though Jack was poor and sick, he never gave up any chance to write. That is why he finally became a successful writer.",
+        "trans": "雖然Jack又窮又生病，他從不放棄任何寫作的機會。那就是他最後成為一位成功作家的原因。"
+    },
+    {
+        "id": 242,
+        "text": "It was an exciting moment for Mr. and Mrs. Wang when they learned that they were going to have a baby.",
+        "trans": "當王先生和王太太知道他們有了小寶寶，那是令人興奮的一刻。"
+    },
+    {
+        "id": 243,
+        "text": "In the afternoon, I have PE classes for different sports, and I really enjoy my time outside the classroom, running and laughing with my new friends.",
+        "trans": "下午我上體育課，有不同的運動，而且我真的很喜歡課堂以外的時間，和我的新朋友們又跑又笑。"
+    },
+    {
+        "id": 244,
+        "text": "The team was started by Dr. Joseph Brown in 1955 and has saved many dogs since then.",
+        "trans": "這個團隊是一九五五年由Joseph Brown博士發起的，從那時候起已經拯救了許多狗。"
+    },
+    {
+        "id": 245,
+        "text": "You don’t understand how much you have hurt her. I think she is waiting for you to say you are sorry.",
+        "trans": "你不明白你傷害她有多深。我想她在等你說聲對不起。"
+    },
+    {
+        "id": 246,
+        "text": "I know you love her, and I hope things can go well between the two of you.",
+        "trans": "我知道你愛她，我希望你們兩人之間一切順利。"
+    },
+    {
+        "id": 247,
+        "text": "They learned that most people in Taiwan eat rice, drink tea, and take off their shoes when they go into a friend’s apartment.",
+        "trans": "他們知道了大部份台灣人吃米飯，喝茶，並且進入朋友公寓時會脫鞋。"
+    }
+]
