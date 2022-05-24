@@ -17,6 +17,7 @@ var fireSupport = 2;
 var audio1 = new Audio("https://davidiclin.github.io/pub/audio/bombard.mp3");
 var audio2 = new Audio("https://davidiclin.github.io/pub/audio/cricket.mp3");
 var audio3 = new Audio("https://davidiclin.github.io/pub/audio/canary.mp3");
+var audio4 = new Audio("https://davidiclin.github.io/pub/audio/fight.mp3");
 
 document.getElementById("showmap").style.backgroundImage = "url(\'NRmap_tiles/" + backgroundImg + "\')";
 
@@ -74,6 +75,7 @@ function focusOn(x) {
   var pawnHTML = "<img class=\"pawn\" src=\"NRmap_tiles/pawn.png\">"
   if (map[currentLocation][4] === "1") {
     hearts -= 1;
+    audio4.play();
     document.getElementById("barLeft").src = "NRmap_tiles/heart" + hearts + ".png";
     if (hearts === 3) {
       document.getElementById("message").innerHTML = "\"We just lost a quarter of our men!\""
@@ -143,7 +145,7 @@ function fireSupp() {
   }
   fireSupport -= 1;
   document.getElementById("message").innerHTML = "\"Fire support incoming!\""
-  audio1.play()
+  audio1.play();
   document.getElementById("barMidRight").src = "NRmap_tiles/boom.gif";
   setTimeout(function(){
     document.getElementById("barMidRight").src = "NRmap_tiles/fire" + fireSupport + ".png";
@@ -217,11 +219,11 @@ function sendRecon() {
   }
   if (enemySpotted === true) {
     document.getElementById("message").innerHTML = "\"Enemy spotted!\"";
-    audio3.play()
+    audio3.play();
   }
   else {
     document.getElementById("message").innerHTML = "\"No sign of enemy movement, sir.\"";
-    audio2.play()
+    audio2.play();
   }
   enemySpotted = false;
 }
