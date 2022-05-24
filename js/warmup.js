@@ -16,6 +16,8 @@ var partOneReport = [0,0,0,0,0,0,0,0,0,0];
 var partTwoReport = [0,0,0,0,0,0,0,0,0,0];
 var currentItem = 1;
 var viewingPart = 1;
+var audio1 = new Audio("https://davidiclin.github.io/pub/audio/correct.mp3");
+var audio2 = new Audio("https://davidiclin.github.io/pub/audio/wrong.mp3");
 
 for (count = 1; count < 31; count ++) {
   document.getElementById("selectUnit").innerHTML += "<option value=\"" + count + "\">" + count + "</option>"
@@ -211,11 +213,13 @@ function updateItemStatus() {
       if (document.getElementById("option" + currentAnswer + "Holder").innerHTML === currentPartOne[currentItem * 6 - 1]) {
         document.getElementById("result").src = "toeicWarmupImg/correct.png";
         document.getElementById("result").alt = "Your answer is correct.";
+        audio1.play();
         partOneReport[currentItem - 1] = 1;
       }
       else {
         document.getElementById("result").src = "toeicWarmupImg/incorrect.png";
         document.getElementById("result").alt = "Your answer is incorrect.";
+        audio2.play();
         partOneReport[currentItem - 1] = 2;
       }
     }
