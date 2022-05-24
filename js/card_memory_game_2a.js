@@ -5,8 +5,8 @@ var flipped = 0;
 var attempt = 0;
 var streak = null;
 var score = 0;
-var audio1 = new Audio("https://davidiclin.files.wordpress.com/2021/07/bingo.mp3");
-var audio2 = new Audio("https://davidiclin.files.wordpress.com/2021/07/beep.mp3");
+var audio1 = new Audio("https://davidiclin.github.io/pub/audio/bingo.mp3");
+var audio2 = new Audio("https://davidiclin.github.io/pub/audio/beep.mp3");
 
 while (deck.length < 20) {var card = {};
     var n = Math.floor(Math.random()*(bank.length / 2));
