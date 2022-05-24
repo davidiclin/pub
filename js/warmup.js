@@ -229,11 +229,13 @@ function updateItemStatus() {
       if (document.getElementById("selectWord").value === currentPartTwo[currentItem * 3 - 1]) {
         document.getElementById("result").src = "toeicWarmupImg/correct.png";
         document.getElementById("result").alt = "Your answer is correct.";
+        audio1.play();
         partTwoReport[currentItem - 1] = 1;
       }
       else {
         document.getElementById("result").src = "toeicWarmupImg/incorrect.png";
         document.getElementById("result").alt = "Your answer is incorrect.";
+        audio2.play();
         partTwoReport[currentItem - 1] = 2;
       }
     }
