@@ -4,7 +4,7 @@ getText.send(null);
 const contentAll = JSON.parse(getText.responseText);
 
 document.getElementById("questionBody").innerHTML = contentAll[1].id + ". " + contentAll[1].qBody;
-document.getElementById("answer").innerHTML = contentAll[1].hint;
+document.getElementById("userInput").innerHTML = contentAll[1].hint;
 document.getElementById("blocks").innerHTML = getBlocks();
 document.getElementById("key").innerHTML = contentAll[1].key;
 
