@@ -2,13 +2,13 @@
   {
       "id": 1,
       "qBody": "Where can I get my blood pressure checked?",
-      "hint": "Could you tell me",
+      "hint": "Could you tell me ",
       "key": "Could you tell me where I can get my blood pressure checked?"
   },
   {
       "id": 2,
       "qBody": "What have we achieved in the past few months?",
-      "hint": "Let's take a look at",
+      "hint": "Let's take a look at ",
       "key": "Let's take a look at what we have achieved in the past few months."
   }
 ]
