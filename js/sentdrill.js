@@ -49,7 +49,7 @@ function handleClick() {
     setTimeout(function(){
       element.style.color = "black";
       element.style.backgroundColor = "lightgrey";
-    }, 500);
+    }, 300);
   }
 }
 
@@ -68,6 +68,7 @@ function refresh(x) {
 
   document.getElementById("questionBody").innerHTML = contentAll[currentItem].id + ". " + contentAll[currentItem].qBody;
   document.getElementById("userInput").innerHTML = contentAll[currentItem].hint;
+  document.getElementById("userInput").style.backgroundColor = "white";
   document.getElementById("blocks").innerHTML = showBlocks();
   for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
     document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
