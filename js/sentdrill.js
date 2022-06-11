@@ -3,18 +3,17 @@ getText.open("GET","https://davidiclin.github.io/pub/json/sentdrill.json",false)
 getText.send(null);
 const contentAll = JSON.parse(getText.responseText);
 var audio2 = new Audio("https://davidiclin.github.io/pub/audio/beep.mp3");
+currentItem = 0;
 
-blocks = contentAll[1].key.replace(contentAll[1].hint, "").slice(0,-1).split(" ");
-
-document.getElementById("questionBody").innerHTML = contentAll[1].id + ". " + contentAll[1].qBody;
-document.getElementById("userInput").innerHTML = contentAll[1].hint;
-document.getElementById("blocks").innerHTML = showBlocks();
-for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
-  document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
+for (var count = 0; count < 10; count ++) {
+  document.getElementsByClassName("navBtn")[count].addEventListener("click", handleNav);
 }
 
+refresh(0);
+
+// Shuffle the blocks!
 function showBlocks() {
-  shuffled = contentAll[1].key.replace(contentAll[1].hint, "").slice(0,-1).split(" ");
+  shuffled = contentAll[currentItem].key.replace(contentAll[currentItem].hint, "").slice(0,-1).split(" ");
   for (var count = 0; count < shuffled.length; count++) {  // Shuffling
     var n1 = Math.floor(Math.random() * shuffled.length);
     var n2 = Math.floor(Math.random() * shuffled.length);
@@ -39,7 +38,7 @@ function handleClick() {
       element.remove();
     }, 500);
     if (blocks.length === 0) {
-      document.getElementById("userInput").innerHTML = contentAll[1].key;
+      document.getElementById("userInput").innerHTML = contentAll[currentItem].key;
       document.getElementById("userInput").style.backgroundColor = "yellow";
     }
   }
@@ -51,5 +50,26 @@ function handleClick() {
       element.style.color = "black";
       element.style.backgroundColor = "lightgrey";
     }, 500);
+  }
+}
+
+function handleNav() {
+  for (var count = 0; count < 10; count ++) {
+    document.getElementsByClassName("navBtn")[count].style.border = "2px solid grey";
+  }
+  this.style.border = "3px solid gold";
+  refresh(this.innerHTML);
+}
+
+function refresh(x) {
+  currentItem = x;
+  blocks = contentAll[currentItem].key.replace(contentAll[currentItem].hint, "").slice(0,-1).split(" ");
+  // split part of the content into blocks for sentence building; "slice(0,-1)" to get rid of the final punctuation mark
+
+  document.getElementById("questionBody").innerHTML = contentAll[currentItem].id + ". " + contentAll[currentItem].qBody;
+  document.getElementById("userInput").innerHTML = contentAll[currentItem].hint;
+  document.getElementById("blocks").innerHTML = showBlocks();
+  for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
+    document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
   }
 }
