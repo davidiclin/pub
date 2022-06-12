@@ -36,6 +36,18 @@
           "qBody": "How difficult is the challenge? I can't imagine.",
           "hint": "I can't imagine ",
           "key": "I can't imagine how difficult the challenge is."
+      },
+      {
+          "id": 14,
+          "qBody": "When is the committee going to issue a formal statement?",
+          "hint": "It is still unclear ",
+          "key": "It is still unclear when the committee is going to issue a formal statement."
+      },
+      {
+          "id": 15,
+          "qBody": "Was a third person involved in the incident? The police are still investigating.",
+          "hint": "The police are still investigating ",
+          "key": "The police are still investigating whether a third person was involved in the incident."
       }
     ]
   }
