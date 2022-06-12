@@ -13,7 +13,7 @@ for (var count = 0; count < 10; count ++) {
 }
 
 // Set up the unit menu
-for (count = 0; count < units.length(); count ++) {
+for (count = 0; count < units.length; count ++) {
   document.getElementById("unitList").innerHTML += "<option value=\"" + units[count].unitId + "\">" + units[count].title + "</option>"
 }
 
