@@ -4,6 +4,7 @@ getText.send(null);
 const contentAll = JSON.parse(getText.responseText);
 var audio2 = new Audio("https://davidiclin.github.io/pub/audio/beep.mp3");
 currentItem = 0;
+doneList = [];
 
 for (var count = 0; count < 10; count ++) {
   document.getElementsByClassName("navBtn")[count].addEventListener("click", handleNav);
@@ -29,26 +30,27 @@ function showBlocks() {
 }
 
 function handleClick() {
-  var element = this;
-  if (element.innerHTML === blocks[0]) {
-    document.getElementById("userInput").innerHTML += " " + element.innerHTML;
-    element.style.backgroundColor = "yellow";
+  var elmnt = this;
+  if (elmnt.innerHTML === blocks[0]) {
+    document.getElementById("userInput").innerHTML += " " + elmnt.innerHTML;
+    elmnt.style.backgroundColor = "yellow";
     blocks.shift();
     setTimeout(function(){
-      element.remove();
+      elmnt.remove();
     }, 500);
     if (blocks.length === 0) {
       document.getElementById("userInput").innerHTML = contentAll[currentItem].key;
       document.getElementById("userInput").style.backgroundColor = "yellow";
+      doneList.push(currentItem);
     }
   }
   else {
     audio2.play();
-    element.style.color = "white";
-    element.style.backgroundColor = "red";
+    elmnt.style.color = "white";
+    elmnt.style.backgroundColor = "red";
     setTimeout(function(){
-      element.style.color = "black";
-      element.style.backgroundColor = "lightgrey";
+      elmnt.style.color = "black";
+      elmnt.style.backgroundColor = "lightgrey";
     }, 300);
   }
 }
@@ -63,12 +65,11 @@ function handleNav() {
 
 function refresh(x) {
   currentItem = x;
+  document.getElementById("questionBody").innerHTML = contentAll[currentItem].qBody;
   blocks = contentAll[currentItem].key.replace(contentAll[currentItem].hint, "").slice(0,-1).split(" ");
   // split part of the content into blocks for sentence building; "slice(0,-1)" to get rid of the final punctuation mark
-
-  document.getElementById("questionBody").innerHTML = contentAll[currentItem].id + ". " + contentAll[currentItem].qBody;
-  document.getElementById("userInput").innerHTML = contentAll[currentItem].hint;
   document.getElementById("userInput").style.backgroundColor = "white";
+  document.getElementById("userInput").innerHTML = contentAll[currentItem].hint;
   document.getElementById("blocks").innerHTML = showBlocks();
   for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
     document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
