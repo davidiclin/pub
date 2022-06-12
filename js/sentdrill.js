@@ -1,8 +1,8 @@
 var getText = new XMLHttpRequest(); // a new request
 getText.open("GET","https://davidiclin.github.io/pub/json/sentdrill.json",false);
 getText.send(null);
-const units = JSON.parse(getText.responseText)[0];
-const contentAll = JSON.parse(getText.responseText)[1];
+const units = JSON.parse(getText.responseText)[0].units;
+const contentAll = JSON.parse(getText.responseText)[1].questions;
 var audio2 = new Audio("https://davidiclin.github.io/pub/audio/beep.mp3");
 currentItem = 0;
 doneList = [];
