@@ -1,13 +1,20 @@
 var getText = new XMLHttpRequest(); // a new request
 getText.open("GET","https://davidiclin.github.io/pub/json/sentdrill.json",false);
 getText.send(null);
-const contentAll = JSON.parse(getText.responseText);
+const units = JSON.parse(getText.responseText)[0];
+const contentAll = JSON.parse(getText.responseText)[1];
 var audio2 = new Audio("https://davidiclin.github.io/pub/audio/beep.mp3");
 currentItem = 0;
 doneList = [];
 
+// Set up the navigation buttons
 for (var count = 0; count < 10; count ++) {
   document.getElementsByClassName("navBtn")[count].addEventListener("click", handleNav);
+}
+
+// Set up the unit menu
+for (count = 0; count < units.length(); count ++) {
+  document.getElementById("unitList").innerHTML += "<option value=\"" + units[count].unitId + "\">" + units[count].title + "</option>"
 }
 
 refresh(0);
