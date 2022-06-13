@@ -4,8 +4,9 @@ getText.send(null);
 const units = JSON.parse(getText.responseText)[0].units;
 const contentAll = JSON.parse(getText.responseText)[1].questions;
 var audio2 = new Audio("https://davidiclin.github.io/pub/audio/beep.mp3");
-currentItem = 0;
-doneList = [];
+var currentContent = contentAll.slice(0,10)
+var currentItem = 0;
+var doneList = [];
 
 // Set up the navigation buttons
 for (var count = 0; count < 10; count ++) {
@@ -16,16 +17,17 @@ for (var count = 0; count < 10; count ++) {
 for (count = 0; count < units.length; count ++) {
   document.getElementById("unitList").innerHTML += "<option value=\"" + units[count].unitId + "\">" + units[count].title + "</option>"
 }
+document.getElementById("unitList").addEventListener("change", toUnit);
 
 refresh(0);
 
 // Shuffle the blocks!
 function showBlocks() {
-  shuffled = contentAll[currentItem].key.replace(contentAll[currentItem].hint, "").slice(0,-1).split(" ");
+  var shuffled = currentContent[currentItem].key.replace(currentContent[currentItem].hint, "").slice(0,-1).split(" ");
   for (var count = 0; count < shuffled.length; count++) {  // Shuffling
     var n1 = Math.floor(Math.random() * shuffled.length);
     var n2 = Math.floor(Math.random() * shuffled.length);
-    tmp = shuffled[n1];
+    var tmp = shuffled[n1];
     shuffled[n1] = shuffled[n2];
     shuffled[n2] = tmp;
   }
@@ -46,7 +48,7 @@ function handleClick() {
       elmnt.remove();
     }, 200);
     if (blocks.length === 0) {
-      document.getElementById("userInput").innerHTML = ">>> " + contentAll[currentItem].key;
+      document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].key;
       document.getElementsByClassName("navBtn")[currentItem].style.backgroundColor = "lime";
       doneList.push(currentItem);
     }
@@ -72,17 +74,23 @@ function handleNav() {
 
 function refresh(x) {
   currentItem = x;
-  document.getElementById("questionBody").innerHTML = contentAll[currentItem].qBody;
+  document.getElementById("questionBody").innerHTML = currentContent[currentItem].qBody;
   if (doneList.includes(currentItem) || currentItem === 0) {
-    document.getElementById("userInput").innerHTML = ">>> " + contentAll[currentItem].key;
+    document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].key;
     document.getElementById("blocks").innerHTML = "";
     return;
   }
-  blocks = contentAll[currentItem].key.replace(contentAll[currentItem].hint, "").slice(0,-1).split(" ");
+  blocks = currentContent[currentItem].key.replace(currentContent[currentItem].hint, "").slice(0,-1).split(" ");
   // split part of the content into blocks for sentence building; "slice(0,-1)" to get rid of the final punctuation mark
-  document.getElementById("userInput").innerHTML = ">>> " + contentAll[currentItem].hint;
+  document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].hint;
   document.getElementById("blocks").innerHTML = showBlocks();
   for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
     document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
   }
+}
+
+function toUnit() {
+  currentContent = contentAll.slice(document.getElementById("unitList").value * 10, (document.getElementById("unitList").value + 1) * 10);
+  doneList = [];
+  refresh(0);
 }

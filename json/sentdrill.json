@@ -3,16 +3,76 @@
     "units": [
       {
         "unitId": 0,
-        "title": "Indirect Speech"
+        "title": "Indirect Speech 1"
       },
       {
         "unitId": 1,
-        "title": "Yes-No Questions"
+        "title": "Indirect Speech 2"
       }
     ]
   },
   {
     "questions": [
+      {
+          "id": 0,
+          "qBody": "Johnny said, 'I don't want to go to school.'",
+          "hint": "Johnny said he ",
+          "key": "Johnny said he didn't want to go to school."
+      },
+      {
+          "id": 1,
+          "qBody": "Ruby said, 'I have to ask for my father's permission.",
+          "hint": "Ruby said ",
+          "key": "Ruby said she had to ask for her father's permission."
+      },
+      {
+          "id": 2,
+          "qBody": "He said, 'I submitted my application on June 10.'",
+          "hint": "He said ",
+          "key": "He said he had submitted his application on June 10."
+      },
+      {
+          "id": 3,
+          "qBody": "'We have never seen anything like this,' said the fishermen.",
+          "hint": "The fishermen said ",
+          "key": "The fishermen said they had never seen anything like this."
+      },
+      {
+          "id": 4,
+          "qBody": "'You and I will be transferred to the new office in Tokyo,' she said to me.",
+          "hint": "She told me that ",
+          "key": "She told me that she and I would be transferred to the new office in Tokyo."
+      },
+      {
+          "id": 5,
+          "qBody": "'My parents will be home soon', he said.",
+          "hint": "He told me ",
+          "key": "He told me his parents would be home soon."
+      },
+      {
+          "id": 6,
+          "qBody": "'Next week's exam will not be easy,' said the teacher.",
+          "hint": "The teacher said that next week's exam ",
+          "key": "The teacher said that next week's exam will not be easy."
+      },
+      {
+          "id": 7,
+          "qBody": "'Put your toys away and go to bed,' said Lisa to her son.",
+          "hint": "Lisa told her son ",
+          "key": "Lisa told her son to put his toys away and go to bed."
+      },
+      {
+          "id": 8,
+          "qBody": "'Do not make any unnecessary marks on the answer sheet,' said the teacher.",
+          "hint": "The teacher told the students ",
+          "key": "The teacher told the students not to make any unnecessary marks on the answer sheet."
+      },
+      {
+          "id": 9,
+          "qBody": "She said, 'please leave your umbrellas in the stand at the entrance.'",
+          "hint": "She asked us ",
+          "key": "She asked us to leave our umbrellas in the stand at the entrance."
+      },
       {
           "id": 10,
           "qBody": "What time is it? Does anybody know?",
