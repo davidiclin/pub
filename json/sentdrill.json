@@ -15,9 +15,9 @@
     "questions": [
       {
           "id": 10,
-          "qBody": "What time is it? Can anybody tell me?",
-          "hint": "Can anybody tell me ",
-          "key": "Can anybody tell me what time it is?"
+          "qBody": "What time is it? Does anybody know?",
+          "hint": "Does anybody know ",
+          "key": "Does anybody know what time it is?"
       },
       {
           "id": 11,
@@ -48,6 +48,30 @@
           "qBody": "Was a third person involved in the incident? The police are still investigating.",
           "hint": "The police are still investigating ",
           "key": "The police are still investigating whether a third person was involved in the incident."
+      },
+      {
+          "id": 16,
+          "qBody": "Where would they like their wedding to take place?",
+          "hint": "Now that the date has been set, they have to decide on ",
+          "key": "Now that the date has been set, they have to decide on where they would like their wedding to take place."
+      },
+      {
+          "id": 17,
+          "qBody": "How many students were there in the auditorium?",
+          "hint": "The speaker was amazed by ",
+          "key": "The speaker was amazed by how many students there were in the auditorium."
+      },
+      {
+          "id": 18,
+          "qBody": "Who left the air conditioner running all night?",
+          "hint": "The boss is eager to find out ",
+          "key": "The boss is eager to find out who left the air conditioner running all night."
+      },
+      {
+          "id": 19,
+          "qBody": "What makes you think I don't have a boyfriend?",
+          "hint": "I wonder ",
+          "key": "I wonder what makes you think I don't have a boyfriend?"
       }
     ]
   }

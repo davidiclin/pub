@@ -47,7 +47,6 @@ function handleClick() {
     }, 200);
     if (blocks.length === 0) {
       document.getElementById("userInput").innerHTML = ">>> " + contentAll[currentItem].key;
-      document.getElementById("userInput").style.backgroundColor = "yellow";
       document.getElementsByClassName("navBtn")[currentItem].style.backgroundColor = "lime";
       doneList.push(currentItem);
     }
@@ -76,13 +75,11 @@ function refresh(x) {
   document.getElementById("questionBody").innerHTML = contentAll[currentItem].qBody;
   if (doneList.includes(currentItem) || currentItem === 0) {
     document.getElementById("userInput").innerHTML = ">>> " + contentAll[currentItem].key;
-    document.getElementById("userInput").style.backgroundColor = "yellow";
     document.getElementById("blocks").innerHTML = "";
     return;
   }
   blocks = contentAll[currentItem].key.replace(contentAll[currentItem].hint, "").slice(0,-1).split(" ");
   // split part of the content into blocks for sentence building; "slice(0,-1)" to get rid of the final punctuation mark
-  document.getElementById("userInput").style.backgroundColor = "white";
   document.getElementById("userInput").innerHTML = ">>> " + contentAll[currentItem].hint;
   document.getElementById("blocks").innerHTML = showBlocks();
   for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
