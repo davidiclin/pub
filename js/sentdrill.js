@@ -18,7 +18,7 @@ for (count = 0; count < units.length; count ++) {
   document.getElementById("unitList").innerHTML += "<option value=\"" + units[count].unitId + "\">" + units[count].title + "</option>"
 }
 document.getElementById("unitList").addEventListener("change", toUnit);
-
+document.getElementById("unitList").selectedIndex = 1;
 refresh(0);
 
 // Shuffle the blocks!
@@ -92,5 +92,11 @@ function refresh(x) {
 function toUnit() {
   currentContent = contentAll.slice(document.getElementById("unitList").value * 10, (document.getElementById("unitList").value + 1) * 10);
   doneList = [];
+  for (var count = 0; count < 10; count ++) {
+    document.getElementsByClassName("navBtn")[count].style.border = "2px solid grey";
+    document.getElementsByClassName("navBtn")[count].style.backgroundColor = "white";
+  }
+  document.getElementsByClassName("navBtn")[0].style.border = "3px solid gold";
+  document.getElementsByClassName("navBtn")[0].style.backgroundColor = "lime";
   refresh(0);
 }
