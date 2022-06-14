@@ -33,7 +33,7 @@ function showBlocks() {
   }
   var blocksHTML = "";
   for (var count = 0; count < shuffled.length; count++) {
-    blocksHTML += "<span class=\"block col-3\">" + shuffled[count] + "</span>";
+    blocksHTML += "<span class=\"block\">" + shuffled[count] + "</span>";
   }
   return blocksHTML;
 }
