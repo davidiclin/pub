@@ -50,6 +50,7 @@ function handleClick() {
     if (blocks.length === 0) {
       document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].key;
       document.getElementsByClassName("navBtn")[currentItem].style.backgroundColor = "lime";
+      document.getElementById("notes").open = true;
       doneList.push(currentItem);
     }
   }
@@ -78,13 +79,15 @@ function refresh(x) {
   if (doneList.includes(currentItem) || currentItem === 0) {
     document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].key;
     document.getElementById("blocks").innerHTML = "";
-    document.getElementById("notes").innerHTML = "[解說] " + currentContent[currentItem].notes;
+    document.getElementById("notes").innerHTML = "<summary>解說</summary>" + currentContent[currentItem].notes;
+    document.getElementById("notes").open = true;
     return;
   }
   blocks = currentContent[currentItem].key.replace(currentContent[currentItem].hint, "").slice(0,-1).split(" ");
   // split part of the content into blocks for sentence building; "slice(0,-1)" to get rid of the final punctuation mark
   document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].hint;
-  document.getElementById("notes").innerHTML = "[解說] " + currentContent[currentItem].notes;
+  document.getElementById("notes").innerHTML = "<summary>解說</summary>" + currentContent[currentItem].notes;
+  document.getElementById("notes").open = false;
   document.getElementById("blocks").innerHTML = showBlocks();
   for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
     document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
