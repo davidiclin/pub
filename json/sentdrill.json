@@ -16,20 +16,23 @@
       {
           "id": 0,
           "qBody": "Johnny said, 'I don't want to go to school.'",
-          "hint": "Johnny said he ",
-          "key": "Johnny said he didn't want to go to school."
+          "hint": "Johnny said that he ",
+          "key": "Johnny said that he didn't want to go to school.",
+          "notes":"使用間接引述時須注意人稱的轉換；上例Johnny口中第一人稱的I，在引述者的立場成為第三人稱的he。其次也要注意時態的一致，配合主要子句的過去式動詞(said)，名詞子句的動詞部分由don't want to改成didn't want to。"
       },
       {
           "id": 1,
           "qBody": "Ruby said, 'I have to ask for my father's permission.'",
           "hint": "Ruby said ",
-          "key": "Ruby said she had to ask for her father's permission."
+          "key": "Ruby said she had to ask for her father's permission.",
+          "notes":"使用間接引述時須注意人稱的轉換；上例Ruby口中第一人稱的I，在引述者的立場成為第三人稱的she，而my father's也跟著變成her father's。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由have to改成had to。"
       },
       {
           "id": 2,
-          "qBody": "He said, 'I submitted my application on June 10.'",
-          "hint": "He said ",
-          "key": "He said he had submitted his application on June 10."
+          "qBody": "Paul said, 'I submitted my application two days before the deadline.'",
+          "hint": "Paul said ",
+          "key": "Paul said he had submitted his application two days before the deadline.",
+          "notes":"上例中'submit'發生的時間早於'say'，而兩者都是過去的事，因此在間接引述時為了表現出兩個動作的先後順序，分別使用過去完成式的had submitted和過去簡單式的said。在非正式用法中，兩者皆用過去簡單式亦可。"
       },
       {
           "id": 3,

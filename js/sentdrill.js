@@ -78,11 +78,13 @@ function refresh(x) {
   if (doneList.includes(currentItem) || currentItem === 0) {
     document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].key;
     document.getElementById("blocks").innerHTML = "";
+    document.getElementById("notes").innerHTML = ">>> " + currentContent[currentItem].notes;
     return;
   }
   blocks = currentContent[currentItem].key.replace(currentContent[currentItem].hint, "").slice(0,-1).split(" ");
   // split part of the content into blocks for sentence building; "slice(0,-1)" to get rid of the final punctuation mark
   document.getElementById("userInput").innerHTML = ">>> " + currentContent[currentItem].hint;
+  document.getElementById("notes").innerHTML = ">>> " + currentContent[currentItem].notes;
   document.getElementById("blocks").innerHTML = showBlocks();
   for (var count = 0; count < document.getElementsByClassName("block").length; count ++) {
     document.getElementsByClassName("block")[count].addEventListener("click", handleClick);
