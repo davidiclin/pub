@@ -46,7 +46,7 @@
           "qBody": "'Ted and I are going to visit our grandparents,' she said to me.",
           "hint": "She told me that ",
           "key": "She told me that she and Ted were going to visit their grandparents.",
-          "notes":"配合主要子句的過去式動詞told，名詞子句中的are going to visit改成were going to visit。"
+          "notes":"配合主要子句的過去式動詞told，名詞子句中的are going to visit改成were going to visit。另外依照代名詞的使用慣例，原本的Ted and I在引述時要改變順序為she and Ted。"
       },
       {
           "id": 5,
@@ -59,7 +59,7 @@
           "id": 6,
           "qBody": "'Both my parents are high school teachers', he said.",
           "hint": "He told me ",
-          "key": "He told me both his parents are school teachers.",
+          "key": "He told me both his parents are high school teachers.",
           "notes":"在非正式用法中，名詞子句的動詞未必會配合主要子句而改變時態。尤其當名詞子句的內容在引述的當時仍為事實，如上例。"
       },
       {
