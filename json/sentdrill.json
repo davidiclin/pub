@@ -3,7 +3,7 @@
     "units": [
       {
         "unitId": 0,
-        "title": "Indirect Speech 1"
+        "title": "間接引述/報導句式"
       },
       {
         "unitId": 1,
@@ -36,45 +36,52 @@
       },
       {
           "id": 3,
-          "qBody": "'We have never seen anything like this,' said the fishermen.",
-          "hint": "The fishermen said ",
-          "key": "The fishermen said they had never seen anything like this."
+          "qBody": "'We have never seen anything like this,' replied the children.",
+          "hint": "The children replied that ",
+          "key": "The children replied that they had never seen anything like this.",
+          "notes":"配合主要子句的過去式動詞replied，名詞子句中原本現在完成式的have never seen改成過去完成式had never seen。"
       },
       {
           "id": 4,
-          "qBody": "'You and I will be transferred to the new office in Tokyo,' she said to me.",
+          "qBody": "'Ted and I are going to visit our grandparents,' she said to me.",
           "hint": "She told me that ",
-          "key": "She told me that she and I would be transferred to the new office in Tokyo."
+          "key": "She told me that she and Ted were going to visit their grandparents.",
+          "notes":"配合主要子句的過去式動詞told，名詞子句中的are going to visit改成were going to visit。"
       },
       {
           "id": 5,
-          "qBody": "'My parents will be home soon', he said.",
-          "hint": "He told me ",
-          "key": "He told me his parents would be home soon."
+          "qBody": "I will go back to work only if the manager apologizes,' she explained.",
+          "hint": "She explained that ",
+          "key": "She explained that she would go back to work only if the manager apologized.",
+          "notes":"配合主要子句的過去式動詞explained，名詞子句中的will go改成would go，條件句中的apologizes改成apologized。"
       },
       {
           "id": 6,
-          "qBody": "'Next week's exam will not be easy,' said the teacher.",
-          "hint": "The teacher said that next week's exam ",
-          "key": "The teacher said that next week's exam will not be easy."
+          "qBody": "'Both my parents are high school teachers', he said.",
+          "hint": "He told me ",
+          "key": "He told me both his parents are school teachers.",
+          "notes":"在非正式用法中，名詞子句的動詞未必會配合主要子句而改變時態。尤其當名詞子句的內容在引述的當時仍為事實，如上例。"
       },
       {
           "id": 7,
-          "qBody": "'Put your toys away and go to bed,' said Lisa to her son.",
-          "hint": "Lisa told her son ",
-          "key": "Lisa told her son to put his toys away and go to bed."
+          "qBody": "'Next week's exam will not be easy,' said the teacher.",
+          "hint": "The teacher said that next week's exam ",
+          "key": "The teacher said that next week's exam will not be easy.",
+          "notes":"上例中，老師不久前說的話被引述，然而考試下週才會舉行，因此名詞子句仍維持未來式will not be。在正式用法中則可能使用would not be。"
       },
       {
           "id": 8,
-          "qBody": "'Do not make any unnecessary marks on the answer sheet,' said the teacher.",
-          "hint": "The teacher told the students ",
-          "key": "The teacher told the students not to make any unnecessary marks on the answer sheet."
+          "qBody": "She said, 'Please leave your umbrellas in the stand at the entrance.'",
+          "hint": "She asked us ",
+          "key": "She asked us to leave our umbrellas in the stand at the entrance.",
+          "notes":"當引述的內容為祈使句時，應使用不定詞。此時主要子句的動詞不用say而改用tell或ask。"
       },
       {
           "id": 9,
-          "qBody": "She said, 'please leave your umbrellas in the stand at the entrance.'",
-          "hint": "She asked us ",
-          "key": "She asked us to leave our umbrellas in the stand at the entrance."
+          "qBody": "'Do not make any unnecessary marks on the answer sheet,' said the teacher.",
+          "hint": "The teacher told the students ",
+          "key": "The teacher told the students not to make any unnecessary marks on the answer sheet.",
+          "notes":"當引述的內容為祈使句時，應使用不定詞。注意否定詞not的位置應該在不定詞之前。"
       },
       {
           "id": 10,
