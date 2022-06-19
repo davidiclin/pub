@@ -18,94 +18,98 @@
           "qBody": "Johnny said, 'I don't want to go to school.'",
           "hint": "Johnny said that he ",
           "key": "Johnny said that he didn't want to go to school.",
-          "notes":"使用間接引述時須注意人稱的轉換；上例Johnny口中第一人稱的I，在引述者的立場成為第三人稱的he。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由don't want to改成didn't want to。"
+          "notes": "使用間接引述時須注意人稱的轉換；上例Johnny口中第一人稱的I，在引述者的立場成為第三人稱的he。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由don't want to改成didn't want to。"
       },
       {
           "id": 1,
           "qBody": "Ruby said, 'I have to ask for my father's permission.'",
           "hint": "Ruby said ",
           "key": "Ruby said she had to ask for her father's permission.",
-          "notes":"使用間接引述時須注意人稱的轉換；上例Ruby口中第一人稱的I，在引述者的立場成為第三人稱的she，而my father's也跟著變成her father's。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由have to改成had to。"
+          "notes": "使用間接引述時須注意人稱的轉換；上例Ruby口中第一人稱的I，在引述者的立場成為第三人稱的she，而my father's也跟著變成her father's。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由have to改成had to。"
       },
       {
           "id": 2,
           "qBody": "Paul said, 'I submitted my application two days before the deadline.'",
           "hint": "Paul said ",
           "key": "Paul said he had submitted his application two days before the deadline.",
-          "notes":"上例中submit發生的時間早於say，而兩者都發生在過去，因此在間接引述時為了表現出兩個動作的先後順序，分別使用過去完成式的had submitted和過去簡單式的said。在非正式用法中，兩者皆用過去簡單式亦可。"
+          "notes": "上例中submit發生的時間早於say，而兩者都發生在過去，因此在間接引述時為了表現出兩個動作的先後順序，分別使用過去完成式的had submitted和過去簡單式的said。在非正式用法中，兩者皆用過去簡單式亦可。"
       },
       {
           "id": 3,
           "qBody": "'We have never seen anything like this,' replied the children.",
           "hint": "The children replied that ",
           "key": "The children replied that they had never seen anything like this.",
-          "notes":"配合主要子句的過去式動詞replied，名詞子句中原本現在完成式的have never seen改成過去完成式had never seen。"
+          "notes": "配合主要子句的過去式動詞replied，名詞子句中原本現在完成式的have never seen改成過去完成式had never seen。"
       },
       {
           "id": 4,
           "qBody": "'Ted and I are going to visit our grandparents,' she said to me.",
-          "hint": "She told me that ",
+          "hint": "She told me that she and Ted ",
           "key": "She told me that she and Ted were going to visit their grandparents.",
-          "notes":"配合主要子句的過去式動詞told，名詞子句中的are going to visit改成were going to visit。另外依照代名詞的使用慣例，原本的Ted and I在引述時要改變順序為she and Ted。"
+          "notes": "配合主要子句的過去式動詞told，名詞子句中的are going to visit改成were going to visit。"
       },
       {
           "id": 5,
           "qBody": "I will go back to work only if the manager apologizes,' she explained.",
           "hint": "She explained that ",
           "key": "She explained that she would go back to work only if the manager apologized.",
-          "notes":"配合主要子句的過去式動詞explained，名詞子句中的will go改成would go，條件句中的apologizes改成apologized。"
+          "notes": "配合主要子句的過去式動詞explained，名詞子句中的will go改成would go，條件句中的apologizes改成apologized。"
       },
       {
           "id": 6,
           "qBody": "'Both my parents are high school teachers', he said.",
           "hint": "He told me ",
           "key": "He told me both his parents are high school teachers.",
-          "notes":"在非正式用法中，名詞子句的動詞未必會配合主要子句而改變時態。尤其當名詞子句的內容在引述的當時仍為事實，如上例。"
+          "notes": "在非正式用法中，名詞子句的動詞未必會配合主要子句而改變時態。尤其當名詞子句的內容在引述的當時仍為事實，如上例。"
       },
       {
           "id": 7,
           "qBody": "'Next week's exam will not be easy,' said the teacher.",
-          "hint": "The teacher said that next week's exam ",
+          "hint": "The teacher said that ",
           "key": "The teacher said that next week's exam will not be easy.",
-          "notes":"上例中，老師不久前說的話被引述，然而考試下週才會舉行，因此名詞子句仍維持未來式will not be。在正式用法中則可能使用would not be。"
+          "notes": "上例中，老師不久前說的話被引述，然而考試下週才會舉行，因此名詞子句仍維持未來式will not be。在正式用法中則可能使用would not be。"
       },
       {
           "id": 8,
           "qBody": "She said, 'Please leave your umbrellas in the stand at the entrance.'",
           "hint": "She asked us ",
           "key": "She asked us to leave our umbrellas in the stand at the entrance.",
-          "notes":"當引述的內容為祈使句時，應使用不定詞。此時主要子句的動詞不用say而改用tell或ask。"
+          "notes": "當引述的內容為祈使句時，應使用不定詞。此時主要子句的動詞不用say而改用tell或ask。"
       },
       {
           "id": 9,
           "qBody": "'Do not make any unnecessary marks on the answer sheet,' said the teacher.",
           "hint": "The teacher told the students ",
           "key": "The teacher told the students not to make any unnecessary marks on the answer sheet.",
-          "notes":"當引述的內容為祈使句時，應使用不定詞。注意否定詞not的位置應該在不定詞之前。"
+          "notes": "當引述的內容為祈使句時，應使用不定詞。注意否定詞not的位置應該在不定詞之前。"
       },
       {
           "id": 10,
-          "qBody": "What time is it? Does anybody know?",
-          "hint": "Does anybody know ",
-          "key": "Does anybody know what time it is?"
+          "qBody": "What goals are you pursuing? You should first ask yourself that question.",
+          "hint": "You should first ask yourself ",
+          "key": "You should first ask yourself what goals you are pursuing.",
+          "notes": "疑問句被引述時就成為名詞子句，不再適用原來的句法，也就是說，原本形成疑問句的「倒裝」結構必須加以「還原」；上例的are在疑問句中經過「倒裝」而移至you之前，在名詞子句中就應該「還原」而回到you之後。"
       },
       {
           "id": 11,
-          "qBody": "Where can I get my blood pressure checked?",
-          "hint": "Could you tell me ",
-          "key": "Could you tell me where I can get my blood pressure checked?"
+          "qBody": "What does the word mean? Does anybody know?",
+          "hint": "Does anybody know ",
+          "key": "Does anybody know what the word means?",
+          "notes": "上例的What does the word mean一旦成為know的受詞，就成為名詞子句而不再適用疑問句法，因此不需要助動詞does；此外，接在第三人稱單數主詞the word之後的動詞mean，也因為does消失而還原成means。"
       },
       {
           "id": 12,
-          "qBody": "What have we achieved in the past few months?",
-          "hint": "Let's take a look at ",
-          "key": "Let's take a look at what we have achieved in the past few months."
+          "qBody": "Where can I get my blood pressure checked?",
+          "hint": "Could you tell me ",
+          "key": "Could you tell me where I can get my blood pressure checked?",
+          "notes": "can I get是經過倒裝的疑問句式，在名詞子句中要還原為I can get。"
       },
       {
           "id": 13,
-          "qBody": "How difficult is the challenge? I can't imagine.",
-          "hint": "I can't imagine ",
-          "key": "I can't imagine how difficult the challenge is."
+          "qBody": "What have we achieved in the past few months?",
+          "hint": "Let's take a look at ",
+          "key": "Let's take a look at what we have achieved in the past few months.",
+          "notes": "have we achieved是經過倒裝的疑問句式，在名詞子句中要還原為we have achieved。"
       },
       {
           "id": 14,

@@ -94,7 +94,7 @@ function refresh(x) {
   }
 }
 
-function toUnit() {
+function toUnit() { // slice the unit off from the whole
   currentContent = contentAll.slice(document.getElementById("unitList").value * 10, (document.getElementById("unitList").value + 1) * 10);
   doneList = [];
   for (var count = 0; count < 10; count ++) {
