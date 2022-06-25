@@ -7,7 +7,7 @@
       },
       {
         "unitId": 1,
-        "title": "Indirect Speech 2"
+        "title": "間接問句/名詞子句"
       }
     ]
   },
@@ -95,7 +95,7 @@
           "qBody": "What does the word mean? Does anybody know?",
           "hint": "Does anybody know ",
           "key": "Does anybody know what the word means?",
-          "notes": "上例的What does the word mean一旦成為know的受詞，就成為名詞子句而不再適用疑問句法，因此不需要助動詞does；此外，接在第三人稱單數主詞the word之後的動詞mean，也因為does消失而還原成means。"
+          "notes": "上例的What does the word mean一旦接在know後面作受詞，就成為名詞子句而不再適用疑問句法，因此不需要助動詞does；接在第三人稱單數主詞the word之後的動詞mean，也因為does消失而還原成means。"
       },
       {
           "id": 12,
@@ -113,39 +113,45 @@
       },
       {
           "id": 14,
-          "qBody": "When is the committee going to issue a formal statement?",
-          "hint": "It is still unclear ",
-          "key": "It is still unclear when the committee is going to issue a formal statement."
+          "qBody": "Where would they like their wedding to take place?",
+          "hint": "Now that the date has been set, they have to decide on ",
+          "key": "Now that the date has been set, they have to decide on where they would like their wedding to take place.",
+          "notes": "would they like是經過倒裝的疑問句式，在名詞子句中要還原為they would like。"
       },
       {
           "id": 15,
-          "qBody": "Was a third person involved in the incident? The police are still investigating.",
-          "hint": "The police are still investigating ",
-          "key": "The police are still investigating whether a third person was involved in the incident."
+          "qBody": "How many students were there in the auditorium?",
+          "hint": "The speaker was amazed by ",
+          "key": "The speaker was amazed by how many students there were in the auditorium.",
+          "notes": "How many ... were there是經過倒裝的疑問句式，在名詞子句中要還原為there were。"
       },
       {
           "id": 16,
-          "qBody": "Where would they like their wedding to take place?",
-          "hint": "Now that the date has been set, they have to decide on ",
-          "key": "Now that the date has been set, they have to decide on where they would like their wedding to take place."
+          "qBody": "Is the committee going to issue a formal statement?",
+          "hint": "It is still unclear ",
+          "key": "It is still unclear whether the committee is going to issue a formal statement.",
+          "notes": "Is the committee going是經過倒裝的疑問句，在名詞子句中要還原為the committee is going；注意：原本的問句是不含疑問詞的Yes-No問句，轉成名詞子句時要加上連接詞whether。"
       },
       {
           "id": 17,
-          "qBody": "How many students were there in the auditorium?",
-          "hint": "The speaker was amazed by ",
-          "key": "The speaker was amazed by how many students there were in the auditorium."
+          "qBody": "Was a third person involved in the incident? The police are still investigating.",
+          "hint": "The police are still investigating ",
+          "key": "The police are still investigating whether a third person was involved in the incident.",
+          "notes": "原本不含疑問詞的Yes-No問句轉成名詞子句時，要加上連接詞whether；was a third person involved是經過倒裝的疑問句式，在名詞子句中要還原為a third person was involved。"
       },
       {
           "id": 18,
           "qBody": "Who left the air conditioner running all night?",
           "hint": "The boss is eager to find out ",
-          "key": "The boss is eager to find out who left the air conditioner running all night."
+          "key": "The boss is eager to find out who left the air conditioner running all night.",
+          "notes": "原本問句的疑問詞who同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(Who left -> who left)。"
       },
       {
           "id": 19,
           "qBody": "What makes you think I don't have a boyfriend?",
           "hint": "I wonder ",
-          "key": "I wonder what makes you think I don't have a boyfriend?"
+          "key": "I wonder what makes you think I don't have a boyfriend?",
+          "notes": "原本問句的疑問詞what同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(What makes -> what makes)。"
       }
     ]
   }
