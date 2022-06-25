@@ -18,7 +18,7 @@ for (count = 0; count < units.length; count ++) {
   document.getElementById("unitList").innerHTML += "<option value=\"" + units[count].unitId + "\">" + units[count].title + "</option>"
 }
 document.getElementById("unitList").addEventListener("change", toUnit);
-document.getElementById("unitList").selectedIndex = 1;
+document.getElementById("unitList").selectedIndex = 0;
 refresh(0);
 
 // Shuffle the blocks!
