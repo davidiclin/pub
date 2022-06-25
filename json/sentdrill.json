@@ -144,14 +144,14 @@
           "qBody": "Who left the air conditioner running all night?",
           "hint": "The boss is eager to find out ",
           "key": "The boss is eager to find out who left the air conditioner running all night.",
-          "notes": "原本問句的疑問詞who同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(Who left -> who left)。"
+          "notes": "原本問句的疑問詞who同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(Who left &#8594; who left)。"
       },
       {
           "id": 19,
           "qBody": "What makes you think I don't have a boyfriend?",
           "hint": "I wonder ",
           "key": "I wonder what makes you think I don't have a boyfriend?",
-          "notes": "原本問句的疑問詞what同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(What makes -> what makes)。"
+          "notes": "原本問句的疑問詞what同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(What makes &#8594; what makes)。"
       }
     ]
   }
