@@ -8,6 +8,54 @@
       {
         "unitId": 1,
         "title": "間接問句/名詞子句"
+      },
+      {
+        "unitId": 2,
+        "title": "形容詞子句(I)"
+      },
+      {
+        "unitId": 3,
+        "title": "形容詞子句(II)"
+      },
+      {
+        "unitId": 4,
+        "title": "倒裝句"
+      },
+      {
+        "unitId": 5,
+        "title": "It為首的強調句"
+      },
+      {
+        "unitId": 6,
+        "title": "虛主詞與虛受詞"
+      },
+      {
+        "unitId": 7,
+        "title": "There開頭的句型"
+      },
+      {
+        "unitId": 8,
+        "title": "假設語氣(I)"
+      },
+      {
+        "unitId": 9,
+        "title": "假設語氣(II)"
+      },
+      {
+        "unitId": 10,
+        "title": "被動語態"
+      },
+      {
+        "unitId": 11,
+        "title": "時間副詞子句"
+      },
+      {
+        "unitId": 12,
+        "title": "分詞與減化子句(I)"
+      },
+      {
+        "unitId": 13,
+        "title": "分詞與減化子句(II)"
       }
     ]
   },
@@ -152,6 +200,13 @@
           "hint": "I wonder ",
           "key": "I wonder what makes you think I don't have a boyfriend?",
           "notes": "原本問句的疑問詞what同時也是主詞，該問句並未經過倒裝，因此轉成名詞子句時詞序不變(What makes &#8594; what makes)。"
+      },
+      {
+          "id": 20,
+          "qBody": "I know a computer geek. He might be able to solve your problem.",
+          "hint": "I know a computer geek ",
+          "key": "I know a computer geek who might be able to solve your problem.",
+          "notes": "形容詞子句又稱關係子句，可以理解為「無法只用一個單詞表示的形容」。例如想用「古怪的」來形容「電腦宅」時，只要在computer geek前面加上一個單詞eccentric即可；但要表達出「也許可以幫你解決問題的電腦宅」，無法僅靠一個單詞，必須在a computer geek的後面加上who might be able to solve your problem，這個部分就稱為形容詞子句。其中a computer geek是被形容的對象，文法上稱為該子句的「先行詞」；而who代表的就是a computer geek，文法上稱為關係代名詞。"
       }
     ]
   }
