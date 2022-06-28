@@ -203,10 +203,17 @@
       },
       {
           "id": 20,
-          "qBody": "I know a computer geek. He might be able to solve your problem.",
-          "hint": "I know a computer geek ",
-          "key": "I know a computer geek who might be able to solve your problem.",
-          "notes": "形容詞子句又稱關係子句，可以理解為「無法只用一個單詞表示的形容」。例如想用「古怪的」來形容「電腦宅」時，只要在computer geek前面加上一個單詞eccentric即可；但要表達出「也許可以幫你解決問題的電腦宅」，無法僅靠一個單詞，必須在a computer geek的後面加上who might be able to solve your problem，這個部分就稱為形容詞子句。其中a computer geek是被形容的對象，文法上稱為該子句的「先行詞」；而who代表的就是a computer geek，文法上稱為關係代名詞。"
+          "qBody": "I know an eccentric computer geek. He might be able to solve your problem.",
+          "hint": "I know an eccentric computer geek ",
+          "key": "I know an eccentric computer geek who might be able to solve your problem.",
+          "notes": "想用「古怪的」來形容「電腦宅」時，只要在computer geek前面加上一個單詞eccentric即可；但要表達出「也許可以幫你解決問題的電腦宅」，無法單靠一個形容詞，必須在a computer geek的後面加上who might be able to solve your problem，這個部分就稱為形容詞子句。其中a computer geek是被形容的對象，文法上稱為該子句的「先行詞」；而who代表的就是a computer geek，文法上稱為關係代名詞。"
+      },
+      {
+          "id": 21,
+          "qBody": "My sister has a fancy dress. It looks exactly like the one in the video.",
+          "hint": "My sister has a fancy dress ",
+          "key": "My sister has a fancy dress which looks exactly like the one in the video.",
+          "notes": "想用「花俏的」來形容「洋裝」時，就直接說a fancy dress；但「看起來和影片裡的那件一模一樣的洋裝」則無法單靠一個形容詞來表達，所以在a dress的後面加上which looks exactly ... in the video這個形容詞子句。注意：先行詞a fancy dress是「人以外的事物」，因此關係代名詞不用who而改用which。"
       }
     ]
   }
