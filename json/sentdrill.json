@@ -66,21 +66,21 @@
           "qBody": "Johnny said, 'I don't want to go to school.'",
           "hint": "Johnny said that he ",
           "key": "Johnny said that he didn't want to go to school.",
-          "notes": "使用間接引述時須注意人稱的轉換；上例Johnny口中第一人稱的I，在引述者的立場成為第三人稱的he。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由don't want to改成didn't want to。"
+          "notes": "使用間接引述時須注意人稱的轉換；本例Johnny口中第一人稱的I，在引述者的立場成為第三人稱的he。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由don't want to改成didn't want to。"
       },
       {
           "id": 1,
           "qBody": "Ruby said, 'I have to ask for my father's permission.'",
           "hint": "Ruby said ",
           "key": "Ruby said she had to ask for her father's permission.",
-          "notes": "使用間接引述時須注意人稱的轉換；上例Ruby口中第一人稱的I，在引述者的立場成為第三人稱的she，而my father's也跟著變成her father's。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由have to改成had to。"
+          "notes": "使用間接引述時須注意人稱的轉換；本例Ruby口中第一人稱的I，在引述者的立場成為第三人稱的she，而my father's也跟著變成her father's。其次也要注意時態的一致，配合主要子句的過去式動詞said，名詞子句的動詞部分由have to改成had to。"
       },
       {
           "id": 2,
           "qBody": "Paul said, 'I submitted my application two days before the deadline.'",
           "hint": "Paul said ",
           "key": "Paul said he had submitted his application two days before the deadline.",
-          "notes": "上例中submit發生的時間早於say，而兩者都發生在過去，因此在間接引述時為了表現出兩個動作的先後順序，分別使用過去完成式的had submitted和過去簡單式的said。在非正式用法中，兩者皆用過去簡單式亦可。"
+          "notes": "本例中submit發生的時間早於say，而兩者都發生在過去，因此在間接引述時為了表現出兩個動作的先後順序，分別使用過去完成式的had submitted和過去簡單式的said。在非正式用法中，兩者皆用過去簡單式亦可。"
       },
       {
           "id": 3,
@@ -108,14 +108,14 @@
           "qBody": "'Both my parents are high school teachers', he said.",
           "hint": "He told me ",
           "key": "He told me both his parents are high school teachers.",
-          "notes": "在非正式用法中，名詞子句的動詞未必會配合主要子句而改變時態。尤其當名詞子句的內容在引述的當時仍為事實，如上例。"
+          "notes": "在非正式用法中，名詞子句的動詞未必會配合主要子句而改變時態。尤其當名詞子句的內容在引述的當時仍為事實，如本例。"
       },
       {
           "id": 7,
           "qBody": "'Next week's exam will not be easy,' said the teacher.",
           "hint": "The teacher said that ",
           "key": "The teacher said that next week's exam will not be easy.",
-          "notes": "上例中，老師不久前說的話被引述，然而考試下週才會舉行，因此名詞子句仍維持未來式will not be。在正式用法中則可能使用would not be。"
+          "notes": "本例中，老師不久前說的話被引述，然而考試下週才會舉行，因此名詞子句仍維持未來式will not be。在正式用法中則可能使用would not be。"
       },
       {
           "id": 8,
@@ -136,14 +136,14 @@
           "qBody": "What goals are you pursuing? You should first ask yourself that question.",
           "hint": "You should first ask yourself ",
           "key": "You should first ask yourself what goals you are pursuing.",
-          "notes": "疑問句被引述時就成為名詞子句，不再適用原來的句法，也就是說，原本形成疑問句的「倒裝」結構必須加以「還原」；上例的are在疑問句中經過「倒裝」而移至you之前，在名詞子句中就應該「還原」而回到you之後。"
+          "notes": "疑問句被引述時就成為名詞子句，不再適用原來的句法，也就是說，原本形成疑問句的「倒裝」結構必須加以「還原」；本例的are在疑問句中經過「倒裝」而移至you之前，在名詞子句中就應該「還原」而回到you之後。"
       },
       {
           "id": 11,
           "qBody": "What does the word mean? Does anybody know?",
           "hint": "Does anybody know ",
           "key": "Does anybody know what the word means?",
-          "notes": "上例的What does the word mean一旦接在know後面作受詞，就成為名詞子句而不再適用疑問句法，因此不需要助動詞does；接在第三人稱單數主詞the word之後的動詞mean，也因為does消失而還原成means。"
+          "notes": "本例的What does the word mean一旦接在know後面作受詞，就成為名詞子句而不再適用疑問句法，因此不需要助動詞does；接在第三人稱單數主詞the word之後的動詞mean，也因為does消失而還原成means。"
       },
       {
           "id": 12,
@@ -214,6 +214,34 @@
           "hint": "My sister has a fancy dress ",
           "key": "My sister has a fancy dress which looks exactly like the one in the video.",
           "notes": "想用「花俏的」來形容「洋裝」時，就直接說a fancy dress；但「看起來和影片裡的那件一模一樣的洋裝」則無法單靠一個形容詞來表達，所以在a dress的後面加上which looks exactly ... in the video這個形容詞子句。注意：先行詞a fancy dress是「人以外的事物」，因此關係代名詞不用who而改用which。"
+      },
+      {
+          "id": 22,
+          "qBody": "A dog is lying at the doorstep. It belongs to an old man. He is standing by the bar.",
+          "hint": "The dog that is lying at the doorstep ",
+          "key": "The dog that is lying at the doorstep belongs to the old man that is standing by the bar.",
+          "notes": "本例有兩個形容詞子句，原為The dog which is lying at the doorstep以及the man who is standing by the bar；無論先行詞是「人」或「事物」，關係代名詞都可以使用that代替who或which。"
+      },
+      {
+          "id": 23,
+          "qBody": "James was happy to see Anna wearing a scarf. He bought her the scarf.",
+          "hint": "James was happy to see Anna wearing the scarf ",
+          "key": "James was happy to see Anna wearing the scarf which he had bought her.",
+          "notes": "關係代名詞有時候是形容詞子句的主詞，有時候則是受詞，如本例的which代表the scarf，是動詞bought的受詞。"
+      },
+      {
+          "id": 24,
+          "qBody": "He can easily start a conversation with people even if he has never met them before.",
+          "hint": "He can easily start a conversation with someone ",
+          "key": "He can easily start a conversation with someone whom he has never met before.",
+          "notes": "本例的whom是關係代名詞who的受格，代表someone，是子句中動詞has met的受詞。在一般非正式的場合，多半用that或who代替whom。"
+      },
+      {
+          "id": 25,
+          "qBody": "You recommended a doctor, and I went to see her. She prescribed some medication, but I didn't take it.",
+          "hint": "I went to see the doctor you recommended, but ",
+          "key": "I went to see the doctor you recommended, but I didn't take the medication she prescribed.",
+          "notes": "一般情況下，作為受詞的關係代名詞可以省略，如本例中的the doctor (that) you recommended和the medication (that) she prescribed."
       }
     ]
   }
