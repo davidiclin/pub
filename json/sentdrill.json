@@ -220,7 +220,7 @@
           "qBody": "A dog is lying at the doorstep. It belongs to an old man. He is standing by the bar.",
           "hint": "The dog that is lying at the doorstep ",
           "key": "The dog that is lying at the doorstep belongs to the old man that is standing by the bar.",
-          "notes": "本例有兩個形容詞子句，原為The dog which is lying at the doorstep以及the man who is standing by the bar；無論先行詞是「人」或「事物」，關係代名詞都可以使用that代替who或which。"
+          "notes": "本例有兩個形容詞子句，原為[The dog] which is lying at the doorstep以及[the man] who is standing by the bar；無論先行詞是「人」或「事物」，關係代名詞都可以使用that代替who或which。"
       },
       {
           "id": 23,
@@ -242,6 +242,34 @@
           "hint": "I went to see the doctor you recommended, but ",
           "key": "I went to see the doctor you recommended, but I didn't take the medication she prescribed.",
           "notes": "一般情況下，作為受詞的關係代名詞可以省略，如本例中的the doctor (that) you recommended和the medication (that) she prescribed."
+      },
+      {
+          "id": 26,
+          "qBody": "The teacher assigned some exercises. A student did all of them. She commended him.",
+          "hint": "The teacher commended the student ",
+          "key": "The teacher commended the student who did all the exercises she had assigned.",
+          "notes": "本例有兩個形容詞子句：[the student] who did ...以及 [the exercises] (that) she had assigned；其中前者的關係代名詞是主詞，後者的關係代名詞是受詞而被省略。"
+      },
+      {
+          "id": 27,
+          "qBody": "You talked about a technical problem last time. It has been addressed.",
+          "hint": "The technical problem ",
+          "key": "The technical problem that you talked about last time has been addressed.",
+          "notes": "關係代名詞除了作動詞的受詞，也可以作介系詞的受詞；如本例的that代表先行詞the technical problem，是about的受詞。"
+      },
+      {
+          "id": 28,
+          "qBody": "We are listening to some music. It is Mozart's Symphony No.41 'Jupiter'.",
+          "hint": "The music to ",
+          "key": "The music to which we are listening is Mozart's Symphony No.41 'Jupiter'.",
+          "notes": "當關係代名詞是介系詞的受詞時，該介系詞可以置於關係代名詞之前。以本例來說，就是將[the music] which we are listening to改為to which we are listening。注意：該情況下關係代名詞不可使用that，也不可省略。"
+      },
+      {
+          "id": 29,
+          "qBody": "When you share a dorm room with people, they become your roommates.",
+          "hint": "Your roommates are the people ",
+          "key": "Your roommates are the people with whom you share a dorm room.",
+          "notes": "如果接在介系詞之後的關係代名詞代表的是「人」，必須使用受格whom，而不可用who或that。"
       }
     ]
   }
