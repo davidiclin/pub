@@ -267,7 +267,7 @@
       {
           "id": 29,
           "qBody": "When you share a dorm room with people, they become your roommates.",
-          "hint": "Your roommates are the people ",
+          "hint": "Your roommates are the people with ",
           "key": "Your roommates are the people with whom you share a dorm room.",
           "notes": "如果接在介系詞之後的關係代名詞代表的是「人」，必須使用受格whom，而不可用who或that。"
       }
