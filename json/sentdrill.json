@@ -311,14 +311,14 @@
           "qBody": "Our book club meets weekly on Tuesday evenings at Galaxy Cafe. A separate room is reserved for us in the cafe.",
           "hint": "Our book club meets weekly on Tuesday evenings at Galaxy Cafe, ",
           "key": "Our book club meets weekly on Tuesday evenings at Galaxy Cafe, where a separate room is reserved for us.",
-          "notes": "引導形容詞子句的除了關係代名詞who、which和that之外，還有關係副詞where和when等。關係副詞相當於介系詞加上關係代名詞，如本例的where相當於in which，其中which的先行詞是Galaxy Cafe。"
+          "notes": "引導形容詞子句的除了關係代名詞who、which和that之外，還有關係副詞where和when等。關係副詞相當於介系詞加上關係代名詞，如本例的where相當於in which，而which的先行詞是Galaxy Cafe。"
       },
       {
           "id": 36,
           "qBody": "The victim's last phone call was made somewhere. The police tried to pinpoint the location.",
           "hint": "The police tried to pinpoint the location ",
           "key": "The police tried to pinpoint the location where the victim's last phone call had been made.",
-          "notes": "本例的where相當於at which，其中which的先行詞是the location。"
+          "notes": "本例的where相當於at which，而which的先行詞是the location。"
       },
       {
           "id": 37,
