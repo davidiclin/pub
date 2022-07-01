@@ -270,6 +270,34 @@
           "hint": "Your roommates are the people with ",
           "key": "Your roommates are the people with whom you share a dorm room.",
           "notes": "如果接在介系詞之後的關係代名詞代表的是「人」，必須使用受格whom，而不可用who或that。"
+      },
+      {
+          "id": 30,
+          "qBody": "Do you remember the Irish girl? Her eyes were of different colors.",
+          "hint": "Do you remember the Irish girl ",
+          "key": "Do you remember the Irish girl whose eyes were of different colors?",
+          "notes": "先行詞為所有格形容詞時，關係代名詞用whose。"
+      },
+      {
+          "id": 31,
+          "qBody": "The city we are visiting next is Tainan. It boasts an abundance of historical sites.",
+          "hint": "The city we are visiting next is Tainan, ",
+          "key": "The city we are visiting next is Tainan, which boasts an abundance of historical sites.",
+          "notes": "當形容詞子句的功能在於「補充說明」而非「指明對象」時，應以逗號和主要子句分隔，文法上稱為「非限定用法」。本例中第一個形容詞子句we are visiting next用於指明對象：「我們接下來參訪的城市」，而第二個形容詞子句which boasts ... sites用於補充說明：「該市擁有豐富的歷史古蹟」。"
+      },
+      {
+          "id": 32,
+          "qBody": "Their eldest son was wounded in the war. He was later married to a nurse. She tended him in the field hospital.",
+          "hint": "Their eldest son, ",
+          "key": "Their eldest son, who was wounded in the war, was later married to the nurse that tended him in the field hospital.",
+          "notes": "本例中第一個形容詞子句who was wounded in the war用於補充說明：「他們的長子在戰時受傷」，而第二個形容詞子句that tended ... hospital用於指明對象：「在戰地醫院照顧他的那位護士」。"
+      },
+      {
+          "id": 33,
+          "qBody": "Mr. Holmes's fingerprint has been found on the scene. He is the top suspect of the murder case.",
+          "hint": "Mr. Holmes, ",
+          "key": "Mr. Holmes, whose fingerprint has been found on the scene, is the top suspect of the murder case.",
+          "notes": "先行詞身分明確，所以形容詞子句whose fingerprint ... scene是在補充說明而非指明對象，屬於「非限定用法」。"
       }
     ]
   }
