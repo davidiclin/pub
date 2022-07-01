@@ -262,7 +262,7 @@
           "qBody": "We are listening to some music. It is Mozart's Symphony No.41 'Jupiter'.",
           "hint": "The music to ",
           "key": "The music to which we are listening is Mozart's Symphony No.41 'Jupiter'.",
-          "notes": "當關係代名詞是介系詞的受詞時，該介系詞可以置於關係代名詞之前。以本例來說，就是將[the music] which we are listening to改為to which we are listening。注意：該情況下關係代名詞不可使用that，也不可省略。"
+          "notes": "當關係代名詞是介系詞的受詞時，該介系詞可以置於關係代名詞之前。以本例來說，就是將[the music] which we are listening to改為to which we are listening。注意：該情況下關係代名詞不可使用that。"
       },
       {
           "id": 29,
@@ -290,7 +290,7 @@
           "qBody": "Their eldest son was wounded in the war. He was later married to a nurse. She tended him in the field hospital.",
           "hint": "Their eldest son, ",
           "key": "Their eldest son, who was wounded in the war, was later married to the nurse that tended him in the field hospital.",
-          "notes": "本例中第一個形容詞子句who was wounded in the war用於補充說明：「他們的長子在戰時受傷」，而第二個形容詞子句that tended ... hospital用於指明對象：「在戰地醫院照顧他的那位護士」。"
+          "notes": "本例中第一個形容詞子句who was wounded in the war用於補充說明：「他們的長子在戰時受傷」，而第二個形容詞子句that tended ... hospital用於指明對象：「在戰地醫院照顧他的那位護士」。注意：非限定用法的關係代名詞不可使用that。"
       },
       {
           "id": 33,
@@ -298,6 +298,48 @@
           "hint": "Mr. Holmes, ",
           "key": "Mr. Holmes, whose fingerprint has been found on the scene, is the top suspect of the murder case.",
           "notes": "先行詞身分明確，所以形容詞子句whose fingerprint ... scene是在補充說明而非指明對象，屬於「非限定用法」。"
+      },
+      {
+          "id": 34,
+          "qBody": "He claimed to have acquired a PhD from Harvard University. That was a lie.",
+          "hint": "He claimed to have acquired a PhD from Harvard University, ",
+          "key": "He claimed to have acquired a PhD from Harvard University, which was a lie.",
+          "notes": "非限定用法的形容詞子句有時並非在修飾「人」或「物」，而是以主要子句所敘述的事實為對象。本例的「謊言」指的是「他宣稱取得哈佛大學博士」這件事，關係代名詞which的先行詞並非a PhD或Harvard University，而是整個主要子句。"
+      },
+      {
+          "id": 35,
+          "qBody": "Our book club meets weekly on Tuesday evenings at Galaxy Cafe. A separate room is reserved for us in the cafe.",
+          "hint": "Our book club meets weekly on Tuesday evenings at Galaxy Cafe, ",
+          "key": "Our book club meets weekly on Tuesday evenings at Galaxy Cafe, where a separate room is reserved for us.",
+          "notes": "引導形容詞子句的除了關係代名詞who、which和that之外，還有關係副詞where和when等。關係副詞相當於介系詞加上關係代名詞，如本例的where相當於in which，其中which的先行詞是Galaxy Cafe。"
+      },
+      {
+          "id": 36,
+          "qBody": "The victim's last phone call was made somewhere. The police tried to pinpoint the location.",
+          "hint": "The police tried to pinpoint the location ",
+          "key": "The police tried to pinpoint the location where the victim's last phone call had been made.",
+          "notes": "本例的where相當於at which，其中which的先行詞是the location。"
+      },
+      {
+          "id": 37,
+          "qBody": "We have agreed to meet on April 10. Both of us will be available on that date.",
+          "hint": "We have agreed to meet on April 10, ",
+          "key": "We have agreed to meet on April 10, when both of us will be available.",
+          "notes": "關係副詞when相當於介系詞on加上關係代名詞which。"
+      },
+      {
+          "id": 38,
+          "qBody": "This semester's reading list includes a dozen 20th century novels. I have never heard of most of them.",
+          "hint": "This semester's reading list includes a dozen 20th century novels, ",
+          "key": "This semester's reading list includes a dozen 20th century novels, most of which I have never heard of.",
+          "notes": "關係代名詞之前可以有one of、two of、some of、most of之類的數量詞。"
+      },
+      {
+          "id": 39,
+          "qBody": "Peter has three brothers. One of them works in the film industry.",
+          "hint": "Peter has three brothers, ",
+          "key": "Peter has three brothers, one of whom works in the film industry.",
+          "notes": "注意：雖然關係代名詞whom的先行詞是複數的three brothers，但形容詞子句的主詞one of whom是單數。"
       }
     ]
   }
