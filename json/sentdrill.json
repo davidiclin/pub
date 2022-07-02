@@ -301,10 +301,10 @@
       },
       {
           "id": 34,
-          "qBody": "He claimed to have acquired a PhD from Harvard University. That was a lie.",
-          "hint": "He claimed to have acquired a PhD from Harvard University, ",
-          "key": "He claimed to have acquired a PhD from Harvard University, which was a lie.",
-          "notes": "非限定用法的形容詞子句有時並非在修飾「人」或「物」，而是以主要子句所敘述的事實為對象。本例的「謊言」指的是「他宣稱取得哈佛大學博士」這件事，關係代名詞which的先行詞並非a PhD或Harvard University，而是整個主要子句。"
+          "qBody": "He said he had acquired a PhD from Harvard University. That was a lie.",
+          "hint": "He said he had acquired a PhD from Harvard University, ",
+          "key": "He said he had acquired a PhD from Harvard University, which was a lie.",
+          "notes": "非限定用法的形容詞子句有時並非在修飾「人」或「物」，而是以前面子句所敘述的事實為對象。本例的「謊言」指的是「他取得哈佛大學博士」這件事，關係代名詞which的先行詞並非a PhD或Harvard University，而是前面整個子句。"
       },
       {
           "id": 35,
