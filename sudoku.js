@@ -34,6 +34,6 @@ for (count = 0; count < 81; count++) {
     document.getElementById(thisId).style.borderRight = "3px solid black";
   }
   if (puzzle[count] == 0) {
-    document.getElementById(thisId).style.backgroundColor = "rgba(155, 155, 175, .25)";
+    document.getElementById(thisId).style.backgroundColor = "rgba(155, 155, 175, .35)";
   }
 }
