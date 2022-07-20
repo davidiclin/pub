@@ -10,13 +10,14 @@ var pick = Math.floor(Math.random() * bank.length);
 plan = bank[pick].plan;
 puzzle = bank[pick].puzzle;
 pId = bank[pick].id;
+updated = bank[pick].puzzle;
 
 shufflePuzzle();
 renderPuzzle();
 
-// for (var count = 0; count < 81; count ++) {
-//   document.getElementsByClassName("cell")[count].addEventListener("change", checkIt);
-// }
+for (var count = 0; count < 81; count ++) {
+  document.getElementsByClassName("cell")[count].addEventListener("change", handleInput);
+}
 
 function renderPuzzle() {
   for (var count1 = 0; count1 < 9; count1++) {
@@ -33,22 +34,22 @@ function renderPuzzle() {
   for (var count = 0; count < 81; count++) {
     thisId = "f" + count
     if (count < 9) {
-      document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
+      document.getElementById(thisId).style.borderTop = "3px outset green";
     }
     if (count > 26 & count < 36) {
-      document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
+      document.getElementById(thisId).style.borderTop = "3px outset green";
     }
     if (count > 53 & count < 63) {
-      document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
+      document.getElementById(thisId).style.borderTop = "3px outset green";
     }
     if (count > 71) {
-      document.getElementById(thisId).style.borderBottom = "3px outset MediumAquaMarine";
+      document.getElementById(thisId).style.borderBottom = "3px outset green";
     }
     if (count % 3 == 0) {
-      document.getElementById(thisId).style.borderLeft = "3px outset MediumAquaMarine";
+      document.getElementById(thisId).style.borderLeft = "3px outset green";
     }
     if (count % 9 == 8) {
-      document.getElementById(thisId).style.borderRight = "3px outset MediumAquaMarine";
+      document.getElementById(thisId).style.borderRight = "3px outset green";
     }
     if (puzzle[count] == 0) {
       document.getElementById(thisId).style.backgroundColor = "rgba(72, 209, 204, .25)";
@@ -98,8 +99,8 @@ function rotateIt() {
 }
 
 function swapToken() {
-  var swap1 = Math.floor(Math.random() * 9);
-  var swap2 = Math.floor(Math.random() * 9);
+  var swap1 = Math.floor(Math.random() * 9) + 1;
+  var swap2 = Math.floor(Math.random() * 9) + 1;
   if (swap1 == swap2) {
     return
   }
@@ -151,7 +152,7 @@ function swapBigRows() {
     newPz.push(puzzle[count + swap3 * 27])
   }
   plan = newPl;
-  puzzle = newPz
+  puzzle = newPz;
 }
 
 function swapRows() {
@@ -167,15 +168,18 @@ function swapRows() {
     plan[swap1 * 9 + count] = plan[swap2 * 9 + count];
     puzzle[swap1 * 9 + count] = puzzle[swap2 * 9 + count];
     plan[swap2 * 9 + count] = tempPl;
-    puzzle[swap2 * 9 + count] = tempPz
+    puzzle[swap2 * 9 + count] = tempPz;
   }
 }
 
-// function checkIt() {
-//   var complete = True;
-//   for (var count = 0; count < 81; count ++) {
-//     cellName = "f" + count;
-//     if ;
-//   }
-
-// }
+function handleInput() {
+  selectId = this.name.slice(1)
+  if (this.value == plan[selectId]) {
+    this.style.color = "green";
+    this.disabled = "True";
+    puzzle[selectId] = plan[selectId];
+  }
+  if (puzzle == plan) {
+    alert("CONGRATULATIONS! YOU DID IT!")
+  }
+}
