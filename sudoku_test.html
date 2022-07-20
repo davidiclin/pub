@@ -13,8 +13,15 @@
   <style>
   body {
     text-align: center;
+    background-color: rgb(212,255,255);
   }
   h1 {
+    font-size: 4vw;
+  }
+  .LVBtn {
+    display: inline-block;
+    background-color: MediumTurquoise;
+    width: 8vw;
     font-size: 3vw;
   }
   #matrix {
@@ -30,12 +37,23 @@
     width: 9vw;
     height: 9vw;
     text-align: center;
-    font-size: 4vw;
+    font-size: 5vw;
     background-color: rgba(255, 255, 255, 0);
+  }
+  #puzzleId {
+    font-size: 2vw;
   }
   </style>
   <body>
-    <h1>SUDOKU KILLS TIME</h1>
+    <h1>SUDOKU KILLS TIME
+      <span class="LVBtn">Lv1</span>
+      <span class="LVBtn">Lv2</span>
+      <span class="LVBtn">Lv3</span>
+      <span class="LVBtn">Lv4</span>
+      <span class="LVBtn">Lv5</span>
+      <span class="LVBtn">Lv6</span>
+    </h1>
+    <hr>
     <div id="matrix"></div>
     <div id="puzzleId"></div>
     <!-- Optional JavaScript; choose one of the two! -->

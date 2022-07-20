@@ -10,7 +10,7 @@ var pick = Math.floor(Math.random() * bank.length);
 plan = bank[pick].plan;
 puzzle = bank[pick].puzzle;
 pId = bank[pick].id;
-updated = bank[pick].puzzle;
+console.log(plan);
 
 shufflePuzzle();
 renderPuzzle();
@@ -23,10 +23,10 @@ function renderPuzzle() {
   for (var count1 = 0; count1 < 9; count1++) {
     for (var count2 = 0; count2 < 9; count2++) {
       if (puzzle[count1 * 9 + count2] == 0) {
-        document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" min=\"1\" max=\"9\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
+        document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"text\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
       }
       else {
-        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" readonly=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
+        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"text\" readonly=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
       }
     }
     document.getElementById("matrix").innerHTML += "<br>"
@@ -34,22 +34,22 @@ function renderPuzzle() {
   for (var count = 0; count < 81; count++) {
     thisId = "f" + count
     if (count < 9) {
-      document.getElementById(thisId).style.borderTop = "3px outset green";
+      document.getElementById(thisId).style.borderTop = "3px outset MediumSeaGreen";
     }
     if (count > 26 & count < 36) {
-      document.getElementById(thisId).style.borderTop = "3px outset green";
+      document.getElementById(thisId).style.borderTop = "3px outset MediumSeaGreen";
     }
     if (count > 53 & count < 63) {
-      document.getElementById(thisId).style.borderTop = "3px outset green";
+      document.getElementById(thisId).style.borderTop = "3px outset MediumSeaGreen";
     }
     if (count > 71) {
-      document.getElementById(thisId).style.borderBottom = "3px outset green";
+      document.getElementById(thisId).style.borderBottom = "3px outset MediumSeaGreen";
     }
     if (count % 3 == 0) {
-      document.getElementById(thisId).style.borderLeft = "3px outset green";
+      document.getElementById(thisId).style.borderLeft = "3px outset MediumSeaGreen";
     }
     if (count % 9 == 8) {
-      document.getElementById(thisId).style.borderRight = "3px outset green";
+      document.getElementById(thisId).style.borderRight = "3px outset MediumSeaGreen";
     }
     if (puzzle[count] == 0) {
       document.getElementById(thisId).style.backgroundColor = "rgba(72, 209, 204, .25)";
@@ -174,18 +174,16 @@ function swapRows() {
 
 function handleInput() {
   this.value = this.value.slice(-1)
-  selectId = this.name.slice(1)
+  var selectId = this.name.slice(1)
+  if ([1,2,3,4,5,6,7,8,9].includes(parseInt(this.value)) == false) {
+    this.value = ""
+  }
   if (this.value == plan[selectId]) {
     this.style.color = "green";
     this.readOnly = "True";
     puzzle[selectId] = plan[selectId];
-    console.log(plan);
-    checkIt()
-  }
-}
-
-function checkIt() {
-  if (puzzle.includes(0) == false) {
-    alert("CONGRATULATIONS! YOU DID IT!")
+    if (puzzle.includes(0) == false) {
+      alert("CONGRATULATIONS! YOU DID IT!")
+    }
   }
 }
