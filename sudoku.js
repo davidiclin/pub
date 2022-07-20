@@ -26,7 +26,7 @@ function renderPuzzle() {
         document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" min=\"1\" max=\"9\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
       }
       else {
-        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" disabled=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
+        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" readonly=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
       }
     }
     document.getElementById("matrix").innerHTML += "<br>"
@@ -177,7 +177,7 @@ function handleInput() {
   selectId = this.name.slice(1)
   if (this.value == plan[selectId]) {
     this.style.color = "green";
-    this.disabled = "True";
+    this.readOnly = "True";
     puzzle[selectId] = plan[selectId];
     console.log(plan);
     checkIt()
