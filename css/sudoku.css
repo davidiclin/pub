@@ -9,43 +9,46 @@ h1 {
 .LVBtn {
   display: inline-block;
   background-color: MediumTurquoise;
-  width: 12vw;
+  width: 9vw;
   border: 2px outset grey;
   font-size: 3vw;
 }
 #matrix {
-  width: 100%;
+  display: table;
+  width: 90%;
   text-align: center;
   margin: auto;
 }
+.row {
+  display: table-row;
+  margin: auto;
+}
 .cellContainer {
-  display: inline-block;
+  display: table-cell;
 }
 .cell {
   display: inline-block;
-  width: 8vw;
-  height: 8vw;
+  width: 7vw;
+  height: 7vw;
   text-align: center;
   font-size: 5vw;
   background-color: rgba(255, 255, 255, 0);
 }
-#intro {
+#footer {
   display: inline-block;
-  width: 45vw;
+  margin: auto;
+  width: 90%;
   font-size: 2vw;
-  text-align: left;
+  text-align: center;
 }
-#puzzleId {
-  display: inline-block;
-  width: 45vw;
-  font-size: 2vw;
-  text-align: right;
-}
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .cell {
-    width: 8vw;
-    height: 8vw;
+    width: 9vw;
+    height: 9vw;
     font-size: 5vw;
+  }
+  #footer {
+    font-size: 2vw;
   }
 }
 @media screen and (min-width: 992px) {
@@ -61,17 +64,12 @@ h1 {
     width: 75vw;
   }
   .cell {
-    width: 7vw;
-    height: 7vw;
+    width: 7.5vw;
+    height: 7.5vw;
     font-size: 3vw;
   }
-  #intro {
-    width: 32vw;
-    font-size: 1vw;
-  }
-  #puzzleId {
-    width: 32vw;
-    font-size: 1vw;
+  #footer {
+    font-size: 2vw;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -91,12 +89,7 @@ h1 {
     height: 5.3vw;
     font-size: 2.5vw;
   }
-  #intro {
-    width: 23vw;
-    font-size: 1vw;
+  #footer {
+    font-size: 1.5vw;
   }
-  #puzzleId {
-    width: 23vw;
-    font-size: 1vw;
-  }
-}
+} */

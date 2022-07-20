@@ -32,6 +32,7 @@ function setUpPuzzle(Level) {
 function renderPuzzle() {
   document.getElementById("matrix").innerHTML = "";
   for (var count1 = 0; count1 < 9; count1++) {
+    document.getElementById("matrix").innerHTML += "<div class=\"row\">"
     for (var count2 = 0; count2 < 9; count2++) {
       if (puzzle[count1 * 9 + count2] == 0) {
         document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
@@ -40,7 +41,7 @@ function renderPuzzle() {
         document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" readonly=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
       }
     }
-    document.getElementById("matrix").innerHTML += "<br>"
+    document.getElementById("matrix").innerHTML += "</div>"
   }
   for (var count = 0; count < 81; count++) {
     thisId = "f" + count
