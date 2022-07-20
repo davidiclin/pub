@@ -1,32 +1,42 @@
 currentLevel = 1;
+var levels = document.getElementsByClassName("LVBtn");
+levels[0].style.backgroundColor = "gold";
+
 var plan = []
 var puzzle = []
-var getSudoku = new XMLHttpRequest(); // a new request
-sudokuFile = "https://davidiclin.github.io/pub/json/sudoku_bank/Level_" + currentLevel + ".json";
-getSudoku.open("GET", sudokuFile, false);
-getSudoku.send(null);
-const bank = JSON.parse(getSudoku.responseText);
-var pick = Math.floor(Math.random() * bank.length);
-plan = bank[pick].plan;
-puzzle = bank[pick].puzzle;
-pId = bank[pick].id;
-console.log(plan);
+setUpPuzzle(currentLevel);
 
-shufflePuzzle();
-renderPuzzle();
+for (var count = 0; count < levels.length; count++) {
+  levels[count].addEventListener("click", levelChange)
+}
 
-for (var count = 0; count < 81; count ++) {
-  document.getElementsByClassName("cell")[count].addEventListener("input", handleInput);
+function setUpPuzzle(Level) {
+  var getSudoku = new XMLHttpRequest(); // a new request
+  var sudokuFile = "https://davidiclin.github.io/pub/json/sudoku_bank/Level_" + Level + ".json";
+  getSudoku.open("GET", sudokuFile, false);
+  getSudoku.send(null);
+  const bank = JSON.parse(getSudoku.responseText);
+  var pick = Math.floor(Math.random() * bank.length);
+  plan = bank[pick].plan;
+  puzzle = bank[pick].puzzle;
+  pId = bank[pick].id;
+  console.log(plan);
+  shufflePuzzle();
+  renderPuzzle();
+  for (var count = 0; count < 81; count ++) {
+    document.getElementsByClassName("cell")[count].addEventListener("input", handleInput);
+  }
 }
 
 function renderPuzzle() {
+  document.getElementById("matrix").innerHTML = "";
   for (var count1 = 0; count1 < 9; count1++) {
     for (var count2 = 0; count2 < 9; count2++) {
       if (puzzle[count1 * 9 + count2] == 0) {
-        document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"text\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
+        document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
       }
       else {
-        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"text\" readonly=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
+        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" readonly=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
       }
     }
     document.getElementById("matrix").innerHTML += "<br>"
@@ -186,4 +196,16 @@ function handleInput() {
       alert("CONGRATULATIONS! YOU DID IT!")
     }
   }
+  else {
+    this.style.color = "red";
+  }
+}
+
+function levelChange() {
+  for (var count = 0; count < levels.length; count++) {
+    levels[count].style.backgroundColor = "MediumTurquoise";
+  }
+  this.style.backgroundColor = "gold";
+  var newLevel = this.innerHTML.slice(-1);
+  setUpPuzzle(newLevel);
 }
