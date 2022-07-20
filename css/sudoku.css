@@ -27,7 +27,7 @@ h1 {
   display: table-cell;
 }
 .cell {
-  display: inline-block;
+  display: table-column;
   width: 7vw;
   height: 7vw;
   text-align: center;
