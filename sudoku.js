@@ -9,43 +9,52 @@ const bank = JSON.parse(getSudoku.responseText);
 var pick = Math.floor(Math.random() * bank.length);
 plan = bank[pick].plan;
 puzzle = bank[pick].puzzle;
+pId = bank[pick].id;
 
-shufflePuzzle()
+shufflePuzzle();
+renderPuzzle();
 
-for (var count1 = 0; count1 < 9; count1++) {
-  for (var count2 = 0; count2 < 9; count2++) {
-    if (puzzle[count1 * 9 + count2] == 0) {
-      document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" min=\"1\" max=\"9\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
+// for (var count = 0; count < 81; count ++) {
+//   document.getElementsByClassName("cell")[count].addEventListener("change", checkIt);
+// }
+
+function renderPuzzle() {
+  for (var count1 = 0; count1 < 9; count1++) {
+    for (var count2 = 0; count2 < 9; count2++) {
+      if (puzzle[count1 * 9 + count2] == 0) {
+        document.getElementById("matrix").innerHTML += "<form class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" min=\"1\" max=\"9\" name=\"f" + (count1 * 9 + count2) + "\"></form>"
+      }
+      else {
+        document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" disabled=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
+      }
     }
-    else {
-      document.getElementById("matrix").innerHTML += "<span class=\"cellContainer\" id=\"f" + (count1 * 9 + count2) + "\"><input class=\"cell\" type=\"number\" disabled=\"True\" value=\"" + plan[count1 * 9 + count2] + "\"></input></span>"
+    document.getElementById("matrix").innerHTML += "<br>"
+  }
+  for (var count = 0; count < 81; count++) {
+    thisId = "f" + count
+    if (count < 9) {
+      document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
+    }
+    if (count > 26 & count < 36) {
+      document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
+    }
+    if (count > 53 & count < 63) {
+      document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
+    }
+    if (count > 71) {
+      document.getElementById(thisId).style.borderBottom = "3px outset MediumAquaMarine";
+    }
+    if (count % 3 == 0) {
+      document.getElementById(thisId).style.borderLeft = "3px outset MediumAquaMarine";
+    }
+    if (count % 9 == 8) {
+      document.getElementById(thisId).style.borderRight = "3px outset MediumAquaMarine";
+    }
+    if (puzzle[count] == 0) {
+      document.getElementById(thisId).style.backgroundColor = "rgba(72, 209, 204, .25)";
     }
   }
-  document.getElementById("matrix").innerHTML += "<br>"
-}
-for (var count = 0; count < 81; count++) {
-  thisId = "f" + count
-  if (count < 9) {
-    document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
-  }
-  if (count > 26 & count < 36) {
-    document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
-  }
-  if (count > 53 & count < 63) {
-    document.getElementById(thisId).style.borderTop = "3px outset MediumAquaMarine";
-  }
-  if (count > 71) {
-    document.getElementById(thisId).style.borderBottom = "3px outset MediumAquaMarine";
-  }
-  if (count % 3 == 0) {
-    document.getElementById(thisId).style.borderLeft = "3px outset MediumAquaMarine";
-  }
-  if (count % 9 == 8) {
-    document.getElementById(thisId).style.borderRight = "3px outset MediumAquaMarine";
-  }
-  if (puzzle[count] == 0) {
-    document.getElementById(thisId).style.backgroundColor = "rgba(72, 209, 204, .25)";
-  }
+  document.getElementById("puzzleId").innerHTML = pId;
 }
 
 function shufflePuzzle() {
@@ -53,18 +62,26 @@ function shufflePuzzle() {
   for (var count = 0; count < rotateCount; count++) {
     rotateIt()
   }
+  pId += rotateCount / 10;
 
   var swapTokenCount = Math.floor(Math.random() * 3);
   for (var count = 0; count < swapTokenCount; count++) {
     swapToken()
   }
+  pId += swapTokenCount / 100;
 
-  swapBigRows();
+  var swapBigRowsCount = Math.floor(Math.random() * 3);
+  for (var count = 0; count < swapBigRowsCount; count++) {
+    swapBigRows()
+  }
+  pId += swapBigRowsCount / 1000;
 
-  var swapTokenCount = Math.floor(Math.random() * 3);
-  for (var count = 0; count < swapTokenCount; count++) {
+  var swapRowsCount = Math.floor(Math.random() * 3);
+  for (var count = 0; count < swapRowsCount; count++) {
     swapRows()
   }
+  pId += swapRowsCount / 10000;
+  pId = Math.floor(pId * 10000)
 }
 
 function rotateIt() {
@@ -153,3 +170,12 @@ function swapRows() {
     puzzle[swap2 * 9 + count] = tempPz
   }
 }
+
+// function checkIt() {
+//   var complete = True;
+//   for (var count = 0; count < 81; count ++) {
+//     cellName = "f" + count;
+//     if ;
+//   }
+
+// }
