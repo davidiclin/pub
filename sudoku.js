@@ -203,6 +203,7 @@ function handleInput() {
 }
 
 function levelChange() {
+  document.getElementById("matrix").innerHTML = "";
   for (var count = 0; count < levels.length; count++) {
     levels[count].style.backgroundColor = "MediumTurquoise";
     levels[count].style.border = "2px outset grey";
