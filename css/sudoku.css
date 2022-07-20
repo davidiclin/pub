@@ -23,8 +23,8 @@ h1 {
 }
 .cell {
   display: inline-block;
-  width: 9vw;
-  height: 9vw;
+  width: 8.5vw;
+  height: 8.5vw;
   text-align: center;
   font-size: 5vw;
   background-color: rgba(255, 255, 255, 0);
