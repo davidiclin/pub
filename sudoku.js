@@ -16,7 +16,7 @@ shufflePuzzle();
 renderPuzzle();
 
 for (var count = 0; count < 81; count ++) {
-  document.getElementsByClassName("cell")[count].addEventListener("change", handleInput);
+  document.getElementsByClassName("cell")[count].addEventListener("input", handleInput);
 }
 
 function renderPuzzle() {
@@ -173,13 +173,19 @@ function swapRows() {
 }
 
 function handleInput() {
+  this.value = this.value.slice(-1)
   selectId = this.name.slice(1)
   if (this.value == plan[selectId]) {
     this.style.color = "green";
     this.disabled = "True";
     puzzle[selectId] = plan[selectId];
+    console.log(plan);
+    checkIt()
   }
-  if (puzzle == plan) {
+}
+
+function checkIt() {
+  if (puzzle.includes(0) == false) {
     alert("CONGRATULATIONS! YOU DID IT!")
   }
 }
