@@ -43,8 +43,8 @@ h1 {
 }
 @media screen and (min-width: 768px) {
   .cell {
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     font-size: 5vw;
   }
 }
