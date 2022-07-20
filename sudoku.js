@@ -1,6 +1,7 @@
 currentLevel = 1;
 var levels = document.getElementsByClassName("LVBtn");
 levels[0].style.backgroundColor = "gold";
+levels[0].style.border = "2px inset white";
 
 var plan = []
 var puzzle = []
@@ -204,8 +205,10 @@ function handleInput() {
 function levelChange() {
   for (var count = 0; count < levels.length; count++) {
     levels[count].style.backgroundColor = "MediumTurquoise";
+    levels[count].style.border = "2px outset grey";
   }
   this.style.backgroundColor = "gold";
+  this.style.border = "2px inset white";
   var newLevel = this.innerHTML.slice(-1);
   setUpPuzzle(newLevel);
 }
