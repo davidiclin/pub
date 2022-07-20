@@ -1,5 +1,14 @@
-var plan = [5,6,1,3,2,7,4,8,9,9,8,4,1,5,6,3,7,2,3,7,2,4,8,9,6,1,5,1,4,9,6,3,5,8,2,7,7,3,8,2,4,1,5,9,6,2,5,6,7,9,8,1,4,3,6,9,5,8,1,2,7,3,4,4,1,7,9,6,3,2,5,8,8,2,3,5,7,4,9,6,1]
-var puzzle = [0,0,0,3,0,0,0,0,9,0,0,0,0,0,0,0,7,0,3,0,2,0,8,9,0,1,5,0,4,0,0,0,5,0,2,0,0,0,8,0,0,1,0,9,6,0,0,0,7,0,8,0,0,0,6,0,0,0,1,0,0,3,4,0,0,7,0,6,3,0,0,8,0,2,0,5,7,0,0,6,0]
+currentLevel = 1;
+var plan = []
+var puzzle = []
+var getSudoku = new XMLHttpRequest(); // a new request
+sudokuFile = "https://davidiclin.github.io/pub/json/sudoku_bank/Level_" + currentLevel + ".json";
+getSudoku.open("GET", sudokuFile, false);
+getSudoku.send(null);
+const bank = JSON.parse(getSudoku.responseText);
+var pick = Math.floor(Math.random() * bank.length);
+plan = bank[pick].plan;
+puzzle = bank[pick].puzzle;
 
 shufflePuzzle()
 
