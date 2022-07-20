@@ -14,7 +14,7 @@ h1 {
   font-size: 3vw;
 }
 #matrix {
-  width: 95vw;
+  width: 100%;
   text-align: center;
   margin: auto;
 }
@@ -23,8 +23,8 @@ h1 {
 }
 .cell {
   display: inline-block;
-  width: 8.5vw;
-  height: 8.5vw;
+  width: 8vw;
+  height: 8vw;
   text-align: center;
   font-size: 5vw;
   background-color: rgba(255, 255, 255, 0);
@@ -40,6 +40,13 @@ h1 {
   width: 45vw;
   font-size: 2vw;
   text-align: right;
+}
+@media screen and (min-width: 768px) {
+  .cell {
+    width: 9vw;
+    height: 9vw;
+    font-size: 5vw;
+  }
 }
 @media screen and (min-width: 992px) {
   h1 {
