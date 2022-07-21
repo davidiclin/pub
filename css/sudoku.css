@@ -1,3 +1,6 @@
+html{
+  -webkit-text-size-adjust: 100%;
+  }
 body {
   text-align: center;
   background-color: rgb(212,255,255);
