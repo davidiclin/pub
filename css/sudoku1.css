@@ -1,0 +1,91 @@
+html{
+  -webkit-text-size-adjust: none;
+  }
+body {
+  text-align: center;
+  background-color: rgb(212,255,255);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+h1 {
+  font-size: 3vw;
+}
+.LVBtn {
+  display: inline-block;
+  background-color: MediumTurquoise;
+  width: 9vw;
+  border: 2px solid grey;
+  font-size: 3vw;
+}
+#matrix {
+  display: table;
+  text-align: center;
+  margin: auto;
+}
+.row {
+  display: table-row;
+  margin: auto;
+}
+.cellContainer {
+  display: table-cell;
+}
+.cell {
+  display: table-column;
+  width: 8vw;
+  height: 8vw;
+  text-align: center;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 6vw;
+  border: 1px solid lightgrey;
+  background-color: rgba(255, 255, 255, 0);
+}
+#footer {
+  display: inline-block;
+  margin: auto;
+  width: 90%;
+  font-size: 2.5vw;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .cell {
+    width: 6vw;
+    height: 6vw;
+    font-size: 4vw;
+  }
+  #footer {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 2vw;
+  }
+  .LVBtn {
+    width: 9vw;
+    font-size: 2vw;
+  }
+  .cell {
+    width: 6vw;
+    height: 6vw;
+    font-size: 3vw;
+  }
+  #footer {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 1.5vw;
+  }
+  .LVBtn {
+    width: 6.6vw;
+    font-size: 1.5vw;
+  }
+  .cell {
+    width: 4.6vw;
+    height: 4.6vw;
+    font-size: 2.5vw;
+  }
+  #footer {
+    font-size: 1.5vw;
+  }
+}
