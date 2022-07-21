@@ -67,7 +67,7 @@ function renderPuzzle() {
       document.getElementById(thisId).style.backgroundColor = "rgba(72, 209, 204, .25)";
     }
   }
-  document.getElementById("puzzleId").innerHTML += pId;
+  document.getElementById("puzzleId").innerHTML = pId;
 }
 
 function shufflePuzzle() {
