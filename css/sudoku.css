@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: rgb(212,255,255);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 h1 {
   font-size: 3vw;
@@ -10,7 +10,7 @@ h1 {
   display: inline-block;
   background-color: MediumTurquoise;
   width: 9vw;
-  border: 2px outset grey;
+  border: 2px solid grey;
   font-size: 3vw;
 }
 #matrix {
@@ -30,8 +30,9 @@ h1 {
   width: 6vw;
   height: 6vw;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
   font-size: 4.5vw;
+  border: 1px solid lightgrey;
   background-color: rgba(255, 255, 255, 0);
 }
 #footer {
