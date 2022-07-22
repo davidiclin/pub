@@ -29,8 +29,8 @@ h1 {
   display: table-cell;
 }
 .cell {
-  max-width: 8vw;
-  height: 8vw;
+  width: 28px;
+  height: 28px;
   text-align: center;
   /* font-family: "Times New Roman", Times, serif; */
   font-size: 20px;
