@@ -27,12 +27,9 @@ h1 {
 }
 .cellContainer {
   display: table-cell;
-  width: 8vw;
-  height: 8vw;
 }
 .cell {
-  display: inline-block;
-  width: 8vw;
+  max-width: 8vw;
   height: 8vw;
   text-align: center;
   /* font-family: "Times New Roman", Times, serif; */
