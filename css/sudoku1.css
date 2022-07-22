@@ -26,9 +26,10 @@ h1 {
   margin: auto;
 }
 .cellContainer {
-  display: table-cell;
+  display: inline-flex;
 }
 .cell {
+  display: inline-block;
   width: 8vw;
   height: 8vw;
   text-align: center;
