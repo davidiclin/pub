@@ -29,7 +29,6 @@ h1 {
   display: table-cell;
 }
 .cell {
-  display: table-column;
   width: 8vw;
   height: 8vw;
   text-align: center;
