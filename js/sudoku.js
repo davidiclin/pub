@@ -1,8 +1,12 @@
 currentLevel = 1;
+var levelColorsDark = ["MediumSeaGreen", "SteelBlue", "Plum", "Gold", "Olive", "LightCoral"]
+var levelColorsLight = ["PaleTurquoise", "LightBlue", "LavenderBlush", "Ivory", "HoneyDew", "MistyRose"]
 var levels = document.getElementsByClassName("LVBtn");
-levels[0].style.backgroundColor = "gold";
-levels[0].style.border = "2px solid white";
-
+levels[0].style.color = "white";
+levels[0].style.borderTop = "6px solid " + levelColorsDark[currentLevel - 1];
+for (var count = 0; count < levels.length; count++) {
+  levels[count].style.backgroundColor = levelColorsDark[count];
+}
 var plan = []
 var puzzle = []
 setUpPuzzle(currentLevel);
@@ -46,25 +50,25 @@ function renderPuzzle() {
   for (var count = 0; count < 81; count++) {
     thisId = "f" + count
     if (count < 9) {
-      document.getElementById(thisId).style.borderTop = "2px solid MediumSeaGreen";
+      document.getElementById(thisId).style.borderTop = "2px solid " + levelColorsDark[currentLevel - 1];
     }
     if (count > 26 & count < 36) {
-      document.getElementById(thisId).style.borderTop = "2px solid MediumSeaGreen";
+      document.getElementById(thisId).style.borderTop = "2px solid " + levelColorsDark[currentLevel - 1];
     }
     if (count > 53 & count < 63) {
-      document.getElementById(thisId).style.borderTop = "2px solid MediumSeaGreen";
+      document.getElementById(thisId).style.borderTop = "2px solid " + levelColorsDark[currentLevel - 1];
     }
     if (count > 71) {
-      document.getElementById(thisId).style.borderBottom = "2px solid MediumSeaGreen";
+      document.getElementById(thisId).style.borderBottom = "2px solid " + levelColorsDark[currentLevel - 1];
     }
     if (count % 3 == 0) {
-      document.getElementById(thisId).style.borderLeft = "2px solid MediumSeaGreen";
+      document.getElementById(thisId).style.borderLeft = "2px solid " + levelColorsDark[currentLevel - 1];
     }
     if (count % 9 == 8) {
-      document.getElementById(thisId).style.borderRight = "2px solid MediumSeaGreen";
+      document.getElementById(thisId).style.borderRight = "2px solid " + levelColorsDark[currentLevel - 1];
     }
     if (puzzle[count] == 0) {
-      document.getElementById(thisId).style.backgroundColor = "rgba(72, 209, 204, .25)";
+      document.getElementById(thisId).style.backgroundColor = levelColorsLight[currentLevel - 1];
     }
   }
   document.getElementById("puzzleId").innerHTML = pId;
@@ -206,11 +210,12 @@ function handleInput() {
 function levelChange() {
   document.getElementById("matrix").innerHTML = "";
   for (var count = 0; count < levels.length; count++) {
-    levels[count].style.backgroundColor = "MediumTurquoise";
-    levels[count].style.border = "2px solid grey";
+    levels[count].style.color = "black";
+    levels[count].style.borderTop = "none";
   }
-  this.style.backgroundColor = "gold";
-  this.style.border = "2px solid white";
   var newLevel = this.innerHTML.slice(-1);
+  currentLevel = newLevel;
+  this.style.color = "white";
+  this.style.borderTop = "6px solid " + levelColorsDark[currentLevel - 1];
   setUpPuzzle(newLevel);
 }
