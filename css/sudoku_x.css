@@ -11,14 +11,15 @@ h1 {
 }
 .LVBtn {
   display: inline-block;
+  background-color: MediumTurquoise;
   width: 9vw;
+  border: 2px solid grey;
   font-size: 3vw;
 }
 #matrix {
   display: table;
   text-align: center;
   margin: auto;
-  background-color: rgba(240, 240, 240, .5);
 }
 .row {
   display: table-row;

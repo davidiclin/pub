@@ -6,20 +6,31 @@ body {
   background-color: rgb(212,255,255);
   /* font-family: Arial, Helvetica, sans-serif; */
 }
+#outmostContainer {
+  display: table;
+  margin: auto;
+}
 h1 {
+  display: table-row;
   font-size: 3vw;
+  margin-bottom: none;
+  text-align: left;
 }
 .LVBtn {
   display: inline-block;
-  background-color: MediumTurquoise;
-  width: 9vw;
-  border: 2px solid grey;
-  font-size: 3vw;
+  text-align: center;
+  width: 16%;
+  font-size: 4vw;
+}
+.LVBtn:first-child {
+  width: 20%;
 }
 #matrix {
   display: table;
   text-align: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(240, 240, 240, .5);
 }
 .row {
   display: table-row;
@@ -53,13 +64,16 @@ h1 {
   }
 }
 @media screen and (min-width: 576px) {
+  .LVBtn {
+    font-size: 2.4vw;
+  }
   .cell {
     width: 6.4vw;
     height: 6.4vw;
     font-size: 4vw;
   }
   #footer {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 @media screen and (min-width: 992px) {
@@ -67,7 +81,6 @@ h1 {
     font-size: 2vw;
   }
   .LVBtn {
-    width: 9vw;
     font-size: 2vw;
   }
   .cell {
@@ -84,7 +97,6 @@ h1 {
     font-size: 1.5vw;
   }
   .LVBtn {
-    width: 6.6vw;
     font-size: 1.5vw;
   }
   .cell {
