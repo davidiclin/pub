@@ -1,0 +1,113 @@
+html{
+  -webkit-text-size-adjust: none;
+  }
+body {
+  text-align: center;
+  background-color: rgb(212,255,255);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+#outmostContainer {
+  display: table;
+  margin: auto;
+}
+h1 {
+  display: table-row;
+  font-size: 3vw;
+  margin-bottom: none;
+  text-align: left;
+}
+.LVBtn {
+  display: inline-block;
+  text-align: center;
+  width: 11vw;
+  font-size: 3vw;
+}
+#levelCap {
+  background-color: lightgrey;
+}
+#matrix {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(240, 240, 240, .5);
+}
+.row {
+  display: table-row;
+  margin: auto;
+}
+.cellContainer {
+  display: table-cell;
+}
+.cell {
+  display: table-column;
+  width: 5.6vw;
+  height: 5.6vw;
+  text-align: center;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 4.5vw;
+  border: 1px solid lightgrey;
+  background-color: rgba(255, 255, 255, 0);
+}
+#footer {
+  display: inline-block;
+  margin: auto;
+  width: 90%;
+  font-size: 2.5vw;
+  text-align: center;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+  .cell {
+    width: 8vw;
+    height: 8vw;
+    font-size: 8vw;
+  }
+}
+@media screen and (min-width: 576px) {
+  .LVBtn {
+    width: 8vw;
+    font-size: 2.2vw;
+  }
+  .cell {
+    width: 6.4vw;
+    height: 6.4vw;
+    font-size: 4vw;
+  }
+  #footer {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 2vw;
+  }
+  .LVBtn {
+    width: 7.5vw;
+    font-size: 2vw;
+  }
+  .cell {
+    width: 6vw;
+    height: 6vw;
+    font-size: 3vw;
+  }
+  #footer {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 1.5vw;
+  }
+  .LVBtn {
+    width: 6vw;
+    font-size: 1.5vw;
+  }
+  .cell {
+    width: 4.6vw;
+    height: 4.6vw;
+    font-size: 2.5vw;
+  }
+  #footer {
+    font-size: 1.5vw;
+  }
+}
