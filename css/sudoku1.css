@@ -4,7 +4,7 @@ html{
 body {
   text-align: center;
   background-color: rgb(212,255,255);
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 #outmostContainer {
   display: table;
@@ -19,11 +19,12 @@ h1 {
 .LVBtn {
   display: inline-block;
   text-align: center;
-  width: 11vw;
-  font-size: 3vw;
+  width: 14%;
+  font-size: 2vw;
 }
 #levelCap {
   background-color: lightgrey;
+  width: 16%;
 }
 #matrix {
   display: table;
@@ -65,7 +66,6 @@ h1 {
 }
 @media screen and (min-width: 576px) {
   .LVBtn {
-    width: 8vw;
     font-size: 2.2vw;
   }
   .cell {
@@ -74,7 +74,7 @@ h1 {
     font-size: 4vw;
   }
   #footer {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 @media screen and (min-width: 992px) {
@@ -82,7 +82,6 @@ h1 {
     font-size: 2vw;
   }
   .LVBtn {
-    width: 7.5vw;
     font-size: 2vw;
   }
   .cell {
@@ -99,7 +98,6 @@ h1 {
     font-size: 1.5vw;
   }
   .LVBtn {
-    width: 6vw;
     font-size: 1.5vw;
   }
   .cell {
