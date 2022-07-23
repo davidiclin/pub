@@ -2,16 +2,16 @@ currentLevel = 1;
 var levelColorsDark = ["MediumSeaGreen", "SteelBlue", "Plum", "Gold", "Olive", "LightCoral"]
 var levelColorsLight = ["PaleTurquoise", "LightBlue", "LavenderBlush", "Ivory", "HoneyDew", "MistyRose"]
 var levels = document.getElementsByClassName("LVBtn");
-levels[1].style.color = "white";
-levels[1].style.borderTop = "6px solid " + levelColorsDark[currentLevel - 1];
-for (var count = 1; count < levels.length; count++) {
-  levels[count].style.backgroundColor = levelColorsDark[count - 1];
+levels[0].style.color = "white";
+levels[0].style.borderTop = "6px solid " + levelColorsDark[currentLevel - 1];
+for (var count = 0; count < levels.length; count++) {
+  levels[count].style.backgroundColor = levelColorsDark[count];
 }
 var plan = []
 var puzzle = []
 setUpPuzzle(currentLevel);
 
-for (var count = 1; count < levels.length; count++) {
+for (var count = 0; count < levels.length; count++) {
   levels[count].addEventListener("click", levelChange)
 }
 
@@ -209,7 +209,7 @@ function handleInput() {
 
 function levelChange() {
   document.getElementById("matrix").innerHTML = "";
-  for (var count = 1; count < levels.length; count++) {
+  for (var count = 0; count < levels.length; count++) {
     levels[count].style.color = "black";
     levels[count].style.borderTop = "none";
   }

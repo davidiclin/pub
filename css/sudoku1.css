@@ -19,13 +19,11 @@ h1 {
 .LVBtn {
   display: inline-block;
   text-align: center;
-  width: 14%;
+  width: 16%;
   font-size: 4vw;
 }
-#levelCap {
-  background-color: lightgrey;
-  width: 16%;
-  font-size: 2.4vw;
+.LVBtn:first-child {
+  width: 20%;
 }
 #matrix {
   display: table;
