@@ -2,16 +2,28 @@ currentLevel = 1;
 var levelColorsDark = ["MediumSeaGreen", "SteelBlue", "Plum", "Gold", "Olive", "LightCoral"]
 var levelColorsLight = ["PaleTurquoise", "LightBlue", "LavenderBlush", "Ivory", "HoneyDew", "MistyRose"]
 var levels = document.getElementsByClassName("LVBtn");
+<<<<<<< HEAD
 levels[1].style.color = "white";
 levels[1].style.borderTop = "6px solid " + levelColorsDark[currentLevel - 1];
 for (var count = 1; count < levels.length; count++) {
   levels[count].style.backgroundColor = levelColorsDark[count - 1];
+=======
+levels[0].style.color = "white";
+levels[0].style.borderTop = "5px solid " + levelColorsDark[currentLevel - 1];
+levels[0].style.borderBottom = "5px solid " + levelColorsDark[currentLevel - 1];
+for (var count = 0; count < levels.length; count++) {
+  levels[count].style.backgroundColor = levelColorsDark[count];
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
 }
 var plan = []
 var puzzle = []
 setUpPuzzle(currentLevel);
 
+<<<<<<< HEAD
 for (var count = 1; count < levels.length; count++) {
+=======
+for (var count = 0; count < levels.length; count++) {
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
   levels[count].addEventListener("click", levelChange)
 }
 
@@ -209,13 +221,25 @@ function handleInput() {
 
 function levelChange() {
   document.getElementById("matrix").innerHTML = "";
+<<<<<<< HEAD
   for (var count = 1; count < levels.length; count++) {
     levels[count].style.color = "black";
     levels[count].style.borderTop = "none";
+=======
+  for (var count = 0; count < levels.length; count++) {
+    levels[count].style.color = "black";
+    levels[count].style.borderTop = "none";
+    levels[count].style.borderBottom = "none";
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
   }
   var newLevel = this.innerHTML.slice(-1);
   currentLevel = newLevel;
   this.style.color = "white";
+<<<<<<< HEAD
   this.style.borderTop = "6px solid " + levelColorsDark[currentLevel - 1];
+=======
+  this.style.borderTop = "5px solid " + levelColorsDark[currentLevel - 1];
+  this.style.borderBottom = "5px solid " + levelColorsDark[currentLevel - 1];
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
   setUpPuzzle(newLevel);
 }

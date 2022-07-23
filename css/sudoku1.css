@@ -6,6 +6,7 @@ body {
   background-color: rgb(212,255,255);
   /* font-family: Arial, Helvetica, sans-serif; */
 }
+<<<<<<< HEAD
 #outmostContainer {
   display: table;
   margin: auto;
@@ -30,6 +31,20 @@ h1 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+=======
+h1 {
+  font-size: 3vw;
+}
+.LVBtn {
+  display: inline-block;
+  width: 9vw;
+  font-size: 3vw;
+}
+#matrix {
+  display: table;
+  text-align: center;
+  margin: auto;
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
   background-color: rgba(240, 240, 240, .5);
 }
 .row {
@@ -64,10 +79,13 @@ h1 {
   }
 }
 @media screen and (min-width: 576px) {
+<<<<<<< HEAD
   .LVBtn {
     width: 8vw;
     font-size: 2.2vw;
   }
+=======
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
   .cell {
     width: 6.4vw;
     height: 6.4vw;
@@ -82,7 +100,11 @@ h1 {
     font-size: 2vw;
   }
   .LVBtn {
+<<<<<<< HEAD
     width: 7.5vw;
+=======
+    width: 9vw;
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
     font-size: 2vw;
   }
   .cell {
@@ -99,7 +121,11 @@ h1 {
     font-size: 1.5vw;
   }
   .LVBtn {
+<<<<<<< HEAD
     width: 6vw;
+=======
+    width: 6.6vw;
+>>>>>>> d1c8b1eef6297290f8de5daccb12596296ae7538
     font-size: 1.5vw;
   }
   .cell {
